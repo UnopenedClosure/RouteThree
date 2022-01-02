@@ -19,7 +19,6 @@ It is derived from RouteTwo, a tool adapted from Dabomstew & entrpntr's RouteTwo
 	  2. [Items](#532-items)
 	  3. [Player money](#533-player-money)
 	  4. [Badges](#534-badges)
-	  5. [Battle Tower](#535-battle-tower)
    4. [Battles](#54-battles)
       1. [Trainers](#541-trainers)
 	  2. [Wild encounters](#542-wild-encounters)
