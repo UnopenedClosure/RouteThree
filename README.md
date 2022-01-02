@@ -310,7 +310,7 @@ All the following commands apply for the entire duration of the battle.
 
 ###### 5.4.3.4. Status
 `"-xstatus <STATUS>"` : Sets the "desired" status. 
-> Arguments : within `SLEEP`/`POISON`/`BURN`/`FREEZE`/`PARALYSIS`/`TOXIC`.
+> Arguments : within `SLEEP`/`POISON`/`BURN`/`FREEZE`/`PARALYSIS`/`TOXIC`.  
 > Example : `BRAWLY -xstatus BURN // Gust all the way !`
 
 ###### 5.4.3.5. Various modifiers
