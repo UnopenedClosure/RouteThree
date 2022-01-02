@@ -28,8 +28,8 @@ It is derived from RouteTwo, a tool adapted from Dabomstew & entrpntr's RouteTwo
 		 3. [Weather](#5433-weather)
 		 4. [Status](#5434-status)
 		 5. [Various modifiers](#5435-Various-modifiers)
-		 6. [Order](#5434-order)
-		 7. [Output](#5435-output)
+		 6. [Order](#5436-order)
+		 7. [Output](#5437-output)
 6. [KNOWN ISSUES](#6-known-issues)
 7. [TODOS](#7-todos)
 8. [CONTACT INFO AND ACKNOWLEDGEMENTS](#8-contact-info-and-acknowledgements)
@@ -250,7 +250,7 @@ The following commands give you the desired badge without fighting its correspon
   `"mindbadge"`     | `TateAndLiza` | Special Attack & Special Defense       
   
 #### 5.4. BATTLES
-##### 5.4.1. Trainers :
+##### 5.4.1. Trainers
   `"<NAME>"`  : Triggers a trainer battle against the trainer with name `NAME`.  
   
 ##### 5.4.2. Wild encounters
