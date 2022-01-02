@@ -1,5 +1,5 @@
 # RouteThree
-RouteThree is a Pokémon game speedrun routing tool designed for Generation 3 games (Ruby & Sapphire for now).
+RouteThree is a Pokémon game speedrun routing tool designed for Generation 3 games (Ruby & Sapphire for now).  
 It is derived from Dabomstew & entrpntr's RouteTwo, itself derived from HRoll's RouteOne.
 
 ### TABLE OF CONTENTS
@@ -44,23 +44,23 @@ It is derived from Dabomstew & entrpntr's RouteTwo, itself derived from HRoll's 
 ○ Usual update.
 
 
-**`[2022/01/02]` - v0.1** 
+**`[2022/01/02]` - v0.1**  
 ○ Initial beta release.
 -- -- 
 ### 2. INSTALLATION
 The tool as been tested and is proven to work with Java 1.7 .
 
 #### 2.1 From the latest release
-[Download the latest release from this page.](https://github.com/entrpntr) 
+[Download the latest release from this page.](https://github.com/entrpntr)  
 Run the .jar file.
 
 #### 2.2 From source files
-Download source files, and build the executable jar with Java 1.7 .
+Download source files, and build the executable jar with Java 1.7 .  
 IntelliJ IDEA is known to NOT work, as the ini4j package doesn't seem to be compatible with this IDE.
 
 ### 3. CONFIGURATION FILES
-All tag-value fields are of the following format : `tag = value`.
-When values are filenames, they are case sensitive. Otherwise, they are case insensitive.
+All tag-value fields are of the following format : `tag = value`.  
+When values are filenames, they are case sensitive. Otherwise, they are case insensitive.  
 Filenames can traverse folders. For instance, `test.txt`, `routes/route1.txt` or `../../configs/config.ini` are valid filenames.
 
 #### 3.1. Master file
@@ -153,7 +153,7 @@ The `resources` folder contains most of the data the tool loads. You can look in
   
   `"learnMove <MOVE>"` : Learns move `MOVE`. `MOVE` is written with only letters (no spaces, no dashes, no underscores, etc.)  
   alias: `"lm"`          
-> Example : `learnmove HIDDENPOWER // "Any Pokémon is runnable with a proper hidden Power" - Nobody, ever`  
+> Example : `learnmove HIDDENPOWER // "Any Pokémon is runnable with a proper Hidden Power" - Nobody, ever`  
   
   `"unlearnMove <MOVE>"` : Unlearns move `MOVE`. `MOVE` is written with only letters (no spaces, no dashes, no underscores, etc.)  
   alias: `"um"`            
@@ -172,7 +172,7 @@ The `resources` folder contains most of the data the tool loads. You can look in
 `"pokerus"` : Infects your Pokémon with Pokérus. Allows to double EV yields until maximum values are reached.
 
 `"setBoostedExp"` : Activates the x1.5 multiplier from traded Pokémon. (Should be useless, as it's an available setting in the config file.)
-"unsetBoostedExp"` : Deactivates the previous multiplier.
+`"unsetBoostedExp"` : Deactivates the previous multiplier.
 
 ##### 5.3.2. Items
 `"equip <ITEM>"` : Equips the item `ITEM`. If an item was already held, it is replaced by the specified one.
@@ -226,7 +226,7 @@ The `resources` folder contains most of the data the tool loads. You can look in
 
 ##### 5.3.3. Player money
   These commands only affect money, since there is no inventory management.  
-  `"buy [QUANTITY] <ITEM>"`  : Buys `ITEM` `QUANTITY` times. `ITEM` only in letters.  If `QUANTITY` is omitted, it defaults to `1`.
+  `"buy [QUANTITY] <ITEM>"`  : Buys `ITEM` `QUANTITY` times. `ITEM` only in letters.  If `QUANTITY` is omitted, it defaults to `1`.  
   `"sell [QUANTITY] <ITEM>"` : Sells `ITEM` `QUANTITY` times.  
 > Example : `buy 46 XATTACK // Zigzagoon, go !`  
 > Example : `sell HPUP // Sells 1 HPUP`
@@ -276,15 +276,15 @@ The following commands give you the desired badge without fighting its correspon
   alias: `"-x"`  
 > Example : `NORMAN -xitems 4/3/0/0/3/1 // Sets up 4 X Attacks, 3 X Defends, 3 X Speeds & 1 X Accuracy for the player for the whole battle`  
 
-All these commands apply for the entire duration of the battle.
-`NUM` should be an integer between `-6` and `+6`. Positive numbers can omit the `+` sign.
+
+All the following commands apply for the entire duration of the battle.  
+`NUM` should be an integer between `-6` and `+6`. Positive numbers can omit the `+` sign.  
   `"-xatk <NUM>"`   : Sets up `NUM` X Attacks.  
   `"-xdef <NUM>"`   : Sets up `NUM` X Defends.  
-  `"-xspa <NUM>"`   : Sets up `NUM` X Specials. Only applies to the Special Attack stat.
+  `"-xspa <NUM>"`   : Sets up `NUM` X Specials. Only applies to the Special Attack stat.  
   `"-xspd <NUM>"` : Boosts Special Defense `NUM` times. Useful for Amnesia, etc.   
-  `"-xspe <NUM>"` : Sets up `NUM` X Speeds.
-  alias: `"-xspc"`    
-  `"-xacc <NUM"`         : Sets up `NUM` X Accuracies. 
+  `"-xspe <NUM>"` : Sets up `NUM` X Speeds.  
+  `"-xacc <NUM"`         : Sets up `NUM` X Accuracies.  
   `"-xeva <NUM"`         : Boosts Evasion`NUM` times.  
 > Example : `LANCE -xspd 1 -xspc 2 // Sets 1 X Speed & 2 X Specials forthe entire fight`  
   
@@ -303,7 +303,7 @@ All these commands apply for the entire duration of the battle.
 > Example : `TATEANDLIZA -sxps 2/1 // First Pokémon is KOed with an ally on the field, but the second one is defeated alone`  
 
 ###### 5.4.3.3. Weather
-  `"-weather <WEATHER>"` : Sets the weather for the entire battle.
+  `"-weather <WEATHER>"` : Sets the weather for the entire battle.  
   `"-weathers <FIRST>[/SECOND...]` Sets the weather `FIRST` for the first enemy Pokémon, weather `SECOND` for the second one, etc.
 > Arguments : within `NONE`/`RAIN`/`SUN`/`SANDSTORM/HAIL` (`NONE` can be replaced by `0`).  
 > Example : `FLANNERY -weather SUN // Sunny Day !`  
