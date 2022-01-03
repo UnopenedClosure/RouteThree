@@ -171,7 +171,7 @@ The `resources` folder contains most of the data the tool loads. You can look in
 
 `"pokerus"` : Infects your Pokémon with Pokérus. Allows to double EV yields until maximum values are reached.
 
-`"setBoostedExp"` : Activates the x1.5 multiplier from traded Pokémon. (Should be useless, as it's an available setting in the config file.)
+`"setBoostedExp"` : Activates the x1.5 multiplier from traded Pokémon. (Should be useless, as it's an available setting in the config file.)  
 `"unsetBoostedExp"` : Deactivates the previous multiplier.
 
 ##### 5.3.2. Items
