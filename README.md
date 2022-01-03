@@ -326,6 +326,8 @@ Here is the exhautive list of implemented modifiers :
   `"UNDERWATER"`  | x2 if using Surf.   
   `"REFLECT"`  | x1/2 for Physical moves (x2/3 during double battles).   
   `"LIGHTSCREEN"`  | x1/2 for Special moves (x2/3 during double battles).   
+  
+`-xtorrent`, `-xblaze`, `-xovergrow`, `-xswarm` : Activates the corresponding abilities.  
 
 ###### 5.4.3.6. Order
   `"-order <FIRST>[/SECOND...]"` : Switches the enemy team order.
