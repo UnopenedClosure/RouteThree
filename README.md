@@ -58,6 +58,9 @@ Run the .jar file.
 Download source files, and build the executable jar with Java 1.7 .  
 IntelliJ IDEA is known to NOT work, as the ini4j package doesn't seem to be compatible with this IDE.
 
+#### 2.3 Notepad++ formatting
+The `xml` folder displays a tutorial on how to set up RouteThree custom formatting and colouring within Notepad++.
+
 ### 3. CONFIGURATION FILES
 All tag-value fields are of the following format : `tag = value`.  
 When values are filenames, they are case sensitive. Otherwise, they are case insensitive.  
