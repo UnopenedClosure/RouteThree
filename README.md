@@ -1,5 +1,5 @@
 # RouteThree
-RouteThree is a Pokémon game speedrun routing tool designed for Generation 3 games (Ruby/Sapphire/Emerald for now).  
+RouteThree is a Pokémon game speedrun routing tool designed for Generation 3 games (Ruby/Sapphire/Emerald).  
 It is derived from Dabomstew & entrpntr's RouteTwo, itself derived from HRoll's RouteOne.
 
 ### TABLE OF CONTENTS
