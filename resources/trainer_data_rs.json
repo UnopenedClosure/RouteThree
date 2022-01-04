@@ -3357,9 +3357,7 @@
                     "species": "WYNAUT",
                     "moves": [
                         "CHARM",
-                        "ENCORE",
-                        "-",
-                        "-"
+                        "ENCORE"
                     ]
                 },
                 {
@@ -3368,9 +3366,7 @@
                     "species": "TAILLOW",
                     "moves": [
                         "QUICK ATTACK",
-                        "GROWL",
-                        "-",
-                        "-"
+                        "GROWL"
                     ]
                 }
             ]
@@ -3398,9 +3394,7 @@
                     "species": "ZIGZAGOON",
                     "moves": [
                         "TACKLE",
-                        "TAIL WHIP",
-                        "-",
-                        "-"
+                        "TAIL WHIP"
                     ]
                 }
             ]
@@ -6575,10 +6569,7 @@
                     "level": 16,
                     "species": "ABRA",
                     "moves": [
-                        "HIDDEN POWER",
-                        "-",
-                        "-",
-                        "-"
+                        "HIDDEN POWER"
                     ]
                 }
             ]
@@ -6873,10 +6864,7 @@
                     "level": 16,
                     "species": "ABRA",
                     "moves": [
-                        "HIDDEN POWER",
-                        "-",
-                        "-",
-                        "-"
+                        "HIDDEN POWER"
                     ]
                 }
             ]
@@ -7311,8 +7299,7 @@
                     "moves": [
                         "QUICK ATTACK",
                         "SPARK",
-                        "ODOR SLEUTH",
-                        "-"
+                        "ODOR SLEUTH"
                     ]
                 }
             ]
@@ -8520,8 +8507,7 @@
                     "moves": [
                         "TACKLE",
                         "FOCUS ENERGY",
-                        "ARM THRUST",
-                        "-"
+                        "ARM THRUST"
                     ]
                 }
             ]
@@ -8559,8 +8545,7 @@
                     "moves": [
                         "TACKLE",
                         "FOCUS ENERGY",
-                        "ARM THRUST",
-                        "-"
+                        "ARM THRUST"
                     ]
                 }
             ]
@@ -8598,8 +8583,7 @@
                     "moves": [
                         "TACKLE",
                         "FOCUS ENERGY",
-                        "ARM THRUST",
-                        "-"
+                        "ARM THRUST"
                     ]
                 }
             ]
@@ -8637,8 +8621,7 @@
                     "moves": [
                         "TACKLE",
                         "FOCUS ENERGY",
-                        "ARM THRUST",
-                        "-"
+                        "ARM THRUST"
                     ]
                 }
             ]
@@ -8676,8 +8659,7 @@
                     "moves": [
                         "TACKLE",
                         "FOCUS ENERGY",
-                        "ARM THRUST",
-                        "-"
+                        "ARM THRUST"
                     ]
                 }
             ]
@@ -9507,10 +9489,7 @@
                     "level": 10,
                     "species": "GEODUDE",
                     "moves": [
-                        "TACKLE",
-                        "-",
-                        "-",
-                        "-"
+                        "TACKLE"
                     ]
                 },
                 {
@@ -9518,10 +9497,7 @@
                     "level": 8,
                     "species": "GEODUDE",
                     "moves": [
-                        "TACKLE",
-                        "-",
-                        "-",
-                        "-"
+                        "TACKLE"
                     ]
                 },
                 {
@@ -9529,10 +9505,7 @@
                     "level": 6,
                     "species": "GEODUDE",
                     "moves": [
-                        "TACKLE",
-                        "-",
-                        "-",
-                        "-"
+                        "TACKLE"
                     ]
                 }
             ]
@@ -12270,8 +12243,7 @@
                     "moves": [
                         "POISON GAS",
                         "TACKLE",
-                        "SMOG",
-                        "-"
+                        "SMOG"
                     ]
                 },
                 {
@@ -12291,9 +12263,7 @@
                     "species": "KOFFING",
                     "moves": [
                         "TACKLE",
-                        "SMOG",
-                        "-",
-                        "-"
+                        "SMOG"
                     ]
                 }
             ]
@@ -12358,8 +12328,7 @@
                     "moves": [
                         "POISON GAS",
                         "TACKLE",
-                        "SLUDGE",
-                        "-"
+                        "SLUDGE"
                     ]
                 },
                 {
@@ -12379,9 +12348,7 @@
                     "species": "KOFFING",
                     "moves": [
                         "TACKLE",
-                        "SLUDGE",
-                        "-",
-                        "-"
+                        "SLUDGE"
                     ]
                 }
             ]
@@ -12430,8 +12397,7 @@
                     "moves": [
                         "POISON GAS",
                         "TACKLE",
-                        "SLUDGE",
-                        "-"
+                        "SLUDGE"
                     ]
                 },
                 {
@@ -12440,9 +12406,7 @@
                     "species": "KOFFING",
                     "moves": [
                         "TACKLE",
-                        "SLUDGE",
-                        "-",
-                        "-"
+                        "SLUDGE"
                     ]
                 }
             ]
@@ -12469,8 +12433,7 @@
                     "moves": [
                         "POISON GAS",
                         "TACKLE",
-                        "SLUDGE",
-                        "-"
+                        "SLUDGE"
                     ]
                 },
                 {
@@ -12480,8 +12443,7 @@
                     "moves": [
                         "POISON GAS",
                         "TACKLE",
-                        "SLUDGE",
-                        "-"
+                        "SLUDGE"
                     ]
                 },
                 {
@@ -12491,8 +12453,7 @@
                     "moves": [
                         "POISON GAS",
                         "TACKLE",
-                        "SLUDGE",
-                        "-"
+                        "SLUDGE"
                     ]
                 },
                 {
@@ -12501,9 +12462,7 @@
                     "species": "KOFFING",
                     "moves": [
                         "TACKLE",
-                        "SLUDGE",
-                        "-",
-                        "-"
+                        "SLUDGE"
                     ]
                 }
             ]
@@ -12530,8 +12489,7 @@
                     "moves": [
                         "POISON GAS",
                         "TACKLE",
-                        "SLUDGE",
-                        "-"
+                        "SLUDGE"
                     ]
                 },
                 {
@@ -12563,9 +12521,7 @@
                     "heldItem": "SMOKE BALL",
                     "moves": [
                         "TACKLE",
-                        "SLUDGE",
-                        "-",
-                        "-"
+                        "SLUDGE"
                     ]
                 }
             ]
@@ -14288,9 +14244,7 @@
                     "species": "DUSKULL",
                     "moves": [
                         "NIGHT SHADE",
-                        "DISABLE",
-                        "-",
-                        "-"
+                        "DISABLE"
                     ]
                 },
                 {
@@ -14299,9 +14253,7 @@
                     "species": "SHROOMISH",
                     "moves": [
                         "ABSORB",
-                        "LEECH SEED",
-                        "-",
-                        "-"
+                        "LEECH SEED"
                     ]
                 }
             ]
@@ -18670,9 +18622,7 @@
                     "species": "WAILMER",
                     "moves": [
                         "SPLASH",
-                        "WATER GUN",
-                        "-",
-                        "-"
+                        "WATER GUN"
                     ]
                 }
             ]
@@ -18698,9 +18648,7 @@
                     "species": "PELIPPER",
                     "moves": [
                         "GUST",
-                        "GROWL",
-                        "-",
-                        "-"
+                        "GROWL"
                     ]
                 },
                 {
@@ -18709,9 +18657,7 @@
                     "species": "POOCHYENA",
                     "moves": [
                         "BITE",
-                        "SCARY FACE",
-                        "-",
-                        "-"
+                        "SCARY FACE"
                     ]
                 }
             ]

@@ -44,6 +44,9 @@ It is derived from Dabomstew & entrpntr's RouteTwo, itself derived from HRoll's 
 ○ Usual update.
 
 
+**`[2022/01/05]` - v0.2**  
+○ Added Emerald support (and trainer data).
+
 **`[2022/01/02]` - v0.1**  
 ○ Initial beta release.
 -- -- 
@@ -57,9 +60,6 @@ Run the .jar file.
 #### 2.2 From source files
 Download source files, and build the executable jar with Java 1.7 .  
 IntelliJ IDEA is known to NOT work, as the ini4j package doesn't seem to be compatible with this IDE.
-
-#### 2.3 Notepad++ formatting
-The `xml` folder displays a tutorial on how to set up RouteThree custom formatting and colouring within Notepad++.
 
 ### 3. CONFIGURATION FILES
 All tag-value fields are of the following format : `tag = value`.  
@@ -80,7 +80,7 @@ A configuration file (generally with the `.ini` extension) gathers the primary i
 ##### Section : `[game]`
    Tag | Expected value | Usage
   --------------- | -------------- | --------------
-  `"game"`   | `ruby` or `sapphire`.| The name of the game.
+  `"game"`   | `ruby`, `sapphire` or `emerald`.| The name of the game.
   
 ##### Section : `[poke]`
    Tag | Expected value | Usage
