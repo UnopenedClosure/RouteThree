@@ -65,12 +65,14 @@ public class Species {
             	JSONArray abilitiesArray = (JSONArray) speciesDic.get("abilities");
             	Ability ability1 = Ability.valueOf((String) abilitiesArray.get(0));
             	Ability ability2 = (abilitiesArray.size() <= 1) ? Ability.NONE : Ability.valueOf((String) abilitiesArray.get(1));
+            	int weight = ((Long) speciesDic.get("weight")).intValue();
+            	
             	
             	species = new Species(name, displayName, dexNum,
                 		baseHP, baseAtk, baseDef, baseSpa, baseSpd, baseSpe,
                 		type1, type2, baseExp,
                 		HPEV, atkEV, defEV, spaEV, spdEV, speEV,
-                		genderRatio, expCurve, ability1, ability2);
+                		genderRatio, expCurve, ability1, ability2, weight);
             			
             	speciesByName.put(new IgnoreCaseString(name), species);
             }
@@ -111,12 +113,13 @@ public class Species {
     private ExpCurve expCurve;
     private Ability ability1;
     private Ability ability2;
+    private int weight; // in hectograms
 
     private Species(String name, String displayName, int dexNum,
     		int baseHP, int baseAtk, int baseDef, int baseSpa, int baseSpd, int baseSpe,
     		Type type1, Type type2, int killExp,
     		int HPEV, int atkEV, int defEV, int spaEV, int spdEV, int speEV,
-    		Gender gender, ExpCurve expCurve, Ability ability1, Ability ability2) {
+    		Gender gender, ExpCurve expCurve, Ability ability1, Ability ability2, int weight) {
         this.name = name;
         this.displayName = displayName;
         this.dexNum = dexNum;
@@ -139,6 +142,7 @@ public class Species {
         this.expCurve = expCurve;
         this.ability1 = ability1;
         this.ability2 = ability2;
+        this.weight = weight;
     }
 
     public String getName() {
@@ -229,14 +233,18 @@ public class Species {
     	return ability2;
     }
     
+    public int getWeight() {
+    	return weight;
+    }
+    
     @Override
     public String toString() {
-    	return String.format("{'%s' '%s' %d [%d/%d/%d/%d/%d/%d] '%s'%s %d <%d/%d/%d/%d/%d/%d> '%s' '%s' ['%s'%s]}", 
+    	return String.format("{'%s' '%s' %d [%d/%d/%d/%d/%d/%d] '%s'%s %d <%d/%d/%d/%d/%d/%d> '%s' '%s' ['%s'%s] %d}", 
     			name, displayName, dexNum, baseHP, baseAtk, baseDef, baseSpa, baseSpd, baseSpe, 
     			type1, (type2 != Type.NONE) ? "/'"+type2+"'" : "", 
     			baseExp, HPEV, atkEV, defEV, spaEV, spdEV, speEV, 
     			genderRatio, expCurve, 
-    			ability1, (ability2 != Ability.NONE) ? "/'"+ability2+"'" : ""
+    			ability1, (ability2 != Ability.NONE) ? "/'"+ability2+"'" : "", weight
     			);
     }
     

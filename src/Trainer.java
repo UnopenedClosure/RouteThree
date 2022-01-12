@@ -162,7 +162,7 @@ public class Trainer implements Battleable, Iterable<Pokemon> {
 	}
 	
 	public static void main(String[] args) {
-		Game game = Game.RUBY;
+		Game game = Game.EMERALD;
 		Trainer.initCharValues(game);
 		Item.initItems(game);
 		Move.initMoves(game);

@@ -15,7 +15,10 @@ public enum Type {
             int val = typeTable[typeIndex(atkType)][typeIndex(defType)];
             return val;
         }
-
+    }
+    
+    public static boolean isImmune(Type atk, Type def1, Type def2) {
+    	return effectivenessMultiplier(atk, def1) * effectivenessMultiplier(atk, def2) == 0;
     }
     
     public static boolean isSuperEffective(Type atk, Type def1, Type def2) {

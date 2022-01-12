@@ -364,12 +364,12 @@ public class Battle extends GameAction {
 
     // does not actually do the battle, just prints summary
     public void printBattle(Pokemon us, Pokemon them) {
-        Main.appendln(DamageCalculator.summary(us, them, options));
+        Main.appendln(DamageCalculator.battleSummary(us, them, options));
     }
 
     // does not actually do the battle, just prints short summary
     public void printShortBattle(Pokemon us, Pokemon them) {
-        Main.appendln(DamageCalculator.shortSummary(us, them, options));
+        Main.appendln(DamageCalculator.shortBattleSummary(us, them, options));
     }
 }
 

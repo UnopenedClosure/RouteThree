@@ -44,8 +44,13 @@ It is derived from Dabomstew & entrpntr's RouteTwo, itself derived from HRoll's 
 ○ Usual update.
 
 
+**`[2022/01/13]` - v0.2.1**  
+○ Refactoring of the damage calculation and printing.  
+○ Implementation of Psywave, Flail, Rage, Rollout, Fury Cutter, Magnitude, Low Kick and Future Sight.  
+
 **`[2022/01/05]` - v0.2**  
-○ Added Emerald support (and trainer data).
+○ Added Emerald support (and trainer data).  
+○ Added Notepad++ .xml formatting file for route files.
 
 **`[2022/01/02]` - v0.1**  
 ○ Initial beta release.
@@ -54,7 +59,7 @@ It is derived from Dabomstew & entrpntr's RouteTwo, itself derived from HRoll's 
 The tool as been tested and is proven to work with Java 1.7 .
 
 #### 2.1 From the latest release
-[Download the latest release from this page.](https://github.com/entrpntr)  
+[Download the latest release from this page.](https://github.com/UnderscorePoY/RouteThree/releases)  
 Run the .jar file.
 
 #### 2.2 From source files
@@ -107,7 +112,7 @@ A configuration file (generally with the `.ini` extension) gathers the primary i
 ##### Section : `[util]`
    Tag | Expected value | Usage
   --------------- | -------------- | --------------
-  `"includeCrits"`   | `true` or `false`. | Whether the tool outputs analysis from critical hits or not. <br/>(Defaults to `false` if missing.)
+  `"overallChanceKO"`   | `true` or `false`. | Whether the tool displays overall chance of KOing the opponent or not. <br/>(Defaults to `false` if missing.)
   `"showGuarantees"`   | `true` or `false`. | Whether the information that n-shots are guaranteed is displayed or not. <br/>(Defaults to `false` if missing.)
   `"printxitems"`   | `true` or `false`. | Whether the number of X Items used is displayed at the end of the file or not. <br/>(Defaults to `false` if missing.)
   `"printrarecandies"`   | `true` or `false`. | Whether the number of Rare Candies used is displayed at the end of the file or not. <br/>(Defaults to `false` if missing.)

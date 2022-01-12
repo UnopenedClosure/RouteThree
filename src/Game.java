@@ -1,14 +1,14 @@
 
-public enum Game {
-	RUBY("ruby", "char_values_rs.json", "item_data_rs.json", "species_data_rs.json", "move_data_rs.json", "learnset_data_rs.json", "trainer_data_rs.json"), 
-	SAPPHIRE("sapphire", "char_values_rs.json", "item_data_rs.json", "species_data_rs.json", "move_data_rs.json", "learnset_data_rs.json", "trainer_data_rs.json"),
+public enum Game {	
+	RUBY("ruby", "char_values_rse.json", "item_data_rse.json", "species_data_rse.json", "move_data_rse.json", "learnset_data_rse.json", "trainer_data_rs.json"), 
+	SAPPHIRE("sapphire", "char_values_rse.json", "item_data_rse.json", "species_data_rse.json", "move_data_rse.json", "learnset_data_rse.json", "trainer_data_rs.json"),
 	
-	EMERALD("emerald", null, null, null, null, null, null),
+	EMERALD("sapphire", "char_values_rse.json", "item_data_rse.json", "species_data_rse.json", "move_data_rse.json", "learnset_data_rse.json", "trainer_data_e.json"),
+	;
+	//FIRERED("firered", null, null, null, null, null, null),	
+	//LEAFGREEN("leafgreen", null, null, null, null, null, null),
 	
-	FIRERED("firered", null, null, null, null, null, null),	
-	LEAFGREEN("leafgreen", null, null, null, null, null, null),
-	
-	CUSTOM("custom", null, null, null, null, null, null);
+	//CUSTOM("custom", null, null, null, null, null, null);
 	
 	private final String name; 
 	private final String charCodesFilename;

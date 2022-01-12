@@ -1,17 +1,680 @@
+import java.util.Map;
+import java.util.SortedMap;
 import java.util.TreeMap;
 
-//TODO : Fury Cutter and Rage are broken => probably Rollout too
+/* TODO : Implement damage effects
+ * @ = implemented
+ * - = to-do
+ * 
+ * @ PSYWAVE :
+ *   > script : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1266
+ *   > code : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L7690
+ * 	 > (remark) No damage variation, only base power variation based on level
+ *   
+ * @ FLAIL :
+ *   > script : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1409
+ *   > code : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L8014
+ *   
+ * @ RAGE : 
+ *   > script : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1180
+ *   > code : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L4298
+ *          : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L8211
+ *   > (remark) For Gen III onwards, Rage increases the ATK stat stage
+ *   > (implementation) Not implemented in a special way
+ *          
+ * @ ROLLOUT : 
+ *   > script : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1673
+ *   > code : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L8211
+ *   > (implementation) not handling Defense Curl, but pushing the multiplier up to stage 6 instead
+ *   
+ * @ FURY_CUTTER : 
+ *   > script : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1711
+ *   > code : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L8250
+ *   
+ * @ MAGNITUDE : 
+ *   > script : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1764
+ *   > code : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L8324
+ *   
+ * - PRESENT : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1745
+ * - PURSUIT : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L3121
+ * - RETURN
+ * - FRUSTRATION
+ * - TWISTER : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1908
+ * - EARTHQUAKE : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1917
+ * - GUST : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1981
+ * - SPIT_UP : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L2196
+ * - FACADE : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L2357
+ * - SMELLINGSALT : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L2373
+ * - NATURE_POWER : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L2394
+ * - REVENGE : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L2520
+ * 
+ * @ LOW_KICK : 
+ *   > script : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L2665
+ *   > code : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L9033
+ * 
+ * - STOMP : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1987
+ * 
+ * TODO : Implement multi-hit effects
+ * - TRIPLE_KICK : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1450
+ * 
+ * TODO : Residual damage
+ * - Statuses
+ * - Weathers
+ * - SPIKES
+ * 
+ * TODO : Special types
+ * - FORESIGHT
+ * - WEATHER_BALL : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L2754
+ * 
+ * TODO : Implement priority markers 
+ * - QUICK_ATTACK
+ * 
+ * TODO : Implement heal moves
+ * - MORNING_SUN
+ * - SYNTHESIS
+ * - MOONLIGHT
+ * - SOFTBOILED
+ * - SWALLOW
+ * - INGRAIN
+ */
 
+
+/* Updates for new move/damage logics :
+ * **************************************
+ * 1. to add a special damage roll generation :
+ *    ==>> DamageCalculator.damage()
+ *    
+ * 2. to generate special rolls (PSYWAVE, ...) :
+ *    ==>> Damages.calculate()
+ *    
+ * 3. to handle moves with multiple multipliers (RAGE, ROLLOUT, ...) or base powers (MAGNITUDE, ...) :
+ *    ==>> DamageCalculator.damagesSummaryCore()
+ *    
+ * 4. to handle text formatting :
+ *    ==>> DamageCalculator.appendFormattedMoveName()
+ */
 public class DamageCalculator {
     private static int MIN_ROLL = 85;
     private static int MAX_ROLL = 100;
-    private static int NUM_ROLLS = MAX_ROLL - MIN_ROLL + 1;
+    // private static int NUM_ROLLS = MAX_ROLL - MIN_ROLL + 1;
+    
+    private static int MIN_PSYWAVE_ROLL = 50;
+    private static int MAX_PSYWAVE_ROLL = 150;
+    private static int PSYWAVE_DIV = 100;
+    private static int PSYWAVE_ROLL_STEP = 10;
 
+    /**
+     * A wrapper class for handling damages.
+     * @author UnderscorePoY
+     *
+     */
+	public static class Damages {
+		private TreeMap<Integer, Long> normalDamageRolls;
+		private TreeMap<Integer, Long> critDamageRolls;
+		private boolean hasCrit = true;
+		private int numRolls = 0;
+		
+		private Move attackMove;
+		private Pokemon attacker;
+		private Pokemon defender;
+		private StatModifier atkMod;
+		private StatModifier defMod;
+		private int extra_multiplier;
+		private boolean isBattleTower;
+		private boolean isDoubleBattle;
+		
+		private long normalHitsGreaterOrEqualThanEnemyHP = 0;
+		private long critHitsGreaterOrEqualThanEnemyHP = 0;
+		
+		
+		public Damages(Move attackMove, Pokemon attacker, Pokemon defender,
+                StatModifier atkMod, StatModifier defMod, int extra_multiplier, boolean isBattleTower, boolean isDoubleBattle) {
+			normalDamageRolls = new TreeMap<>();
+			critDamageRolls = new TreeMap<>();
+			
+			this.attackMove = attackMove;
+			this.attacker = attacker;
+			this.defender = defender;
+			this.atkMod = atkMod;
+			this.defMod = defMod;
+			this.extra_multiplier = extra_multiplier;
+			this.isBattleTower = isBattleTower;
+			this.isDoubleBattle = isDoubleBattle;
+			
+			this.calculate();
+			for(long mult : normalDamageRolls.tailMap(defender.getHP()).values())
+				normalHitsGreaterOrEqualThanEnemyHP += mult;
+			for(long mult : critDamageRolls.tailMap(defender.getHP()).values())
+				critHitsGreaterOrEqualThanEnemyHP += mult;
+		}
+		
+		private void calculate() {
+			switch(attackMove.getEffect()) {
+			case PSYWAVE:
+				this.setCrit(false);
+				for (int roll = MIN_PSYWAVE_ROLL; roll <= MAX_PSYWAVE_ROLL; roll += PSYWAVE_ROLL_STEP) {
+					int dmg = damage(attackMove, attacker, defender, atkMod, defMod, roll, false, extra_multiplier, isBattleTower, isDoubleBattle);
+					this.addNormalDamage(dmg);
+				}
+				break;
+				
+			case FUTURE_SIGHT:
+				this.setCrit(false);
+				int dmg = damage(attackMove, attacker, defender, atkMod, defMod, MAX_ROLL, false, extra_multiplier, isBattleTower, isDoubleBattle);
+				this.addNormalDamage(dmg);
+				break;
+				
+			case LEVEL_DAMAGE:
+				this.setCrit(false);
+				dmg = damage(attackMove, attacker, defender, atkMod, defMod, MAX_ROLL, false, extra_multiplier, isBattleTower, isDoubleBattle);
+				this.addNormalDamage(dmg);
+				break;
+				
+			default:
+				for (int roll = MIN_ROLL; roll <= MAX_ROLL; roll++) {
+					dmg = damage(attackMove, attacker, defender, atkMod, defMod, roll, false, extra_multiplier, isBattleTower, isDoubleBattle);
+					this.addNormalDamage(dmg);
+					
+					int critDmg = damage(attackMove, attacker, defender, atkMod, defMod, roll, true, extra_multiplier, isBattleTower, isDoubleBattle);
+					this.addCritDamage(critDmg);
+				}
+				break;
+			}
+		}
+		
+		
+		/* ************************ */
+		/* INSTANCE-RELATED METHODS */
+		/* ************************ */
+		
+		private int lowestNormalDamage() {
+			return normalDamageRolls.firstKey();
+		}
+		
+		private int highestNormalDamage() {
+			return normalDamageRolls.lastKey();
+		}
+		
+		private int lowestCritDamage() {
+			return critDamageRolls.firstKey();
+		}
+		
+		private int highestCritDamage() {
+			return critDamageRolls.lastKey();
+		}
+		
+		private int lowestDamage() {
+			return lowestNormalDamage();
+		}
+		
+		private int highestDamage() {
+			if(hasCrit)
+				return critDamageRolls.lastKey();
+			return normalDamageRolls.lastKey();
+		}
+		
+		private void increment(TreeMap<Integer, Long> map, int dmg) {
+			if (!map.containsKey(dmg))
+				map.put(dmg, (long) 1);
+			else
+				map.put(dmg, 1 + map.get(dmg));
+			
+			if(map == normalDamageRolls)
+				numRolls++;
+		}
+		
+		public void addNormalDamage(int dmg) {
+			increment(normalDamageRolls, dmg);
+		}
+		
+		public void addCritDamage(int dmg) {
+			increment(critDamageRolls, dmg);
+		}
+		
+		public boolean hasCrit() {
+			return hasCrit;
+		}
+		
+		public void setCrit(boolean hasCrit) {
+			this.hasCrit = hasCrit;
+		}
+		
+		public int getNumRolls() {
+			return numRolls;
+		}
+		
+		public boolean hasDamage() {
+			return highestDamage() != 0;
+		}
+		
+	    private long oneShotNumerator(boolean crit) {
+			if(crit)
+				return critHitsGreaterOrEqualThanEnemyHP;
+			else
+				return normalHitsGreaterOrEqualThanEnemyHP;
+		}
+	    
+	    
+	    
+	    
+		
+		/* ************************ */
+		/* PRINTING-RELATED METHODS */
+		/* ************************ */
+		
+		private void appendDamages(StringBuilder sb, TreeMap<Integer, Long> map) {
+			String endl = Constants.endl;
+			
+			int enemyHP = defender.getHP();
+			int lastHPtoPrint = Math.min(map.lastKey(), enemyHP);
+			
+			// All but last damage strictly lower than enemyHP displayed one by one
+			SortedMap<Integer, Long> headMap = map.headMap(lastHPtoPrint, false); // Map corresponding to [minDmg, lastHPtoPrint[
+			for (Map.Entry<Integer, Long> headEntry : headMap.entrySet()) {
+				int dmg = headEntry.getKey();
+				long mult = headEntry.getValue();
+				sb.append(String.format("%dx%d, ", dmg, mult));
+			}
+			
+			// Last or all damage higher or equal than enemyHP displayed only once
+			SortedMap<Integer, Long> tailMap = map.tailMap(lastHPtoPrint); // Map corresponding to [lastHPtoPrint, maxDmg]
+			long totalMult = 0;
+			for (Map.Entry<Integer, Long> tailEntry : tailMap.entrySet()) {
+				long mult = tailEntry.getValue();
+				totalMult += mult;
+			}
+			sb.append(String.format("%dx%d", lastHPtoPrint, totalMult));
+			sb.append(endl);
+		}
+		
+		public void appendNormalDamages(StringBuilder sb) {
+			appendDamages(sb, normalDamageRolls);
+		}
+		
+		public void appendCritDamages(StringBuilder sb) {
+			appendDamages(sb, critDamageRolls);
+		}
+		
+		public void appendShortDamages(StringBuilder sb) {
+			String endl = Constants.endl;
+			
+			int minDmg = lowestNormalDamage();
+			int maxDmg = highestNormalDamage();
+			
+	        double minPct = toDmgPercent(minDmg);
+	        double maxPct = toDmgPercent(maxDmg);
+	        
+	        if(minDmg == maxDmg)
+	        	sb.append(String.format("%d %.02f%%", minDmg, minPct));
+	        else
+	        	sb.append(String.format("%d-%d %.02f-%.02f%%", minDmg, maxDmg, minPct, maxPct));
+	        
+	        if(hasCrit()) {
+		        sb.append("\t(crit: ");
+		        
+		        int critMinDmg = lowestCritDamage();
+				int critMaxDmg = highestCritDamage();
+	
+		        double critMinPct = toDmgPercent(critMinDmg);
+		        double critMaxPct = toDmgPercent(critMaxDmg);
+		        
+		        if(critMinDmg == critMaxDmg)
+		        	sb.append(String.format("%d %.02f%%)", critMinDmg, critMinPct));
+		        else
+		        	sb.append(String.format("%d-%d %.02f-%.02f%%)", critMinDmg, critMaxDmg, critMinPct, critMaxPct));
+	        }
+	        
+	        sb.append(endl);
+		}
+		
+		public void appendOverallChanceKO(StringBuilder sb) {
+			String endl = Constants.endl;
+			
+			int oppHP = defender.getHP();
+			int realminDmg = lowestDamage();
+	        int realmaxDmg = highestDamage();
+			// TODO : proper handling of critical hits
+            double critChance = 1 / 16.0; //TODO : hardcoded
+            if (attackMove.getEffect() == MoveEffect.HIGH_CRITICAL){
+                critChance *= 4;
+            }
+
+            for (int hits = 1; hits <= 8; hits++) {
+                if (realminDmg * hits < oppHP && realmaxDmg * hits >= oppHP) {
+                    double totalKOPct = 0;
+                    for (int crits = 0; crits <= hits; crits++) {
+                        double nShotPct = nShotPercentage(hits - crits, crits, normalDamageRolls, critDamageRolls); /// TODO : Rage, Rollout etc.
+                        totalKOPct += nShotPct * choose(hits, crits) * Math.pow(critChance, crits)
+                                * Math.pow(1 - critChance, hits - crits);
+                    }
+                    if (totalKOPct >= 0.1 && totalKOPct <= 99.999) {
+                        sb.append(String.format("\t(Overall %d-hit KO%%: %.04f%%)", hits, totalKOPct));
+                        sb.append(endl);
+                    }
+                }
+            }
+		}
+		
+		public void appendNShots(StringBuilder sb) {
+			String endl = Constants.endl;
+			
+			int oppHP = defender.getHP();
+
+			int minDmg = lowestNormalDamage();
+			int maxDmg = highestNormalDamage();
+
+            // test if noncrits can KO in 1shot
+            if (maxDmg >= oppHP && minDmg < oppHP) {
+                long oneShotNum = oneShotNumerator(false); /// TODO : Rage, Rollout etc.
+                sb.append(String.format("\t(One shot prob.: %d/%d | %.02f%%)", oneShotNum, numRolls, toPercent(oneShotNum, numRolls)));
+                sb.append(endl);
+            }
+            // test if crits can KO in 1shot
+            if(hasCrit()) {
+    			int critMinDmg = lowestCritDamage();
+    			int critMaxDmg = highestCritDamage();
+	            if (critMaxDmg >= oppHP && critMinDmg < oppHP) {
+	                long oneShotNum = oneShotNumerator(true); /// TODO : Rage, Rollout etc.
+	                sb.append(String.format("\t(Crit one shot prob.: %d/%d | %.02f%%)", oneShotNum, numRolls, toPercent(oneShotNum,numRolls)));
+	                sb.append(endl);
+	            }
+            }
+
+            // n-shot
+            int minDmgWork = minDmg;
+            int maxDmgWork = maxDmg;
+            int hits = 1;
+            while (minDmgWork < oppHP && hits < 5) {
+                hits++;
+                minDmgWork += minDmg;
+                maxDmgWork += maxDmg;
+                if (maxDmgWork >= oppHP && minDmgWork < oppHP) {
+                    //System.out.println("working out a " + hits + "-shot"); //TODO: remaining println
+                    double nShotPct = nShotPercentage(hits, 0, normalDamageRolls, critDamageRolls); /// TODO : Rage, Rollout etc.
+                    sb.append(String.format("\t(%d shot prob.: %.04f%%)", hits, nShotPct));
+                    sb.append(endl);
+                }
+            }
+
+            // n-crit-shot
+            if(hasCrit()) {
+    			int critMinDmg = lowestCritDamage();
+    			int critMaxDmg = highestCritDamage();
+	            minDmgWork = critMinDmg;
+	            maxDmgWork = critMaxDmg;
+	            hits = 1;
+	            while (minDmgWork < oppHP && hits < 5) {
+	                hits++;
+	                minDmgWork += critMinDmg;
+	                maxDmgWork += critMaxDmg;
+	                if (maxDmgWork >= oppHP && minDmgWork < oppHP) {
+	                    //System.out.println("working out a " + hits + "-crit-shot"); //TODO: remaining println
+	                    double nShotPct = nShotPercentage(0, hits, normalDamageRolls, critDamageRolls); /// TODO : Rage, Rollout etc.
+	                    sb.append(String.format("\t(%d crits death prob.: %.04f%%)", hits, nShotPct));
+	                    sb.append(endl);
+	                }
+	            }
+            
+
+				int realminDmg = lowestNormalDamage();
+		        //int realmaxDmg = highestCritDamage();
+	            // mixed a-noncrit and b-crit shot
+	            for (int non = 1; non <= 5 && realminDmg * (non + 1) < oppHP; non++) {
+	                for (int crit = 1; non + crit <= 5 && realminDmg * (non + crit) < oppHP; crit++) {
+	                    int sumMin = critMinDmg * crit + minDmg * non;
+	                    int sumMax = critMaxDmg * crit + maxDmg * non;
+	                    if (sumMin < oppHP && sumMax >= oppHP) {
+	                        //System.out.printf("working out %d non-crits + %d crits\n", non, crit); //TODO: remaining println
+	                        double nShotPct = nShotPercentage(non, crit, normalDamageRolls, critDamageRolls); /// TODO : Rage, Rollout etc.
+	                        sb.append(String.format("\t(%d non-crit%s + %d crit%s death prob.: %.04f%%)", non,
+	                                non > 1 ? "s" : "", crit, crit > 1 ? "s" : "", nShotPct));
+	                        sb.append(endl);
+	                    }
+	                }
+	            }
+            }
+		}
+		
+		public void appendGuaranteed(StringBuilder sb) {
+			String endl = Constants.endl;
+			int oppHP = defender.getHP();
+			int realminDmg = lowestDamage();
+            int guarantee = (int) Math.ceil(((double) oppHP) / realminDmg);
+            
+            sb.append(String.format("\t(guaranteed %d-shot)", guarantee));
+            sb.append(endl);
+		}
+		
+		 private void appendDetailledPercentMap(StringBuilder sb, TreeMap<Integer, Double> map) {
+		    	final int ROLLS_PER_LINE = 8;
+		    	
+		        String endl = Constants.endl;
+		    	
+		    	Pokemon p2 = this.defender;
+		    	int minDmg = map.firstKey();
+		    	
+		    	int cnt = -1;
+	            for(int dmg : map.keySet()) {
+	            	cnt++;
+	                if(cnt % ROLLS_PER_LINE == 0) {
+	                    sb.append(endl);
+	                    if(dmg == p2.getHP() && minDmg != p2.getHP()) {
+	                        sb.append(endl);
+	                    }
+	                    sb.append("            ");
+	                }
+	                else if(dmg == p2.getHP() && minDmg != p2.getHP()) {
+	                    sb.append(endl);
+	                    sb.append(endl);
+	                    sb.append("            ");
+	                }
+	                sb.append(String.format("%3d: %6.02f%%     ", dmg, map.get(dmg)));
+	            }
+	            sb.append(endl);
+	            sb.append(endl);
+		    }
+		    
+		    public void appendDetailledPercentDamages(StringBuilder sb) {
+		    	Move move = this.attackMove;
+		    	int _extra_modifier = this.extra_multiplier;
+		    	Pokemon p1 = attacker;
+		    	Pokemon p2 = defender;
+		    	StatModifier mod1 = atkMod;
+		    	StatModifier mod2 = defMod;
+		    	Object param = null;
+
+		        String endl = Constants.endl;
+		        
+		        if(hasDamage()) {
+		            TreeMap<Integer,Double> dmgMap = percentMapWithMaxHP(this.normalDamageRolls, p2.getHP());
+		            
+		            appendFormattedMoveName(sb, move, p1, p2, mod1, mod2, _extra_modifier, isBattleTower, isDoubleBattle, param);
+		            sb.append(endl);
+		            
+		            sb.append("          NON-CRITS");
+		            appendDetailledPercentMap(sb, dmgMap);
+		            	            
+		            if(this.hasCrit()) {
+			            TreeMap<Integer,Double> critMap = percentMapWithMaxHP(this.critDamageRolls, p2.getHP());
+			            sb.append("          CRITS");
+			            appendDetailledPercentMap(sb, critMap);
+		            }
+		        }
+		    }
+		    
+		    public void appendAllMoveInfo(StringBuilder sb) {
+				String endl = Constants.endl;
+				Move m = this.attackMove;
+				int _extra_multiplier = this.extra_multiplier;
+				Pokemon p1 = attacker;
+				Pokemon p2 = defender;
+				StatModifier mod1 = atkMod;
+				StatModifier mod2 = defMod;
+				Object param = null;
+
+				appendFormattedMoveName(sb, m, p1, p2, mod1, mod2, _extra_multiplier, isBattleTower, isDoubleBattle, param);
+				
+				if (hasDamage()) {
+					sb.append("\t");
+					appendShortDamages(sb);
+					
+					// normal rolls
+					sb.append("\tNormal rolls: ");
+					appendNormalDamages(sb);
+					
+					// crit rolls
+					if(hasCrit()) {
+						sb.append("\tCrit rolls: ");
+						appendCritDamages(sb);
+					}
+					
+					appendNShots(sb);
+					
+					// guaranteed n-shot
+					if (Settings.showGuarantees)
+					appendGuaranteed(sb);
+					
+					// overall chance of KO
+					if (Settings.overallChanceKO)
+					appendOverallChanceKO(sb);
+				}
+				
+				sb.append(endl);
+			}
+
+		
+		    
+		/* ********************* */
+		/* MATHS UTILITY METHODS */
+		/* ********************* */
+		    
+		private double toDmgPercent(int dmg) {
+			return toPercent(dmg, defender.getHP());
+		}
+		
+		
+		private static double toPercent(long num, long div) {
+			return 100. * num / div;
+		}
+		
+	    private static long choose(long total, long choose) {
+	        if (total < choose)
+	            return 0;
+	        if (choose == 0 || choose == total)
+	            return 1;
+	        if (choose == 1 || choose == total - 1)
+	            return total;
+	        return choose(total - 1, choose - 1) + choose(total - 1, choose);
+	    }
+
+	    
+		/* ******************* */
+		/* MAP UTILITY METHODS */
+		/* ******************* */
+	    
+	    private TreeMap<Integer, Long> multiplyMaps(TreeMap<Integer, Long> map1, TreeMap<Integer, Long> map2){
+	    	TreeMap<Integer, Long> results = new TreeMap<>();
+	    	for (Map.Entry<Integer, Long> map1Entry : map1.entrySet()) {
+	    		int dmg1 = map1Entry.getKey();
+	    		long mult1 = map1Entry.getValue();
+	    		for (Map.Entry<Integer, Long> map2Entry : map2.entrySet()) {
+	    			int dmg2 = map2Entry.getKey();
+		    		long mult2 = map2Entry.getValue();
+		    		
+		    		int dmg = dmg1 + dmg2;
+		    		long mult = mult1 * mult2;
+		    		long oldMult = results.containsKey(dmg) ? results.get(dmg) : 0;
+		    		
+	    			results.put(dmg, mult + oldMult);	
+	    		}
+	    	}
+	    	
+	    	return results;
+	    }
+	    
+	    private TreeMap<Integer, Long> powerMap(TreeMap<Integer, Long> map1, int nb){
+	    	TreeMap<Integer, Long> results;
+	    	
+	    	if (nb <= 0) {
+	    		results = new TreeMap<>();
+	    		results.put(0, (long) 1);
+	    		return results;
+	    	}
+	    	
+	    	results = new TreeMap<>(map1);
+	    	if (nb == 1) {
+	    		results = new TreeMap<>(map1);
+	    		return map1;
+	    	}
+	    	for (int i = 1; i < nb; i++) {
+	    		results = multiplyMaps(results, map1);
+	    	}
+	    	
+	    	return results;
+	    }
+	    
+	    private static long totalHits(SortedMap<Integer, Long> map) {
+	    	long total = 0;
+	    	
+	    	for(Map.Entry<Integer, Long> entry : map.entrySet())
+	    		total += entry.getValue();
+	    	
+	    	return total;
+	    }
+	    
+	    private double nShotPercentage(int normalHits, int critHits, TreeMap<Integer, Long> noCritMap, TreeMap<Integer, Long> critMap) {
+	    	TreeMap<Integer, Long> multiHitsDmgMap = multiHitsDmgMap(normalHits, critHits, noCritMap, critMap);
+	    	
+	    	SortedMap<Integer, Long> koMap = multiHitsDmgMap.tailMap(defender.getHP());
+	    	long numKORolls = totalHits(koMap);
+	    	long totalRolls = totalHits(multiHitsDmgMap);
+	    	
+	    	return toPercent(numKORolls, totalRolls);
+	    }
+	    
+	    private TreeMap<Integer, Long> multiHitsDmgMap(int normalHits, int hitsLeftCrit, TreeMap<Integer, Long> noCritMap, TreeMap<Integer, Long> critMap) {
+	    	
+	    	TreeMap<Integer, Long> noCritPower = powerMap(noCritMap, normalHits);
+	    	TreeMap<Integer, Long> critPower = powerMap(critMap, hitsLeftCrit);
+	    	TreeMap<Integer, Long> results = multiplyMaps(noCritPower, critPower);
+
+	    	return results;
+	    }
+	    
+	    public static TreeMap<Integer,Double> percentMapWithMaxHP(TreeMap<Integer, Long> damages, int maxHP) {
+			TreeMap<Integer,Double> percentMap = new TreeMap<Integer,Double>();
+	    	long totalHits = totalHits(damages);
+	    	int lastHPtoPrint = Math.min(damages.lastKey(), maxHP);
+	    		    	
+	    	// All but last damage strictly lower than enemyHP displayed one by one
+			SortedMap<Integer, Long> headMap = damages.headMap(maxHP, false); // Map corresponding to [minDmg, lastHPtoPrint[
+			for (Map.Entry<Integer, Long> headEntry : headMap.entrySet()) {
+				int dmg = headEntry.getKey();
+				long rollNb = headEntry.getValue();
+				double percent = ((double)rollNb/totalHits) * 100;
+	    		percentMap.put(dmg, percent);
+			}
+			
+			// Last or all damage higher or equal than enemyHP displayed only once
+			SortedMap<Integer, Long> tailMap = damages.tailMap(maxHP); // Map corresponding to [lastHPtoPrint, maxDmg]
+			long totalMult = 0;
+			for (Map.Entry<Integer, Long> tailEntry : tailMap.entrySet()) {
+				long mult = tailEntry.getValue();
+				totalMult += mult;
+			}
+			double percent = ((double)totalMult/totalHits) * 100;
+    		percentMap.put(lastHPtoPrint, percent);
+
+			return percentMap;
+		}
+	    
+	} // end Damages class
+	
+	
     // ****************** //
     // MAIN DAMAGE METHOD //
     // ****************** //
     
-    // rangeNum should range from 85 to 100 (both included)
     // Layout : 
     // 1. https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L230-L273
     // Main routines : 
@@ -21,14 +684,72 @@ public class DamageCalculator {
     // - https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L1410
     // - https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L6430
     // - https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L8559
+	
+    private static int damage(Move attackMove, Pokemon attacker, Pokemon defender,
+            StatModifier atkMod, StatModifier defMod, int roll,
+            boolean isCrit, int extra_multiplier, boolean isBattleTower, boolean isDoubleBattle) {
+    	return damage(attackMove, attacker, defender,
+                atkMod, defMod, roll,
+                isCrit, extra_multiplier, isBattleTower, isDoubleBattle, null);
+    }
+	
+	/**
+	 * Calculate one damage value based on a provided roll.
+	 * @param attackMove the used move.
+	 * @param attacker the attacker Pokemon.
+	 * @param defender the defender Pokemon.
+	 * @param atkMod the attacker's stat modifiers.
+	 * @param defMod the defender's stat modifiers.
+	 * @param roll the provided roll.
+	 * @param isCrit if the move is a critical hit.
+	 * @param extra_multiplier the desired extra multiplier
+	 * @param isBattleTower if the battle occurs in Battle Tower.
+	 * @param isDoubleBattle if the battle is a double battle.
+	 * @param param an optional parameter used in specific cases.
+	 * @return the calculated damage value.
+	 */
     private static int damage(Move attackMove, Pokemon attacker, Pokemon defender,
                               StatModifier atkMod, StatModifier defMod, int roll,
-                              boolean isCrit, int extra_multiplier, boolean isBattleTower, boolean isDoubleBattle) {
-        if (roll < MIN_ROLL) {
-            roll = MIN_ROLL;
+                              boolean isCrit, int extra_multiplier, boolean isBattleTower, boolean isDoubleBattle, 
+                              Object param) {
+        Move modifiedAttackMove = new Move(attackMove); // Copy
+        
+        /* Psywave :
+         * - Code : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L7690
+         * - Expected rolls : {50, 60, ..., 150} | Only possible damages are level * {50, 60, ..., 150} / 100
+         */
+        if (modifiedAttackMove.getEffect() == MoveEffect.PSYWAVE) {
+        	Type atkType = modifiedAttackMove.getType();
+        	Type defType1 = defender.getSpecies().getType1();
+        	Type defType2 = defender.getSpecies().getType2();
+        	if(Type.isImmune(atkType, defType1, defType2))
+        		return 0; //TODO : hardcoded
+        	
+        	return attacker.getLevel() * roll / PSYWAVE_DIV;
         }
-        if (roll > MAX_ROLL) {
-            roll = MAX_ROLL;
+        
+        
+        /* Low Kick : 
+         * - Base power table : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L995
+         * - Comparison code : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L9033
+         */
+        if (modifiedAttackMove.getEffect() == MoveEffect.LOW_KICK) {
+        	int defenderWeight = defender.getSpecies().getWeight();
+        	int basePower; //TODO : hardcoded
+        	if (defenderWeight < 100)
+        		basePower = 20; //TODO : hardcoded
+        	else if (defenderWeight < 250)
+        		basePower = 40; //TODO : hardcoded
+        	else if (defenderWeight < 500)
+        		basePower = 60; //TODO : hardcoded
+        	else if (defenderWeight < 1000)
+        		basePower = 80; //TODO : hardcoded
+        	else if (defenderWeight < 2000)
+        		basePower = 100; //TODO : hardcoded
+        	else 
+        		basePower = 120; //TODO : hardcoded
+        	
+        	modifiedAttackMove.setPower(basePower);
         }
         
         /*
@@ -93,7 +814,6 @@ public class DamageCalculator {
          *   Damage rolls
          */
         
-        Move modifiedAttackMove = new Move(attackMove); // Copy
         
         // *********** //
         // [EffectHit] //
@@ -124,22 +844,43 @@ public class DamageCalculator {
         
         // Forced override
         // TODO : better power & type overrides
-        if (modifiedAttackMove.getEffect() == MoveEffect.LEVEL_DAMAGE)
+        if (modifiedAttackMove.getEffect() == MoveEffect.LEVEL_DAMAGE) {
+        	Type atkType = modifiedAttackMove.getType();
+        	Type defType1 = defender.getSpecies().getType1();
+        	Type defType2 = defender.getSpecies().getType2();
+        	if(Type.isImmune(atkType, defType1, defType2))
+        		return 0; //TODO : hardcoded
         	return attacker.getLevel();
+        } else if (modifiedAttackMove.getEffect() == MoveEffect.ROLLOUT || modifiedAttackMove.getEffect() == MoveEffect.FURY_CUTTER) {
+    		modifiedAttackMove.setPower(modifiedAttackMove.getPower() * extra_multiplier);
+        }
         
         if (modifiedAttackMove.getPower() == 1) { // Special cases seem to have this in common
             // TODO: more special cases
-        	switch(modifiedAttackMove.getEffect()) {
-        	case HIDDEN_POWER :
+        	switch(modifiedAttackMove.getEffect()) {        		
+        	case HIDDEN_POWER:
                 Type type = attacker.getIVs().getHiddenPowerType();
                 int power = attacker.getIVs().getHiddenPowerPower();
                 modifiedAttackMove.setType(type);
                 modifiedAttackMove.setPower(power);
                 break;
-        	case SONICBOOM :
+                
+        	case SONICBOOM:
+        		Type atkType = modifiedAttackMove.getType();
+            	Type defType1 = defender.getSpecies().getType1();
+            	Type defType2 = defender.getSpecies().getType2();
+            	if(Type.isImmune(atkType, defType1, defType2))
+            		return 0; //TODO : hardcoded
         		return 20; //TODO : hardcoded
-        	case DRAGON_RAGE :
+        		
+        	case DRAGON_RAGE:
+        		atkType = modifiedAttackMove.getType();
+            	defType1 = defender.getSpecies().getType1();
+            	defType2 = defender.getSpecies().getType2();
+            	if(Type.isImmune(atkType, defType1, defType2))
+            		return 0; //TODO : hardcoded
         		return 40; //TODO : hardcoded
+
         	default: return 0;
         	}
         }
@@ -393,6 +1134,9 @@ public class DamageCalculator {
         // >> (End CalculateBaseDamage) //
         // ***######################### //
         
+        if(modifiedAttackMove.getEffect() == MoveEffect.FUTURE_SIGHT) // Future Sight stops here
+        	return damage;
+        
         
         // Critical hit gBattleMoveDamage * gCritMultiplier * gBattleStruct->dmgMultiplier;
         if (isCrit)
@@ -494,12 +1238,27 @@ public class DamageCalculator {
     }
     
     
+    public static int minPsywaveDamage(Move attack, Pokemon attacker,
+	            Pokemon defender, StatModifier atkMod, StatModifier defMod,
+	            int extra_multiplier, boolean isBattleTower, boolean isDoubleBattle) {
+    	return damage(attack, attacker, defender, atkMod, defMod, MIN_PSYWAVE_ROLL,
+    			false, extra_multiplier, isBattleTower, isDoubleBattle);
+	}
+	
+	public static int maxPsywaveDamage(Move attack, Pokemon attacker,
+	            Pokemon defender, StatModifier atkMod, StatModifier defMod,
+	            int extra_multiplier, boolean isBattleTower, boolean isDoubleBattle) {
+		return damage(attack, attacker, defender, atkMod, defMod, MAX_PSYWAVE_ROLL,
+				false, extra_multiplier, isBattleTower, isDoubleBattle);
+	}
+    
+    
     
     // ******************************** //
     // HELPER STRING FORMATTING METHODS //
     // ******************************** //
     
-    public static void battleIntroSummary(StringBuilder sb, Pokemon p1, Pokemon p2, BattleOptions options) {
+    public static void appendBattleIntroSummary(StringBuilder sb, Pokemon p1, Pokemon p2, BattleOptions options) {
         sb.append(String.format("%s vs %s", p1.levelNameNatureAbility(), p2.levelNameNatureAbility()));
         // Don't show exp for tower pokes (minor thing since exp isn't added anyway)
         if(!options.isBattleTower()) {
@@ -507,7 +1266,7 @@ public class DamageCalculator {
         }
     }
     
-    public static void pokemonSummary(StringBuilder sb, Pokemon p, StatModifier mod) {
+    public static void appendPokemonSummary(StringBuilder sb, Pokemon p, StatModifier mod) {
     	sb.append(String.format("%s (%s) ", p.pokeName(), p.trueStatsStr()));
         if (mod.hasMods())
             sb.append(String.format("%s ", mod.summary(p)));
@@ -517,19 +1276,97 @@ public class DamageCalculator {
         	sb.append(String.format("~%s~ ", mod.getWeather()));
     }
     
-    public static void formatMoveName(StringBuilder sb, Move m, Pokemon p1,
+    public static void appendFormattedMoveName(StringBuilder sb, Move m, Pokemon p1,
             Pokemon p2, StatModifier mod1, StatModifier mod2,
-            int _extra_multiplier, boolean isBattleTower, boolean isDoubleBattle) {
+            int _extra_multiplier, boolean isBattleTower, boolean isDoubleBattle, Object param) {
         // Move name
-        if(m.getEffect() == MoveEffect.RAGE || m.getEffect() == MoveEffect.FURY_CUTTER
-        		|| m.getEffect() == MoveEffect.ROLLOUT) {
+    	switch(m.getEffect()) {
+    	//case RAGE:
+    	case FURY_CUTTER:
+    	case ROLLOUT:
             sb.append(m.getBoostedName(_extra_multiplier));
-        } else if (m.getEffect() == MoveEffect.HIDDEN_POWER) {
-        	Type type = p1.getIVs().getHiddenPowerType();
+            break;
+            
+    	case HIDDEN_POWER:
+    		Type type = p1.getIVs().getHiddenPowerType();
 	        int power = p1.getIVs().getHiddenPowerPower();
 	        sb.append(String.format("%s [%s %d]", m.getName(), type, power)); // TODO : hardcoded
-        } else 
-        	sb.append(m.getName());
+	        break;
+	        
+    	case MAGNITUDE:
+    		power = m.getPower();
+    		int magnitude = -1;
+    		int percent = 0;
+    		
+    		if (power == 10) {//TODO : hardcoded
+    			magnitude = 4;
+    			percent = 5;
+    		} else if (power == 30) {
+    			magnitude = 5;
+    			percent = 10;
+    		} else if (power == 50) {
+    			magnitude = 6;
+    			percent = 20;
+    		} else if (power == 70) {
+    			magnitude = 7;
+    			percent = 30;
+    		} else if (power == 90) {
+    			magnitude = 8;
+    			percent = 20;
+    		} else if (power == 110) {
+    			magnitude = 9;
+    			percent = 10;
+    		} else {
+    			magnitude = 10;
+    			percent = 5;
+    		}
+    		sb.append(String.format("%s %d (%d%%)", m.getName(), magnitude, percent)); // TODO : hardcoded
+	        break;
+	        
+    	case FLAIL:
+    		int minScale, maxScale;
+        	power = m.getPower();
+        	//System.out.println(power);
+        	if (power == 20) {
+        		minScale = 33;
+        		maxScale = 48;
+        	} else if (power == 40) {
+        		minScale = 17;
+        		maxScale = 32;
+        	} else if (power == 80) {
+        		minScale = 10;
+        		maxScale = 16;
+        	} else if (power == 100) {
+        		minScale = 5;
+        		maxScale = 9;
+        	} else if (power == 150) {
+        		minScale = 2;
+        		maxScale = 4;
+        	} else {
+        		minScale = 0;
+        		maxScale = 1;
+        	}
+        	
+        	int fullHP = p1.getHP();
+        	int minHP = 0;
+        	int maxHP = fullHP;
+        	
+        	for(int hp = 1; hp <= fullHP; hp++) {
+        		int scale = hp * 48 / fullHP;
+        		if(scale == minScale && minHP == 0)
+        			minHP = hp;
+        		if(scale > maxScale) {
+        			maxHP = hp - 1;
+        			break;
+        		}
+        	}
+    		sb.append(String.format("%s %d (HP:%d-%d)", m.getName(), power, minHP, maxHP)); // TODO : hardcoded
+    		break;
+    		
+    	default:
+    		sb.append(m.getName());
+    		break;
+    	}
 
         // Various modifiers
 		if(m.getPower() > 1) { //TODO : hardcoded value
@@ -686,58 +1523,58 @@ public class DamageCalculator {
     
     // printout of move damages between the two pokemon
     // assumes you are p1
-    public static String summary(Pokemon p1, Pokemon p2, BattleOptions options) {
+    public static String battleSummary(Pokemon p1, Pokemon p2, BattleOptions options) {
         StringBuilder sb = new StringBuilder();
         String endl = Constants.endl;
         StatModifier mod1 = options.getMod1();
         StatModifier mod2 = options.getMod2();
 
-        battleIntroSummary(sb, p1, p2, options);
+        appendBattleIntroSummary(sb, p1, p2, options);
         sb.append(endl);
         
-        // PLayer side
-        pokemonSummary(sb, p1, mod1);
+        // Player side
+        appendPokemonSummary(sb, p1, mod1);
         sb.append(endl);
 
-        summary_help(sb, p1, p2, mod1, mod2, options.isBattleTower(), options.isDoubleBattle());
+        appendMainDamagesSummary(sb, p1, p2, mod1, mod2, options.isBattleTower(), options.isDoubleBattle());
         sb.append(endl);
 
         if(options.getVerbose() == BattleOptions.EVERYTHING || options.getVerbose() == BattleOptions.ALL) {
-            extra_damage_help(sb, p1, p2, options);
+            appendVerboseDamagesSummary(sb, p1, p2, options);
             sb.append(endl);
             
             // Opponent side
-            pokemonSummary(sb, p2, mod2);
+            appendPokemonSummary(sb, p2, mod2);
             sb.append(endl);
         }
-        summary_help(sb, p2, p1, mod2, mod1, options.isBattleTower(), options.isDoubleBattle());
+        appendMainDamagesSummary(sb, p2, p1, mod2, mod1, options.isBattleTower(), options.isDoubleBattle());
         sb.append(endl);
 
         if(options.getVerbose() == BattleOptions.EVERYTHING) {
-            extra_damage_help(sb, p2, p1, options);
+            appendVerboseDamagesSummary(sb, p2, p1, options);
             sb.append(endl);
         }
         return sb.toString();
     }
     
     // used for the less verbose option
-    public static String shortSummary(Pokemon p1, Pokemon p2, BattleOptions options) {
+    public static String shortBattleSummary(Pokemon p1, Pokemon p2, BattleOptions options) {
         StringBuilder sb = new StringBuilder();
         String endl = Constants.endl;
 
         StatModifier mod1 = options.getMod1();
         StatModifier mod2 = options.getMod2();
 
-        battleIntroSummary(sb, p1, p2, options);
+        appendBattleIntroSummary(sb, p1, p2, options);
         sb.append(endl);
         
-        pokemonSummary(sb, p1, mod1);
+        appendPokemonSummary(sb, p1, mod1);
         sb.append(endl);
 
-        summary_help(sb, p1, p2, mod1, mod2, options.isBattleTower(), options.isDoubleBattle());
+        appendMainDamagesSummary(sb, p1, p2, mod1, mod2, options.isBattleTower(), options.isDoubleBattle());
         sb.append(endl);
         
-        pokemonSummary(sb, p2, mod2);
+        appendPokemonSummary(sb, p2, mod2);
         sb.append(endl);
 
         sb.append(p2.getMoveset().toString());
@@ -752,397 +1589,79 @@ public class DamageCalculator {
     // HELPER DAMAGE FORMATTING METHODS //
     // ******************************** //
     
-    private static void damage_help(StringBuilder sb, Move move, Pokemon p1, Pokemon p2, StatModifier mod1, StatModifier mod2, int _extra_modifier, boolean isBattleTower, boolean isDoubleBattle) {
-        int extra_modifier = (move.getEffect() == MoveEffect.FURY_CUTTER || move.getEffect() == MoveEffect.ROLLOUT) ? 
-        		1 << (_extra_modifier - 1) : _extra_modifier;
-        String endl = Constants.endl;
-        int minDmg = Math.min(p2.getHP(), minDamage(move, p1, p2, mod1, mod2, extra_modifier, isBattleTower, isDoubleBattle));
-        if(minDmg > 0) {
-            int minCritDmg = Math.min(p2.getHP(), minCritDamage(move, p1, p2, mod1, mod2, extra_modifier, isBattleTower, isDoubleBattle));
-            TreeMap<Integer,Double> dmgMap = detailledDamage(move, p1, p2, mod1, mod2, false, extra_modifier, isBattleTower, isDoubleBattle);
-            TreeMap<Integer,Double> critMap = detailledDamage(move, p1, p2, mod1, mod2, true, extra_modifier, isBattleTower, isDoubleBattle);
-            
-            formatMoveName(sb, move, p1, p2, mod1, mod2, _extra_modifier, isBattleTower, isDoubleBattle);
-            sb.append(endl);
-            sb.append("          NON-CRITS");
-            for(Integer i : dmgMap.keySet()) {
-                if((i - minDmg) % 7 == 0) {
-                    sb.append(endl);
-                    if(i.intValue() == p2.getHP() && minDmg != p2.getHP()) {
-                        sb.append(endl);
-                    }
-                    sb.append("            ");
-                }
-                else if(i.intValue() == p2.getHP() && minDmg != p2.getHP()) {
-                    sb.append(endl);
-                    sb.append(endl);
-                    sb.append("            ");
-                }
-                sb.append(String.format("%3d: %6.02f%%     ", i, dmgMap.get(i)));
-            }
-            sb.append(endl);
-            sb.append(endl);
-            sb.append("          CRITS");
-            for(Integer i : critMap.keySet()) {
-                if((i - minCritDmg) % 7 == 0) {
-                    sb.append(endl);
-                    if(i.intValue() == p2.getHP() && minCritDmg != p2.getHP()) {
-                        sb.append(endl);
-                    }
-                    sb.append("            ");
-                }
-                else if(i.intValue() == p2.getHP() && minCritDmg != p2.getHP()) {
-                    sb.append(endl);
-                    sb.append(endl);
-                    sb.append("            ");
-                }
-                sb.append(String.format("%3d: %6.02f%%     ", i, critMap.get(i)));
-            }
-            sb.append(endl);
-            sb.append(endl);
-        }
+     
+    public static void appendVerboseDamagesSummary(StringBuilder sb, Pokemon p1, Pokemon p2, BattleOptions options) {
+    	damagesSummaryCore(sb, p1, p2, options.getMod1(), options.getMod2(), options.isBattleTower(), options.isDoubleBattle(), true);
     }
     
-    
-    public static void extra_damage_help(StringBuilder sb, Pokemon p1, Pokemon p2, BattleOptions options) {
-        StatModifier mod1 = options.getMod1();
-        StatModifier mod2 = options.getMod2();
-    	
-    	for(Move move : p1.getMoveset()) {
-            if (move.getEffect() == MoveEffect.FURY_CUTTER) {
-                for (int i = 1; i <= 5; i++) {
-                    damage_help(sb, move, p1, p2, mod1, mod2, i, options.isBattleTower(), options.isDoubleBattle());
-                }
-            } else if (move.getEffect() == MoveEffect.ROLLOUT) {
-            	for (int i = 1; i <= 6; i++) {
-                    damage_help(sb, move, p1, p2, mod1, mod2, i, options.isBattleTower(), options.isDoubleBattle());
-                }
-            } else if (move.getEffect() == MoveEffect.RAGE) {
-                for (int i = 1; i <= 8; i++) {
-                    damage_help(sb, move, p1, p2, mod1, mod2, i, options.isBattleTower(), options.isDoubleBattle());
-                }
-            } else if(move.getEffect() == MoveEffect.MAGNITUDE) {
-                for (int i=4; i<=10; i++) {
-                    if(i==10) { i++; }
-                    move.setPower(i*20-70);
-                    damage_help(sb, move, p1, p2, mod1, mod2, 1, options.isBattleTower(), options.isDoubleBattle());
-                    move.setPower(1);
-                }
-            } else {
-                damage_help(sb, move, p1, p2, mod1, mod2, 1, options.isBattleTower(), options.isDoubleBattle());
-            }
-        }
-    }
-    
-    // String summary of all of p1's moves used on p2
-    // (would be faster if i didn't return intermediate strings)
-    private static void summary_help(StringBuilder sb, Pokemon p1, Pokemon p2, StatModifier mod1, StatModifier mod2, 
+    public static void appendMainDamagesSummary(StringBuilder sb, Pokemon p1, Pokemon p2, StatModifier mod1, StatModifier mod2, 
     		boolean isBattleTower, boolean isDoubleBattle) {
-        int enemyHP = p2.getHP();
-
-        for (Move m : p1.getMoveset()) {
-            if (m.getEffect() == MoveEffect.FURY_CUTTER) {
-                for (int i = 1; i <= 5; i++) {
-                    printMoveDamage(sb, m, p1, p2, mod1, mod2, enemyHP, i, isBattleTower, isDoubleBattle);
-                }
-            } else if (m.getEffect() == MoveEffect.ROLLOUT) {
-                for (int i = 1; i <= 6; i++) {
-                    printMoveDamage(sb, m, p1, p2, mod1, mod2, enemyHP, i, isBattleTower, isDoubleBattle);
-                }
-        	} else if (m.getEffect() == MoveEffect.RAGE) {
-                for (int i = 1; i <= 8; i++) {
-                    printMoveDamage(sb, m, p1, p2, mod1, mod2, enemyHP, i, isBattleTower, isDoubleBattle);
-                }
-            } else if(m.getEffect() == MoveEffect.MAGNITUDE) {
-                for (int i=4; i<=10; i++) {
-                    if(i==10) { i++; }
-                    m.setPower(i*20-70);
-                    printMoveDamage(sb, m, p1, p2, mod1, mod2, enemyHP, 1, isBattleTower, isDoubleBattle);
-                    m.setPower(1);
-                }
-            } else {
-                printMoveDamage(sb, m, p1, p2, mod1, mod2, enemyHP, 1, isBattleTower, isDoubleBattle);
-            }
-        }
+    	damagesSummaryCore(sb, p1, p2, mod1, mod2, isBattleTower, isDoubleBattle, false);
     }
     
-    
-    public static void printMoveDamage(StringBuilder sb, Move m, Pokemon p1,
-                                       Pokemon p2, StatModifier mod1, StatModifier mod2,
-                                       int enemyHP, int _extra_multiplier, boolean isBattleTower, boolean isDoubleBattle) {
-    	formatMoveName(sb, m, p1, p2, mod1, mod2, _extra_multiplier, isBattleTower, isDoubleBattle);
-        sb.append("\t");
-        
-        String endl = Constants.endl;
-    	int extra_multiplier = (m.getEffect() == MoveEffect.FURY_CUTTER || m.getEffect() == MoveEffect.ROLLOUT) ?
-        		1 << (_extra_multiplier - 1) : _extra_multiplier;
-        
-        // calculate damage of this move, and its percentages on opposing
-        // pokemon
-        int minDmg = minDamage(m, p1, p2, mod1, mod2, extra_multiplier, isBattleTower, isDoubleBattle);
-        int maxDmg = maxDamage(m, p1, p2, mod1, mod2, extra_multiplier, isBattleTower, isDoubleBattle);
+    //TODO: fuzzy, hacky, idk ... but at least the logic stays within a single method
+    private static void damagesSummaryCore(StringBuilder sb, Pokemon p1, Pokemon p2, StatModifier mod1, StatModifier mod2, 
+    		boolean isBattleTower, boolean isDoubleBattle, boolean isExtraDamageHelp) {
 
-        // don't spam if the move doesn't do damage
-        // TODO: better test of damaging move, to be done when fixes are made
-        if (maxDmg == 0) {
-            sb.append(endl);
-            return;
-        }
-        double minPct = 100.0 * minDmg / enemyHP;
-        double maxPct = 100.0 * maxDmg / enemyHP;
-        sb.append(String.format("%d-%d %.02f-%.02f", minDmg, maxDmg, minPct,
-                maxPct));
-        sb.append("%\t(crit: ");
-        // do it again, for crits
-        int critMinDmg = minCritDamage(m, p1, p2, mod1, mod2, extra_multiplier, isBattleTower, isDoubleBattle);
-        int critMaxDmg = maxCritDamage(m, p1, p2, mod1, mod2, extra_multiplier, isBattleTower, isDoubleBattle);
-
-        double critMinPct = 100.0 * critMinDmg / enemyHP;
-        double critMaxPct = 100.0 * critMaxDmg / enemyHP;
-        sb.append(String.format("%d-%d %.02f-%.02f", critMinDmg, critMaxDmg,
-                critMinPct, critMaxPct));
-        sb.append("%)" + endl);
-
-        int oppHP = p2.getHP();
-        
-     // normal rolls
-        sb.append("\tNormal rolls: ");
-        int lastDam = -1;
-        int lastDamCount = -1;
-        for (int i = MIN_ROLL; i <= MAX_ROLL; i++) {
-            int dam = damage(m, p1, p2, mod1, mod2, i, false, extra_multiplier, isBattleTower, isDoubleBattle); /// TODO : Rage, Rollout etc.
-            if (dam > oppHP) {
-                dam = oppHP;
-            }
-            if (dam != lastDam) {
-                if (lastDamCount != -1) {
-                    sb.append(lastDam + "x" + lastDamCount + ", ");
+        for (Move move : p1.getMoveset()) {
+        	switch (move.getEffect()) {
+        	case FURY_CUTTER:
+        		for (int _extra_multiplier : new Integer[] {1, 2, 3, 4, 5}) { //TODO: hardcoded
+        			Damages damages = new Damages(move, p1, p2, mod1, mod2, _extra_multiplier, isBattleTower, isDoubleBattle);
+        			if (isExtraDamageHelp)
+                    	damages.appendDetailledPercentDamages(sb);
+                    else
+                    	damages.appendAllMoveInfo(sb);
                 }
-                lastDam = dam;
-                lastDamCount = 1;
-            } else {
-                lastDamCount++;
-            }
-        }
-        sb.append(lastDam + "x" + lastDamCount + endl);
-
-        // crit rolls
-        sb.append("\tCrit rolls: ");
-        lastDam = -1;
-        lastDamCount = -1;
-        for (int i = MIN_ROLL; i <= MAX_ROLL; i++) {
-            int dam = damage(m, p1, p2, mod1, mod2, i, true, extra_multiplier, isBattleTower, isDoubleBattle); /// TODO : Rage, Rollout etc.
-            if (dam > oppHP) {
-                dam = oppHP;
-            }
-            if (dam != lastDam) {
-                if (lastDamCount != -1) {
-                    sb.append(lastDam + "x" + lastDamCount + ", ");
+        		break;
+        		
+        	case ROLLOUT:
+        		for (int _extra_multiplier : new Integer[] {1, 2, 3, 4, 5, 6}) { //TODO: hardcoded
+        			Damages damages = new Damages(move, p1, p2, mod1, mod2, _extra_multiplier, isBattleTower, isDoubleBattle);
+        			if (isExtraDamageHelp)
+                    	damages.appendDetailledPercentDamages(sb);
+                    else
+                    	damages.appendAllMoveInfo(sb);
                 }
-                lastDam = dam;
-                lastDamCount = 1;
-            } else {
-                lastDamCount++;
-            }
-        }
-        sb.append(lastDam + "x" + lastDamCount + endl);
-
-        int realminDmg = Math.min(minDmg, critMinDmg);
-        int realmaxDmg = Math.max(maxDmg, critMaxDmg);
-
-        // TODO : proper handling of critical hits
-        if (Settings.includeCrits) {
-
-            double critChance = 1 / 16.0;
-            if (m.getEffect() == MoveEffect.HIGH_CRITICAL){
-                critChance *= 4;
-            }
-
-            for (int hits = 1; hits <= 8; hits++) {
-                if (realminDmg * hits < oppHP && realmaxDmg * hits >= oppHP) {
-                    double totalKillPct = 0;
-                    for (int crits = 0; crits <= hits; crits++) {
-                        double nShotPct = nShotPercentage(m, p1, p2, mod1, mod2, hits - crits, crits, extra_multiplier, isBattleTower, isDoubleBattle); /// TODO : Rage, Rollout etc.
-                        totalKillPct += nShotPct * choose(hits, crits) * Math.pow(critChance, crits)
-                                * Math.pow(1 - critChance, hits - crits);
-                    }
-                    if (totalKillPct >= 0.1 && totalKillPct <= 99.999) {
-                        sb.append(String.format("\t(Overall %d-hit Kill%%: %.04f%%)", hits, totalKillPct) + endl);
-                    }
+        		break;
+        		
+        	case MAGNITUDE:
+        		int oldPower = move.getPower();
+                for (int power : new Integer[] {10, 30, 50, 70, 90, 110, 150}) { //TODO: hardcoded
+                    move.setPower(power);
+                    Damages damages = new Damages(move, p1, p2, mod1, mod2, 1, isBattleTower, isDoubleBattle);
+                    if (isExtraDamageHelp)
+                    	damages.appendDetailledPercentDamages(sb);
+                    else
+                    	damages.appendAllMoveInfo(sb);
                 }
-            }
-        } else {
-
-            // test if noncrits can kill in 1shot
-            if (maxDmg >= oppHP && minDmg < oppHP) {
-                int oneShotNum = oneShotNumerator(m, p1, p2, mod1, mod2, false, extra_multiplier, isBattleTower, isDoubleBattle); /// TODO : Rage, Rollout etc.
-                sb.append(String.format("\t(One shot prob.: %d/%d | %.02f%%)", oneShotNum, NUM_ROLLS, 100. * oneShotNum / NUM_ROLLS) + endl);
-            }
-            // test if crits can kill in 1shot
-            if (critMaxDmg >= oppHP && critMinDmg < oppHP) {
-                int oneShotNum = oneShotNumerator(m, p1, p2, mod1, mod2, true, extra_multiplier, isBattleTower, isDoubleBattle); /// TODO : Rage, Rollout etc.
-                sb.append(String.format("\t(Crit one shot prob.: %d/%d | %.02f%%)", oneShotNum, NUM_ROLLS, 100. * oneShotNum / NUM_ROLLS) + endl);
-            }
-
-            // n-shot
-            int minDmgWork = minDmg;
-            int maxDmgWork = maxDmg;
-            int hits = 1;
-            while (minDmgWork < oppHP && hits < 5) {
-                hits++;
-                minDmgWork += minDmg;
-                maxDmgWork += maxDmg;
-                if (maxDmgWork >= oppHP && minDmgWork < oppHP) {
-                    //System.out.println("working out a " + hits + "-shot"); //TODO: remaining println
-                    double nShotPct = nShotPercentage(m, p1, p2, mod1, mod2, hits, 0, extra_multiplier, isBattleTower, isDoubleBattle); /// TODO : Rage, Rollout etc.
-                    sb.append(String.format("\t(%d shot prob.: %.04f%%)", hits, nShotPct) + endl);
-                }
-            }
-
-            // n-crit-shot
-            minDmgWork = critMinDmg;
-            maxDmgWork = critMaxDmg;
-            hits = 1;
-            while (minDmgWork < oppHP && hits < 5) {
-                hits++;
-                minDmgWork += critMinDmg;
-                maxDmgWork += critMaxDmg;
-                if (maxDmgWork >= oppHP && minDmgWork < oppHP) {
-                    //System.out.println("working out a " + hits + "-crit-shot"); //TODO: remaining println
-                    double nShotPct = nShotPercentage(m, p1, p2, mod1, mod2, 0, hits, extra_multiplier, isBattleTower, isDoubleBattle); /// TODO : Rage, Rollout etc.
-                    sb.append(String.format("\t(%d crits death prob.: %.04f%%)", hits, nShotPct) + endl); 
-                }
-            }
-
-            // mixed a-noncrit and b-crit shot
-            for (int non = 1; non <= 5 && realminDmg * (non + 1) < oppHP; non++) {
-                for (int crit = 1; non + crit <= 5 && realminDmg * (non + crit) < oppHP; crit++) {
-                    int sumMin = critMinDmg * crit + minDmg * non;
-                    int sumMax = critMaxDmg * crit + maxDmg * non;
-                    if (sumMin < oppHP && sumMax >= oppHP) {
-                        //System.out.printf("working out %d non-crits + %d crits\n", non, crit); //TODO: remaining println
-                        double nShotPct = nShotPercentage(m, p1, p2, mod1, mod2, non, crit, extra_multiplier, isBattleTower, isDoubleBattle); /// TODO : Rage, Rollout etc.
-                        sb.append(String.format("\t(%d non-crit%s + %d crit%s death prob.: %.04f%%)", non,
-                                non > 1 ? "s" : "", crit, crit > 1 ? "s" : "", nShotPct)
-                                + endl);
-                    }
-                }
-            }
-        }
-
-        // guaranteed n-shot
-        if (Settings.showGuarantees) {
-            int guarantee = (int) Math.ceil(((double) oppHP) / realminDmg);
-            sb.append(String.format("\t(guaranteed %d-shot)", guarantee) + endl);
-        }
+                move.setPower(oldPower);
+                break;
+                
+        	case FLAIL:
+        		oldPower = move.getPower();
+            	for(int power : new Integer[]{20, 40, 80, 100, 150, 200}) { //TODO: hardcoded
+            		move.setPower(power);
+            		Damages damages = new Damages(move, p1, p2, mod1, mod2, 1, isBattleTower, isDoubleBattle);
+                    if (isExtraDamageHelp)
+                    	damages.appendDetailledPercentDamages(sb);
+                    else
+                    	damages.appendAllMoveInfo(sb);
+            	}
+                move.setPower(oldPower);
+                break;
+                
+        	default:
+        		Damages damages = new Damages(move, p1, p2, mod1, mod2, 1, isBattleTower, isDoubleBattle);
+                if (isExtraDamageHelp)
+                	damages.appendDetailledPercentDamages(sb);
+                else
+                	damages.appendAllMoveInfo(sb);
+            	break;
+            	
+        	} // end switch
+        } // end for
+        	
     }
-    
-    
-    
-    // ******************** //
-    // MATHS HELPER METHODS //
-    // ******************** //
-    
-    public static long choose(long total, long choose) {
-        if (total < choose)
-            return 0;
-        if (choose == 0 || choose == total)
-            return 1;
-        if (choose == 1 || choose == total - 1)
-            return total;
-        return choose(total - 1, choose - 1) + choose(total - 1, choose);
-    }
-
-    private static int oneShotNumerator(Move attack, Pokemon attacker,
-                                            Pokemon defender, StatModifier atkMod, StatModifier defMod,
-                                            boolean crit, int extra_multiplier, boolean isBattleTower, boolean isDoubleBattle) {
-        // iterate until damage is big enough
-        int rangeNum = MIN_ROLL;
-        while (damage(attack, attacker, defender, atkMod, defMod, rangeNum,
-                crit, extra_multiplier, isBattleTower, isDoubleBattle) < defender.getHP()) {
-            rangeNum++;
-        }
-        return MAX_ROLL - rangeNum + 1 ;
-    }
-
-    private static TreeMap<Integer,Double> detailledDamage(Move attack, Pokemon attacker, Pokemon defender,
-                                                          StatModifier atkMod, StatModifier defMod, boolean crit,
-                                                          int extra_multiplier, boolean isBattleTower, boolean isDoubleBattle) {
-        TreeMap<Integer,Double> dmgMap = new TreeMap<Integer,Double>();
-        for(int i=MIN_ROLL; i<=MAX_ROLL; i++) {
-            int dmg = Math.min(defender.getHP(), damage(attack, attacker, defender, atkMod, defMod, i, crit, extra_multiplier, isBattleTower, isDoubleBattle));
-            if(dmgMap.containsKey(dmg)) {
-                dmgMap.put(dmg,100.0/((double)(NUM_ROLLS))+dmgMap.get(dmg));
-            } else {
-                dmgMap.put(dmg,100.0/((double)(NUM_ROLLS)));
-            }
-        }
-        return dmgMap;
-    }
-    
-    private static double nShotPercentage(Move attack, Pokemon attacker, Pokemon defender, StatModifier atkMod,
-            StatModifier defMod, int numHitsNonCrit, int numHitsCrit, int extra_multiplier, boolean isBattleTower, boolean isDoubleBattle) {
-        int rawHitDamageNC = damage(attack, attacker, defender, atkMod, defMod, MAX_ROLL, false, extra_multiplier, isBattleTower, isDoubleBattle);  /// TODO : Rage, Rollout etc.
-        int minDamageNC = rawHitDamageNC * MIN_ROLL / MAX_ROLL;
-        int[] probsNC = new int[rawHitDamageNC - minDamageNC + 1];
-        for (int i = MIN_ROLL; i <= MAX_ROLL; i++) {
-            int dmg = rawHitDamageNC * i / MAX_ROLL;
-            probsNC[dmg - minDamageNC]++;
-        }
-        int rawHitDamageCR = damage(attack, attacker, defender, atkMod, defMod, MAX_ROLL, true, extra_multiplier, isBattleTower, isDoubleBattle);  /// TODO : Rage, Rollout etc.
-        int minDamageCR = rawHitDamageCR * MIN_ROLL / MAX_ROLL;
-        int[] probsCR = new int[rawHitDamageCR - minDamageCR + 1];
-        for (int i = MIN_ROLL; i <= MAX_ROLL; i++) {
-            int dmg = rawHitDamageCR * i / MAX_ROLL;
-            probsCR[dmg - minDamageCR]++;
-        }
-        double chances = 0;
-        int rawHP = defender.getHP();
-        if (numHitsNonCrit > 0) {
-            for (int i = minDamageNC; i <= rawHitDamageNC; i++) {
-                chances += nShotPctInner(minDamageNC, rawHitDamageNC, minDamageCR, rawHitDamageCR, rawHP, 0, i,
-                        numHitsNonCrit, numHitsCrit, probsNC, probsCR);
-            }
-        } else {
-            for (int i = minDamageCR; i <= rawHitDamageCR; i++) {
-                chances += nShotPctInner(minDamageNC, rawHitDamageNC, minDamageCR, rawHitDamageCR, rawHP, 0, i,
-                        numHitsNonCrit, numHitsCrit, probsNC, probsCR);
-            }
-        }
-        return 100.0 * chances / Math.pow(MAX_ROLL - MIN_ROLL + 1, numHitsNonCrit + numHitsCrit);
-    }
-
-    private static double nShotPctInner(int minDamageNC, int maxDamageNC, int minDamageCR, int maxDamageCR, int hp,
-            int stackedDmg, int rolledDamage, int hitsLeftNonCrit, int hitsLeftCrit, int[] probsNC, int[] probsCR) {
-        boolean wasCritical = false;
-        if (hitsLeftNonCrit > 0) {
-            hitsLeftNonCrit--;
-        } else {
-            hitsLeftCrit--;
-            wasCritical = true;
-        }
-        stackedDmg += rolledDamage;
-        if (stackedDmg >= hp || (stackedDmg + hitsLeftNonCrit * minDamageNC + hitsLeftCrit * minDamageCR) >= hp) {
-            return Math.pow(MAX_ROLL - MIN_ROLL + 1, hitsLeftNonCrit + hitsLeftCrit)
-                    * (wasCritical ? probsCR[rolledDamage - minDamageCR] : probsNC[rolledDamage - minDamageNC]);
-        } else if (hitsLeftNonCrit == 0 && hitsLeftCrit == 0) {
-            return 0;
-        } else if (stackedDmg + hitsLeftNonCrit * maxDamageNC + hitsLeftCrit * maxDamageCR < hp) {
-            return 0;
-        } else {
-            double chances = 0;
-            if (hitsLeftNonCrit > 0) {
-                for (int i = minDamageNC; i <= maxDamageNC; i++) {
-                    chances += nShotPctInner(minDamageNC, maxDamageNC, minDamageCR, maxDamageCR, hp, stackedDmg, i,
-                            hitsLeftNonCrit, hitsLeftCrit, probsNC, probsCR);
-                }
-            } else {
-                for (int i = minDamageCR; i <= maxDamageCR; i++) {
-                    chances += nShotPctInner(minDamageNC, maxDamageNC, minDamageCR, maxDamageCR, hp, stackedDmg, i,
-                            hitsLeftNonCrit, hitsLeftCrit, probsNC, probsCR);
-                }
-            }
-            return chances * (wasCritical ? probsCR[rolledDamage - minDamageCR] : probsNC[rolledDamage - minDamageNC]);
-        }
-    }
+ 
 }

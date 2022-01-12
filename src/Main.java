@@ -75,10 +75,10 @@ public class Main {
         // TODO : handle custom files
 
         
-        if(configIni.get("util").containsKey("includeCrits"))
-        	Settings.includeCrits = configIni.get("poke", "includeCrits", boolean.class);
+        if(configIni.get("util").containsKey("overallChanceKO"))
+        	Settings.overallChanceKO = configIni.get("util", "overallChanceKO", boolean.class);
         if(configIni.get("util").containsKey("showGuarantees"))
-        	Settings.showGuarantees = configIni.get("poke", "showGuarantees", boolean.class);
+        	Settings.showGuarantees = configIni.get("util", "showGuarantees", boolean.class);
         
         IVs ivs = new IVs(hpIV, atkIV, defIV, spaIV, spdIV, speIV);
         Pokemon p = null;
@@ -123,6 +123,7 @@ public class Main {
         	try {
         		a.performAction(p);
         	} catch (Exception exc) {
+        		exc.printStackTrace();
         		appendln("Unexpected error : are your array parameters of proper length ?");
                 FileWriter fw = new FileWriter(outputFilename);
                 BufferedWriter bw = new BufferedWriter(fw);
