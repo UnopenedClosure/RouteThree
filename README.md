@@ -45,7 +45,7 @@ It is derived from Dabomstew & entrpntr's RouteTwo, itself derived from HRoll's 
 ○ Usual update.
 
 
-**`????????????` - v0.3**  
+**`[2022/01/16]` - v0.3**  
 ○ Added FireRed/LeafGreen support, and Fire Red Squirtle High Exp route file.  
 ○ Added Emerald abraful route file.  
 ○ Added battle option `-doublebattle` to force a double battle. Updated the .xml file accordingly.  
