@@ -1,0 +1,4264 @@
+L45 KYOGRE [CALM] #DRIZZLE# EXP Needed: 7764/7764
+Stats WITHOUT badge boosts:
+       HP    ATK    DEF    SPA    SPD    SPE
+      151     96     94    153    147     98
+IV     14     27     19     31      7     27
+EV      0      0      0      0      0      0
+BODY SLAM, CALM MIND, ICE BEAM, HYDRO PUMP, 
+
+LVL: 45 EXP NEEDED: 7764/7764
+
+LEADER WALLACE  | REWARD: 4300
+[HYPER POTION, HYPER POTION] {L40 LUVDISC [QUIET] #SWIFT_SWIM#, L42 WHISCASH [NAIVE] #OBLIVIOUS#, L40 SEALEO [DOCILE] #THICK_FAT#, L42 SEAKING [BASHFUL] #SWIFT_SWIM#, L43 MILOTIC [CALM] #MARVEL_SCALE#}
+L45 KYOGRE [CALM] #DRIZZLE# vs L40 LUVDISC [QUIET] #SWIFT_SWIM#          >>> EXP GIVEN: 942
+KYOGRE (151/96/94/153/147/98) <PERSIM BERRY> ~RAIN~ 
+ICE BEAM	41-49 43,62-52,13%	(crit: 83-98 88,30-104,26%)
+	Normal rolls: 41x1, 42x2, 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x1
+	Crit rolls: 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x5
+	(Crit one shot prob.: 5/16 | 31,25%)
+	(2 shot prob.: 16,0156%)
+	(guaranteed 3-shot)
+	(Overall 1-hit KO%: 1,9531%)
+	(Overall 2-hit KO%: 26,1856%)
+
+HYDRO PUMP +RAIN	117-138 124,47-146,81%	(crit: 235-277 250,00-294,68%)
+	Normal rolls: 94x16
+	Crit rolls: 94x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	107-126 113,83-134,04%	(crit: 214-252 227,66-268,09%)
+	Normal rolls: 94x16
+	Crit rolls: 94x16
+	(guaranteed 1-shot)
+
+SURF +RAIN	92-109 97,87-115,96%	(crit: 186-219 197,87-232,98%)
+	Normal rolls: 92x1, 93x1, 94x14
+	Crit rolls: 94x16
+	(One shot prob.: 14/16 | 87,50%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 88,2813%)
+
+WATERFALL +RAIN	78-92 82,98-97,87%	(crit: 156-184 165,96-195,74%)
+	Normal rolls: 78x1, 79x1, 80x2, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1
+	Crit rolls: 94x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM
+          NON-CRITS
+             41:   6,25%      42:  12,50%      43:  12,50%      44:  12,50%      45:  12,50%      46:  12,50%      47:  12,50%      48:  12,50%     
+             49:   0,00%     
+
+          CRITS
+             83:   6,25%      84:   6,25%      85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%     
+             91:   6,25%      92:   6,25%      93:   6,25%     
+
+             94:  31,25%     
+
+HYDRO PUMP +RAIN
+          NON-CRITS
+             94: 100,00%     
+
+          CRITS
+             94: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             94: 100,00%     
+
+          CRITS
+             94: 100,00%     
+
+SURF +RAIN
+          NON-CRITS
+             92:   6,25%      93:   6,25%     
+
+             94:  87,50%     
+
+          CRITS
+             94: 100,00%     
+
+WATERFALL +RAIN
+          NON-CRITS
+             78:   6,25%      79:   6,25%      80:  12,50%      81:   6,25%      82:   6,25%      83:   6,25%      84:   6,25%      85:   6,25%     
+             86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   0,00%     
+
+          CRITS
+             94: 100,00%     
+
+
+LUVDISC (94/38/58/50/66/82) ~RAIN~ 
+WATER PULSE +RAIN	6-8 3,97-5,30%	(crit: 13-16 8,61-10,60%)
+	Normal rolls: 6x3, 7x12, 8x1
+	Crit rolls: 13x3, 14x6, 15x6, 16x1
+	(guaranteed 26-shot)
+
+ATTRACT
+SWEET KISS
+FLAIL 20 (HP:65-94)	3-4 1,99-2,65%	(crit: 6-8 3,97-5,30%)
+	Normal rolls: 3x15, 4x1
+	Crit rolls: 6x3, 7x12, 8x1
+	(guaranteed 51-shot)
+
+FLAIL 40 (HP:34-64)	5-7 3,31-4,64%	(crit: 11-14 7,28-9,27%)
+	Normal rolls: 5x1, 6x14, 7x1
+	Crit rolls: 11x1, 12x7, 13x7, 14x1
+	(guaranteed 31-shot)
+
+FLAIL 80 (HP:20-33)	10-12 6,62-7,95%	(crit: 20-24 13,25-15,89%)
+	Normal rolls: 10x7, 11x8, 12x1
+	Crit rolls: 20x3, 21x4, 22x4, 23x4, 24x1
+	(guaranteed 16-shot)
+
+FLAIL 100 (HP:10-19)	12-15 7,95-9,93%	(crit: 25-30 16,56-19,87%)
+	Normal rolls: 12x2, 13x7, 14x6, 15x1
+	Crit rolls: 25x2, 26x3, 27x4, 28x3, 29x3, 30x1
+	(guaranteed 13-shot)
+	(Overall 8-hit KO%: 0,3761%)
+
+FLAIL 150 (HP:4-9)	17-21 11,26-13,91%	(crit: 35-42 23,18-27,81%)
+	Normal rolls: 17x1, 18x5, 19x5, 20x4, 21x1
+	Crit rolls: 35x1, 36x3, 37x2, 38x2, 39x3, 40x2, 41x2, 42x1
+	(4 crits death prob.: 76,3184%)
+	(2 non-crits + 3 crits death prob.: 73,7260%)
+	(guaranteed 9-shot)
+	(Overall 5-hit KO%: 0,1654%)
+	(Overall 6-hit KO%: 3,6247%)
+	(Overall 7-hit KO%: 26,6060%)
+	(Overall 8-hit KO%: 77,9821%)
+
+FLAIL 200 (HP:1-3)	23-28 15,23-18,54%	(crit: 47-56 31,13-37,09%)
+	Normal rolls: 23x1, 24x4, 25x3, 26x4, 27x3, 28x1
+	Crit rolls: 47x1, 48x2, 49x2, 50x2, 51x1, 52x2, 53x2, 54x2, 55x1, 56x1
+	(3 crits death prob.: 76,3916%)
+	(2 non-crits + 2 crits death prob.: 75,2090%)
+	(4 non-crits + 1 crit death prob.: 73,9373%)
+	(guaranteed 7-shot)
+	(Overall 4-hit KO%: 1,6423%)
+	(Overall 5-hit KO%: 21,2889%)
+	(Overall 6-hit KO%: 81,8843%)
+
+
+
+L45 KYOGRE [CALM] #DRIZZLE# vs L42 WHISCASH [NAIVE] #OBLIVIOUS#          >>> EXP GIVEN: 1422
+KYOGRE (151/96/94/153/147/98) +[0/0/1/0/0|0/0]  <PERSIM BERRY> ~RAIN~ 
+ICE BEAM	62-74 40,26-48,05%	(crit: 249-294 161,69-190,91%)
+	Normal rolls: 62x1, 63x1, 64x1, 65x2, 66x1, 67x1, 68x2, 69x1, 70x1, 71x2, 72x1, 73x1, 74x1
+	Crit rolls: 154x16
+	(guaranteed 3-shot)
+	(Overall 1-hit KO%: 6,2500%)
+	(Overall 2-hit KO%: 12,1094%)
+
+HYDRO PUMP +RAIN	175-206 113,64-133,77%	(crit: 703-828 456,49-537,66%)
+	Normal rolls: 154x16
+	Crit rolls: 154x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE
+SURF +RAIN	139-164 90,26-106,49%	(crit: 557-656 361,69-425,97%)
+	Normal rolls: 139x1, 141x1, 142x1, 144x1, 145x1, 147x1, 149x1, 150x1, 152x1, 154x7
+	Crit rolls: 154x16
+	(One shot prob.: 7/16 | 43,75%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 47,2656%)
+
+WATERFALL +RAIN	117-138 75,97-89,61%	(crit: 470-554 305,19-359,74%)
+	Normal rolls: 117x1, 118x1, 120x1, 121x1, 122x1, 124x1, 125x1, 126x1, 128x1, 129x1, 131x1, 132x1, 133x1, 135x1, 136x1, 138x1
+	Crit rolls: 154x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM
+          NON-CRITS
+             62:   6,25%      63:   6,25%      64:   6,25%      65:  12,50%      66:   6,25%      67:   6,25%      68:  12,50%      69:   6,25%     
+             70:   6,25%      71:  12,50%      72:   6,25%      73:   6,25%      74:   0,00%     
+
+          CRITS
+            154: 100,00%     
+
+HYDRO PUMP +RAIN
+          NON-CRITS
+            154: 100,00%     
+
+          CRITS
+            154: 100,00%     
+
+SURF +RAIN
+          NON-CRITS
+            139:   6,25%     141:   6,25%     142:   6,25%     144:   6,25%     145:   6,25%     147:   6,25%     149:   6,25%     150:   6,25%     
+            152:   6,25%     
+
+            154:  43,75%     
+
+          CRITS
+            154: 100,00%     
+
+WATERFALL +RAIN
+          NON-CRITS
+            117:   6,25%     118:   6,25%     120:   6,25%     121:   6,25%     122:   6,25%     124:   6,25%     125:   6,25%     126:   6,25%     
+            128:   6,25%     129:   6,25%     131:   6,25%     132:   6,25%     133:   6,25%     135:   6,25%     136:   6,25%     138:   0,00%     
+
+          CRITS
+            154: 100,00%     
+
+
+WHISCASH (154/80/76/78/66/71) +[0/0/0/2/0|0/0]  ~RAIN~ 
+RAIN DANCE
+WATER PULSE +RAIN	10-12 6,62-7,95%	(crit: 21-25 13,91-16,56%)
+	Normal rolls: 10x7, 11x8, 12x1
+	Crit rolls: 21x3, 22x4, 23x4, 24x4, 25x1
+	(guaranteed 16-shot)
+
+AMNESIA
+EARTHQUAKE	36-43 23,84-28,48%	(crit: 73-87 48,34-57,62%)
+	Normal rolls: 36x2, 37x2, 38x2, 39x3, 40x2, 41x2, 42x2, 43x1
+	Crit rolls: 73x1, 74x1, 75x1, 76x1, 77x1, 78x1, 79x1, 80x2, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1
+	(4 shot prob.: 93,8599%)
+	(2 crits death prob.: 94,1406%)
+	(2 non-crits + 1 crit death prob.: 93,9453%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,3677%)
+	(Overall 3-hit KO%: 16,6048%)
+	(Overall 4-hit KO%: 95,2569%)
+
+
+
+L45 KYOGRE [CALM] #DRIZZLE# vs L40 SEALEO [DOCILE] #THICK_FAT#          >>> EXP GIVEN: 1096
+KYOGRE (151/96/94/153/147/98) +[0/0/1/0/0|0/0]  <PERSIM BERRY> ~RAIN~ 
+ICE BEAM -THICK_FAT	14-17 10,69-12,98%	(crit: 29-35 22,14-26,72%)
+	Normal rolls: 14x4, 15x6, 16x5, 17x1
+	Crit rolls: 29x1, 30x3, 31x3, 32x3, 33x3, 34x2, 35x1
+	(4 crits death prob.: 18,6218%)
+	(1 non-crit + 4 crits death prob.: 99,9996%)
+	(2 non-crits + 3 crits death prob.: 7,7623%)
+	(guaranteed 10-shot)
+	(Overall 6-hit KO%: 0,5140%)
+	(Overall 7-hit KO%: 6,7167%)
+	(Overall 8-hit KO%: 40,2737%)
+
+HYDRO PUMP +RAIN	165-195 125,95-148,85%	(crit: 331-390 252,67-297,71%)
+	Normal rolls: 131x16
+	Crit rolls: 131x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	149-176 113,74-134,35%	(crit: 299-352 228,24-268,70%)
+	Normal rolls: 131x16
+	Crit rolls: 131x16
+	(guaranteed 1-shot)
+
+SURF +RAIN	130-154 99,24-117,56%	(crit: 262-309 200,00-235,88%)
+	Normal rolls: 130x1, 131x15
+	Crit rolls: 131x16
+	(One shot prob.: 15/16 | 93,75%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 94,1406%)
+
+WATERFALL +RAIN	110-130 83,97-99,24%	(crit: 221-261 168,70-199,24%)
+	Normal rolls: 110x1, 111x1, 113x1, 114x1, 115x1, 117x1, 118x1, 119x1, 120x1, 122x1, 123x1, 124x1, 126x1, 127x1, 128x1, 130x1
+	Crit rolls: 131x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM -THICK_FAT
+          NON-CRITS
+             14:  25,00%      15:  37,50%      16:  31,25%      17:   0,00%     
+
+          CRITS
+             29:   6,25%      30:  18,75%      31:  18,75%      32:  18,75%      33:  18,75%      34:  12,50%      35:   0,00%     
+
+HYDRO PUMP +RAIN
+          NON-CRITS
+            131: 100,00%     
+
+          CRITS
+            131: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+            131: 100,00%     
+
+          CRITS
+            131: 100,00%     
+
+SURF +RAIN
+          NON-CRITS
+            130:   6,25%     
+
+            131:  93,75%     
+
+          CRITS
+            131: 100,00%     
+
+WATERFALL +RAIN
+          NON-CRITS
+            110:   6,25%     111:   6,25%     113:   6,25%     114:   6,25%     115:   6,25%     117:   6,25%     118:   6,25%     119:   6,25%     
+            120:   6,25%     122:   6,25%     123:   6,25%     124:   6,25%     126:   6,25%     127:   6,25%     128:   6,25%     130:   0,00%     
+
+          CRITS
+            131: 100,00%     
+
+
+SEALEO (131/62/70/74/70/50) ~RAIN~ 
+ENCORE
+BODY SLAM	17-20 11,26-13,25%	(crit: 34-40 22,52-26,49%)
+	Normal rolls: 17x5, 18x5, 19x5, 20x1
+	Crit rolls: 34x3, 35x2, 36x3, 37x2, 38x3, 39x2, 40x1
+	(4 crits death prob.: 14,7247%)
+	(2 non-crits + 3 crits death prob.: 10,9373%)
+	(guaranteed 9-shot)
+	(Overall 6-hit KO%: 0,7550%)
+	(Overall 7-hit KO%: 7,8748%)
+	(Overall 8-hit KO%: 41,4399%)
+
+AURORA BEAM	7-9 4,64-5,96%	(crit: 15-18 9,93-11,92%)
+	Normal rolls: 7x4, 8x11, 9x1
+	Crit rolls: 15x4, 16x6, 17x5, 18x1
+	(guaranteed 22-shot)
+
+WATER PULSE +RAIN	9-11 5,96-7,28%	(crit: 18-22 11,92-14,57%)
+	Normal rolls: 9x6, 10x9, 11x1
+	Crit rolls: 18x2, 19x4, 20x5, 21x4, 22x1
+	(guaranteed 17-shot)
+
+
+
+L45 KYOGRE [CALM] #DRIZZLE# vs L42 SEAKING [BASHFUL] #SWIFT_SWIM#          >>> EXP GIVEN: 1530
+KYOGRE (151/96/94/153/147/98) +[0/0/1/0/0|0/0]  <PERSIM BERRY> ~RAIN~ 
+ICE BEAM	50-59 38,76-45,74%	(crit: 100-118 77,52-91,47%)
+	Normal rolls: 50x2, 51x2, 52x1, 53x2, 54x2, 55x1, 56x2, 57x2, 58x1, 59x1
+	Crit rolls: 100x1, 101x1, 102x1, 103x1, 105x1, 106x1, 107x1, 108x1, 109x1, 110x1, 112x1, 113x1, 114x1, 115x1, 116x1, 118x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+HYDRO PUMP +RAIN	141-166 109,30-128,68%	(crit: 283-333 219,38-258,14%)
+	Normal rolls: 129x16
+	Crit rolls: 129x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	127-150 98,45-116,28%	(crit: 255-300 197,67-232,56%)
+	Normal rolls: 127x1, 129x15
+	Crit rolls: 129x16
+	(One shot prob.: 15/16 | 93,75%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 94,1406%)
+
+SURF +RAIN	112-132 86,82-102,33%	(crit: 224-264 173,64-204,65%)
+	Normal rolls: 112x1, 113x1, 114x1, 116x1, 117x1, 118x1, 120x1, 121x1, 122x1, 124x1, 125x1, 126x1, 128x1, 129x3
+	Crit rolls: 129x16
+	(One shot prob.: 3/16 | 18,75%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 23,8281%)
+
+WATERFALL +RAIN	94-111 72,87-86,05%	(crit: 189-223 146,51-172,87%)
+	Normal rolls: 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 101x1, 102x1, 103x1, 104x1, 105x1, 106x1, 107x1, 108x1, 109x1, 111x1
+	Crit rolls: 129x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM
+          NON-CRITS
+             50:  12,50%      51:  12,50%      52:   6,25%      53:  12,50%      54:  12,50%      55:   6,25%      56:  12,50%      57:  12,50%     
+             58:   6,25%      59:   0,00%     
+
+          CRITS
+            100:   6,25%     101:   6,25%     102:   6,25%     103:   6,25%     105:   6,25%     106:   6,25%     107:   6,25%     108:   6,25%     
+            109:   6,25%     110:   6,25%     112:   6,25%     113:   6,25%     114:   6,25%     115:   6,25%     116:   6,25%     118:   0,00%     
+
+HYDRO PUMP +RAIN
+          NON-CRITS
+            129: 100,00%     
+
+          CRITS
+            129: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+            127:   6,25%     
+
+            129:  93,75%     
+
+          CRITS
+            129: 100,00%     
+
+SURF +RAIN
+          NON-CRITS
+            112:   6,25%     113:   6,25%     114:   6,25%     116:   6,25%     117:   6,25%     118:   6,25%     120:   6,25%     121:   6,25%     
+            122:   6,25%     124:   6,25%     125:   6,25%     126:   6,25%     128:   6,25%     
+
+            129:  18,75%     
+
+          CRITS
+            129: 100,00%     
+
+WATERFALL +RAIN
+          NON-CRITS
+             94:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     101:   6,25%     102:   6,25%     
+            103:   6,25%     104:   6,25%     105:   6,25%     106:   6,25%     107:   6,25%     108:   6,25%     109:   6,25%     111:   0,00%     
+
+          CRITS
+            129: 100,00%     
+
+
+SEAKING (129/92/69/69/82/72) ~RAIN~ 
+WATER PULSE +RAIN	9-11 5,96-7,28%	(crit: 18-22 11,92-14,57%)
+	Normal rolls: 9x6, 10x9, 11x1
+	Crit rolls: 18x2, 19x4, 20x5, 21x4, 22x1
+	(guaranteed 17-shot)
+
+RAIN DANCE
+FURY ATTACK	5-6 3,31-3,97%	(crit: 10-12 6,62-7,95%)
+	Normal rolls: 5x15, 6x1
+	Crit rolls: 10x7, 11x8, 12x1
+	(guaranteed 31-shot)
+
+HORN DRILL
+
+
+L45 KYOGRE [CALM] #DRIZZLE# vs L43 MILOTIC [CALM] #MARVEL_SCALE#          >>> EXP GIVEN: 1962
+KYOGRE (151/96/94/153/147/98) +[0/0/1/0/0|0/0]  <PERSIM BERRY> ~RAIN~ 
+ICE BEAM	29-35 19,73-23,81%	(crit: 60-71 40,82-48,30%)
+	Normal rolls: 29x1, 30x3, 31x3, 32x3, 33x3, 34x2, 35x1
+	Crit rolls: 60x1, 61x2, 62x1, 63x2, 64x1, 65x1, 66x2, 67x1, 68x2, 69x1, 70x1, 71x1
+	(5 shot prob.: 99,9985%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 1,1230%)
+	(Overall 4-hit KO%: 22,7524%)
+	(Overall 5-hit KO%: 99,9989%)
+
+HYDRO PUMP +RAIN	85-100 57,82-68,03%	(crit: 170-201 115,65-136,73%)
+	Normal rolls: 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1
+	Crit rolls: 147x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+SHOCK WAVE	78-92 53,06-62,59%	(crit: 156-184 106,12-125,17%)
+	Normal rolls: 78x1, 79x1, 80x2, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1
+	Crit rolls: 147x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+SURF +RAIN	66-78 44,90-53,06%	(crit: 133-157 90,48-106,80%)
+	Normal rolls: 66x1, 67x2, 68x1, 69x1, 70x2, 71x1, 72x1, 73x1, 74x2, 75x1, 76x1, 77x1, 78x1
+	Crit rolls: 133x1, 135x1, 136x1, 138x1, 139x1, 141x1, 142x1, 144x1, 146x1, 147x7
+	(Crit one shot prob.: 7/16 | 43,75%)
+	(2 shot prob.: 28,1250%)
+	(guaranteed 3-shot)
+	(Overall 1-hit KO%: 2,7344%)
+	(Overall 2-hit KO%: 36,8286%)
+
+WATERFALL +RAIN	56-66 38,10-44,90%	(crit: 113-133 76,87-90,48%)
+	Normal rolls: 56x2, 57x1, 58x2, 59x1, 60x2, 61x1, 62x2, 63x1, 64x2, 65x1, 66x1
+	Crit rolls: 113x1, 114x1, 115x1, 117x1, 118x1, 119x1, 121x1, 122x1, 123x1, 125x1, 126x1, 127x1, 129x1, 130x1, 131x1, 133x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+
+ICE BEAM
+          NON-CRITS
+             29:   6,25%      30:  18,75%      31:  18,75%      32:  18,75%      33:  18,75%      34:  12,50%      35:   0,00%     
+
+          CRITS
+             60:   6,25%      61:  12,50%      62:   6,25%      63:  12,50%      64:   6,25%      65:   6,25%      66:  12,50%      67:   6,25%     
+             68:  12,50%      69:   6,25%      70:   6,25%      71:   0,00%     
+
+HYDRO PUMP +RAIN
+          NON-CRITS
+             85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%     
+             93:   6,25%      94:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     100:   0,00%     
+
+          CRITS
+            147: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             78:   6,25%      79:   6,25%      80:  12,50%      81:   6,25%      82:   6,25%      83:   6,25%      84:   6,25%      85:   6,25%     
+             86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   0,00%     
+
+          CRITS
+            147: 100,00%     
+
+SURF +RAIN
+          NON-CRITS
+             66:   6,25%      67:  12,50%      68:   6,25%      69:   6,25%      70:  12,50%      71:   6,25%      72:   6,25%      73:   6,25%     
+             74:  12,50%      75:   6,25%      76:   6,25%      77:   6,25%      78:   0,00%     
+
+          CRITS
+            133:   6,25%     135:   6,25%     136:   6,25%     138:   6,25%     139:   6,25%     141:   6,25%     142:   6,25%     144:   6,25%     
+            146:   6,25%     
+
+            147:  43,75%     
+
+WATERFALL +RAIN
+          NON-CRITS
+             56:  12,50%      57:   6,25%      58:  12,50%      59:   6,25%      60:  12,50%      61:   6,25%      62:  12,50%      63:   6,25%     
+             64:  12,50%      65:   6,25%      66:   0,00%     
+
+          CRITS
+            113:   6,25%     114:   6,25%     115:   6,25%     117:   6,25%     118:   6,25%     119:   6,25%     121:   6,25%     122:   6,25%     
+            123:   6,25%     125:   6,25%     126:   6,25%     127:   6,25%     129:   6,25%     130:   6,25%     131:   6,25%     133:   0,00%     
+
+
+MILOTIC (147/62/85/103/137/87) ~RAIN~ 
+WATER PULSE +RAIN	14-17 9,27-11,26%	(crit: 28-34 18,54-22,52%)
+	Normal rolls: 14x4, 15x6, 16x5, 17x1
+	Crit rolls: 28x1, 29x3, 30x3, 31x3, 32x3, 33x2, 34x1
+	(5 crits death prob.: 84,9694%)
+	(1 non-crit + 4 crits death prob.: 0,0092%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,5734%)
+	(Overall 8-hit KO%: 6,7766%)
+
+TWISTER	9-11 5,96-7,28%	(crit: 18-22 11,92-14,57%)
+	Normal rolls: 9x6, 10x9, 11x1
+	Crit rolls: 18x2, 19x4, 20x5, 21x4, 22x1
+	(guaranteed 17-shot)
+
+RECOVER
+ICE BEAM	10-12 6,62-7,95%	(crit: 21-25 13,91-16,56%)
+	Normal rolls: 10x7, 11x8, 12x1
+	Crit rolls: 21x3, 22x4, 23x4, 24x4, 25x1
+	(guaranteed 16-shot)
+
+
+
+(Speed DV required to outspeed: 5, to speedtie: 3)
+
+LVL: 45 EXP NEEDED: 812/7764
+
+COOLTRAINER HOPE  | REWARD: 2112
+[FULL RESTORE] {L44 ROSELIA [LAX] #NATURAL_CURE#}
+L45 KYOGRE [CALM] #DRIZZLE# vs L44 ROSELIA [LAX] #NATURAL_CURE#          >>> EXP GIVEN: 1432
+KYOGRE (151/96/94/153/147/98) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	153-180 148,54-174,76%	(crit: 306-360 297,09-349,51%)
+	Normal rolls: 103x16
+	Crit rolls: 103x16
+	(guaranteed 1-shot)
+
+HYDRO PUMP +ITEM +RAIN	117-138 113,59-133,98%	(crit: 235-277 228,16-268,93%)
+	Normal rolls: 103x16
+	Crit rolls: 103x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	24-29 23,30-28,16%	(crit: 49-58 47,57-56,31%)
+	Normal rolls: 24x2, 25x3, 26x4, 27x3, 28x3, 29x1
+	Crit rolls: 49x2, 50x1, 51x2, 52x2, 53x2, 54x1, 55x2, 56x2, 57x1, 58x1
+	(4 shot prob.: 82,4753%)
+	(2 crits death prob.: 82,4219%)
+	(2 non-crits + 1 crit death prob.: 82,1045%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,3220%)
+	(Overall 3-hit KO%: 14,6535%)
+	(Overall 4-hit KO%: 86,4626%)
+
+SURF +ITEM +RAIN	93-110 90,29-106,80%	(crit: 187-220 181,55-213,59%)
+	Normal rolls: 93x1, 94x1, 95x1, 96x1, 97x1, 99x1, 100x1, 101x1, 102x1, 103x7
+	Crit rolls: 103x16
+	(One shot prob.: 7/16 | 43,75%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 47,2656%)
+
+WATERFALL +ITEM +RAIN	78-92 75,73-89,32%	(crit: 156-184 151,46-178,64%)
+	Normal rolls: 78x1, 79x1, 80x2, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1
+	Crit rolls: 103x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM
+          NON-CRITS
+            103: 100,00%     
+
+          CRITS
+            103: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            103: 100,00%     
+
+          CRITS
+            103: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             24:  12,50%      25:  18,75%      26:  25,00%      27:  18,75%      28:  18,75%      29:   0,00%     
+
+          CRITS
+             49:  12,50%      50:   6,25%      51:  12,50%      52:  12,50%      53:  12,50%      54:   6,25%      55:  12,50%      56:  12,50%     
+             57:   6,25%      58:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+             93:   6,25%      94:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      99:   6,25%     100:   6,25%     101:   6,25%     
+            102:   6,25%     
+
+            103:  43,75%     
+
+          CRITS
+            103: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+             78:   6,25%      79:   6,25%      80:  12,50%      81:   6,25%      82:   6,25%      83:   6,25%      84:   6,25%      85:   6,25%     
+             86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   0,00%     
+
+          CRITS
+            103: 100,00%     
+
+
+ROSELIA (103/63/53/98/72/67) ~RAIN~ 
+GRASS WHISTLE
+GIGA DRAIN	37-44 24,50-29,14%	(crit: 76-90 50,33-59,60%)
+	Normal rolls: 37x2, 38x2, 39x2, 40x3, 41x2, 42x2, 43x2, 44x1
+	Crit rolls: 76x1, 77x1, 78x1, 79x1, 80x1, 81x2, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1
+	(4 shot prob.: 99,6338%)
+	(2 non-crits + 1 crit death prob.: 99,9023%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,5864%)
+	(Overall 4-hit KO%: 99,7171%)
+
+SWEET SCENT
+INGRAIN
+
+
+L46 KYOGRE [CALM] #DRIZZLE# EXP Needed: 7488/8108
+Stats WITHOUT badge boosts:
+       HP    ATK    DEF    SPA    SPD    SPE
+      154     98     96    157    150    100
+IV     14     27     19     31      7     27
+EV      4      2      0      1      2      1
+ICE BEAM, HYDRO PUMP, SHOCK WAVE, SURF, WATERFALL, 
+
+LVL: 46 EXP NEEDED: 7488/8108
+
+COOLTRAINER SHANNON  | REWARD: 2112
+[FULL RESTORE] {L44 CLAYDOL [HASTY] #LEVITATE#}
+L46 KYOGRE [CALM] #DRIZZLE# vs L44 CLAYDOL [HASTY] #LEVITATE#          >>> EXP GIVEN: 1782
+KYOGRE (154/98/96/157/150/100) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	98-116 87,50-103,57%	(crit: 197-232 175,89-207,14%)
+	Normal rolls: 98x1, 99x1, 100x1, 102x1, 103x1, 104x1, 105x1, 106x1, 107x1, 109x1, 110x1, 111x1, 112x4
+	Crit rolls: 112x16
+	(One shot prob.: 4/16 | 25,00%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 29,6875%)
+
+HYDRO PUMP +ITEM +RAIN	302-356 269,64-317,86%	(crit: 606-714 541,07-637,50%)
+	Normal rolls: 112x16
+	Crit rolls: 112x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE
+SURF +ITEM +RAIN	241-284 215,18-253,57%	(crit: 484-570 432,14-508,93%)
+	Normal rolls: 112x16
+	Crit rolls: 112x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	204-240 182,14-214,29%	(crit: 408-480 364,29-428,57%)
+	Normal rolls: 112x16
+	Crit rolls: 112x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+             98:   6,25%      99:   6,25%     100:   6,25%     102:   6,25%     103:   6,25%     104:   6,25%     105:   6,25%     106:   6,25%     
+            107:   6,25%     109:   6,25%     110:   6,25%     111:   6,25%     
+
+            112:  25,00%     
+
+          CRITS
+            112: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            112: 100,00%     
+
+          CRITS
+            112: 100,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            112: 100,00%     
+
+          CRITS
+            112: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            112: 100,00%     
+
+          CRITS
+            112: 100,00%     
+
+
+CLAYDOL (112/71/91/71/115/83) ~RAIN~ 
+ANCIENT POWER	14-17 9,09-11,04%	(crit: 28-34 18,18-22,08%)
+	Normal rolls: 14x4, 15x6, 16x5, 17x1
+	Crit rolls: 28x1, 29x3, 30x3, 31x3, 32x3, 33x2, 34x1
+	(5 crits death prob.: 58,8292%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,3638%)
+	(Overall 8-hit KO%: 4,1964%)
+
+SANDSTORM
+HYPER BEAM	34-40 22,08-25,97%	(crit: 68-80 44,16-51,95%)
+	Normal rolls: 34x3, 35x2, 36x3, 37x2, 38x3, 39x2, 40x1
+	Crit rolls: 68x2, 69x1, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1, 76x2, 77x1, 78x1, 79x1, 80x1
+	(4 shot prob.: 3,0563%)
+	(2 crits death prob.: 13,2813%)
+	(2 non-crits + 1 crit death prob.: 7,8369%)
+	(guaranteed 5-shot)
+	(Overall 3-hit KO%: 2,4145%)
+	(Overall 4-hit KO%: 25,1133%)
+
+COSMIC POWER
+
+
+LVL: 46 EXP NEEDED: 5706/8108
+
+COOLTRAINER JULIE  | REWARD: 2064
+[FULL RESTORE] {L43 SANDSLASH [BASHFUL] #SAND_VEIL#, L43 NINETALES [ADAMANT] #FLASH_FIRE#}
+L46 KYOGRE [CALM] #DRIZZLE# vs L43 SANDSLASH [BASHFUL] #SAND_VEIL#          >>> EXP GIVEN: 1501
+KYOGRE (154/98/96/157/150/100) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	197-232 161,48-190,16%	(crit: 394-464 322,95-380,33%)
+	Normal rolls: 122x16
+	Crit rolls: 122x16
+	(guaranteed 1-shot)
+
+HYDRO PUMP +ITEM +RAIN	612-720 501,64-590,16%	(crit: 1224-1440 1003,28-1180,33%)
+	Normal rolls: 122x16
+	Crit rolls: 122x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE
+SURF +ITEM +RAIN	486-572 398,36-468,85%	(crit: 974-1146 798,36-939,34%)
+	Normal rolls: 122x16
+	Crit rolls: 122x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	409-482 335,25-395,08%	(crit: 821-966 672,95-791,80%)
+	Normal rolls: 122x16
+	Crit rolls: 122x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+            122: 100,00%     
+
+          CRITS
+            122: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            122: 100,00%     
+
+          CRITS
+            122: 100,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            122: 100,00%     
+
+          CRITS
+            122: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            122: 100,00%     
+
+          CRITS
+            122: 100,00%     
+
+
+SANDSLASH (122/96/104/48/57/66) ~RAIN~ 
+POISON STING	5-7 3,25-4,55%	(crit: 11-14 7,14-9,09%)
+	Normal rolls: 5x1, 6x14, 7x1
+	Crit rolls: 11x1, 12x7, 13x7, 14x1
+	(guaranteed 31-shot)
+
+SLASH	22-26 14,29-16,88%	(crit: 44-52 28,57-33,77%)
+	Normal rolls: 22x4, 23x4, 24x4, 25x3, 26x1
+	Crit rolls: 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x2, 51x1, 52x1
+	(3 crits death prob.: 0,3174%)
+	(2 non-crits + 2 crits death prob.: 0,0656%)
+	(4 non-crits + 1 crit death prob.: 0,0093%)
+	(guaranteed 7-shot)
+	(Overall 4-hit KO%: 5,0920%)
+	(Overall 5-hit KO%: 36,7224%)
+	(Overall 6-hit KO%: 82,2023%)
+
+SWIFT	18-22 11,69-14,29%	(crit: 37-44 24,03-28,57%)
+	Normal rolls: 18x2, 19x4, 20x5, 21x4, 22x1
+	Crit rolls: 37x2, 38x2, 39x2, 40x3, 41x2, 42x2, 43x2, 44x1
+	(4 crits death prob.: 96,4355%)
+	(1 non-crit + 3 crits death prob.: 0,0015%)
+	(2 non-crits + 3 crits death prob.: 96,2669%)
+	(3 non-crits + 2 crits death prob.: 0,0001%)
+	(guaranteed 9-shot)
+	(Overall 5-hit KO%: 0,2138%)
+	(Overall 6-hit KO%: 4,7749%)
+	(Overall 7-hit KO%: 35,1835%)
+	(Overall 8-hit KO%: 97,6322%)
+
+FURY SWIPES	6-8 3,90-5,19%	(crit: 13-16 8,44-10,39%)
+	Normal rolls: 6x3, 7x12, 8x1
+	Crit rolls: 13x3, 14x6, 15x6, 16x1
+	(guaranteed 26-shot)
+
+
+
+L46 KYOGRE [CALM] #DRIZZLE# vs L43 NINETALES [ADAMANT] #FLASH_FIRE#          >>> EXP GIVEN: 1639
+KYOGRE (154/98/96/157/150/100) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	29-35 24,17-29,17%	(crit: 59-70 49,17-58,33%)
+	Normal rolls: 29x1, 30x3, 31x3, 32x3, 33x3, 34x2, 35x1
+	Crit rolls: 59x1, 60x2, 61x1, 62x1, 63x2, 64x1, 65x2, 66x1, 67x2, 68x1, 69x1, 70x1
+	(4 shot prob.: 99,5316%)
+	(2 crits death prob.: 98,0469%)
+	(2 non-crits + 1 crit death prob.: 99,0967%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,3830%)
+	(Overall 3-hit KO%: 17,4537%)
+	(Overall 4-hit KO%: 99,6381%)
+
+HYDRO PUMP +ITEM +RAIN	363-428 302,50-356,67%	(crit: 729-858 607,50-715,00%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	38-45 31,67-37,50%	(crit: 76-90 63,33-75,00%)
+	Normal rolls: 38x2, 39x2, 40x3, 41x2, 42x2, 43x2, 44x2, 45x1
+	Crit rolls: 76x1, 77x1, 78x1, 79x1, 80x1, 81x2, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1
+	(3 shot prob.: 85,8398%)
+	(1 non-crit + 1 crit death prob.: 81,2500%)
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 9,9121%)
+	(Overall 3-hit KO%: 88,3324%)
+
+SURF +ITEM +RAIN	287-338 239,17-281,67%	(crit: 576-678 480,00-565,00%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	244-288 203,33-240,00%	(crit: 489-576 407,50-480,00%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+             29:   6,25%      30:  18,75%      31:  18,75%      32:  18,75%      33:  18,75%      34:  12,50%      35:   0,00%     
+
+          CRITS
+             59:   6,25%      60:  12,50%      61:   6,25%      62:   6,25%      63:  12,50%      64:   6,25%      65:  12,50%      66:   6,25%     
+             67:  12,50%      68:   6,25%      69:   6,25%      70:   0,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            120: 100,00%     
+
+          CRITS
+            120: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             38:  12,50%      39:  12,50%      40:  18,75%      41:  12,50%      42:  12,50%      43:  12,50%      44:  12,50%      45:   0,00%     
+
+          CRITS
+             76:   6,25%      77:   6,25%      78:   6,25%      79:   6,25%      80:   6,25%      81:  12,50%      82:   6,25%      83:   6,25%     
+             84:   6,25%      85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            120: 100,00%     
+
+          CRITS
+            120: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            120: 100,00%     
+
+          CRITS
+            120: 100,00%     
+
+
+NINETALES (120/82/74/71/96/96) ~RAIN~ 
+EMBER -RAIN	2-3 1,30-1,95%	(crit: 5-7 3,25-4,55%)
+	Normal rolls: 2x15, 3x1
+	Crit rolls: 5x1, 6x14, 7x1
+	(guaranteed 77-shot)
+
+QUICK ATTACK	11-13 7,14-8,44%	(crit: 22-26 14,29-16,88%)
+	Normal rolls: 11x8, 12x7, 13x1
+	Crit rolls: 22x4, 23x4, 24x4, 25x3, 26x1
+	(guaranteed 14-shot)
+
+CONFUSE RAY
+SAFEGUARD
+
+
+(Speed DV required to outspeed: 20, to speedtie: 18)
+
+LVL: 46 EXP NEEDED: 2566/8108
+
+COOLTRAINER EDGAR  | REWARD: 2112
+[FULL RESTORE] {L44 CACTURNE [NAIVE] #SAND_VEIL#}
+L46 KYOGRE [CALM] #DRIZZLE# vs L44 CACTURNE [NAIVE] #SAND_VEIL#          >>> EXP GIVEN: 1668
+KYOGRE (154/98/96/157/150/100) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	200-236 166,67-196,67%	(crit: 401-472 334,17-393,33%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+HYDRO PUMP +ITEM +RAIN	155-183 129,17-152,50%	(crit: 311-367 259,17-305,83%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	31-37 25,83-30,83%	(crit: 63-75 52,50-62,50%)
+	Normal rolls: 31x2, 32x3, 33x2, 34x3, 35x3, 36x2, 37x1
+	Crit rolls: 63x1, 64x1, 65x1, 66x2, 67x1, 68x1, 69x2, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,6025%)
+
+SURF +ITEM +RAIN	123-145 102,50-120,83%	(crit: 247-291 205,83-242,50%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	104-123 86,67-102,50%	(crit: 209-246 174,17-205,00%)
+	Normal rolls: 104x1, 105x1, 107x1, 108x1, 109x1, 110x1, 111x1, 113x1, 114x1, 115x1, 116x1, 118x1, 119x1, 120x3
+	Crit rolls: 120x16
+	(One shot prob.: 3/16 | 18,75%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 23,8281%)
+
+
+ICE BEAM
+          NON-CRITS
+            120: 100,00%     
+
+          CRITS
+            120: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            120: 100,00%     
+
+          CRITS
+            120: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             31:  12,50%      32:  18,75%      33:  12,50%      34:  18,75%      35:  18,75%      36:  12,50%      37:   0,00%     
+
+          CRITS
+             63:   6,25%      64:   6,25%      65:   6,25%      66:  12,50%      67:   6,25%      68:   6,25%      69:  12,50%      70:   6,25%     
+             71:   6,25%      72:  12,50%      73:   6,25%      74:   6,25%      75:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            120: 100,00%     
+
+          CRITS
+            120: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            104:   6,25%     105:   6,25%     107:   6,25%     108:   6,25%     109:   6,25%     110:   6,25%     111:   6,25%     113:   6,25%     
+            114:   6,25%     115:   6,25%     116:   6,25%     118:   6,25%     119:   6,25%     
+
+            120:  18,75%     
+
+          CRITS
+            120: 100,00%     
+
+
+CACTURNE (120/111/63/111/56/63) ~RAIN~ 
+INGRAIN
+FAINT ATTACK	21-25 13,64-16,23%	(crit: 43-51 27,92-33,12%)
+	Normal rolls: 21x3, 22x4, 23x4, 24x4, 25x1
+	Crit rolls: 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x1, 51x1
+	(1 non-crit + 3 crits death prob.: 98,5352%)
+	(3 non-crits + 2 crits death prob.: 98,0820%)
+	(guaranteed 8-shot)
+	(Overall 5-hit KO%: 3,3787%)
+	(Overall 6-hit KO%: 31,4200%)
+	(Overall 7-hit KO%: 97,8703%)
+
+SPIKES
+NEEDLE ARM	42-50 27,27-32,47%	(crit: 86-102 55,84-66,23%)
+	Normal rolls: 42x1, 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x1
+	Crit rolls: 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1, 102x1
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,6025%)
+
+
+
+LVL: 46 EXP NEEDED: 898/8108
+
+{PKMN} TRAINER WALLY  | REWARD: 2700
+[SUPER POTION, SUPER POTION] {L44 ALTARIA [JOLLY] #NATURAL_CURE#, L41 MAGNETON [IMPISH] #MAGNET_PULL#, L44 ROSELIA [ADAMANT] #NATURAL_CURE#, L43 DELCATTY [QUIRKY] #CUTE_CHARM#, L45 GARDEVOIR [NAIVE] #SYNCHRONIZE#}
+L46 KYOGRE [CALM] #DRIZZLE# vs L44 ALTARIA [JOLLY] #NATURAL_CURE#          >>> EXP GIVEN: 1771
+KYOGRE (154/98/96/157/150/100) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	217-256 170,87-201,57%	(crit: 435-512 342,52-403,15%)
+	Normal rolls: 127x16
+	Crit rolls: 127x16
+	(guaranteed 1-shot)
+
+HYDRO PUMP +ITEM +RAIN	83-98 65,35-77,17%	(crit: 166-196 130,71-154,33%)
+	Normal rolls: 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1
+	Crit rolls: 127x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+SHOCK WAVE	34-40 26,77-31,50%	(crit: 69-82 54,33-64,57%)
+	Normal rolls: 34x3, 35x2, 36x3, 37x2, 38x3, 39x2, 40x1
+	Crit rolls: 69x1, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1, 76x1, 77x2, 78x1, 79x1, 80x1, 81x1, 82x1
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,6025%)
+
+SURF +ITEM +RAIN	66-78 51,97-61,42%	(crit: 132-156 103,94-122,83%)
+	Normal rolls: 66x1, 67x2, 68x1, 69x1, 70x2, 71x1, 72x1, 73x1, 74x2, 75x1, 76x1, 77x1, 78x1
+	Crit rolls: 127x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+WATERFALL +ITEM +RAIN	55-65 43,31-51,18%	(crit: 110-130 86,61-102,36%)
+	Normal rolls: 55x2, 56x1, 57x2, 58x1, 59x2, 60x1, 61x2, 62x1, 63x2, 64x1, 65x1
+	Crit rolls: 110x1, 111x1, 113x1, 114x1, 115x1, 117x1, 118x1, 119x1, 120x1, 122x1, 123x1, 124x1, 126x1, 127x3
+	(Crit one shot prob.: 3/16 | 18,75%)
+	(2 shot prob.: 5,4688%)
+	(guaranteed 3-shot)
+	(Overall 1-hit KO%: 1,1719%)
+	(Overall 2-hit KO%: 16,9159%)
+
+
+ICE BEAM
+          NON-CRITS
+            127: 100,00%     
+
+          CRITS
+            127: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+             83:   6,25%      84:   6,25%      85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%     
+             91:   6,25%      92:   6,25%      93:   6,25%      94:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   0,00%     
+
+          CRITS
+            127: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             34:  18,75%      35:  12,50%      36:  18,75%      37:  12,50%      38:  18,75%      39:  12,50%      40:   0,00%     
+
+          CRITS
+             69:   6,25%      70:   6,25%      71:   6,25%      72:  12,50%      73:   6,25%      74:   6,25%      75:   6,25%      76:   6,25%     
+             77:  12,50%      78:   6,25%      79:   6,25%      80:   6,25%      81:   6,25%      82:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+             66:   6,25%      67:  12,50%      68:   6,25%      69:   6,25%      70:  12,50%      71:   6,25%      72:   6,25%      73:   6,25%     
+             74:  12,50%      75:   6,25%      76:   6,25%      77:   6,25%      78:   0,00%     
+
+          CRITS
+            127: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+             55:  12,50%      56:   6,25%      57:  12,50%      58:   6,25%      59:  12,50%      60:   6,25%      61:  12,50%      62:   6,25%     
+             63:  12,50%      64:   6,25%      65:   0,00%     
+
+          CRITS
+            110:   6,25%     111:   6,25%     113:   6,25%     114:   6,25%     115:   6,25%     117:   6,25%     118:   6,25%     119:   6,25%     
+            120:   6,25%     122:   6,25%     123:   6,25%     124:   6,25%     126:   6,25%     
+
+            127:  18,75%     
+
+
+ALTARIA (127/74/92/66/105/91) ~RAIN~ 
+AERIAL ACE	22-27 14,29-17,53%	(crit: 45-54 29,22-35,06%)
+	Normal rolls: 22x1, 23x3, 24x4, 25x4, 26x3, 27x1
+	Crit rolls: 45x1, 46x2, 47x1, 48x2, 49x2, 50x2, 51x2, 52x2, 53x1, 54x1
+	(3 crits death prob.: 12,7686%)
+	(2 non-crits + 2 crits death prob.: 8,7357%)
+	(4 non-crits + 1 crit death prob.: 4,9184%)
+	(guaranteed 7-shot)
+	(Overall 4-hit KO%: 0,2730%)
+	(Overall 5-hit KO%: 4,6278%)
+	(Overall 6-hit KO%: 33,5554%)
+
+SAFEGUARD
+DRAGON BREATH	13-16 8,44-10,39%	(crit: 28-33 18,18-21,43%)
+	Normal rolls: 13x3, 14x6, 15x6, 16x1
+	Crit rolls: 28x3, 29x3, 30x3, 31x3, 32x3, 33x1
+	(5 crits death prob.: 23,3652%)
+	(guaranteed 12-shot)
+	(Overall 8-hit KO%: 1,1254%)
+
+DRAGON DANCE
+
+
+(Speed DV required to outspeed: 10, to speedtie: 7)
+
+L47 KYOGRE [CALM] #DRIZZLE# EXP Needed: 7589/8462
+Stats WITHOUT badge boosts:
+       HP    ATK    DEF    SPA    SPD    SPE
+      158     99     98    160    154    102
+IV     14     27     19     31      7     27
+EV      4      3      2      2      7      2
+ICE BEAM, HYDRO PUMP, SHOCK WAVE, SURF, WATERFALL, 
+
+L47 KYOGRE [CALM] #DRIZZLE# vs L41 MAGNETON [IMPISH] #MAGNET_PULL#          >>> EXP GIVEN: 1414
+KYOGRE (158/99/98/160/154/102) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	41-49 41,41-49,49%	(crit: 83-98 83,84-98,99%)
+	Normal rolls: 41x1, 42x2, 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x1
+	Crit rolls: 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+HYDRO PUMP +ITEM +RAIN	258-304 260,61-307,07%	(crit: 517-609 522,22-615,15%)
+	Normal rolls: 99x16
+	Crit rolls: 99x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	26-31 26,26-31,31%	(crit: 53-63 53,54-63,64%)
+	Normal rolls: 26x3, 27x3, 28x3, 29x3, 30x3, 31x1
+	Crit rolls: 53x1, 54x2, 55x1, 56x2, 57x2, 58x1, 59x2, 60x1, 61x2, 62x1, 63x1
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,6025%)
+
+SURF +ITEM +RAIN	204-241 206,06-243,43%	(crit: 410-483 414,14-487,88%)
+	Normal rolls: 99x16
+	Crit rolls: 99x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	171-202 172,73-204,04%	(crit: 344-405 347,47-409,09%)
+	Normal rolls: 99x16
+	Crit rolls: 99x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+             41:   6,25%      42:  12,50%      43:  12,50%      44:  12,50%      45:  12,50%      46:  12,50%      47:  12,50%      48:  12,50%     
+             49:   0,00%     
+
+          CRITS
+             83:   6,25%      84:   6,25%      85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%     
+             91:   6,25%      92:   6,25%      93:   6,25%      94:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   0,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+             99: 100,00%     
+
+          CRITS
+             99: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             26:  18,75%      27:  18,75%      28:  18,75%      29:  18,75%      30:  18,75%      31:   0,00%     
+
+          CRITS
+             53:   6,25%      54:  12,50%      55:   6,25%      56:  12,50%      57:  12,50%      58:   6,25%      59:  12,50%      60:   6,25%     
+             61:  12,50%      62:   6,25%      63:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+             99: 100,00%     
+
+          CRITS
+             99: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+             99: 100,00%     
+
+          CRITS
+             99: 100,00%     
+
+
+MAGNETON (99/61/99/99/69/69) ~RAIN~ 
+SUPERSONIC
+THUNDERBOLT	56-66 35,44-41,77%	(crit: 112-132 70,89-83,54%)
+	Normal rolls: 56x2, 57x1, 58x2, 59x1, 60x2, 61x1, 62x2, 63x1, 64x2, 65x1, 66x1
+	Crit rolls: 112x1, 113x1, 114x1, 116x1, 117x1, 118x1, 120x1, 121x1, 122x1, 124x1, 125x1, 126x1, 128x1, 129x1, 130x1, 132x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+TRI ATTACK	15-18 9,49-11,39%	(crit: 30-36 18,99-22,78%)
+	Normal rolls: 15x4, 16x6, 17x5, 18x1
+	Crit rolls: 30x2, 31x2, 32x3, 33x3, 34x3, 35x2, 36x1
+	(5 crits death prob.: 95,4391%)
+	(1 non-crit + 4 crits death prob.: 0,1497%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,6725%)
+	(Overall 8-hit KO%: 8,1044%)
+
+SCREECH
+
+
+L47 KYOGRE [CALM] #DRIZZLE# vs L44 ROSELIA [ADAMANT] #NATURAL_CURE#          >>> EXP GIVEN: 1432
+KYOGRE (158/99/98/160/154/102) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	139-164 132,38-156,19%	(crit: 278-328 264,76-312,38%)
+	Normal rolls: 105x16
+	Crit rolls: 105x16
+	(guaranteed 1-shot)
+
+HYDRO PUMP +ITEM +RAIN	107-126 101,90-120,00%	(crit: 214-252 203,81-240,00%)
+	Normal rolls: 105x16
+	Crit rolls: 105x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	22-26 20,95-24,76%	(crit: 44-52 41,90-49,52%)
+	Normal rolls: 22x4, 23x4, 24x4, 25x3, 26x1
+	Crit rolls: 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x2, 51x1, 52x1
+	(guaranteed 5-shot)
+	(Overall 3-hit KO%: 1,1230%)
+	(Overall 4-hit KO%: 22,7524%)
+
+SURF +ITEM +RAIN	85-100 80,95-95,24%	(crit: 170-201 161,90-191,43%)
+	Normal rolls: 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1
+	Crit rolls: 105x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+WATERFALL +ITEM +RAIN	71-84 67,62-80,00%	(crit: 143-169 136,19-160,95%)
+	Normal rolls: 71x1, 72x1, 73x2, 74x1, 75x1, 76x1, 77x1, 78x2, 79x1, 80x1, 81x1, 82x1, 83x1, 84x1
+	Crit rolls: 105x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM
+          NON-CRITS
+            105: 100,00%     
+
+          CRITS
+            105: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            105: 100,00%     
+
+          CRITS
+            105: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             22:  25,00%      23:  25,00%      24:  25,00%      25:  18,75%      26:   0,00%     
+
+          CRITS
+             44:  12,50%      45:  12,50%      46:  12,50%      47:  12,50%      48:  12,50%      49:  12,50%      50:  12,50%      51:   6,25%     
+             52:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+             85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%     
+             93:   6,25%      94:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     100:   0,00%     
+
+          CRITS
+            105: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+             71:   6,25%      72:   6,25%      73:  12,50%      74:   6,25%      75:   6,25%      76:   6,25%      77:   6,25%      78:  12,50%     
+             79:   6,25%      80:   6,25%      81:   6,25%      82:   6,25%      83:   6,25%      84:   0,00%     
+
+          CRITS
+            105: 100,00%     
+
+
+ROSELIA (105/71/52/90/83/70) ~RAIN~ 
+MAGICAL LEAF	35-42 22,15-26,58%	(crit: 71-84 44,94-53,16%)
+	Normal rolls: 35x1, 36x3, 37x2, 38x2, 39x3, 40x2, 41x2, 42x1
+	Crit rolls: 71x1, 72x1, 73x2, 74x1, 75x1, 76x1, 77x1, 78x2, 79x1, 80x1, 81x1, 82x1, 83x1, 84x1
+	(4 shot prob.: 16,7343%)
+	(2 crits death prob.: 29,6875%)
+	(2 non-crits + 1 crit death prob.: 25,2686%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,1160%)
+	(Overall 3-hit KO%: 5,2872%)
+	(Overall 4-hit KO%: 35,6792%)
+
+LEECH SEED
+GIGA DRAIN	35-42 22,15-26,58%	(crit: 71-84 44,94-53,16%)
+	Normal rolls: 35x1, 36x3, 37x2, 38x2, 39x3, 40x2, 41x2, 42x1
+	Crit rolls: 71x1, 72x1, 73x2, 74x1, 75x1, 76x1, 77x1, 78x2, 79x1, 80x1, 81x1, 82x1, 83x1, 84x1
+	(4 shot prob.: 16,7343%)
+	(2 crits death prob.: 29,6875%)
+	(2 non-crits + 1 crit death prob.: 25,2686%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,1160%)
+	(Overall 3-hit KO%: 5,2872%)
+	(Overall 4-hit KO%: 35,6792%)
+
+TOXIC
+
+
+L47 KYOGRE [CALM] #DRIZZLE# vs L43 DELCATTY [QUIRKY] #CUTE_CHARM#          >>> EXP GIVEN: 1270
+KYOGRE (158/99/98/160/154/102) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	96-113 80,00-94,17%	(crit: 192-226 160,00-188,33%)
+	Normal rolls: 96x1, 97x1, 98x1, 99x1, 100x1, 101x1, 102x1, 103x1, 105x1, 106x1, 107x1, 108x1, 109x1, 110x1, 111x1, 113x1
+	Crit rolls: 120x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+HYDRO PUMP +ITEM +RAIN	296-349 246,67-290,83%	(crit: 594-699 495,00-582,50%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	61-72 50,83-60,00%	(crit: 122-144 101,67-120,00%)
+	Normal rolls: 61x2, 62x1, 63x1, 64x2, 65x1, 66x2, 67x1, 68x1, 69x2, 70x1, 71x1, 72x1
+	Crit rolls: 120x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+SURF +ITEM +RAIN	235-277 195,83-230,83%	(crit: 471-555 392,50-462,50%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	197-232 164,17-193,33%	(crit: 395-465 329,17-387,50%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+             96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     100:   6,25%     101:   6,25%     102:   6,25%     103:   6,25%     
+            105:   6,25%     106:   6,25%     107:   6,25%     108:   6,25%     109:   6,25%     110:   6,25%     111:   6,25%     113:   0,00%     
+
+          CRITS
+            120: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            120: 100,00%     
+
+          CRITS
+            120: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             61:  12,50%      62:   6,25%      63:   6,25%      64:  12,50%      65:   6,25%      66:  12,50%      67:   6,25%      68:   6,25%     
+             69:  12,50%      70:   6,25%      71:   6,25%      72:   0,00%     
+
+          CRITS
+            120: 100,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            120: 100,00%     
+
+          CRITS
+            120: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            120: 100,00%     
+
+          CRITS
+            120: 100,00%     
+
+
+DELCATTY (120/68/68/60/60/72) ~RAIN~ 
+SING
+ASSIST
+CHARM
+FAINT ATTACK	8-10 5,06-6,33%	(crit: 17-20 10,76-12,66%)
+	Normal rolls: 8x5, 9x10, 10x1
+	Crit rolls: 17x5, 18x5, 19x5, 20x1
+	(guaranteed 20-shot)
+
+
+
+L47 KYOGRE [CALM] #DRIZZLE# vs L45 GARDEVOIR [NAIVE] #SYNCHRONIZE#          >>> EXP GIVEN: 2005
+KYOGRE (158/99/98/160/154/102) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	53-63 41,09-48,84%	(crit: 107-126 82,95-97,67%)
+	Normal rolls: 53x1, 54x2, 55x1, 56x2, 57x2, 58x1, 59x2, 60x1, 61x2, 62x1, 63x1
+	Crit rolls: 107x1, 108x1, 109x1, 110x1, 112x1, 113x1, 114x1, 115x1, 117x1, 118x1, 119x1, 120x1, 122x1, 123x1, 124x1, 126x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+HYDRO PUMP +ITEM +RAIN	163-192 126,36-148,84%	(crit: 326-384 252,71-297,67%)
+	Normal rolls: 129x16
+	Crit rolls: 129x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	34-40 26,36-31,01%	(crit: 68-80 52,71-62,02%)
+	Normal rolls: 34x3, 35x2, 36x3, 37x2, 38x3, 39x2, 40x1
+	Crit rolls: 68x2, 69x1, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1, 76x2, 77x1, 78x1, 79x1, 80x1
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,6025%)
+
+SURF +ITEM +RAIN	130-153 100,78-118,60%	(crit: 260-306 201,55-237,21%)
+	Normal rolls: 129x16
+	Crit rolls: 129x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	109-129 84,50-100,00%	(crit: 219-258 169,77-200,00%)
+	Normal rolls: 109x1, 110x1, 112x1, 113x1, 114x1, 116x1, 117x1, 118x1, 119x1, 121x1, 122x1, 123x1, 125x1, 126x1, 127x1, 129x1
+	Crit rolls: 129x16
+	(One shot prob.: 1/16 | 6,25%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 12,1094%)
+
+
+ICE BEAM
+          NON-CRITS
+             53:   6,25%      54:  12,50%      55:   6,25%      56:  12,50%      57:  12,50%      58:   6,25%      59:  12,50%      60:   6,25%     
+             61:  12,50%      62:   6,25%      63:   0,00%     
+
+          CRITS
+            107:   6,25%     108:   6,25%     109:   6,25%     110:   6,25%     112:   6,25%     113:   6,25%     114:   6,25%     115:   6,25%     
+            117:   6,25%     118:   6,25%     119:   6,25%     120:   6,25%     122:   6,25%     123:   6,25%     124:   6,25%     126:   0,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            129: 100,00%     
+
+          CRITS
+            129: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             34:  18,75%      35:  12,50%      36:  18,75%      37:  12,50%      38:  18,75%      39:  12,50%      40:   0,00%     
+
+          CRITS
+             68:  12,50%      69:   6,25%      70:   6,25%      71:   6,25%      72:  12,50%      73:   6,25%      74:   6,25%      75:   6,25%     
+             76:  12,50%      77:   6,25%      78:   6,25%      79:   6,25%      80:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            129: 100,00%     
+
+          CRITS
+            129: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            109:   6,25%     110:   6,25%     112:   6,25%     113:   6,25%     114:   6,25%     116:   6,25%     117:   6,25%     118:   6,25%     
+            119:   6,25%     121:   6,25%     122:   6,25%     123:   6,25%     125:   6,25%     126:   6,25%     127:   6,25%     
+
+            129:   6,25%     
+
+          CRITS
+            129: 100,00%     
+
+
+GARDEVOIR (129/77/77/131/109/99) ~RAIN~ 
+DOUBLE TEAM
+CALM MIND
+PSYCHIC	36-43 22,78-27,22%	(crit: 73-87 46,20-55,06%)
+	Normal rolls: 36x2, 37x2, 38x2, 39x3, 40x2, 41x2, 42x2, 43x1
+	Crit rolls: 73x1, 74x1, 75x1, 76x1, 77x1, 78x1, 79x1, 80x2, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1
+	(4 shot prob.: 45,1889%)
+	(2 crits death prob.: 65,6250%)
+	(2 non-crits + 1 crit death prob.: 57,0068%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,2563%)
+	(Overall 3-hit KO%: 10,5175%)
+	(Overall 4-hit KO%: 57,6597%)
+
+FUTURE SIGHT	26 16,46%
+	Normal rolls: 26x1
+	(guaranteed 7-shot)
+
+
+
+(Speed DV required to outspeed: 23, to speedtie: 20)
+
+LVL: 47 EXP NEEDED: 1468/8462
+
+ELITE FOUR SIDNEY  | REWARD: 4900
+[FULL RESTORE, FULL RESTORE] {L46 MIGHTYENA [RASH] #INTIMIDATE#, L46 CACTURNE [ADAMANT] #SAND_VEIL#, L48 SHARPEDO [QUIRKY] #ROUGH_SKIN#, L49 ABSOL [HARDY] #PRESSURE#, L48 SHIFTRY [JOLLY] #CHLOROPHYLL#}
+L47 KYOGRE [CALM] #DRIZZLE# vs L46 MIGHTYENA [RASH] #INTIMIDATE#          >>> EXP GIVEN: 1261
+KYOGRE (158/99/98/160/154/102) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	87-103 64,93-76,87%	(crit: 175-206 130,60-153,73%)
+	Normal rolls: 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1, 101x1, 103x1
+	Crit rolls: 134x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+HYDRO PUMP +ITEM +RAIN	270-318 201,49-237,31%	(crit: 540-636 402,99-474,63%)
+	Normal rolls: 134x16
+	Crit rolls: 134x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	56-66 41,79-49,25%	(crit: 112-132 83,58-98,51%)
+	Normal rolls: 56x2, 57x1, 58x2, 59x1, 60x2, 61x1, 62x2, 63x1, 64x2, 65x1, 66x1
+	Crit rolls: 112x1, 113x1, 114x1, 116x1, 117x1, 118x1, 120x1, 121x1, 122x1, 124x1, 125x1, 126x1, 128x1, 129x1, 130x1, 132x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+SURF +ITEM +RAIN	214-252 159,70-188,06%	(crit: 428-504 319,40-376,12%)
+	Normal rolls: 134x16
+	Crit rolls: 134x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	179-211 133,58-157,46%	(crit: 359-423 267,91-315,67%)
+	Normal rolls: 134x16
+	Crit rolls: 134x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+             87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%      93:   6,25%      94:   6,25%     
+             95:   6,25%      96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     100:   6,25%     101:   6,25%     103:   0,00%     
+
+          CRITS
+            134: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            134: 100,00%     
+
+          CRITS
+            134: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             56:  12,50%      57:   6,25%      58:  12,50%      59:   6,25%      60:  12,50%      61:   6,25%      62:  12,50%      63:   6,25%     
+             64:  12,50%      65:   6,25%      66:   0,00%     
+
+          CRITS
+            112:   6,25%     113:   6,25%     114:   6,25%     116:   6,25%     117:   6,25%     118:   6,25%     120:   6,25%     121:   6,25%     
+            122:   6,25%     124:   6,25%     125:   6,25%     126:   6,25%     128:   6,25%     129:   6,25%     130:   6,25%     132:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            134: 100,00%     
+
+          CRITS
+            134: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            134: 100,00%     
+
+          CRITS
+            134: 100,00%     
+
+
+MIGHTYENA (134/101/83/81/66/83) ~RAIN~ 
+ROAR
+TAKE DOWN	29-35 18,35-22,15%	(crit: 59-70 37,34-44,30%)
+	Normal rolls: 29x1, 30x3, 31x3, 32x3, 33x3, 34x2, 35x1
+	Crit rolls: 59x1, 60x2, 61x1, 62x1, 63x2, 64x1, 65x2, 66x1, 67x2, 68x1, 69x1, 70x1
+	(5 shot prob.: 68,8070%)
+	(1 non-crit + 2 crits death prob.: 71,8750%)
+	(3 non-crits + 1 crit death prob.: 69,9188%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 0,8141%)
+	(Overall 4-hit KO%: 16,5558%)
+	(Overall 5-hit KO%: 77,4102%)
+
+SAND ATTACK
+CRUNCH	21-25 13,29-15,82%	(crit: 43-51 27,22-32,28%)
+	Normal rolls: 21x3, 22x4, 23x4, 24x4, 25x1
+	Crit rolls: 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x1, 51x1
+	(1 non-crit + 3 crits death prob.: 86,8713%)
+	(3 non-crits + 2 crits death prob.: 82,7927%)
+	(guaranteed 8-shot)
+	(Overall 5-hit KO%: 2,8866%)
+	(Overall 6-hit KO%: 25,9914%)
+	(Overall 7-hit KO%: 81,2927%)
+
+
+
+L47 KYOGRE [CALM] #DRIZZLE# vs L46 CACTURNE [ADAMANT] #SAND_VEIL#          >>> EXP GIVEN: 1744
+KYOGRE (158/99/98/160/154/102) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	156-184 116,42-137,31%	(crit: 312-368 232,84-274,63%)
+	Normal rolls: 134x16
+	Crit rolls: 134x16
+	(guaranteed 1-shot)
+
+HYDRO PUMP +ITEM +RAIN	119-141 88,81-105,22%	(crit: 240-283 179,10-211,19%)
+	Normal rolls: 119x1, 121x1, 122x1, 124x1, 125x1, 126x1, 128x1, 129x1, 131x1, 132x1, 133x1, 134x5
+	Crit rolls: 134x16
+	(One shot prob.: 5/16 | 31,25%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 35,5469%)
+
+SHOCK WAVE	24-29 17,91-21,64%	(crit: 50-59 37,31-44,03%)
+	Normal rolls: 24x2, 25x3, 26x4, 27x3, 28x3, 29x1
+	Crit rolls: 50x2, 51x2, 52x1, 53x2, 54x2, 55x1, 56x2, 57x2, 58x1, 59x1
+	(5 shot prob.: 27,6963%)
+	(1 non-crit + 2 crits death prob.: 59,3262%)
+	(3 non-crits + 1 crit death prob.: 45,4483%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 0,6762%)
+	(Overall 4-hit KO%: 11,5151%)
+	(Overall 5-hit KO%: 47,6379%)
+
+SURF +ITEM +RAIN	95-112 70,90-83,58%	(crit: 191-225 142,54-167,91%)
+	Normal rolls: 95x1, 96x1, 97x1, 98x1, 99x1, 100x1, 101x1, 103x1, 104x1, 105x1, 106x1, 107x1, 108x1, 109x1, 110x1, 112x1
+	Crit rolls: 134x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+WATERFALL +ITEM +RAIN	79-94 58,96-70,15%	(crit: 160-189 119,40-141,04%)
+	Normal rolls: 79x1, 80x1, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1
+	Crit rolls: 134x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM
+          NON-CRITS
+            134: 100,00%     
+
+          CRITS
+            134: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            119:   6,25%     121:   6,25%     122:   6,25%     124:   6,25%     125:   6,25%     126:   6,25%     128:   6,25%     129:   6,25%     
+            131:   6,25%     132:   6,25%     133:   6,25%     
+
+            134:  31,25%     
+
+          CRITS
+            134: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             24:  12,50%      25:  18,75%      26:  25,00%      27:  18,75%      28:  18,75%      29:   0,00%     
+
+          CRITS
+             50:  12,50%      51:  12,50%      52:   6,25%      53:  12,50%      54:  12,50%      55:   6,25%      56:  12,50%      57:  12,50%     
+             58:   6,25%      59:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+             95:   6,25%      96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     100:   6,25%     101:   6,25%     103:   6,25%     
+            104:   6,25%     105:   6,25%     106:   6,25%     107:   6,25%     108:   6,25%     109:   6,25%     110:   6,25%     112:   0,00%     
+
+          CRITS
+            134: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+             79:   6,25%      80:   6,25%      81:   6,25%      82:   6,25%      83:   6,25%      84:   6,25%      85:   6,25%      86:   6,25%     
+             87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%      93:   6,25%      94:   0,00%     
+
+          CRITS
+            134: 100,00%     
+
+
+CACTURNE (134/136/74/111/74/69) ~RAIN~ 
+LEECH SEED
+FAINT ATTACK	21-25 13,29-15,82%	(crit: 43-51 27,22-32,28%)
+	Normal rolls: 21x3, 22x4, 23x4, 24x4, 25x1
+	Crit rolls: 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x1, 51x1
+	(1 non-crit + 3 crits death prob.: 86,8713%)
+	(3 non-crits + 2 crits death prob.: 82,7927%)
+	(guaranteed 8-shot)
+	(Overall 5-hit KO%: 2,8866%)
+	(Overall 6-hit KO%: 25,9914%)
+	(Overall 7-hit KO%: 81,2927%)
+
+NEEDLE ARM	42-50 26,58-31,65%	(crit: 86-102 54,43-64,56%)
+	Normal rolls: 42x1, 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x1
+	Crit rolls: 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1, 102x1
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,6025%)
+
+COTTON SPORE
+
+
+L48 KYOGRE [CALM] #DRIZZLE# EXP Needed: 7284/8821
+Stats WITHOUT badge boosts:
+       HP    ATK    DEF    SPA    SPD    SPE
+      161    102    100    164    157    104
+IV     14     27     19     31      7     27
+EV      5      6      2      9      7      3
+ICE BEAM, HYDRO PUMP, SHOCK WAVE, SURF, WATERFALL, 
+
+L48 KYOGRE [CALM] #DRIZZLE# vs L48 SHARPEDO [QUIRKY] #ROUGH_SKIN#          >>> EXP GIVEN: 1800
+KYOGRE (161/102/100/164/157/104) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	54-64 38,85-46,04%	(crit: 108-128 77,70-92,09%)
+	Normal rolls: 54x1, 55x2, 56x2, 57x1, 58x2, 59x1, 60x2, 61x1, 62x2, 63x1, 64x1
+	Crit rolls: 108x1, 110x1, 111x1, 112x1, 113x1, 115x1, 116x1, 117x1, 119x1, 120x1, 121x1, 122x1, 124x1, 125x1, 126x1, 128x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+HYDRO PUMP +ITEM +RAIN	168-198 120,86-142,45%	(crit: 336-396 241,73-284,89%)
+	Normal rolls: 139x16
+	Crit rolls: 139x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	137-162 98,56-116,55%	(crit: 275-324 197,84-233,09%)
+	Normal rolls: 137x1, 139x15
+	Crit rolls: 139x16
+	(One shot prob.: 15/16 | 93,75%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 94,1406%)
+
+SURF +ITEM +RAIN	132-156 94,96-112,23%	(crit: 266-313 191,37-225,18%)
+	Normal rolls: 132x1, 134x1, 135x1, 137x1, 138x1, 139x11
+	Crit rolls: 139x16
+	(One shot prob.: 11/16 | 68,75%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 70,7031%)
+
+WATERFALL +ITEM +RAIN	112-132 80,58-94,96%	(crit: 224-264 161,15-189,93%)
+	Normal rolls: 112x1, 113x1, 114x1, 116x1, 117x1, 118x1, 120x1, 121x1, 122x1, 124x1, 125x1, 126x1, 128x1, 129x1, 130x1, 132x1
+	Crit rolls: 139x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM
+          NON-CRITS
+             54:   6,25%      55:  12,50%      56:  12,50%      57:   6,25%      58:  12,50%      59:   6,25%      60:  12,50%      61:   6,25%     
+             62:  12,50%      63:   6,25%      64:   0,00%     
+
+          CRITS
+            108:   6,25%     110:   6,25%     111:   6,25%     112:   6,25%     113:   6,25%     115:   6,25%     116:   6,25%     117:   6,25%     
+            119:   6,25%     120:   6,25%     121:   6,25%     122:   6,25%     124:   6,25%     125:   6,25%     126:   6,25%     128:   0,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            139: 100,00%     
+
+          CRITS
+            139: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+            137:   6,25%     
+
+            139:  93,75%     
+
+          CRITS
+            139: 100,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            132:   6,25%     134:   6,25%     135:   6,25%     137:   6,25%     138:   6,25%     
+
+            139:  68,75%     
+
+          CRITS
+            139: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            112:   6,25%     113:   6,25%     114:   6,25%     116:   6,25%     117:   6,25%     118:   6,25%     120:   6,25%     121:   6,25%     
+            122:   6,25%     124:   6,25%     125:   6,25%     126:   6,25%     128:   6,25%     129:   6,25%     130:   6,25%     132:   0,00%     
+
+          CRITS
+            139: 100,00%     
+
+
+SHARPEDO (139/134/57/110/57/110) ~RAIN~ 
+CRUNCH	28-34 17,39-21,12%	(crit: 58-69 36,02-42,86%)
+	Normal rolls: 28x1, 29x3, 30x3, 31x3, 32x3, 33x2, 34x1
+	Crit rolls: 58x1, 59x1, 60x2, 61x1, 62x2, 63x1, 64x2, 65x1, 66x2, 67x1, 68x1, 69x1
+	(5 shot prob.: 5,0309%)
+	(1 non-crit + 2 crits death prob.: 28,2959%)
+	(3 non-crits + 1 crit death prob.: 15,6342%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 0,3353%)
+	(Overall 4-hit KO%: 5,3736%)
+	(Overall 5-hit KO%: 31,2237%)
+
+SWAGGER
+SURF +RAIN	24-29 14,91-18,01%	(crit: 49-58 30,43-36,02%)
+	Normal rolls: 24x2, 25x3, 26x4, 27x3, 28x3, 29x1
+	Crit rolls: 49x2, 50x1, 51x2, 52x2, 53x2, 54x1, 55x2, 56x2, 57x1, 58x1
+	(3 crits death prob.: 42,2119%)
+	(2 non-crits + 2 crits death prob.: 36,8759%)
+	(4 non-crits + 1 crit death prob.: 30,7866%)
+	(guaranteed 7-shot)
+	(Overall 4-hit KO%: 0,8527%)
+	(Overall 5-hit KO%: 10,8723%)
+	(Overall 6-hit KO%: 47,8354%)
+
+SLASH	31-37 19,25-22,98%	(crit: 62-74 38,51-45,96%)
+	Normal rolls: 31x2, 32x3, 33x2, 34x3, 35x3, 36x2, 37x1
+	Crit rolls: 62x1, 63x1, 64x1, 65x2, 66x1, 67x1, 68x2, 69x1, 70x1, 71x2, 72x1, 73x1, 74x1
+	(5 shot prob.: 98,2791%)
+	(1 non-crit + 2 crits death prob.: 95,9961%)
+	(3 non-crits + 1 crit death prob.: 97,2046%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 15,0620%)
+	(Overall 4-hit KO%: 67,1801%)
+	(Overall 5-hit KO%: 99,5916%)
+
+
+
+(always slower)
+
+L48 KYOGRE [CALM] #DRIZZLE# vs L49 ABSOL [HARDY] #PRESSURE#          >>> EXP GIVEN: 1827
+KYOGRE (161/102/100/164/157/104) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	79-94 57,66-68,61%	(crit: 159-188 116,06-137,23%)
+	Normal rolls: 79x1, 80x1, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1
+	Crit rolls: 137x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+HYDRO PUMP +ITEM +RAIN	244-288 178,10-210,22%	(crit: 489-576 356,93-420,44%)
+	Normal rolls: 137x16
+	Crit rolls: 137x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	51-60 37,23-43,80%	(crit: 102-120 74,45-87,59%)
+	Normal rolls: 51x2, 52x2, 53x1, 54x2, 55x2, 56x1, 57x2, 58x2, 59x1, 60x1
+	Crit rolls: 102x1, 103x1, 104x1, 105x1, 106x1, 108x1, 109x1, 110x1, 111x1, 112x1, 114x1, 115x1, 116x1, 117x1, 118x1, 120x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+SURF +ITEM +RAIN	194-229 141,61-167,15%	(crit: 390-459 284,67-335,04%)
+	Normal rolls: 137x16
+	Crit rolls: 137x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	164-193 119,71-140,88%	(crit: 328-387 239,42-282,48%)
+	Normal rolls: 137x16
+	Crit rolls: 137x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+             79:   6,25%      80:   6,25%      81:   6,25%      82:   6,25%      83:   6,25%      84:   6,25%      85:   6,25%      86:   6,25%     
+             87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%      93:   6,25%      94:   0,00%     
+
+          CRITS
+            137: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            137: 100,00%     
+
+          CRITS
+            137: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             51:  12,50%      52:  12,50%      53:   6,25%      54:  12,50%      55:  12,50%      56:   6,25%      57:  12,50%      58:  12,50%     
+             59:   6,25%      60:   0,00%     
+
+          CRITS
+            102:   6,25%     103:   6,25%     104:   6,25%     105:   6,25%     106:   6,25%     108:   6,25%     109:   6,25%     110:   6,25%     
+            111:   6,25%     112:   6,25%     114:   6,25%     115:   6,25%     116:   6,25%     117:   6,25%     118:   6,25%     120:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            137: 100,00%     
+
+          CRITS
+            137: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            137: 100,00%     
+
+          CRITS
+            137: 100,00%     
+
+
+ABSOL (137/147/78/93/78/93) <SITRUS BERRY> ~RAIN~ 
+AERIAL ACE	29-35 18,01-21,74%	(crit: 59-70 36,65-43,48%)
+	Normal rolls: 29x1, 30x3, 31x3, 32x3, 33x3, 34x2, 35x1
+	Crit rolls: 59x1, 60x2, 61x1, 62x1, 63x2, 64x1, 65x2, 66x1, 67x2, 68x1, 69x1, 70x1
+	(5 shot prob.: 37,9759%)
+	(1 non-crit + 2 crits death prob.: 49,8047%)
+	(3 non-crits + 1 crit death prob.: 45,0714%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 0,5716%)
+	(Overall 4-hit KO%: 11,4374%)
+	(Overall 5-hit KO%: 55,0824%)
+
+SNATCH
+SWORDS DANCE
+SLASH	34-41 21,12-25,47%	(crit: 69-82 42,86-50,93%)
+	Normal rolls: 34x1, 35x2, 36x3, 37x2, 38x3, 39x2, 40x2, 41x1
+	Crit rolls: 69x1, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1, 76x1, 77x2, 78x1, 79x1, 80x1, 81x1, 82x1
+	(4 shot prob.: 0,2029%)
+	(2 crits death prob.: 3,9063%)
+	(2 non-crits + 1 crit death prob.: 1,1230%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,2441%)
+	(Overall 3-hit KO%: 16,0988%)
+	(Overall 4-hit KO%: 68,4236%)
+
+
+
+(Speed DV required to outspeed: 6, to speedtie: 4)
+
+L48 KYOGRE [CALM] #DRIZZLE# vs L48 SHIFTRY [JOLLY] #CHLOROPHYLL#          >>> EXP GIVEN: 1861
+KYOGRE (161/102/100/164/157/104) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	161-190 101,90-120,25%	(crit: 323-380 204,43-240,51%)
+	Normal rolls: 158x16
+	Crit rolls: 158x16
+	(guaranteed 1-shot)
+
+HYDRO PUMP +ITEM +RAIN	124-146 78,48-92,41%	(crit: 248-292 156,96-184,81%)
+	Normal rolls: 124x1, 125x1, 127x1, 128x1, 129x1, 131x1, 132x1, 134x1, 135x1, 137x1, 138x1, 140x1, 141x1, 143x1, 144x1, 146x1
+	Crit rolls: 158x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+SHOCK WAVE	25-30 15,82-18,99%	(crit: 51-60 32,28-37,97%)
+	Normal rolls: 25x2, 26x3, 27x4, 28x3, 29x3, 30x1
+	Crit rolls: 51x2, 52x2, 53x1, 54x2, 55x2, 56x1, 57x2, 58x2, 59x1, 60x1
+	(3 crits death prob.: 94,7754%)
+	(2 non-crits + 2 crits death prob.: 95,2637%)
+	(4 non-crits + 1 crit death prob.: 95,9125%)
+	(guaranteed 7-shot)
+	(Overall 4-hit KO%: 2,0554%)
+	(Overall 5-hit KO%: 26,5936%)
+	(Overall 6-hit KO%: 97,6714%)
+
+SURF +ITEM +RAIN	98-116 62,03-73,42%	(crit: 197-232 124,68-146,84%)
+	Normal rolls: 98x1, 99x1, 100x1, 102x1, 103x1, 104x1, 105x1, 106x1, 107x1, 109x1, 110x1, 111x1, 112x1, 113x1, 114x1, 116x1
+	Crit rolls: 158x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+WATERFALL +ITEM +RAIN	83-98 52,53-62,03%	(crit: 166-196 105,06-124,05%)
+	Normal rolls: 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1
+	Crit rolls: 158x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM
+          NON-CRITS
+            158: 100,00%     
+
+          CRITS
+            158: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            124:   6,25%     125:   6,25%     127:   6,25%     128:   6,25%     129:   6,25%     131:   6,25%     132:   6,25%     134:   6,25%     
+            135:   6,25%     137:   6,25%     138:   6,25%     140:   6,25%     141:   6,25%     143:   6,25%     144:   6,25%     146:   0,00%     
+
+          CRITS
+            158: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             25:  12,50%      26:  18,75%      27:  25,00%      28:  18,75%      29:  18,75%      30:   0,00%     
+
+          CRITS
+             51:  12,50%      52:  12,50%      53:   6,25%      54:  12,50%      55:  12,50%      56:   6,25%      57:  12,50%      58:  12,50%     
+             59:   6,25%      60:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+             98:   6,25%      99:   6,25%     100:   6,25%     102:   6,25%     103:   6,25%     104:   6,25%     105:   6,25%     106:   6,25%     
+            107:   6,25%     109:   6,25%     110:   6,25%     111:   6,25%     112:   6,25%     113:   6,25%     114:   6,25%     116:   0,00%     
+
+          CRITS
+            158: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+             83:   6,25%      84:   6,25%      85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%     
+             91:   6,25%      92:   6,25%      93:   6,25%      94:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   0,00%     
+
+          CRITS
+            158: 100,00%     
+
+
+SHIFTRY (158/115/77/94/77/105) ~RAIN~ 
+FAKE OUT	16-19 9,94-11,80%	(crit: 32-38 19,88-23,60%)
+	Normal rolls: 16x5, 17x5, 18x5, 19x1
+	Crit rolls: 32x2, 33x3, 34x3, 35x2, 36x3, 37x2, 38x1
+	(5 crits death prob.: 99,9969%)
+	(1 non-crit + 4 crits death prob.: 11,0152%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,9939%)
+	(Overall 8-hit KO%: 9,3276%)
+
+DOUBLE TEAM
+SWAGGER
+EXTRASENSORY	17-20 10,56-12,42%	(crit: 34-40 21,12-24,84%)
+	Normal rolls: 17x5, 18x5, 19x5, 20x1
+	Crit rolls: 34x3, 35x2, 36x3, 37x2, 38x3, 39x2, 40x1
+	(1 non-crit + 4 crits death prob.: 85,3714%)
+	(guaranteed 10-shot)
+	(Overall 6-hit KO%: 0,3609%)
+	(Overall 7-hit KO%: 5,6817%)
+	(Overall 8-hit KO%: 34,9251%)
+
+
+
+(Speed DV required to outspeed: 31, to speedtie: 29)
+
+LVL: 48 EXP NEEDED: 1796/8821
+
+ELITE FOUR PHOEBE  | REWARD: 5100
+[FULL RESTORE, FULL RESTORE] {L48 DUSCLOPS [NAUGHTY] #PRESSURE#, L49 BANETTE [CALM] #INSOMNIA#, L50 SABLEYE [CAREFUL] #KEEN_EYE#, L49 BANETTE [NAIVE] #INSOMNIA#, L51 DUSCLOPS [CAREFUL] #PRESSURE#}
+L48 KYOGRE [CALM] #DRIZZLE# vs L48 DUSCLOPS [NAUGHTY] #PRESSURE#          >>> EXP GIVEN: 1840
+KYOGRE (161/102/100/164/157/104) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	48-57 43,64-51,82%	(crit: 96-114 87,27-103,64%)
+	Normal rolls: 48x1, 49x2, 50x2, 51x2, 52x1, 53x2, 54x2, 55x2, 56x1, 57x1
+	Crit rolls: 96x1, 98x1, 99x1, 100x1, 101x1, 102x1, 103x1, 104x1, 106x1, 107x1, 108x1, 109x1, 110x4
+	(Crit one shot prob.: 4/16 | 25,00%)
+	(2 shot prob.: 10,9375%)
+	(guaranteed 3-shot)
+	(Overall 1-hit KO%: 1,5625%)
+	(Overall 2-hit KO%: 21,7224%)
+
+HYDRO PUMP +ITEM +RAIN	148-175 134,55-159,09%	(crit: 298-351 270,91-319,09%)
+	Normal rolls: 110x16
+	Crit rolls: 110x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	31-37 28,18-33,64%	(crit: 62-74 56,36-67,27%)
+	Normal rolls: 31x2, 32x3, 33x2, 34x3, 35x3, 36x2, 37x1
+	Crit rolls: 62x1, 63x1, 64x1, 65x2, 66x1, 67x1, 68x2, 69x1, 70x1, 71x2, 72x1, 73x1, 74x1
+	(3 shot prob.: 0,1709%)
+	(1 non-crit + 1 crit death prob.: 1,5625%)
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,5737%)
+	(Overall 3-hit KO%: 17,7434%)
+
+SURF +ITEM +RAIN	118-139 107,27-126,36%	(crit: 237-279 215,45-253,64%)
+	Normal rolls: 110x16
+	Crit rolls: 110x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	99-117 90,00-106,36%	(crit: 198-234 180,00-212,73%)
+	Normal rolls: 99x1, 100x1, 101x1, 102x1, 104x1, 105x1, 106x1, 107x1, 108x1, 109x1, 110x6
+	Crit rolls: 110x16
+	(One shot prob.: 6/16 | 37,50%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 41,4063%)
+
+
+ICE BEAM
+          NON-CRITS
+             48:   6,25%      49:  12,50%      50:  12,50%      51:  12,50%      52:   6,25%      53:  12,50%      54:  12,50%      55:  12,50%     
+             56:   6,25%      57:   0,00%     
+
+          CRITS
+             96:   6,25%      98:   6,25%      99:   6,25%     100:   6,25%     101:   6,25%     102:   6,25%     103:   6,25%     104:   6,25%     
+            106:   6,25%     107:   6,25%     108:   6,25%     109:   6,25%     
+
+            110:  25,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            110: 100,00%     
+
+          CRITS
+            110: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             31:  12,50%      32:  18,75%      33:  12,50%      34:  18,75%      35:  18,75%      36:  12,50%      37:   0,00%     
+
+          CRITS
+             62:   6,25%      63:   6,25%      64:   6,25%      65:  12,50%      66:   6,25%      67:   6,25%      68:  12,50%      69:   6,25%     
+             70:   6,25%      71:  12,50%      72:   6,25%      73:   6,25%      74:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            110: 100,00%     
+
+          CRITS
+            110: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+             99:   6,25%     100:   6,25%     101:   6,25%     102:   6,25%     104:   6,25%     105:   6,25%     106:   6,25%     107:   6,25%     
+            108:   6,25%     109:   6,25%     
+
+            110:  37,50%     
+
+          CRITS
+            110: 100,00%     
+
+
+DUSCLOPS (110/94/144/77/129/43) ~RAIN~ 
+SHADOW PUNCH	28-34 17,39-21,12%	(crit: 58-69 36,02-42,86%)
+	Normal rolls: 28x1, 29x3, 30x3, 31x3, 32x3, 33x2, 34x1
+	Crit rolls: 58x1, 59x1, 60x2, 61x1, 62x2, 63x1, 64x2, 65x1, 66x2, 67x1, 68x1, 69x1
+	(5 shot prob.: 5,0309%)
+	(1 non-crit + 2 crits death prob.: 28,2959%)
+	(3 non-crits + 1 crit death prob.: 15,6342%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 0,3353%)
+	(Overall 4-hit KO%: 5,3736%)
+	(Overall 5-hit KO%: 31,2237%)
+
+CONFUSE RAY
+CURSE
+FUTURE SIGHT	17 10,56%
+	Normal rolls: 17x1
+	(guaranteed 10-shot)
+
+
+
+L49 KYOGRE [CALM] #DRIZZLE# EXP Needed: 9145/9189
+Stats WITHOUT badge boosts:
+       HP    ATK    DEF    SPA    SPD    SPE
+      164    105    102    168    160    106
+IV     14     27     19     31      7     27
+EV      5     13      3      9      9      3
+ICE BEAM, HYDRO PUMP, SHOCK WAVE, SURF, WATERFALL, 
+
+L49 KYOGRE [CALM] #DRIZZLE# vs L49 BANETTE [CALM] #INSOMNIA#          >>> EXP GIVEN: 1879
+KYOGRE (164/105/102/168/160/106) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	71-84 52,21-61,76%	(crit: 142-168 104,41-123,53%)
+	Normal rolls: 71x1, 72x1, 73x2, 74x1, 75x1, 76x1, 77x1, 78x2, 79x1, 80x1, 81x1, 82x1, 83x1, 84x1
+	Crit rolls: 136x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+HYDRO PUMP +ITEM +RAIN	220-259 161,76-190,44%	(crit: 441-519 324,26-381,62%)
+	Normal rolls: 136x16
+	Crit rolls: 136x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	45-54 33,09-39,71%	(crit: 91-108 66,91-79,41%)
+	Normal rolls: 45x1, 46x2, 47x1, 48x2, 49x2, 50x2, 51x2, 52x2, 53x1, 54x1
+	Crit rolls: 91x1, 92x1, 93x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1, 101x1, 102x1, 103x1, 104x1, 105x1, 106x1, 108x1
+	(3 shot prob.: 99,9756%)
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 12,1094%)
+	(Overall 3-hit KO%: 99,9799%)
+
+SURF +ITEM +RAIN	174-205 127,94-150,74%	(crit: 349-411 256,62-302,21%)
+	Normal rolls: 136x16
+	Crit rolls: 136x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	147-174 108,09-127,94%	(crit: 295-348 216,91-255,88%)
+	Normal rolls: 136x16
+	Crit rolls: 136x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+             71:   6,25%      72:   6,25%      73:  12,50%      74:   6,25%      75:   6,25%      76:   6,25%      77:   6,25%      78:  12,50%     
+             79:   6,25%      80:   6,25%      81:   6,25%      82:   6,25%      83:   6,25%      84:   0,00%     
+
+          CRITS
+            136: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            136: 100,00%     
+
+          CRITS
+            136: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             45:   6,25%      46:  12,50%      47:   6,25%      48:  12,50%      49:  12,50%      50:  12,50%      51:  12,50%      52:  12,50%     
+             53:   6,25%      54:   0,00%     
+
+          CRITS
+             91:   6,25%      92:   6,25%      93:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     
+            100:   6,25%     101:   6,25%     102:   6,25%     103:   6,25%     104:   6,25%     105:   6,25%     106:   6,25%     108:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            136: 100,00%     
+
+          CRITS
+            136: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            136: 100,00%     
+
+          CRITS
+            136: 100,00%     
+
+
+BANETTE (136/118/83/101/89/83) ~RAIN~ 
+SHADOW BALL	46-55 28,05-33,54%	(crit: 94-111 57,32-67,68%)
+	Normal rolls: 46x1, 47x2, 48x2, 49x1, 50x2, 51x2, 52x2, 53x2, 54x1, 55x1
+	Crit rolls: 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 101x1, 102x1, 103x1, 104x1, 105x1, 106x1, 107x1, 108x1, 109x1, 111x1
+	(3 shot prob.: 0,0977%)
+	(1 non-crit + 1 crit death prob.: 1,9531%)
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,6195%)
+	(Overall 3-hit KO%: 17,6830%)
+
+SPITE
+WILL O WISP
+FAINT ATTACK	13-16 7,93-9,76%	(crit: 27-32 16,46-19,51%)
+	Normal rolls: 13x3, 14x6, 15x6, 16x1
+	Crit rolls: 27x3, 28x3, 29x3, 30x3, 31x3, 32x1
+	(guaranteed 13-shot)
+	(Overall 8-hit KO%: 0,1795%)
+
+
+
+L49 KYOGRE [CALM] #DRIZZLE# vs L50 SABLEYE [CAREFUL] #KEEN_EYE#          >>> EXP GIVEN: 1050
+KYOGRE (164/105/102/168/160/106) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	68-80 54,40-64,00%	(crit: 136-160 108,80-128,00%)
+	Normal rolls: 68x2, 69x1, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1, 76x2, 77x1, 78x1, 79x1, 80x1
+	Crit rolls: 125x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+HYDRO PUMP +ITEM +RAIN	209-247 167,20-197,60%	(crit: 420-495 336,00-396,00%)
+	Normal rolls: 125x16
+	Crit rolls: 125x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	43-51 34,40-40,80%	(crit: 86-102 68,80-81,60%)
+	Normal rolls: 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x1, 51x1
+	Crit rolls: 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1, 102x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+SURF +ITEM +RAIN	166-196 132,80-156,80%	(crit: 334-393 267,20-314,40%)
+	Normal rolls: 125x16
+	Crit rolls: 125x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	140-165 112,00-132,00%	(crit: 280-330 224,00-264,00%)
+	Normal rolls: 125x16
+	Crit rolls: 125x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+             68:  12,50%      69:   6,25%      70:   6,25%      71:   6,25%      72:  12,50%      73:   6,25%      74:   6,25%      75:   6,25%     
+             76:  12,50%      77:   6,25%      78:   6,25%      79:   6,25%      80:   0,00%     
+
+          CRITS
+            125: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            125: 100,00%     
+
+          CRITS
+            125: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             43:  12,50%      44:  12,50%      45:  12,50%      46:  12,50%      47:  12,50%      48:  12,50%      49:  12,50%      50:   6,25%     
+             51:   0,00%     
+
+          CRITS
+             86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%      93:   6,25%     
+             94:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     100:   6,25%     102:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            125: 100,00%     
+
+          CRITS
+            125: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            125: 100,00%     
+
+          CRITS
+            125: 100,00%     
+
+
+SABLEYE (125/95/95/76/93/70) ~RAIN~ 
+SHADOW BALL	39-46 23,78-28,05%	(crit: 79-93 48,17-56,71%)
+	Normal rolls: 39x2, 40x3, 41x2, 42x2, 43x2, 44x2, 45x2, 46x1
+	Crit rolls: 79x2, 80x1, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1
+	(4 shot prob.: 87,0590%)
+	(2 crits death prob.: 86,7188%)
+	(2 non-crits + 1 crit death prob.: 86,2793%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,3387%)
+	(Overall 3-hit KO%: 15,3414%)
+	(Overall 4-hit KO%: 90,0034%)
+
+PSYCHIC	16-19 9,76-11,59%	(crit: 32-38 19,51-23,17%)
+	Normal rolls: 16x5, 17x5, 18x5, 19x1
+	Crit rolls: 32x2, 33x3, 34x3, 35x2, 36x3, 37x2, 38x1
+	(5 crits death prob.: 99,6269%)
+	(1 non-crit + 4 crits death prob.: 2,0035%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,7280%)
+	(Overall 8-hit KO%: 8,5222%)
+
+ATTRACT
+FAINT ATTACK	16-19 9,76-11,59%	(crit: 33-39 20,12-23,78%)
+	Normal rolls: 16x5, 17x5, 18x5, 19x1
+	Crit rolls: 33x3, 34x2, 35x3, 36x2, 37x3, 38x2, 39x1
+	(1 non-crit + 4 crits death prob.: 16,1743%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,8482%)
+	(Overall 8-hit KO%: 8,6312%)
+
+
+
+L49 KYOGRE [CALM] #DRIZZLE# vs L49 BANETTE [NAIVE] #INSOMNIA#          >>> EXP GIVEN: 1879
+KYOGRE (164/105/102/168/160/106) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	87-103 63,97-75,74%	(crit: 175-206 128,68-151,47%)
+	Normal rolls: 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1, 101x1, 103x1
+	Crit rolls: 136x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+HYDRO PUMP +ITEM +RAIN	271-319 199,26-234,56%	(crit: 543-639 399,26-469,85%)
+	Normal rolls: 136x16
+	Crit rolls: 136x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	56-66 41,18-48,53%	(crit: 112-132 82,35-97,06%)
+	Normal rolls: 56x2, 57x1, 58x2, 59x1, 60x2, 61x1, 62x2, 63x1, 64x2, 65x1, 66x1
+	Crit rolls: 112x1, 113x1, 114x1, 116x1, 117x1, 118x1, 120x1, 121x1, 122x1, 124x1, 125x1, 126x1, 128x1, 129x1, 130x1, 132x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+SURF +ITEM +RAIN	214-252 157,35-185,29%	(crit: 428-504 314,71-370,59%)
+	Normal rolls: 136x16
+	Crit rolls: 136x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	181-214 133,09-157,35%	(crit: 364-429 267,65-315,44%)
+	Normal rolls: 136x16
+	Crit rolls: 136x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+             87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%      93:   6,25%      94:   6,25%     
+             95:   6,25%      96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     100:   6,25%     101:   6,25%     103:   0,00%     
+
+          CRITS
+            136: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            136: 100,00%     
+
+          CRITS
+            136: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             56:  12,50%      57:   6,25%      58:  12,50%      59:   6,25%      60:  12,50%      61:   6,25%      62:  12,50%      63:   6,25%     
+             64:  12,50%      65:   6,25%      66:   0,00%     
+
+          CRITS
+            112:   6,25%     113:   6,25%     114:   6,25%     116:   6,25%     117:   6,25%     118:   6,25%     120:   6,25%     121:   6,25%     
+            122:   6,25%     124:   6,25%     125:   6,25%     126:   6,25%     128:   6,25%     129:   6,25%     130:   6,25%     132:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            136: 100,00%     
+
+          CRITS
+            136: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            136: 100,00%     
+
+          CRITS
+            136: 100,00%     
+
+
+BANETTE (136/132/83/101/72/91) ~RAIN~ 
+SHADOW BALL	51-61 31,10-37,20%	(crit: 104-123 63,41-75,00%)
+	Normal rolls: 51x1, 52x1, 53x2, 54x2, 55x1, 56x2, 57x2, 58x1, 59x2, 60x1, 61x1
+	Crit rolls: 104x1, 105x1, 107x1, 108x1, 109x1, 110x1, 111x1, 113x1, 114x1, 115x1, 116x1, 118x1, 119x1, 120x1, 121x1, 123x1
+	(3 shot prob.: 79,7852%)
+	(1 non-crit + 1 crit death prob.: 78,9063%)
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 9,6375%)
+	(Overall 3-hit KO%: 83,3435%)
+
+PSYCHIC	19-23 11,59-14,02%	(crit: 39-46 23,78-28,05%)
+	Normal rolls: 19x2, 20x5, 21x4, 22x4, 23x1
+	Crit rolls: 39x2, 40x3, 41x2, 42x2, 43x2, 44x2, 45x2, 46x1
+	(4 crits death prob.: 87,0590%)
+	(2 non-crits + 3 crits death prob.: 85,9092%)
+	(guaranteed 9-shot)
+	(Overall 5-hit KO%: 0,1916%)
+	(Overall 6-hit KO%: 4,2562%)
+	(Overall 7-hit KO%: 31,4514%)
+	(Overall 8-hit KO%: 89,5080%)
+
+TOXIC
+SKILL SWAP
+
+
+L49 KYOGRE [CALM] #DRIZZLE# vs L51 DUSCLOPS [CAREFUL] #PRESSURE#          >>> EXP GIVEN: 1956
+KYOGRE (164/105/102/168/160/106) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	38-45 32,48-38,46%	(crit: 76-90 64,96-76,92%)
+	Normal rolls: 38x2, 39x2, 40x3, 41x2, 42x2, 43x2, 44x2, 45x1
+	Crit rolls: 76x1, 77x1, 78x1, 79x1, 80x1, 81x2, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1
+	(3 shot prob.: 97,7539%)
+	(1 non-crit + 1 crit death prob.: 94,9219%)
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 11,5143%)
+	(Overall 3-hit KO%: 98,1493%)
+
+HYDRO PUMP +ITEM +RAIN	117-138 100,00-117,95%	(crit: 234-276 200,00-235,90%)
+	Normal rolls: 117x16
+	Crit rolls: 117x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	24-29 20,51-24,79%	(crit: 49-58 41,88-49,57%)
+	Normal rolls: 24x2, 25x3, 26x4, 27x3, 28x3, 29x1
+	Crit rolls: 49x2, 50x1, 51x2, 52x2, 53x2, 54x1, 55x2, 56x2, 57x1, 58x1
+	(guaranteed 5-shot)
+	(Overall 3-hit KO%: 1,1230%)
+	(Overall 4-hit KO%: 22,7524%)
+
+SURF +ITEM +RAIN	91-108 77,78-92,31%	(crit: 183-216 156,41-184,62%)
+	Normal rolls: 91x1, 92x1, 93x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1, 101x1, 102x1, 103x1, 104x1, 105x1, 106x1, 108x1
+	Crit rolls: 117x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+WATERFALL +ITEM +RAIN	79-93 67,52-79,49%	(crit: 158-186 135,04-158,97%)
+	Normal rolls: 79x2, 80x1, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1
+	Crit rolls: 117x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM
+          NON-CRITS
+             38:  12,50%      39:  12,50%      40:  18,75%      41:  12,50%      42:  12,50%      43:  12,50%      44:  12,50%      45:   0,00%     
+
+          CRITS
+             76:   6,25%      77:   6,25%      78:   6,25%      79:   6,25%      80:   6,25%      81:  12,50%      82:   6,25%      83:   6,25%     
+             84:   6,25%      85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   0,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            117: 100,00%     
+
+          CRITS
+            117: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             24:  12,50%      25:  18,75%      26:  25,00%      27:  18,75%      28:  18,75%      29:   0,00%     
+
+          CRITS
+             49:  12,50%      50:   6,25%      51:  12,50%      52:  12,50%      53:  12,50%      54:   6,25%      55:  12,50%      56:  12,50%     
+             57:   6,25%      58:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+             91:   6,25%      92:   6,25%      93:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     
+            100:   6,25%     101:   6,25%     102:   6,25%     103:   6,25%     104:   6,25%     105:   6,25%     106:   6,25%     108:   0,00%     
+
+          CRITS
+            117: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+             79:  12,50%      80:   6,25%      81:   6,25%      82:   6,25%      83:   6,25%      84:   6,25%      85:   6,25%      86:   6,25%     
+             87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%      93:   0,00%     
+
+          CRITS
+            117: 100,00%     
+
+
+DUSCLOPS (117/92/153/73/168/46) <SITRUS BERRY> ~RAIN~ 
+SHADOW BALL	38-45 23,17-27,44%	(crit: 76-90 46,34-54,88%)
+	Normal rolls: 38x2, 39x2, 40x3, 41x2, 42x2, 43x2, 44x2, 45x1
+	Crit rolls: 76x1, 77x1, 78x1, 79x1, 80x1, 81x2, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1
+	(4 shot prob.: 60,7285%)
+	(2 crits death prob.: 63,6719%)
+	(2 non-crits + 1 crit death prob.: 61,4502%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,2487%)
+	(Overall 3-hit KO%: 11,2497%)
+	(Overall 4-hit KO%: 69,6637%)
+
+ICE BEAM	7-9 4,27-5,49%	(crit: 16-19 9,76-11,59%)
+	Normal rolls: 7x4, 8x11, 9x1
+	Crit rolls: 16x5, 17x5, 18x5, 19x1
+	(guaranteed 24-shot)
+
+CONFUSE RAY
+EARTHQUAKE	32-38 19,51-23,17%	(crit: 64-76 39,02-46,34%)
+	Normal rolls: 32x2, 33x3, 34x3, 35x2, 36x3, 37x2, 38x1
+	Crit rolls: 64x1, 65x1, 66x2, 67x1, 68x1, 69x2, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1, 76x1
+	(5 shot prob.: 99,6269%)
+	(1 non-crit + 2 crits death prob.: 98,4619%)
+	(3 non-crits + 1 crit death prob.: 99,2020%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 1,1061%)
+	(Overall 4-hit KO%: 22,5880%)
+	(Overall 5-hit KO%: 99,7298%)
+
+
+
+LVL: 49 EXP NEEDED: 2381/9189
+
+ELITE FOUR GLACIA  | REWARD: 5300
+[FULL RESTORE, FULL RESTORE] {L50 GLALIE [HASTY] #INNER_FOCUS#, L50 SEALEO [BASHFUL] #THICK_FAT#, L52 SEALEO [HARDY] #THICK_FAT#, L52 GLALIE [MILD] #INNER_FOCUS#, L53 WALREIN [NAIVE] #THICK_FAT#}
+L49 KYOGRE [CALM] #DRIZZLE# vs L50 GLALIE [HASTY] #INNER_FOCUS#          >>> EXP GIVEN: 2002
+KYOGRE (164/105/102/168/160/106) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	31-37 20,00-23,87%	(crit: 63-75 40,65-48,39%)
+	Normal rolls: 31x2, 32x3, 33x2, 34x3, 35x3, 36x2, 37x1
+	Crit rolls: 63x1, 64x1, 65x1, 66x2, 67x1, 68x1, 69x2, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1
+	(guaranteed 5-shot)
+	(Overall 3-hit KO%: 1,1230%)
+	(Overall 4-hit KO%: 22,7524%)
+
+HYDRO PUMP +ITEM +RAIN	194-229 125,16-147,74%	(crit: 390-459 251,61-296,13%)
+	Normal rolls: 155x16
+	Crit rolls: 155x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	40-48 25,81-30,97%	(crit: 81-96 52,26-61,94%)
+	Normal rolls: 40x1, 41x2, 42x2, 43x2, 44x2, 45x2, 46x2, 47x2, 48x1
+	Crit rolls: 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,6025%)
+
+SURF +ITEM +RAIN	155-183 100,00-118,06%	(crit: 311-366 200,65-236,13%)
+	Normal rolls: 155x16
+	Crit rolls: 155x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	130-153 83,87-98,71%	(crit: 260-306 167,74-197,42%)
+	Normal rolls: 130x1, 131x1, 133x1, 134x1, 136x1, 137x1, 139x1, 140x1, 142x1, 143x1, 145x1, 146x1, 148x1, 149x1, 151x1, 153x1
+	Crit rolls: 155x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM
+          NON-CRITS
+             31:  12,50%      32:  18,75%      33:  12,50%      34:  18,75%      35:  18,75%      36:  12,50%      37:   0,00%     
+
+          CRITS
+             63:   6,25%      64:   6,25%      65:   6,25%      66:  12,50%      67:   6,25%      68:   6,25%      69:  12,50%      70:   6,25%     
+             71:   6,25%      72:  12,50%      73:   6,25%      74:   6,25%      75:   0,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            155: 100,00%     
+
+          CRITS
+            155: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             40:   6,25%      41:  12,50%      42:  12,50%      43:  12,50%      44:  12,50%      45:  12,50%      46:  12,50%      47:  12,50%     
+             48:   0,00%     
+
+          CRITS
+             81:   6,25%      82:   6,25%      83:   6,25%      84:   6,25%      85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%     
+             89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%      93:   6,25%      94:   6,25%      95:   6,25%      96:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            155: 100,00%     
+
+          CRITS
+            155: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            130:   6,25%     131:   6,25%     133:   6,25%     134:   6,25%     136:   6,25%     137:   6,25%     139:   6,25%     140:   6,25%     
+            142:   6,25%     143:   6,25%     145:   6,25%     146:   6,25%     148:   6,25%     149:   6,25%     151:   6,25%     153:   0,00%     
+
+          CRITS
+            155: 100,00%     
+
+
+GLALIE (155/100/90/100/100/110) ~RAIN~ 
+LIGHT SCREEN
+CRUNCH	18-22 10,98-13,41%	(crit: 37-44 22,56-26,83%)
+	Normal rolls: 18x2, 19x4, 20x5, 21x4, 22x1
+	Crit rolls: 37x2, 38x2, 39x2, 40x3, 41x2, 42x2, 43x2, 44x1
+	(4 crits death prob.: 28,0746%)
+	(2 non-crits + 3 crits death prob.: 23,0260%)
+	(guaranteed 10-shot)
+	(Overall 6-hit KO%: 1,2295%)
+	(Overall 7-hit KO%: 10,3798%)
+	(Overall 8-hit KO%: 44,8469%)
+
+HAIL
+ICE BEAM	15-18 9,15-10,98%	(crit: 31-37 18,90-22,56%)
+	Normal rolls: 15x4, 16x6, 17x5, 18x1
+	Crit rolls: 31x2, 32x3, 33x2, 34x3, 35x3, 36x2, 37x1
+	(5 crits death prob.: 90,3922%)
+	(1 non-crit + 4 crits death prob.: 0,0092%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,5430%)
+	(Overall 8-hit KO%: 5,7386%)
+
+
+
+(always slower)
+
+L49 KYOGRE [CALM] #DRIZZLE# vs L50 SEALEO [BASHFUL] #THICK_FAT#          >>> EXP GIVEN: 1371
+KYOGRE (164/105/102/168/160/106) +[0/0/2/0/0|0/0]  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM -THICK_FAT	17-20 10,30-12,12%	(crit: 34-41 20,61-24,85%)
+	Normal rolls: 17x5, 18x5, 19x5, 20x1
+	Crit rolls: 34x1, 35x2, 36x3, 37x2, 38x3, 39x2, 40x2, 41x1
+	(1 non-crit + 4 crits death prob.: 79,2645%)
+	(guaranteed 10-shot)
+	(Overall 6-hit KO%: 0,3074%)
+	(Overall 7-hit KO%: 4,3151%)
+	(Overall 8-hit KO%: 23,5588%)
+
+HYDRO PUMP +ITEM +RAIN	216-255 130,91-154,55%	(crit: 434-511 263,03-309,70%)
+	Normal rolls: 165x16
+	Crit rolls: 165x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	178-210 107,88-127,27%	(crit: 357-420 216,36-254,55%)
+	Normal rolls: 165x16
+	Crit rolls: 165x16
+	(guaranteed 1-shot)
+
+SURF +ITEM +RAIN	171-202 103,64-122,42%	(crit: 344-405 208,48-245,45%)
+	Normal rolls: 165x16
+	Crit rolls: 165x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	144-170 87,27-103,03%	(crit: 289-340 175,15-206,06%)
+	Normal rolls: 144x1, 146x1, 147x1, 149x1, 151x1, 153x1, 154x1, 156x1, 158x1, 159x1, 161x1, 163x1, 164x1, 165x3
+	Crit rolls: 165x16
+	(One shot prob.: 3/16 | 18,75%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 23,8281%)
+
+
+ICE BEAM -THICK_FAT
+          NON-CRITS
+             17:  31,25%      18:  31,25%      19:  31,25%      20:   0,00%     
+
+          CRITS
+             34:   6,25%      35:  12,50%      36:  18,75%      37:  12,50%      38:  18,75%      39:  12,50%      40:  12,50%      41:   0,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            165: 100,00%     
+
+          CRITS
+            165: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+            165: 100,00%     
+
+          CRITS
+            165: 100,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            165: 100,00%     
+
+          CRITS
+            165: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            144:   6,25%     146:   6,25%     147:   6,25%     149:   6,25%     151:   6,25%     153:   6,25%     154:   6,25%     156:   6,25%     
+            158:   6,25%     159:   6,25%     161:   6,25%     163:   6,25%     164:   6,25%     
+
+            165:  18,75%     
+
+          CRITS
+            165: 100,00%     
+
+
+SEALEO (165/80/90/95/90/65) ~RAIN~ 
+SURF +RAIN	22-26 13,41-15,85%	(crit: 44-52 26,83-31,71%)
+	Normal rolls: 22x4, 23x4, 24x4, 25x3, 26x1
+	Crit rolls: 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x2, 51x1, 52x1
+	(1 non-crit + 3 crits death prob.: 72,7539%)
+	(3 non-crits + 2 crits death prob.: 70,8317%)
+	(guaranteed 8-shot)
+	(Overall 5-hit KO%: 2,5016%)
+	(Overall 6-hit KO%: 23,5898%)
+	(Overall 7-hit KO%: 78,6265%)
+
+BODY SLAM	23-28 14,02-17,07%	(crit: 47-56 28,66-34,15%)
+	Normal rolls: 23x1, 24x4, 25x3, 26x4, 27x3, 28x1
+	Crit rolls: 47x1, 48x2, 49x2, 50x2, 51x1, 52x2, 53x2, 54x2, 55x1, 56x1
+	(3 crits death prob.: 1,6602%)
+	(2 non-crits + 2 crits death prob.: 0,5981%)
+	(3 non-crits + 2 crits death prob.: 99,9999%)
+	(4 non-crits + 1 crit death prob.: 0,1546%)
+	(guaranteed 8-shot)
+	(Overall 4-hit KO%: 0,1054%)
+	(Overall 5-hit KO%: 3,4778%)
+	(Overall 6-hit KO%: 32,1268%)
+
+HAIL
+ICE BALL 1	5-6 3,05-3,66%	(crit: 11-13 6,71-7,93%)
+	Normal rolls: 5x15, 6x1
+	Crit rolls: 11x8, 12x7, 13x1
+	(guaranteed 33-shot)
+
+ICE BALL 2	10-12 6,10-7,32%	(crit: 20-24 12,20-14,63%)
+	Normal rolls: 10x7, 11x8, 12x1
+	Crit rolls: 20x3, 21x4, 22x4, 23x4, 24x1
+	(guaranteed 17-shot)
+
+ICE BALL 3	14-17 8,54-10,37%	(crit: 28-34 17,07-20,73%)
+	Normal rolls: 14x4, 15x6, 16x5, 17x1
+	Crit rolls: 28x1, 29x3, 30x3, 31x3, 32x3, 33x2, 34x1
+	(5 crits death prob.: 0,6273%)
+	(guaranteed 12-shot)
+	(Overall 8-hit KO%: 1,0080%)
+
+ICE BALL 4	18-22 10,98-13,41%	(crit: 38-45 23,17-27,44%)
+	Normal rolls: 18x2, 19x4, 20x5, 21x4, 22x1
+	Crit rolls: 38x2, 39x2, 40x3, 41x2, 42x2, 43x2, 44x2, 45x1
+	(4 crits death prob.: 60,7285%)
+	(2 non-crits + 3 crits death prob.: 47,7345%)
+	(guaranteed 10-shot)
+	(Overall 5-hit KO%: 0,1097%)
+	(Overall 6-hit KO%: 1,9349%)
+	(Overall 7-hit KO%: 12,3610%)
+	(Overall 8-hit KO%: 44,8469%)
+
+ICE BALL 5	22-27 13,41-16,46%	(crit: 46-55 28,05-33,54%)
+	Normal rolls: 22x1, 23x3, 24x4, 25x4, 26x3, 27x1
+	Crit rolls: 46x1, 47x2, 48x2, 49x1, 50x2, 51x2, 52x2, 53x2, 54x1, 55x1
+	(3 crits death prob.: 0,0977%)
+	(1 non-crit + 3 crits death prob.: 99,7452%)
+	(2 non-crits + 2 crits death prob.: 0,0015%)
+	(3 non-crits + 2 crits death prob.: 99,5903%)
+	(guaranteed 8-shot)
+	(Overall 5-hit KO%: 3,4273%)
+	(Overall 6-hit KO%: 31,9303%)
+	(Overall 7-hit KO%: 99,3536%)
+
+ICE BALL 6	28-33 17,07-20,12%	(crit: 56-66 34,15-40,24%)
+	Normal rolls: 28x3, 29x3, 30x3, 31x3, 32x3, 33x1
+	Crit rolls: 56x2, 57x1, 58x2, 59x1, 60x2, 61x1, 62x2, 63x1, 64x2, 65x1, 66x1
+	(5 shot prob.: 0,0015%)
+	(1 non-crit + 2 crits death prob.: 0,1465%)
+	(3 non-crits + 1 crit death prob.: 0,0168%)
+	(guaranteed 6-shot)
+	(Overall 4-hit KO%: 2,1565%)
+	(Overall 5-hit KO%: 27,5815%)
+
+
+
+L50 KYOGRE [CALM] #DRIZZLE# EXP Needed: 8571/9563
+Stats WITHOUT badge boosts:
+       HP    ATK    DEF    SPA    SPD    SPE
+      168    108    105    171    163    108
+IV     14     27     19     31      7     27
+EV      9     18      5      9     11      3
+ICE BEAM, HYDRO PUMP, SHOCK WAVE, SURF, WATERFALL, 
+
+L50 KYOGRE [CALM] #DRIZZLE# vs L52 SEALEO [HARDY] #THICK_FAT#          >>> EXP GIVEN: 1425
+KYOGRE (168/108/105/171/163/108) +[0/0/2/0/0|0/0]  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM -THICK_FAT	17-21 9,94-12,28%	(crit: 36-43 21,05-25,15%)
+	Normal rolls: 17x1, 18x5, 19x5, 20x4, 21x1
+	Crit rolls: 36x2, 37x2, 38x2, 39x3, 40x2, 41x2, 42x2, 43x1
+	(4 crits death prob.: 0,0137%)
+	(1 non-crit + 4 crits death prob.: 89,2532%)
+	(2 non-crits + 3 crits death prob.: 0,0001%)
+	(guaranteed 11-shot)
+	(Overall 6-hit KO%: 0,3573%)
+	(Overall 7-hit KO%: 5,1973%)
+	(Overall 8-hit KO%: 28,9606%)
+
+HYDRO PUMP +ITEM +RAIN	223-263 130,41-153,80%	(crit: 447-526 261,40-307,60%)
+	Normal rolls: 171x16
+	Crit rolls: 171x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	183-216 107,02-126,32%	(crit: 367-432 214,62-252,63%)
+	Normal rolls: 171x16
+	Crit rolls: 171x16
+	(guaranteed 1-shot)
+
+SURF +ITEM +RAIN	177-209 103,51-122,22%	(crit: 355-418 207,60-244,44%)
+	Normal rolls: 171x16
+	Crit rolls: 171x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	148-175 86,55-102,34%	(crit: 298-351 174,27-205,26%)
+	Normal rolls: 148x1, 150x1, 152x1, 154x1, 155x1, 157x1, 159x1, 161x1, 162x1, 164x1, 166x1, 168x1, 169x1, 171x3
+	Crit rolls: 171x16
+	(One shot prob.: 3/16 | 18,75%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 23,8281%)
+
+
+ICE BEAM -THICK_FAT
+          NON-CRITS
+             17:   6,25%      18:  31,25%      19:  31,25%      20:  25,00%      21:   0,00%     
+
+          CRITS
+             36:  12,50%      37:  12,50%      38:  12,50%      39:  18,75%      40:  12,50%      41:  12,50%      42:  12,50%      43:   0,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            171: 100,00%     
+
+          CRITS
+            171: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+            171: 100,00%     
+
+          CRITS
+            171: 100,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            171: 100,00%     
+
+          CRITS
+            171: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            148:   6,25%     150:   6,25%     152:   6,25%     154:   6,25%     155:   6,25%     157:   6,25%     159:   6,25%     161:   6,25%     
+            162:   6,25%     164:   6,25%     166:   6,25%     168:   6,25%     169:   6,25%     
+
+            171:  18,75%     
+
+          CRITS
+            171: 100,00%     
+
+
+SEALEO (171/83/93/98/93/67) ~RAIN~ 
+ATTRACT
+DIVE +RAIN	14-17 8,33-10,12%	(crit: 28-34 16,67-20,24%)
+	Normal rolls: 14x4, 15x6, 16x5, 17x1
+	Crit rolls: 28x1, 29x3, 30x3, 31x3, 32x3, 33x2, 34x1
+	(5 crits death prob.: 0,0063%)
+	(guaranteed 12-shot)
+	(Overall 8-hit KO%: 0,6958%)
+
+HAIL
+BLIZZARD	18-22 10,71-13,10%	(crit: 38-45 22,62-26,79%)
+	Normal rolls: 18x2, 19x4, 20x5, 21x4, 22x1
+	Crit rolls: 38x2, 39x2, 40x3, 41x2, 42x2, 43x2, 44x2, 45x1
+	(4 crits death prob.: 26,2741%)
+	(2 non-crits + 3 crits death prob.: 15,3493%)
+	(guaranteed 10-shot)
+	(Overall 6-hit KO%: 0,7365%)
+	(Overall 7-hit KO%: 7,2231%)
+	(Overall 8-hit KO%: 40,4873%)
+
+
+
+L50 KYOGRE [CALM] #DRIZZLE# vs L52 GLALIE [MILD] #INNER_FOCUS#          >>> EXP GIVEN: 2083
+KYOGRE (168/108/105/171/163/108) +[0/0/3/0/0|0/0]  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	81-96 50,63-60,00%	(crit: 163-192 101,88-120,00%)
+	Normal rolls: 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1
+	Crit rolls: 160x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+HYDRO PUMP +ITEM +RAIN	507-597 316,88-373,13%	(crit: 1014-1194 633,75-746,25%)
+	Normal rolls: 160x16
+	Crit rolls: 160x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	103-122 64,38-76,25%	(crit: 207-244 129,38-152,50%)
+	Normal rolls: 103x1, 104x1, 106x1, 107x1, 108x1, 109x1, 111x1, 112x1, 113x1, 114x1, 115x1, 117x1, 118x1, 119x1, 120x1, 122x1
+	Crit rolls: 160x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+SURF +ITEM +RAIN	401-472 250,63-295,00%	(crit: 803-945 501,88-590,63%)
+	Normal rolls: 160x16
+	Crit rolls: 160x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	339-399 211,88-249,38%	(crit: 678-798 423,75-498,75%)
+	Normal rolls: 160x16
+	Crit rolls: 160x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+             81:   6,25%      82:   6,25%      83:   6,25%      84:   6,25%      85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%     
+             89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%      93:   6,25%      94:   6,25%      95:   6,25%      96:   0,00%     
+
+          CRITS
+            160: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            160: 100,00%     
+
+          CRITS
+            160: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+            103:   6,25%     104:   6,25%     106:   6,25%     107:   6,25%     108:   6,25%     109:   6,25%     111:   6,25%     112:   6,25%     
+            113:   6,25%     114:   6,25%     115:   6,25%     117:   6,25%     118:   6,25%     119:   6,25%     120:   6,25%     122:   0,00%     
+
+          CRITS
+            160: 100,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            160: 100,00%     
+
+          CRITS
+            160: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            160: 100,00%     
+
+          CRITS
+            160: 100,00%     
+
+
+GLALIE (160/103/92/113/103/103) ~RAIN~ 
+SHADOW BALL	28-33 16,67-19,64%	(crit: 56-66 33,33-39,29%)
+	Normal rolls: 28x3, 29x3, 30x3, 31x3, 32x3, 33x1
+	Crit rolls: 56x2, 57x1, 58x2, 59x1, 60x2, 61x1, 62x2, 63x1, 64x2, 65x1, 66x1
+	(guaranteed 6-shot)
+	(Overall 4-hit KO%: 2,1530%)
+	(Overall 5-hit KO%: 27,5804%)
+
+CRUNCH	20-24 11,90-14,29%	(crit: 40-48 23,81-28,57%)
+	Normal rolls: 20x3, 21x4, 22x4, 23x4, 24x1
+	Crit rolls: 40x1, 41x2, 42x2, 43x2, 44x2, 45x2, 46x2, 47x2, 48x1
+	(4 crits death prob.: 96,5805%)
+	(1 non-crit + 3 crits death prob.: 0,0015%)
+	(2 non-crits + 3 crits death prob.: 96,6369%)
+	(3 non-crits + 2 crits death prob.: 0,0001%)
+	(guaranteed 9-shot)
+	(Overall 5-hit KO%: 0,2146%)
+	(Overall 6-hit KO%: 4,8042%)
+	(Overall 7-hit KO%: 35,4756%)
+	(Overall 8-hit KO%: 98,4407%)
+
+HAIL
+ICE BEAM	17-21 10,12-12,50%	(crit: 35-42 20,83-25,00%)
+	Normal rolls: 17x1, 18x5, 19x5, 20x4, 21x1
+	Crit rolls: 35x1, 36x3, 37x2, 38x2, 39x3, 40x2, 41x2, 42x1
+	(4 crits death prob.: 0,0015%)
+	(1 non-crit + 4 crits death prob.: 87,7716%)
+	(2 non-crits + 3 crits death prob.: 0,0001%)
+	(guaranteed 10-shot)
+	(Overall 6-hit KO%: 0,3692%)
+	(Overall 7-hit KO%: 5,7791%)
+	(Overall 8-hit KO%: 35,2682%)
+
+
+
+(Speed DV required to outspeed: 18, to speedtie: 16)
+
+L50 KYOGRE [CALM] #DRIZZLE# vs L53 WALREIN [NAIVE] #THICK_FAT#          >>> EXP GIVEN: 2179
+KYOGRE (168/108/105/171/163/108) +[0/0/3/0/0|0/0]  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM -THICK_FAT	20-24 10,20-12,24%	(crit: 40-48 20,41-24,49%)
+	Normal rolls: 20x3, 21x4, 22x4, 23x4, 24x1
+	Crit rolls: 40x1, 41x2, 42x2, 43x2, 44x2, 45x2, 46x2, 47x2, 48x1
+	(1 non-crit + 4 crits death prob.: 67,4118%)
+	(guaranteed 10-shot)
+	(Overall 6-hit KO%: 0,2801%)
+	(Overall 7-hit KO%: 4,3396%)
+	(Overall 8-hit KO%: 26,7314%)
+
+HYDRO PUMP +ITEM +RAIN	249-294 127,04-150,00%	(crit: 500-589 255,10-300,51%)
+	Normal rolls: 196x16
+	Crit rolls: 196x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	205-242 104,59-123,47%	(crit: 411-484 209,69-246,94%)
+	Normal rolls: 196x16
+	Crit rolls: 196x16
+	(guaranteed 1-shot)
+
+SURF +ITEM +RAIN	198-233 101,02-118,88%	(crit: 396-466 202,04-237,76%)
+	Normal rolls: 196x16
+	Crit rolls: 196x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	167-197 85,20-100,51%	(crit: 334-394 170,41-201,02%)
+	Normal rolls: 167x1, 169x1, 171x1, 173x1, 175x1, 177x1, 179x1, 181x1, 183x1, 185x1, 187x1, 189x1, 191x1, 193x1, 195x1, 196x1
+	Crit rolls: 196x16
+	(One shot prob.: 1/16 | 6,25%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 12,1094%)
+
+
+ICE BEAM -THICK_FAT
+          NON-CRITS
+             20:  18,75%      21:  25,00%      22:  25,00%      23:  25,00%      24:   0,00%     
+
+          CRITS
+             40:   6,25%      41:  12,50%      42:  12,50%      43:  12,50%      44:  12,50%      45:  12,50%      46:  12,50%      47:  12,50%     
+             48:   0,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            196: 100,00%     
+
+          CRITS
+            196: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+            196: 100,00%     
+
+          CRITS
+            196: 100,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            196: 100,00%     
+
+          CRITS
+            196: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            167:   6,25%     169:   6,25%     171:   6,25%     173:   6,25%     175:   6,25%     177:   6,25%     179:   6,25%     181:   6,25%     
+            183:   6,25%     185:   6,25%     187:   6,25%     189:   6,25%     191:   6,25%     193:   6,25%     195:   6,25%     
+
+            196:   6,25%     
+
+          CRITS
+            196: 100,00%     
+
+
+WALREIN (196/106/116/122/104/99) <SITRUS BERRY> ~RAIN~ 
+SURF +RAIN	28-33 16,67-19,64%	(crit: 56-67 33,33-39,88%)
+	Normal rolls: 28x3, 29x3, 30x3, 31x3, 32x3, 33x1
+	Crit rolls: 56x1, 57x1, 58x2, 59x1, 60x2, 61x1, 62x2, 63x1, 64x2, 65x1, 66x1, 67x1
+	(guaranteed 6-shot)
+	(Overall 4-hit KO%: 2,1530%)
+	(Overall 5-hit KO%: 27,5804%)
+
+BODY SLAM	32-38 19,05-22,62%	(crit: 64-76 38,10-45,24%)
+	Normal rolls: 32x2, 33x3, 34x3, 35x2, 36x3, 37x2, 38x1
+	Crit rolls: 64x1, 65x1, 66x2, 67x1, 68x1, 69x2, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1, 76x1
+	(5 shot prob.: 93,1488%)
+	(1 non-crit + 2 crits death prob.: 89,1602%)
+	(3 non-crits + 1 crit death prob.: 90,8463%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 1,0040%)
+	(Overall 4-hit KO%: 20,8668%)
+	(Overall 5-hit KO%: 95,0384%)
+
+BLIZZARD	24-29 14,29-17,26%	(crit: 49-58 29,17-34,52%)
+	Normal rolls: 24x2, 25x3, 26x4, 27x3, 28x3, 29x1
+	Crit rolls: 49x2, 50x1, 51x2, 52x2, 53x2, 54x1, 55x2, 56x2, 57x1, 58x1
+	(3 crits death prob.: 4,7852%)
+	(2 non-crits + 2 crits death prob.: 2,4384%)
+	(4 non-crits + 1 crit death prob.: 0,9158%)
+	(guaranteed 7-shot)
+	(Overall 4-hit KO%: 0,1433%)
+	(Overall 5-hit KO%: 3,6616%)
+	(Overall 6-hit KO%: 32,2849%)
+
+SHEER COLD
+
+
+(Speed DV required to outspeed: 10, to speedtie: 8)
+
+LVL: 50 EXP NEEDED: 2884/9563
+
+ELITE FOUR DRAKE  | REWARD: 5500
+[FULL RESTORE, FULL RESTORE] {L52 SHELGON [QUIET] #ROCK_HEAD#, L54 ALTARIA [MODEST] #NATURAL_CURE#, L53 FLYGON [QUIRKY] #LEVITATE#, L53 FLYGON [IMPISH] #LEVITATE#, L55 SALAMENCE [NAUGHTY] #INTIMIDATE#}
+L50 KYOGRE [CALM] #DRIZZLE# vs L52 SHELGON [QUIET] #ROCK_HEAD#          >>> EXP GIVEN: 1603
+KYOGRE (168/108/105/171/163/108) <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	188-222 129,66-153,10%	(crit: 377-444 260,00-306,21%)
+	Normal rolls: 145x16
+	Crit rolls: 145x16
+	(guaranteed 1-shot)
+
+HYDRO PUMP +ITEM +RAIN	145-171 100,00-117,93%	(crit: 290-342 200,00-235,86%)
+	Normal rolls: 145x16
+	Crit rolls: 145x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	29-35 20,00-24,14%	(crit: 59-70 40,69-48,28%)
+	Normal rolls: 29x1, 30x3, 31x3, 32x3, 33x3, 34x2, 35x1
+	Crit rolls: 59x1, 60x2, 61x1, 62x1, 63x2, 64x1, 65x2, 66x1, 67x2, 68x1, 69x1, 70x1
+	(guaranteed 5-shot)
+	(Overall 3-hit KO%: 1,1230%)
+	(Overall 4-hit KO%: 22,7524%)
+
+SURF +ITEM +RAIN	114-135 78,62-93,10%	(crit: 229-270 157,93-186,21%)
+	Normal rolls: 114x1, 116x1, 117x1, 118x1, 120x1, 121x1, 122x1, 124x1, 125x1, 126x1, 128x1, 129x1, 130x1, 132x1, 133x1, 135x1
+	Crit rolls: 145x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+WATERFALL +ITEM +RAIN	96-114 66,21-78,62%	(crit: 193-228 133,10-157,24%)
+	Normal rolls: 96x1, 98x1, 99x1, 100x1, 101x1, 102x1, 103x1, 104x1, 106x1, 107x1, 108x1, 109x1, 110x1, 111x1, 112x1, 114x1
+	Crit rolls: 145x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM
+          NON-CRITS
+            145: 100,00%     
+
+          CRITS
+            145: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            145: 100,00%     
+
+          CRITS
+            145: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             29:   6,25%      30:  18,75%      31:  18,75%      32:  18,75%      33:  18,75%      34:  12,50%      35:   0,00%     
+
+          CRITS
+             59:   6,25%      60:  12,50%      61:   6,25%      62:   6,25%      63:  12,50%      64:   6,25%      65:  12,50%      66:   6,25%     
+             67:  12,50%      68:   6,25%      69:   6,25%      70:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            114:   6,25%     116:   6,25%     117:   6,25%     118:   6,25%     120:   6,25%     121:   6,25%     122:   6,25%     124:   6,25%     
+            125:   6,25%     126:   6,25%     128:   6,25%     129:   6,25%     130:   6,25%     132:   6,25%     133:   6,25%     135:   0,00%     
+
+          CRITS
+            145: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+             96:   6,25%      98:   6,25%      99:   6,25%     100:   6,25%     101:   6,25%     102:   6,25%     103:   6,25%     104:   6,25%     
+            106:   6,25%     107:   6,25%     108:   6,25%     109:   6,25%     110:   6,25%     111:   6,25%     112:   6,25%     114:   0,00%     
+
+          CRITS
+            145: 100,00%     
+
+
+SHELGON (145/119/124/91/72/64) ~RAIN~ 
+ROCK TOMB	20-24 11,90-14,29%	(crit: 40-48 23,81-28,57%)
+	Normal rolls: 20x3, 21x4, 22x4, 23x4, 24x1
+	Crit rolls: 40x1, 41x2, 42x2, 43x2, 44x2, 45x2, 46x2, 47x2, 48x1
+	(4 crits death prob.: 96,5805%)
+	(1 non-crit + 3 crits death prob.: 0,0015%)
+	(2 non-crits + 3 crits death prob.: 96,6369%)
+	(3 non-crits + 2 crits death prob.: 0,0001%)
+	(guaranteed 9-shot)
+	(Overall 5-hit KO%: 0,2146%)
+	(Overall 6-hit KO%: 4,8042%)
+	(Overall 7-hit KO%: 35,4756%)
+	(Overall 8-hit KO%: 98,4407%)
+
+DRAGON CLAW	23-28 13,69-16,67%	(crit: 48-57 28,57-33,93%)
+	Normal rolls: 23x1, 24x4, 25x3, 26x4, 27x3, 28x1
+	Crit rolls: 48x1, 49x2, 50x2, 51x2, 52x1, 53x2, 54x2, 55x2, 56x1, 57x1
+	(3 crits death prob.: 0,7813%)
+	(1 non-crit + 3 crits death prob.: 99,9985%)
+	(2 non-crits + 2 crits death prob.: 0,0656%)
+	(3 non-crits + 2 crits death prob.: 99,9876%)
+	(4 non-crits + 1 crit death prob.: 0,0013%)
+	(guaranteed 8-shot)
+	(Overall 5-hit KO%: 3,4404%)
+	(Overall 6-hit KO%: 32,0955%)
+	(Overall 7-hit KO%: 99,9359%)
+
+PROTECT
+CRUNCH	16-19 9,52-11,31%	(crit: 32-38 19,05-22,62%)
+	Normal rolls: 16x5, 17x5, 18x5, 19x1
+	Crit rolls: 32x2, 33x3, 34x3, 35x2, 36x3, 37x2, 38x1
+	(5 crits death prob.: 93,1488%)
+	(1 non-crit + 4 crits death prob.: 0,0412%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,6528%)
+	(Overall 8-hit KO%: 7,8571%)
+
+
+
+L50 KYOGRE [CALM] #DRIZZLE# vs L54 ALTARIA [MODEST] #NATURAL_CURE#          >>> EXP GIVEN: 2175
+KYOGRE (168/108/105/171/163/108) +[0/0/0/0/1|0/0] Final speed: 177  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	204-240 126,71-149,07%	(crit: 408-480 253,42-298,14%)
+	Normal rolls: 161x16
+	Crit rolls: 161x16
+	(guaranteed 1-shot)
+
+HYDRO PUMP +ITEM +RAIN	78-92 48,45-57,14%	(crit: 156-184 96,89-114,29%)
+	Normal rolls: 78x1, 79x1, 80x2, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1
+	Crit rolls: 156x1, 158x1, 160x1, 161x13
+	(Crit one shot prob.: 13/16 | 81,25%)
+	(2 shot prob.: 91,4063%)
+	(guaranteed 3-shot)
+	(Overall 1-hit KO%: 5,0781%)
+	(Overall 2-hit KO%: 92,4469%)
+
+SHOCK WAVE	32-38 19,88-23,60%	(crit: 66-78 40,99-48,45%)
+	Normal rolls: 32x2, 33x3, 34x3, 35x2, 36x3, 37x2, 38x1
+	Crit rolls: 66x1, 67x2, 68x1, 69x1, 70x2, 71x1, 72x1, 73x1, 74x2, 75x1, 76x1, 77x1, 78x1
+	(5 shot prob.: 99,9969%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 1,1230%)
+	(Overall 4-hit KO%: 22,7524%)
+	(Overall 5-hit KO%: 99,9978%)
+
+SURF +ITEM +RAIN	62-73 38,51-45,34%	(crit: 124-147 77,02-91,30%)
+	Normal rolls: 62x2, 63x1, 64x2, 65x1, 66x1, 67x2, 68x1, 69x1, 70x2, 71x1, 72x1, 73x1
+	Crit rolls: 124x1, 126x1, 127x1, 129x1, 130x1, 132x1, 133x1, 135x1, 136x1, 138x1, 139x1, 141x1, 142x1, 144x1, 145x1, 147x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+WATERFALL +ITEM +RAIN	52-62 32,30-38,51%	(crit: 105-124 65,22-77,02%)
+	Normal rolls: 52x1, 53x2, 54x1, 55x2, 56x1, 57x2, 58x2, 59x1, 60x2, 61x1, 62x1
+	Crit rolls: 105x1, 106x1, 107x1, 109x1, 110x1, 111x1, 112x1, 114x1, 115x1, 116x1, 117x1, 119x1, 120x1, 121x1, 122x1, 124x1
+	(3 shot prob.: 97,8027%)
+	(1 non-crit + 1 crit death prob.: 94,9219%)
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 11,5143%)
+	(Overall 3-hit KO%: 98,1895%)
+
+
+ICE BEAM
+          NON-CRITS
+            161: 100,00%     
+
+          CRITS
+            161: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+             78:   6,25%      79:   6,25%      80:  12,50%      81:   6,25%      82:   6,25%      83:   6,25%      84:   6,25%      85:   6,25%     
+             86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   0,00%     
+
+          CRITS
+            156:   6,25%     158:   6,25%     160:   6,25%     
+
+            161:  81,25%     
+
+SHOCK WAVE
+          NON-CRITS
+             32:  12,50%      33:  18,75%      34:  18,75%      35:  12,50%      36:  18,75%      37:  12,50%      38:   0,00%     
+
+          CRITS
+             66:   6,25%      67:  12,50%      68:   6,25%      69:   6,25%      70:  12,50%      71:   6,25%      72:   6,25%      73:   6,25%     
+             74:  12,50%      75:   6,25%      76:   6,25%      77:   6,25%      78:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+             62:  12,50%      63:   6,25%      64:  12,50%      65:   6,25%      66:   6,25%      67:  12,50%      68:   6,25%      69:   6,25%     
+             70:  12,50%      71:   6,25%      72:   6,25%      73:   0,00%     
+
+          CRITS
+            124:   6,25%     126:   6,25%     127:   6,25%     129:   6,25%     130:   6,25%     132:   6,25%     133:   6,25%     135:   6,25%     
+            136:   6,25%     138:   6,25%     139:   6,25%     141:   6,25%     142:   6,25%     144:   6,25%     145:   6,25%     147:   0,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+             52:   6,25%      53:  12,50%      54:   6,25%      55:  12,50%      56:   6,25%      57:  12,50%      58:  12,50%      59:   6,25%     
+             60:  12,50%      61:   6,25%      62:   0,00%     
+
+          CRITS
+            105:   6,25%     106:   6,25%     107:   6,25%     109:   6,25%     110:   6,25%     111:   6,25%     112:   6,25%     114:   6,25%     
+            115:   6,25%     116:   6,25%     117:   6,25%     119:   6,25%     120:   6,25%     121:   6,25%     122:   6,25%     124:   0,00%     
+
+
+ALTARIA (161/86/118/105/134/107) ~RAIN~ 
+TAKE DOWN	27-32 16,07-19,05%	(crit: 54-64 32,14-38,10%)
+	Normal rolls: 27x3, 28x3, 29x3, 30x3, 31x3, 32x1
+	Crit rolls: 54x1, 55x2, 56x2, 57x1, 58x2, 59x1, 60x2, 61x1, 62x2, 63x1, 64x1
+	(3 crits death prob.: 95,3857%)
+	(2 non-crits + 2 crits death prob.: 96,2967%)
+	(4 non-crits + 1 crit death prob.: 97,2242%)
+	(guaranteed 7-shot)
+	(Overall 4-hit KO%: 2,0767%)
+	(Overall 5-hit KO%: 26,9103%)
+	(Overall 6-hit KO%: 98,6489%)
+
+DRAGON BREATH	22-27 13,10-16,07%	(crit: 45-54 26,79-32,14%)
+	Normal rolls: 22x1, 23x3, 24x4, 25x4, 26x3, 27x1
+	Crit rolls: 45x1, 46x2, 47x1, 48x2, 49x2, 50x2, 51x2, 52x2, 53x1, 54x1
+	(1 non-crit + 3 crits death prob.: 86,8271%)
+	(3 non-crits + 2 crits death prob.: 86,6337%)
+	(guaranteed 8-shot)
+	(Overall 5-hit KO%: 3,0103%)
+	(Overall 6-hit KO%: 28,4886%)
+	(Overall 7-hit KO%: 91,8728%)
+
+DRAGON DANCE
+REFRESH
+
+
+L51 KYOGRE [CALM] #DRIZZLE# EXP Needed: 9053/9947
+Stats WITHOUT badge boosts:
+       HP    ATK    DEF    SPA    SPD    SPE
+      172    109    107    174    167    110
+IV     14     27     19     31      7     27
+EV     16     18      7      9     13      3
+ICE BEAM, HYDRO PUMP, SHOCK WAVE, SURF, WATERFALL, 
+
+L51 KYOGRE [CALM] #DRIZZLE# vs L53 FLYGON [QUIRKY] #LEVITATE#          >>> EXP GIVEN: 2236
+KYOGRE (172/109/107/174/167/110) +[0/0/0/0/1|0/0] Final speed: 181  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	265-312 162,58-191,41%	(crit: 530-624 325,15-382,82%)
+	Normal rolls: 163x16
+	Crit rolls: 163x16
+	(guaranteed 1-shot)
+
+HYDRO PUMP +ITEM +RAIN	202-238 123,93-146,01%	(crit: 405-477 248,47-292,64%)
+	Normal rolls: 163x16
+	Crit rolls: 163x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE
+SURF +ITEM +RAIN	160-189 98,16-115,95%	(crit: 321-378 196,93-231,90%)
+	Normal rolls: 160x1, 162x1, 163x14
+	Crit rolls: 163x16
+	(One shot prob.: 14/16 | 87,50%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 88,2813%)
+
+WATERFALL +ITEM +RAIN	136-160 83,44-98,16%	(crit: 272-321 166,87-196,93%)
+	Normal rolls: 136x1, 137x1, 139x1, 140x1, 142x1, 144x1, 145x1, 147x1, 148x1, 150x1, 152x1, 153x1, 155x1, 156x1, 158x1, 160x1
+	Crit rolls: 163x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM
+          NON-CRITS
+            163: 100,00%     
+
+          CRITS
+            163: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            163: 100,00%     
+
+          CRITS
+            163: 100,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            160:   6,25%     162:   6,25%     
+
+            163:  87,50%     
+
+          CRITS
+            163: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            136:   6,25%     137:   6,25%     139:   6,25%     140:   6,25%     142:   6,25%     144:   6,25%     145:   6,25%     147:   6,25%     
+            148:   6,25%     150:   6,25%     152:   6,25%     153:   6,25%     155:   6,25%     156:   6,25%     158:   6,25%     160:   0,00%     
+
+          CRITS
+            163: 100,00%     
+
+
+FLYGON (163/126/105/105/105/126) ~RAIN~ 
+DIG	39-46 22,67-26,74%	(crit: 79-93 45,93-54,07%)
+	Normal rolls: 39x2, 40x3, 41x2, 42x2, 43x2, 44x2, 45x2, 46x1
+	Crit rolls: 79x2, 80x1, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1
+	(4 shot prob.: 24,9557%)
+	(2 crits death prob.: 47,6563%)
+	(2 non-crits + 1 crit death prob.: 39,0625%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,1862%)
+	(Overall 3-hit KO%: 7,5603%)
+	(Overall 4-hit KO%: 42,0301%)
+
+DRAGON BREATH	21-25 12,21-14,53%	(crit: 43-51 25,00-29,65%)
+	Normal rolls: 21x3, 22x4, 23x4, 24x4, 25x1
+	Crit rolls: 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x1, 51x1
+	(1 non-crit + 3 crits death prob.: 1,7868%)
+	(2 non-crits + 3 crits death prob.: 99,9931%)
+	(3 non-crits + 2 crits death prob.: 0,4104%)
+	(guaranteed 9-shot)
+	(Overall 5-hit KO%: 0,2350%)
+	(Overall 6-hit KO%: 4,9590%)
+	(Overall 7-hit KO%: 36,3421%)
+	(Overall 8-hit KO%: 99,9713%)
+
+FLY	30-36 17,44-20,93%	(crit: 61-72 35,47-41,86%)
+	Normal rolls: 30x2, 31x2, 32x3, 33x3, 34x3, 35x2, 36x1
+	Crit rolls: 61x2, 62x1, 63x1, 64x2, 65x1, 66x2, 67x1, 68x1, 69x2, 70x1, 71x1, 72x1
+	(5 shot prob.: 2,6916%)
+	(1 non-crit + 2 crits death prob.: 11,2061%)
+	(3 non-crits + 1 crit death prob.: 6,5353%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 0,1475%)
+	(Overall 4-hit KO%: 3,4993%)
+	(Overall 5-hit KO%: 29,5296%)
+
+SANDSTORM
+
+
+L51 KYOGRE [CALM] #DRIZZLE# vs L53 FLYGON [IMPISH] #LEVITATE#          >>> EXP GIVEN: 2236
+KYOGRE (172/109/107/174/167/110) +[0/0/0/0/1|0/0] Final speed: 181  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	265-312 162,58-191,41%	(crit: 530-624 325,15-382,82%)
+	Normal rolls: 163x16
+	Crit rolls: 163x16
+	(guaranteed 1-shot)
+
+HYDRO PUMP +ITEM +RAIN	202-238 123,93-146,01%	(crit: 405-477 248,47-292,64%)
+	Normal rolls: 163x16
+	Crit rolls: 163x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE
+SURF +ITEM +RAIN	160-189 98,16-115,95%	(crit: 321-378 196,93-231,90%)
+	Normal rolls: 160x1, 162x1, 163x14
+	Crit rolls: 163x16
+	(One shot prob.: 14/16 | 87,50%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 88,2813%)
+
+WATERFALL +ITEM +RAIN	136-160 83,44-98,16%	(crit: 272-321 166,87-196,93%)
+	Normal rolls: 136x1, 137x1, 139x1, 140x1, 142x1, 144x1, 145x1, 147x1, 148x1, 150x1, 152x1, 153x1, 155x1, 156x1, 158x1, 160x1
+	Crit rolls: 163x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ICE BEAM
+          NON-CRITS
+            163: 100,00%     
+
+          CRITS
+            163: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            163: 100,00%     
+
+          CRITS
+            163: 100,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            160:   6,25%     162:   6,25%     
+
+            163:  87,50%     
+
+          CRITS
+            163: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            136:   6,25%     137:   6,25%     139:   6,25%     140:   6,25%     142:   6,25%     144:   6,25%     145:   6,25%     147:   6,25%     
+            148:   6,25%     150:   6,25%     152:   6,25%     153:   6,25%     155:   6,25%     156:   6,25%     158:   6,25%     160:   0,00%     
+
+          CRITS
+            163: 100,00%     
+
+
+FLYGON (163/126/115/94/105/126) ~RAIN~ 
+FLAMETHROWER -RAIN	5-6 2,91-3,49%	(crit: 11-13 6,40-7,56%)
+	Normal rolls: 5x15, 6x1
+	Crit rolls: 11x8, 12x7, 13x1
+	(guaranteed 35-shot)
+
+CRUNCH	17-20 9,88-11,63%	(crit: 34-40 19,77-23,26%)
+	Normal rolls: 17x5, 18x5, 19x5, 20x1
+	Crit rolls: 34x3, 35x2, 36x3, 37x2, 38x3, 39x2, 40x1
+	(5 crits death prob.: 99,8996%)
+	(1 non-crit + 4 crits death prob.: 3,7601%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,7685%)
+	(Overall 8-hit KO%: 8,6312%)
+
+DRAGON BREATH	20-24 11,63-13,95%	(crit: 40-48 23,26-27,91%)
+	Normal rolls: 20x3, 21x4, 22x4, 23x4, 24x1
+	Crit rolls: 40x1, 41x2, 42x2, 43x2, 44x2, 45x2, 46x2, 47x2, 48x1
+	(4 crits death prob.: 82,5241%)
+	(2 non-crits + 3 crits death prob.: 81,1978%)
+	(guaranteed 9-shot)
+	(Overall 5-hit KO%: 0,1815%)
+	(Overall 6-hit KO%: 4,0317%)
+	(Overall 7-hit KO%: 29,8629%)
+	(Overall 8-hit KO%: 86,0802%)
+
+SAND ATTACK
+
+
+L51 KYOGRE [CALM] #DRIZZLE# vs L55 SALAMENCE [NAUGHTY] #INTIMIDATE#          >>> EXP GIVEN: 2568
+KYOGRE (172/109/107/174/167/110) +[0/0/0/0/1|0/0] Final speed: 181  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	278-328 149,46-176,34%	(crit: 557-656 299,46-352,69%)
+	Normal rolls: 186x16
+	Crit rolls: 186x16
+	(guaranteed 1-shot)
+
+HYDRO PUMP +ITEM +RAIN	107-127 57,53-68,28%	(crit: 216-255 116,13-137,10%)
+	Normal rolls: 107x1, 109x1, 110x1, 111x1, 113x1, 114x1, 115x1, 116x1, 118x1, 119x1, 120x1, 121x1, 123x1, 124x1, 125x1, 127x1
+	Crit rolls: 186x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+SHOCK WAVE	44-52 23,66-27,96%	(crit: 88-104 47,31-55,91%)
+	Normal rolls: 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x2, 51x1, 52x1
+	Crit rolls: 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1, 101x1, 102x1, 104x1
+	(4 shot prob.: 83,3252%)
+	(2 crits death prob.: 78,5156%)
+	(2 non-crits + 1 crit death prob.: 79,5898%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,3067%)
+	(Overall 3-hit KO%: 14,2390%)
+	(Overall 4-hit KO%: 87,1191%)
+
+SURF +ITEM +RAIN	85-100 45,70-53,76%	(crit: 170-201 91,40-108,06%)
+	Normal rolls: 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1
+	Crit rolls: 170x1, 172x1, 174x1, 176x1, 178x1, 180x1, 182x1, 184x1, 186x8
+	(Crit one shot prob.: 8/16 | 50,00%)
+	(2 shot prob.: 46,8750%)
+	(guaranteed 3-shot)
+	(Overall 1-hit KO%: 3,1250%)
+	(Overall 2-hit KO%: 53,3081%)
+
+WATERFALL +ITEM +RAIN	71-84 38,17-45,16%	(crit: 143-169 76,88-90,86%)
+	Normal rolls: 71x1, 72x1, 73x2, 74x1, 75x1, 76x1, 77x1, 78x2, 79x1, 80x1, 81x1, 82x1, 83x1, 84x1
+	Crit rolls: 143x1, 145x1, 147x1, 148x1, 150x1, 152x1, 153x1, 155x1, 157x1, 158x1, 160x1, 162x1, 163x1, 165x1, 167x1, 169x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+
+ICE BEAM
+          NON-CRITS
+            186: 100,00%     
+
+          CRITS
+            186: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            107:   6,25%     109:   6,25%     110:   6,25%     111:   6,25%     113:   6,25%     114:   6,25%     115:   6,25%     116:   6,25%     
+            118:   6,25%     119:   6,25%     120:   6,25%     121:   6,25%     123:   6,25%     124:   6,25%     125:   6,25%     127:   0,00%     
+
+          CRITS
+            186: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             44:  12,50%      45:  12,50%      46:  12,50%      47:  12,50%      48:  12,50%      49:  12,50%      50:  12,50%      51:   6,25%     
+             52:   0,00%     
+
+          CRITS
+             88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%      93:   6,25%      94:   6,25%      95:   6,25%     
+             96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     100:   6,25%     101:   6,25%     102:   6,25%     104:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+             85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%     
+             93:   6,25%      94:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     100:   0,00%     
+
+          CRITS
+            170:   6,25%     172:   6,25%     174:   6,25%     176:   6,25%     178:   6,25%     180:   6,25%     182:   6,25%     184:   6,25%     
+
+            186:  50,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+             71:   6,25%      72:   6,25%      73:  12,50%      74:   6,25%      75:   6,25%      76:   6,25%      77:   6,25%      78:  12,50%     
+             79:   6,25%      80:   6,25%      81:   6,25%      82:   6,25%      83:   6,25%      84:   0,00%     
+
+          CRITS
+            143:   6,25%     145:   6,25%     147:   6,25%     148:   6,25%     150:   6,25%     152:   6,25%     153:   6,25%     155:   6,25%     
+            157:   6,25%     158:   6,25%     160:   6,25%     162:   6,25%     163:   6,25%     165:   6,25%     167:   6,25%     169:   0,00%     
+
+
+SALAMENCE (186/187/110/143/99/132) <SITRUS BERRY> ~RAIN~ 
+FLAMETHROWER -RAIN	7-9 4,07-5,23%	(crit: 16-19 9,30-11,05%)
+	Normal rolls: 7x4, 8x11, 9x1
+	Crit rolls: 16x5, 17x5, 18x5, 19x1
+	(guaranteed 25-shot)
+
+DRAGON CLAW	40-48 23,26-27,91%	(crit: 81-96 47,09-55,81%)
+	Normal rolls: 40x1, 41x2, 42x2, 43x2, 44x2, 45x2, 46x2, 47x2, 48x1
+	Crit rolls: 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1
+	(4 shot prob.: 82,5241%)
+	(2 crits death prob.: 78,5156%)
+	(2 non-crits + 1 crit death prob.: 79,1748%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,3067%)
+	(Overall 3-hit KO%: 14,1707%)
+	(Overall 4-hit KO%: 86,5003%)
+
+FLY	69-82 40,12-47,67%	(crit: 140-165 81,40-95,93%)
+	Normal rolls: 69x1, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1, 76x1, 77x2, 78x1, 79x1, 80x1, 81x1, 82x1
+	Crit rolls: 140x1, 141x1, 143x1, 145x1, 146x1, 148x1, 150x1, 151x1, 153x1, 155x1, 156x1, 158x1, 160x1, 161x1, 163x1, 165x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+CRUNCH	27-32 15,70-18,60%	(crit: 54-64 31,40-37,21%)
+	Normal rolls: 27x3, 28x3, 29x3, 30x3, 31x3, 32x1
+	Crit rolls: 54x1, 55x2, 56x2, 57x1, 58x2, 59x1, 60x2, 61x1, 62x2, 63x1, 64x1
+	(3 crits death prob.: 81,0303%)
+	(2 non-crits + 2 crits death prob.: 80,8792%)
+	(4 non-crits + 1 crit death prob.: 81,3087%)
+	(guaranteed 7-shot)
+	(Overall 4-hit KO%: 1,7591%)
+	(Overall 5-hit KO%: 23,0683%)
+	(Overall 6-hit KO%: 88,2085%)
+
+
+
+LVL: 51 EXP NEEDED: 2013/9947
+
+CHAMPION STEVEN  | REWARD: 11600
+[FULL RESTORE, FULL RESTORE, FULL RESTORE, FULL RESTORE] {L57 SKARMORY [MODEST] #KEEN_EYE#, L56 AGGRON [NAIVE] #STURDY#, L56 CRADILY [NAIVE] #SUCTION_CUPS#, L55 CLAYDOL [MODEST] #LEVITATE#, L58 METAGROSS [BASHFUL] #CLEAR_BODY#, L56 ARMALDO [MILD] #BATTLE_ARMOR#}
+L51 KYOGRE [CALM] #DRIZZLE# vs L57 SKARMORY [MODEST] #KEEN_EYE#          >>> EXP GIVEN: 2052
+KYOGRE (172/109/107/174/167/110) +[0/0/1/0/0|0/0]  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	100-118 63,29-74,68%	(crit: 202-238 127,85-150,63%)
+	Normal rolls: 100x1, 101x1, 102x1, 103x1, 105x1, 106x1, 107x1, 108x1, 109x1, 110x1, 112x1, 113x1, 114x1, 115x1, 116x1, 118x1
+	Crit rolls: 158x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+HYDRO PUMP +ITEM +RAIN	313-369 198,10-233,54%	(crit: 627-738 396,84-467,09%)
+	Normal rolls: 158x16
+	Crit rolls: 158x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	129-152 81,65-96,20%	(crit: 258-304 163,29-192,41%)
+	Normal rolls: 129x1, 130x1, 132x1, 133x1, 135x1, 136x1, 138x1, 139x1, 141x1, 142x1, 144x1, 145x1, 147x1, 148x1, 150x1, 152x1
+	Crit rolls: 158x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+SURF +ITEM +RAIN	248-292 156,96-184,81%	(crit: 497-585 314,56-370,25%)
+	Normal rolls: 158x16
+	Crit rolls: 158x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	209-246 132,28-155,70%	(crit: 418-492 264,56-311,39%)
+	Normal rolls: 158x16
+	Crit rolls: 158x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+            100:   6,25%     101:   6,25%     102:   6,25%     103:   6,25%     105:   6,25%     106:   6,25%     107:   6,25%     108:   6,25%     
+            109:   6,25%     110:   6,25%     112:   6,25%     113:   6,25%     114:   6,25%     115:   6,25%     116:   6,25%     118:   0,00%     
+
+          CRITS
+            158: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            158: 100,00%     
+
+          CRITS
+            158: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+            129:   6,25%     130:   6,25%     132:   6,25%     133:   6,25%     135:   6,25%     136:   6,25%     138:   6,25%     139:   6,25%     
+            141:   6,25%     142:   6,25%     144:   6,25%     145:   6,25%     147:   6,25%     148:   6,25%     150:   6,25%     152:   0,00%     
+
+          CRITS
+            158: 100,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            158: 100,00%     
+
+          CRITS
+            158: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            158: 100,00%     
+
+          CRITS
+            158: 100,00%     
+
+
+SKARMORY (158/101/182/74/102/102) ~RAIN~ 
+TOXIC
+AERIAL ACE	33-39 19,19-22,67%	(crit: 66-78 38,37-45,35%)
+	Normal rolls: 33x3, 34x2, 35x3, 36x2, 37x3, 38x2, 39x1
+	Crit rolls: 66x1, 67x2, 68x1, 69x1, 70x2, 71x1, 72x1, 73x1, 74x2, 75x1, 76x1, 77x1, 78x1
+	(5 shot prob.: 94,4420%)
+	(1 non-crit + 2 crits death prob.: 90,7471%)
+	(3 non-crits + 1 crit death prob.: 92,5232%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 1,0214%)
+	(Overall 4-hit KO%: 21,2122%)
+	(Overall 5-hit KO%: 95,9749%)
+
+SPIKES
+STEEL WING	19-23 11,05-13,37%	(crit: 39-46 22,67-26,74%)
+	Normal rolls: 19x2, 20x5, 21x4, 22x4, 23x1
+	Crit rolls: 39x2, 40x3, 41x2, 42x2, 43x2, 44x2, 45x2, 46x1
+	(4 crits death prob.: 24,9557%)
+	(2 non-crits + 3 crits death prob.: 20,2001%)
+	(guaranteed 10-shot)
+	(Overall 6-hit KO%: 1,1168%)
+	(Overall 7-hit KO%: 9,7563%)
+	(Overall 8-hit KO%: 43,8976%)
+
+
+
+(Speed DV required to outspeed: 13, to speedtie: 11)
+
+L52 KYOGRE [CALM] #DRIZZLE# EXP Needed: 10297/10336
+Stats WITHOUT badge boosts:
+       HP    ATK    DEF    SPA    SPD    SPE
+      175    112    109    178    170    113
+IV     14     27     19     31      7     27
+EV     16     23      9      9     13      7
+ICE BEAM, HYDRO PUMP, SHOCK WAVE, SURF, WATERFALL, 
+
+L52 KYOGRE [CALM] #DRIZZLE# vs L56 AGGRON [NAIVE] #STURDY#          >>> EXP GIVEN: 2460
+KYOGRE (175/112/109/178/170/113) +[0/0/1/0/0|0/0]  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	65-77 40,37-47,83%	(crit: 130-154 80,75-95,65%)
+	Normal rolls: 65x1, 66x2, 67x1, 68x1, 69x1, 70x2, 71x1, 72x1, 73x2, 74x1, 75x1, 76x1, 77x1
+	Crit rolls: 130x1, 132x1, 133x1, 135x1, 137x1, 138x1, 140x1, 141x1, 143x1, 144x1, 146x1, 147x1, 149x1, 150x1, 152x1, 154x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+HYDRO PUMP +ITEM +RAIN	810-954 503,11-592,55%	(crit: 1621-1908 1006,83-1185,09%)
+	Normal rolls: 161x16
+	Crit rolls: 161x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	83-98 51,55-60,87%	(crit: 166-196 103,11-121,74%)
+	Normal rolls: 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1
+	Crit rolls: 161x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+SURF +ITEM +RAIN	642-756 398,76-469,57%	(crit: 1285-1512 798,14-939,13%)
+	Normal rolls: 161x16
+	Crit rolls: 161x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	542-638 336,65-396,27%	(crit: 1086-1278 674,53-793,79%)
+	Normal rolls: 161x16
+	Crit rolls: 161x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+             65:   6,25%      66:  12,50%      67:   6,25%      68:   6,25%      69:   6,25%      70:  12,50%      71:   6,25%      72:   6,25%     
+             73:  12,50%      74:   6,25%      75:   6,25%      76:   6,25%      77:   0,00%     
+
+          CRITS
+            130:   6,25%     132:   6,25%     133:   6,25%     135:   6,25%     137:   6,25%     138:   6,25%     140:   6,25%     141:   6,25%     
+            143:   6,25%     144:   6,25%     146:   6,25%     147:   6,25%     149:   6,25%     150:   6,25%     152:   6,25%     154:   0,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            161: 100,00%     
+
+          CRITS
+            161: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             83:   6,25%      84:   6,25%      85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%     
+             91:   6,25%      92:   6,25%      93:   6,25%      94:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   0,00%     
+
+          CRITS
+            161: 100,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            161: 100,00%     
+
+          CRITS
+            161: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            161: 100,00%     
+
+          CRITS
+            161: 100,00%     
+
+
+AGGRON (161/145/223/89/80/85) ~RAIN~ 
+THUNDER	49-58 28,00-33,14%	(crit: 98-116 56,00-66,29%)
+	Normal rolls: 49x2, 50x1, 51x2, 52x2, 53x2, 54x1, 55x2, 56x2, 57x1, 58x1
+	Crit rolls: 98x1, 99x1, 100x1, 102x1, 103x1, 104x1, 105x1, 106x1, 107x1, 109x1, 110x1, 111x1, 112x1, 113x1, 114x1, 116x1
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,6025%)
+
+EARTHQUAKE	51-60 29,14-34,29%	(crit: 102-120 58,29-68,57%)
+	Normal rolls: 51x2, 52x2, 53x1, 54x2, 55x2, 56x1, 57x2, 58x2, 59x1, 60x1
+	Crit rolls: 102x1, 103x1, 104x1, 105x1, 106x1, 108x1, 109x1, 110x1, 111x1, 112x1, 114x1, 115x1, 116x1, 117x1, 118x1, 120x1
+	(3 shot prob.: 2,9053%)
+	(1 non-crit + 1 crit death prob.: 8,5938%)
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 1,3977%)
+	(Overall 3-hit KO%: 19,9964%)
+
+SOLAR BEAM -RAIN	25-30 14,29-17,14%	(crit: 51-60 29,14-34,29%)
+	Normal rolls: 25x2, 26x3, 27x4, 28x3, 29x3, 30x1
+	Crit rolls: 51x2, 52x2, 53x1, 54x2, 55x2, 56x1, 57x2, 58x2, 59x1, 60x1
+	(3 crits death prob.: 2,9053%)
+	(2 non-crits + 2 crits death prob.: 1,2314%)
+	(4 non-crits + 1 crit death prob.: 0,3802%)
+	(guaranteed 7-shot)
+	(Overall 4-hit KO%: 0,1184%)
+	(Overall 5-hit KO%: 3,5323%)
+	(Overall 6-hit KO%: 32,1677%)
+
+DRAGON CLAW	17-20 9,71-11,43%	(crit: 34-40 19,43-22,86%)
+	Normal rolls: 17x5, 18x5, 19x5, 20x1
+	Crit rolls: 34x3, 35x2, 36x3, 37x2, 38x3, 39x2, 40x1
+	(5 crits death prob.: 98,3403%)
+	(1 non-crit + 4 crits death prob.: 0,3963%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,6988%)
+	(Overall 8-hit KO%: 8,4150%)
+
+
+
+L52 KYOGRE [CALM] #DRIZZLE# vs L56 CRADILY [NAIVE] #SUCTION_CUPS#          >>> EXP GIVEN: 2412
+KYOGRE (175/112/109/178/170/113) +[0/0/1/0/0|0/0]  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	166-196 92,74-109,50%	(crit: 333-392 186,03-218,99%)
+	Normal rolls: 166x1, 168x1, 170x1, 172x1, 174x1, 176x1, 178x1, 179x9
+	Crit rolls: 179x16
+	(One shot prob.: 9/16 | 56,25%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 58,9844%)
+
+HYDRO PUMP +ITEM +RAIN	255-301 142,46-168,16%	(crit: 512-603 286,03-336,87%)
+	Normal rolls: 179x16
+	Crit rolls: 179x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	26-31 14,53-17,32%	(crit: 52-62 29,05-34,64%)
+	Normal rolls: 26x3, 27x3, 28x3, 29x3, 30x3, 31x1
+	Crit rolls: 52x1, 53x2, 54x1, 55x2, 56x1, 57x2, 58x2, 59x1, 60x2, 61x1, 62x1
+	(3 crits death prob.: 6,4697%)
+	(2 non-crits + 2 crits death prob.: 3,7537%)
+	(4 non-crits + 1 crit death prob.: 1,6969%)
+	(guaranteed 7-shot)
+	(Overall 4-hit KO%: 0,1704%)
+	(Overall 5-hit KO%: 3,8501%)
+	(Overall 6-hit KO%: 32,5105%)
+
+SURF +ITEM +RAIN	202-238 112,85-132,96%	(crit: 405-477 226,26-266,48%)
+	Normal rolls: 179x16
+	Crit rolls: 179x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	170-201 94,97-112,29%	(crit: 341-402 190,50-224,58%)
+	Normal rolls: 170x1, 172x1, 174x1, 176x1, 178x1, 179x11
+	Crit rolls: 179x16
+	(One shot prob.: 11/16 | 68,75%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 70,7031%)
+
+
+ICE BEAM
+          NON-CRITS
+            166:   6,25%     168:   6,25%     170:   6,25%     172:   6,25%     174:   6,25%     176:   6,25%     178:   6,25%     
+
+            179:  56,25%     
+
+          CRITS
+            179: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            179: 100,00%     
+
+          CRITS
+            179: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             26:  18,75%      27:  18,75%      28:  18,75%      29:  18,75%      30:  18,75%      31:   0,00%     
+
+          CRITS
+             52:   6,25%      53:  12,50%      54:   6,25%      55:  12,50%      56:   6,25%      57:  12,50%      58:  12,50%      59:   6,25%     
+             60:  12,50%      61:   6,25%      62:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            179: 100,00%     
+
+          CRITS
+            179: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            170:   6,25%     172:   6,25%     174:   6,25%     176:   6,25%     178:   6,25%     
+
+            179:  68,75%     
+
+          CRITS
+            179: 100,00%     
+
+
+CRADILY (179/113/131/113/127/77) ~RAIN~ 
+GIGA DRAIN	47-56 26,86-32,00%	(crit: 96-114 54,86-65,14%)
+	Normal rolls: 47x1, 48x2, 49x2, 50x2, 51x1, 52x2, 53x2, 54x2, 55x1, 56x1
+	Crit rolls: 96x1, 98x1, 99x1, 100x1, 101x1, 102x1, 103x1, 104x1, 106x1, 107x1, 108x1, 109x1, 110x1, 111x1, 112x1, 114x1
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,6025%)
+
+ANCIENT POWER	36-43 20,57-24,57%	(crit: 73-87 41,71-49,71%)
+	Normal rolls: 36x2, 37x2, 38x2, 39x3, 40x2, 41x2, 42x2, 43x1
+	Crit rolls: 73x1, 74x1, 75x1, 76x1, 77x1, 78x1, 79x1, 80x2, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1
+	(guaranteed 5-shot)
+	(Overall 3-hit KO%: 1,1230%)
+	(Overall 4-hit KO%: 22,7524%)
+
+SLUDGE BOMB	36-43 20,57-24,57%	(crit: 73-86 41,71-49,14%)
+	Normal rolls: 36x2, 37x2, 38x2, 39x3, 40x2, 41x2, 42x2, 43x1
+	Crit rolls: 73x2, 74x1, 75x1, 76x1, 77x1, 78x1, 79x2, 80x1, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1
+	(guaranteed 5-shot)
+	(Overall 3-hit KO%: 1,1230%)
+	(Overall 4-hit KO%: 22,7524%)
+
+CONFUSE RAY
+
+
+L52 KYOGRE [CALM] #DRIZZLE# vs L55 CLAYDOL [MODEST] #LEVITATE#          >>> EXP GIVEN: 2227
+KYOGRE (175/112/109/178/170/113) +[0/0/1/0/0|0/0]  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	137-162 92,57-109,46%	(crit: 275-324 185,81-218,92%)
+	Normal rolls: 137x1, 139x1, 140x1, 142x1, 144x1, 145x1, 147x1, 148x9
+	Crit rolls: 148x16
+	(One shot prob.: 9/16 | 56,25%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 58,9844%)
+
+HYDRO PUMP +ITEM +RAIN	425-500 287,16-337,84%	(crit: 851-1002 575,00-677,03%)
+	Normal rolls: 148x16
+	Crit rolls: 148x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE
+SURF +ITEM +RAIN	336-396 227,03-267,57%	(crit: 673-792 454,73-535,14%)
+	Normal rolls: 148x16
+	Crit rolls: 148x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	282-332 190,54-224,32%	(crit: 566-666 382,43-450,00%)
+	Normal rolls: 148x16
+	Crit rolls: 148x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+            137:   6,25%     139:   6,25%     140:   6,25%     142:   6,25%     144:   6,25%     145:   6,25%     147:   6,25%     
+
+            148:  56,25%     
+
+          CRITS
+            148: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            148: 100,00%     
+
+          CRITS
+            148: 100,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            148: 100,00%     
+
+          CRITS
+            148: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            148: 100,00%     
+
+          CRITS
+            148: 100,00%     
+
+
+CLAYDOL (148/89/137/108/154/104) ~RAIN~ 
+REFLECT
+LIGHT SCREEN
+ANCIENT POWER	19-23 10,86-13,14%	(crit: 39-46 22,29-26,29%)
+	Normal rolls: 19x2, 20x5, 21x4, 22x4, 23x1
+	Crit rolls: 39x2, 40x3, 41x2, 42x2, 43x2, 44x2, 45x2, 46x1
+	(4 crits death prob.: 8,8943%)
+	(2 non-crits + 3 crits death prob.: 5,9548%)
+	(guaranteed 10-shot)
+	(Overall 6-hit KO%: 0,5797%)
+	(Overall 7-hit KO%: 7,1246%)
+	(Overall 8-hit KO%: 40,6787%)
+
+EARTHQUAKE	46-55 26,29-31,43%	(crit: 94-111 53,71-63,43%)
+	Normal rolls: 46x1, 47x2, 48x2, 49x1, 50x2, 51x2, 52x2, 53x2, 54x1, 55x1
+	Crit rolls: 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 101x1, 102x1, 103x1, 104x1, 105x1, 106x1, 107x1, 108x1, 109x1, 111x1
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,6025%)
+
+
+
+(Speed DV required to outspeed: 12, to speedtie: 10)
+
+L52 KYOGRE [CALM] #DRIZZLE# vs L58 METAGROSS [BASHFUL] #CLEAR_BODY#          >>> EXP GIVEN: 2610
+KYOGRE (175/112/109/178/170/113) +[0/0/1/0/0|0/0]  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	41-49 23,03-27,53%	(crit: 83-98 46,63-55,06%)
+	Normal rolls: 41x1, 42x2, 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x1
+	Crit rolls: 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1
+	(4 shot prob.: 69,7189%)
+	(2 crits death prob.: 69,5313%)
+	(2 non-crits + 1 crit death prob.: 68,2861%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,2716%)
+	(Overall 3-hit KO%: 12,3763%)
+	(Overall 4-hit KO%: 76,6086%)
+
+HYDRO PUMP +ITEM +RAIN	255-301 143,26-169,10%	(crit: 512-603 287,64-338,76%)
+	Normal rolls: 178x16
+	Crit rolls: 178x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	52-62 29,21-34,83%	(crit: 105-124 58,99-69,66%)
+	Normal rolls: 52x1, 53x2, 54x1, 55x2, 56x1, 57x2, 58x2, 59x1, 60x2, 61x1, 62x1
+	Crit rolls: 105x1, 106x1, 107x1, 109x1, 110x1, 111x1, 112x1, 114x1, 115x1, 116x1, 117x1, 119x1, 120x1, 121x1, 122x1, 124x1
+	(3 shot prob.: 9,3994%)
+	(1 non-crit + 1 crit death prob.: 18,3594%)
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 2,5421%)
+	(Overall 3-hit KO%: 25,3474%)
+
+SURF +ITEM +RAIN	202-238 113,48-133,71%	(crit: 405-477 227,53-267,98%)
+	Normal rolls: 178x16
+	Crit rolls: 178x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	170-201 95,51-112,92%	(crit: 341-402 191,57-225,84%)
+	Normal rolls: 170x1, 172x1, 174x1, 176x1, 178x12
+	Crit rolls: 178x16
+	(One shot prob.: 12/16 | 75,00%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 76,5625%)
+
+
+ICE BEAM
+          NON-CRITS
+             41:   6,25%      42:  12,50%      43:  12,50%      44:  12,50%      45:  12,50%      46:  12,50%      47:  12,50%      48:  12,50%     
+             49:   0,00%     
+
+          CRITS
+             83:   6,25%      84:   6,25%      85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%     
+             91:   6,25%      92:   6,25%      93:   6,25%      94:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   0,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            178: 100,00%     
+
+          CRITS
+            178: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             52:   6,25%      53:  12,50%      54:   6,25%      55:  12,50%      56:   6,25%      57:  12,50%      58:  12,50%      59:   6,25%     
+             60:  12,50%      61:   6,25%      62:   0,00%     
+
+          CRITS
+            105:   6,25%     106:   6,25%     107:   6,25%     109:   6,25%     110:   6,25%     111:   6,25%     112:   6,25%     114:   6,25%     
+            115:   6,25%     116:   6,25%     117:   6,25%     119:   6,25%     120:   6,25%     121:   6,25%     122:   6,25%     124:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            178: 100,00%     
+
+          CRITS
+            178: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            170:   6,25%     172:   6,25%     174:   6,25%     176:   6,25%     
+
+            178:  75,00%     
+
+          CRITS
+            178: 100,00%     
+
+
+METAGROSS (178/179/173/133/127/104) <SITRUS BERRY> ~RAIN~ 
+EARTHQUAKE	65-77 37,14-44,00%	(crit: 130-154 74,29-88,00%)
+	Normal rolls: 65x1, 66x2, 67x1, 68x1, 69x1, 70x2, 71x1, 72x1, 73x2, 74x1, 75x1, 76x1, 77x1
+	Crit rolls: 130x1, 132x1, 133x1, 135x1, 137x1, 138x1, 140x1, 141x1, 143x1, 144x1, 146x1, 147x1, 149x1, 150x1, 152x1, 154x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+PSYCHIC	43-51 24,57-29,14%	(crit: 86-102 49,14-58,29%)
+	Normal rolls: 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x1, 51x1
+	Crit rolls: 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1, 102x1
+	(4 shot prob.: 99,6338%)
+	(2 crits death prob.: 97,6563%)
+	(2 non-crits + 1 crit death prob.: 99,0234%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,3815%)
+	(Overall 3-hit KO%: 17,4416%)
+	(Overall 4-hit KO%: 99,7171%)
+
+METEOR MASH	48-57 27,43-32,57%	(crit: 97-115 55,43-65,71%)
+	Normal rolls: 48x1, 49x2, 50x2, 51x2, 52x1, 53x2, 54x2, 55x2, 56x1, 57x1
+	Crit rolls: 97x1, 98x1, 100x1, 101x1, 102x1, 103x1, 104x1, 105x1, 106x1, 108x1, 109x1, 110x1, 111x1, 112x1, 113x1, 115x1
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,6025%)
+
+HYPER BEAM	96-114 54,86-65,14%	(crit: 193-228 110,29-130,29%)
+	Normal rolls: 96x1, 98x1, 99x1, 100x1, 101x1, 102x1, 103x1, 104x1, 106x1, 107x1, 108x1, 109x1, 110x1, 111x1, 112x1, 114x1
+	Crit rolls: 175x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+
+(Speed DV required to outspeed: 12, to speedtie: 10)
+
+L52 KYOGRE [CALM] #DRIZZLE# vs L56 ARMALDO [MILD] #BATTLE_ARMOR#          >>> EXP GIVEN: 2400
+KYOGRE (175/112/109/178/170/113) +[0/0/1/0/0|0/0]  <MYSTIC WATER> ~RAIN~ 
+ICE BEAM	94-111 56,29-66,47%	(crit: 188-222 112,57-132,93%)
+	Normal rolls: 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 101x1, 102x1, 103x1, 104x1, 105x1, 106x1, 107x1, 108x1, 109x1, 111x1
+	Crit rolls: 167x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+HYDRO PUMP +ITEM +RAIN	586-690 350,90-413,17%	(crit: 1173-1380 702,40-826,35%)
+	Normal rolls: 167x16
+	Crit rolls: 167x16
+	(guaranteed 1-shot)
+
+SHOCK WAVE	60-71 35,93-42,51%	(crit: 120-142 71,86-85,03%)
+	Normal rolls: 60x1, 61x2, 62x1, 63x2, 64x1, 65x1, 66x2, 67x1, 68x2, 69x1, 70x1, 71x1
+	Crit rolls: 120x1, 122x1, 123x1, 124x1, 126x1, 127x1, 129x1, 130x1, 132x1, 133x1, 134x1, 136x1, 137x1, 139x1, 140x1, 142x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+SURF +ITEM +RAIN	464-546 277,84-326,95%	(crit: 928-1092 555,69-653,89%)
+	Normal rolls: 167x16
+	Crit rolls: 167x16
+	(guaranteed 1-shot)
+
+WATERFALL +ITEM +RAIN	389-458 232,93-274,25%	(crit: 780-918 467,07-549,70%)
+	Normal rolls: 167x16
+	Crit rolls: 167x16
+	(guaranteed 1-shot)
+
+
+ICE BEAM
+          NON-CRITS
+             94:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     101:   6,25%     102:   6,25%     
+            103:   6,25%     104:   6,25%     105:   6,25%     106:   6,25%     107:   6,25%     108:   6,25%     109:   6,25%     111:   0,00%     
+
+          CRITS
+            167: 100,00%     
+
+HYDRO PUMP +ITEM +RAIN
+          NON-CRITS
+            167: 100,00%     
+
+          CRITS
+            167: 100,00%     
+
+SHOCK WAVE
+          NON-CRITS
+             60:   6,25%      61:  12,50%      62:   6,25%      63:  12,50%      64:   6,25%      65:   6,25%      66:  12,50%      67:   6,25%     
+             68:  12,50%      69:   6,25%      70:   6,25%      71:   0,00%     
+
+          CRITS
+            120:   6,25%     122:   6,25%     123:   6,25%     124:   6,25%     126:   6,25%     127:   6,25%     129:   6,25%     130:   6,25%     
+            132:   6,25%     133:   6,25%     134:   6,25%     136:   6,25%     137:   6,25%     139:   6,25%     140:   6,25%     142:   0,00%     
+
+SURF +ITEM +RAIN
+          NON-CRITS
+            167: 100,00%     
+
+          CRITS
+            167: 100,00%     
+
+WATERFALL +ITEM +RAIN
+          NON-CRITS
+            167: 100,00%     
+
+          CRITS
+            167: 100,00%     
+
+
+ARMALDO (167/162/120/110/111/72) ~RAIN~ 
+WATER PULSE +RAIN	11-13 6,29-7,43%	(crit: 22-26 12,57-14,86%)
+	Normal rolls: 11x8, 12x7, 13x1
+	Crit rolls: 22x4, 23x4, 24x4, 25x3, 26x1
+	(guaranteed 16-shot)
+
+ANCIENT POWER	51-61 29,14-34,86%	(crit: 104-123 59,43-70,29%)
+	Normal rolls: 51x1, 52x1, 53x2, 54x2, 55x1, 56x2, 57x2, 58x1, 59x2, 60x1, 61x1
+	Crit rolls: 104x1, 105x1, 107x1, 108x1, 109x1, 110x1, 111x1, 113x1, 114x1, 115x1, 116x1, 118x1, 119x1, 120x1, 121x1, 123x1
+	(3 shot prob.: 9,4727%)
+	(1 non-crit + 1 crit death prob.: 23,4375%)
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 3,1372%)
+	(Overall 3-hit KO%: 25,4078%)
+
+AERIAL ACE	34-41 19,43-23,43%	(crit: 69-82 39,43-46,86%)
+	Normal rolls: 34x1, 35x2, 36x3, 37x2, 38x3, 39x2, 40x2, 41x1
+	Crit rolls: 69x1, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1, 76x1, 77x2, 78x1, 79x1, 80x1, 81x1, 82x1
+	(5 shot prob.: 99,9141%)
+	(1 non-crit + 2 crits death prob.: 99,6338%)
+	(3 non-crits + 1 crit death prob.: 99,8245%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 1,1190%)
+	(Overall 4-hit KO%: 22,7162%)
+	(Overall 5-hit KO%: 99,9378%)
+
+SLASH	39-47 22,29-26,86%	(crit: 79-94 45,14-53,71%)
+	Normal rolls: 39x1, 40x2, 41x2, 42x2, 43x2, 44x2, 45x2, 46x2, 47x1
+	Crit rolls: 79x1, 80x1, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1
+	(4 shot prob.: 30,2811%)
+	(2 crits death prob.: 41,0156%)
+	(2 non-crits + 1 crit death prob.: 37,6465%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 2,5635%)
+	(Overall 3-hit KO%: 31,5071%)
+	(Overall 4-hit KO%: 77,9405%)
+
+
+
+L53 KYOGRE [CALM] #DRIZZLE# EXP Needed: 8922/10734
+Stats WITHOUT badge boosts:
+       HP    ATK    DEF    SPA    SPD    SPE
+      178    115    112    181    174    115
+IV     14     27     19     31      7     27
+EV     16     25     15      9     17      7
+ICE BEAM, HYDRO PUMP, SHOCK WAVE, SURF, WATERFALL, 
+
+LVL: 53 EXP NEEDED: 8922/10734
+X SPAS: 5
+X SPES: 1
+X item cost: 2100

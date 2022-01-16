@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-
-import org.ini4j.jdk14.edu.emory.mathcs.backport.java.util.Arrays;
 
 public class Pokemon implements Battleable {
     private Species species;
@@ -181,18 +178,18 @@ public class Pokemon implements Battleable {
     	return value * 11 / 10; // TODO: hardcoded
     }
     
-    public int applyBadgeBoost(int value, Stat stat) {
+    public int applyBadgeBoostIfHasBadge(int value, Stat stat) {
     	switch(stat) {
     	case ATK:
-    		return isAtkBadge() ? applyBadgeBoost(value) : value;
+    		return hasAtkBadge() ? applyBadgeBoost(value) : value;
     	case DEF:
-    		return isDefBadge() ? applyBadgeBoost(value) : value;
+    		return hasDefBadge() ? applyBadgeBoost(value) : value;
     	case SPA:
-    		return isSpaBadge() ? applyBadgeBoost(value) : value;
+    		return hasSpaBadge() ? applyBadgeBoost(value) : value;
     	case SPD:
-    		return isSpdBadge() ? applyBadgeBoost(value) : value;
+    		return hasSpdBadge() ? applyBadgeBoost(value) : value;
     	case SPE:
-    		return isSpeBadge() ? applyBadgeBoost(value) : value;
+    		return hasSpeBadge() ? applyBadgeBoost(value) : value;
     	default:
     		return value;
     	}
@@ -234,7 +231,8 @@ public class Pokemon implements Battleable {
     }
 
     public int getSpeWithIV(int iv, Nature nature) {
-        return calcSpeWithIV(iv, nature);
+    	int spe = calcSpeWithIV(iv, nature);
+        return applyBadgeBoostIfHasBadge(spe, Stat.SPE);
     }
 
     public Ability getAbility() {
@@ -361,13 +359,24 @@ public class Pokemon implements Battleable {
 
     // utility getters
     public String levelNameNatureAbility() {
-        return String.format("L%d %s [%s] #%s#", level, getSpecies().getName(), nature, ability);
+        return String.format("L%d %s [%s] #%s#", level, getDisplayName(), nature, ability);
     }
 
+    // only for hash
     public String pokeName() {
-        return getSpecies().getName();
+        return getSpecies().getHashName();
     }
-
+    
+    public String getDisplayName() {
+    	return getSpecies().getDisplayName();
+    }
+    
+    /*
+    public String pokeNameFixed() {
+    	return getSpecies().getName().replace("\\u2642", " M").replace("\\u2640", " F"); // TODO : hacky
+    }
+	*/
+    
     public String statsStr() {
         return String.format("%s/%s/%s/%s/%s/%s", getHP(), getAtk(), getDef(),
                 getSpa(), getSpd(), getSpe());
@@ -459,8 +468,11 @@ public class Pokemon implements Battleable {
         // p is the one that gets leveled up
         // this is the one that dies like noob
         // be sure to gain EVs before the exp
-        p.gainEvs(this.getSpecies());
-        p.gainExp(this.expGiven(options.getParticipants()));
+    	// if no participants (for example a death), don't give any ev or exp
+    	if (options.getParticipants() > 0) {
+	        p.gainEvs(this.getSpecies());
+	        p.gainExp(this.expGiven(options.getParticipants()));
+    	}
     }
 
     // gains from eating stat/level boosters
@@ -523,7 +535,7 @@ public class Pokemon implements Battleable {
     }
 
     // badge get/set
-    public boolean isAtkBadge() {
+    public boolean hasAtkBadge() {
         return atkBadge;
     }
 
@@ -531,7 +543,7 @@ public class Pokemon implements Battleable {
         this.atkBadge = atkBadge;
     }
 
-    public boolean isDefBadge() {
+    public boolean hasDefBadge() {
         return defBadge;
     }
 
@@ -539,7 +551,7 @@ public class Pokemon implements Battleable {
         this.defBadge = defBadge;
     }
 
-    public boolean isSpaBadge() {
+    public boolean hasSpaBadge() {
         return spaBadge;
     }
 
@@ -547,7 +559,7 @@ public class Pokemon implements Battleable {
         this.spaBadge = spaBadge;
     }
 
-    public boolean isSpdBadge() {
+    public boolean hasSpdBadge() {
         return spdBadge;
     }
 
@@ -555,7 +567,7 @@ public class Pokemon implements Battleable {
         this.spdBadge = spdBadge;
     }
     
-    public boolean isSpeBadge() {
+    public boolean hasSpeBadge() {
         return speBadge;
     }
 
@@ -668,5 +680,9 @@ public class Pokemon implements Battleable {
 
 	public void setBoostedExp(boolean hasBoostedExp) {
 		this.hasBoostedExp = hasBoostedExp;
+	}
+	
+	public boolean hasBadgeBoost() {
+		return atkBadge || defBadge || spaBadge | spdBadge | speBadge;
 	}
 }

@@ -25,7 +25,7 @@
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
             <Keywords name="Keywords1">rarecandy rc protein iron hpup calcium zinc carbos e evolve stonebadge dynamobadge balancebadge mindbadge equip unequip pokerus setboostedexp unsetboostedexp</Keywords>
-            <Keywords name="Keywords2">-x -xitems -y -yitems -xatk -xdef -xspa -xspd -xspe -xacc -xeva -yatk -ydef -yspa -yspd -yspe -yacc -yeva -xatks -xdefs -xspas -xspds -xspes -xaccs -xevas -yatks -ydefs -yspas -yspds -yspes -yaccs -yevas -order -sxp -sxps -weather -weathers -xstatus -ystatus -xstatus2 -ystatus2</Keywords>
+            <Keywords name="Keywords2">-x -xitems -y -yitems -xatk -xdef -xspa -xspd -xspe -xacc -xeva -yatk -ydef -yspa -yspd -yspe -yacc -yeva -xatks -xdefs -xspas -xspds -xspes -xaccs -xevas -yatks -ydefs -yspas -yspds -yspes -yaccs -yevas -order -sxp -sxps -weather -weathers -xstatus -ystatus -xstatus2 -ystatus2 -double -doublebattle</Keywords>
             <Keywords name="Keywords3">-v -verbose -lvranges -lvstats stats ranges money addmoney spendmoney buy sell</Keywords>
             <Keywords name="Keywords4">-xtorrent -xblaze -xovergrow -xswarm -ytorrent -yblaze -yovergrow -yswarm</Keywords>
             <Keywords name="Keywords5"></Keywords>
@@ -35,30 +35,30 @@
             <Keywords name="Delimiters">00((lm learnmove)) 01 02((EOL)) 03((um unlearnmove)) 04 05((EOL)) 06 07 08-v 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="&#x000F;" fontStyle="0" nesting="0" />
             <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="&#xC863;&#xD46D;&#x0F30;&#x8C00;&#xC2A0;&#x0969;&#xC8C0;&#x0969;&#xC850;&#x0969;&#x0001;" fontStyle="1" nesting="0" />
             <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS1" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS2" fgColor="FF8040" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS4" fgColor="8080FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0080FF" bgColor="FFFFFF" fontName="7000" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF8040" bgColor="FFFFFF" fontName="3" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFFFF" fontName="0" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="8080FF" bgColor="FFFFFF" fontName="&#x2828;&#x0930;&#x1C00;&#x8000;" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="0" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="no" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="no" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName='&#x26C0;&#x0930;=&quot;atom&#x000E;' fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="&#x82E8;&#x0942;" fontStyle="0" nesting="0" />
             <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS1" fgColor="400080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="DELIMITERS2" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="DELIMITERS3" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="&#x0007;" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="400080" bgColor="FFFFFF" fontName="outExtColumn" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="FF0080" bgColor="FFFFFF" fontName="0" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="FF0000" bgColor="FFFFFF" fontName="0" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="&#xB220;&#x0941;" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="&#x0428;&#x0930;ws\Sta&#x0013;" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="&#xE828;&#x03C7;&#xF0B8;&#x03C7;&#xFD90;&#x03C7;&#xF500;&#x03C7;&#x01D8;&#x03C8;&#x0620;&#x03C8;" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="&#x5610;&#x063C;&#x26F8;&#x063C;&#x04B8;&#x063C;&#x1A20;&#x063C;&#x2B40;&#x063C;&#x0D48;&#x063C;&#x51C8;&#x063C;&#x5A58;&#x063C;&#x1190;&#x063C;&#x4938;&#x063C;&#x1E68;&#x063C;&#x2F88;&#x063C;&#x33D0;&#x063C;&#x3818;&#x063C;&#x3C60;&#x063C;&#x4D80;&#x063C;&#x5EA0;&#x063C;&#x62E8;&#x063C;&#xEC70;&#x03C7;&#xF948;&#x03C7;&#xE828;&#x03C7;&#xF0B8;&#x03C7;&#xFD90;&#x03C7;&#xF500;&#x03C7;&#x01D8;&#x03C8;&#x0620;&#x03C8;" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="s_rs.json" fontStyle="0" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

@@ -255,10 +255,16 @@ public class StatModifier {
     
     private String getStageStr(Pokemon p) {
     	StringBuffer sb = new StringBuffer();
-    	if(hasStageMods())
-    		sb.append(String.format("+[%d/%d/%d/%d/%d|%d/%d] ", atk, def, spa, spd, spe, acc, eva));
+    	if(hasStageMods() || p.hasBadgeBoost())
+    		sb.append(String.format("+[%s%d/%s%d/%s%d/%s%d/%s%d|%d/%d] ", 
+    				p.hasAtkBadge() ? "*": "", atk, // TODO: hardcoded
+    				p.hasDefBadge() ? "*": "", def, 
+    				p.hasSpaBadge() ? "*": "", spa,
+    				p.hasSpdBadge() ? "*": "", spd, 
+    				p.hasSpeBadge() ? "*": "", spe, 
+    				acc, eva));
     	
-    	if(spe != 0) {
+    	if(spe != 0 || p.hasSpeBadge()) {
     		sb.append(String.format("Final speed: %d ", modStat(p.getSpe(), Stat.SPE)));
     	}
     	

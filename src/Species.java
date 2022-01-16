@@ -34,7 +34,14 @@ public class Species {
             	JSONObject speciesDic = (JSONObject) speciesObj;
             	
             	String name = (String) speciesDic.get("name");
+            	String hashName;
+            	if (speciesDic.containsKey("hashName")) {
+            		hashName = (String) speciesDic.get("hashName");
+            	} else {
+            		hashName = name;
+            	}
             	String displayName = (String) speciesDic.get("displayName");
+            	// System.out.println(name + " " + displayName); // TODO : delete
             	int dexNum = ((Long) speciesDic.get("dexNum")).intValue();
             	
             	JSONArray baseStatsArray = (JSONArray) speciesDic.get("baseStats");
@@ -68,7 +75,7 @@ public class Species {
             	int weight = ((Long) speciesDic.get("weight")).intValue();
             	
             	
-            	species = new Species(name, displayName, dexNum,
+            	species = new Species(hashName, displayName, dexNum,
                 		baseHP, baseAtk, baseDef, baseSpa, baseSpd, baseSpe,
                 		type1, type2, baseExp,
                 		HPEV, atkEV, defEV, spaEV, spdEV, speEV,
@@ -91,7 +98,7 @@ public class Species {
 		}
 	}
 	
-    private String name;
+    private String hashName;
     private String displayName;
     private int dexNum;
     private int baseHP;
@@ -120,7 +127,7 @@ public class Species {
     		Type type1, Type type2, int killExp,
     		int HPEV, int atkEV, int defEV, int spaEV, int spdEV, int speEV,
     		Gender gender, ExpCurve expCurve, Ability ability1, Ability ability2, int weight) {
-        this.name = name;
+        this.hashName = name;
         this.displayName = displayName;
         this.dexNum = dexNum;
         this.baseHP = baseHP;
@@ -145,8 +152,8 @@ public class Species {
         this.weight = weight;
     }
 
-    public String getName() {
-        return name;
+    public String getHashName() {
+        return hashName;
     }
     
     public String getDisplayName() {
@@ -240,7 +247,7 @@ public class Species {
     @Override
     public String toString() {
     	return String.format("{'%s' '%s' %d [%d/%d/%d/%d/%d/%d] '%s'%s %d <%d/%d/%d/%d/%d/%d> '%s' '%s' ['%s'%s] %d}", 
-    			name, displayName, dexNum, baseHP, baseAtk, baseDef, baseSpa, baseSpd, baseSpe, 
+    			hashName, displayName, dexNum, baseHP, baseAtk, baseDef, baseSpa, baseSpd, baseSpe, 
     			type1, (type2 != Type.NONE) ? "/'"+type2+"'" : "", 
     			baseExp, HPEV, atkEV, defEV, spaEV, spdEV, speEV, 
     			genderRatio, expCurve, 

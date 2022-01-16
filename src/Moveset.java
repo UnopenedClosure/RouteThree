@@ -18,7 +18,7 @@ public class Moveset implements Iterable<Move>{
     
     //returns the 4 most recently learned moves for a pokemon of this level
     public static Moveset defaultMoveset(Species species, int level){
-    	return defaultMoveset(species.getName(), level);
+    	return defaultMoveset(species.getHashName(), level);
     }
     
     public static Moveset defaultMoveset(String speciesName, int level){

@@ -7672,6 +7672,7 @@
         ],
         "doubleBattle": 0,
         "aiFlags": 7,
+		"badgeBoosts": ["ATK"],
         "partySize": 2,
         "party": {
             "PARTY_TYPE": "NoItemCustomMoves",
@@ -7756,6 +7757,7 @@
         ],
         "doubleBattle": 0,
         "aiFlags": 7,
+		"badgeBoosts": ["SPE"],
         "partySize": 3,
         "party": {
             "PARTY_TYPE": "NoItemCustomMoves",
@@ -7862,6 +7864,7 @@
         ],
         "doubleBattle": 0,
         "aiFlags": 7,
+		"badgeBoosts": ["DEF"],
         "partySize": 3,
         "party": {
             "PARTY_TYPE": "NoItemCustomMoves",
@@ -7981,6 +7984,7 @@
         ],
         "doubleBattle": 1,
         "aiFlags": 7,
+		"badgeBoosts": ["SPA", "SPD"],
         "partySize": 2,
         "party": {
             "PARTY_TYPE": "ItemCustomMoves",

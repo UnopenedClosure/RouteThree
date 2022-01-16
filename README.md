@@ -29,7 +29,8 @@ It is derived from Dabomstew & entrpntr's RouteTwo, itself derived from HRoll's 
 		 4. [Status](#5434-status)
 		 5. [Various modifiers](#5435-Various-modifiers)
 		 6. [Order](#5436-order)
-		 7. [Output](#5437-output)
+		 7. [Double battle](#5437-double-battle)
+		 8. [Output](#5438-output)
 6. [KNOWN ISSUES](#6-known-issues)
 7. [TODOS](#7-todos)
 8. [CONTACT INFO AND ACKNOWLEDGEMENTS](#8-contact-info-and-acknowledgements)
@@ -43,6 +44,13 @@ It is derived from Dabomstew & entrpntr's RouteTwo, itself derived from HRoll's 
 ► Compatibility-breaking update.  
 ○ Usual update.
 
+
+**`????????????` - v0.3**  
+○ Added FireRed/LeafGreen support, and Fire Red Squirtle High Exp route file.  
+○ Added Emerald abraful route file.  
+○ Added battle option `-doublebattle` to force a double battle. Updated the .xml file accordingly.  
+○ Added most residual damages : poisoned, badly poisoned, burned, trapped, confused, seeded, nightmared and cursed.  
+○ Fixed a bug involving Special Defense of opponents not being modified properly.  
 
 **`[2022/01/13]` - v0.2.1**  
 ○ Refactoring of the damage calculation and printing.  
@@ -85,7 +93,7 @@ A configuration file (generally with the `.ini` extension) gathers the primary i
 ##### Section : `[game]`
    Tag | Expected value | Usage
   --------------- | -------------- | --------------
-  `"game"`   | `ruby`, `sapphire` or `emerald`.| The name of the game.
+  `"game"`   | `ruby`, `sapphire`, `emerald`, `firered` or `leafgreen`.| The name of the game.
   
 ##### Section : `[poke]`
    Tag | Expected value | Usage
@@ -342,8 +350,11 @@ Here is the exhautive list of implemented modifiers :
 > Note : Useful for good AI trainers who send stronger Pokemon first.  
 > Example : `"WATTSON -order 1/3/2 // Sends 1st Pokémon, then the 3rd, then the 2nd`  
 
+###### 5.4.3.7. Double battle
+  `"-doubleBattle"` : Forces the battle to be a double battle. Useful for move damage calculation only.  
+  alias: `"-double"`
 
-###### 5.4.3.7. Output
+###### 5.4.3.8. Output
   `"-lvstats"` : Outputs player Pokemon stats when a level up occurs during a battle.  
   `"-lvranges"`  : Outputs player Pokemon ranges when a level up occurs during a battle.  
 

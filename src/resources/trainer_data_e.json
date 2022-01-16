@@ -1917,7 +1917,6 @@
                     "iv": 255,
                     "level": 26,
                     "species": "SWELLOW",
-                    "heldItem": "????????",
                     "moves": [
                         "QUICK ATTACK",
                         "AGILITY",
@@ -1947,7 +1946,6 @@
                     "iv": 255,
                     "level": 26,
                     "species": "SPINDA",
-                    "heldItem": "????????",
                     "moves": [
                         "TEETER DANCE",
                         "DIZZY PUNCH",
@@ -2007,7 +2005,6 @@
                     "iv": 255,
                     "level": 26,
                     "species": "VIGOROTH",
-                    "heldItem": "????????",
                     "moves": [
                         "FOCUS ENERGY",
                         "SLASH"
@@ -2537,7 +2534,6 @@
                     "iv": 255,
                     "level": 26,
                     "species": "DELCATTY",
-                    "heldItem": "????????",
                     "moves": [
                         "FAINT ATTACK",
                         "SHOCK WAVE"
@@ -2566,7 +2562,6 @@
                     "iv": 255,
                     "level": 26,
                     "species": "WIGGLYTUFF",
-                    "heldItem": "????????",
                     "moves": [
                         "DEFENSE CURL",
                         "DOUBLE EDGE",
@@ -2596,7 +2591,6 @@
                     "iv": 255,
                     "level": 26,
                     "species": "ZANGOOSE",
-                    "heldItem": "????????",
                     "moves": [
                         "SWORDS DANCE",
                         "SLASH"
@@ -5212,20 +5206,17 @@
                 {
                     "iv": 140,
                     "level": 33,
-                    "species": "MACHOP",
-                    "heldItem": "????????"
+                    "species": "MACHOP"
                 },
                 {
                     "iv": 140,
                     "level": 33,
-                    "species": "MACHOKE",
-                    "heldItem": "????????"
+                    "species": "MACHOKE"
                 },
                 {
                     "iv": 140,
                     "level": 33,
-                    "species": "MACHOKE",
-                    "heldItem": "????????"
+                    "species": "MACHOKE"
                 },
                 {
                     "iv": 140,
@@ -6454,20 +6445,17 @@
                 {
                     "iv": 40,
                     "level": 38,
-                    "species": "SURSKIT",
-                    "heldItem": "????????"
+                    "species": "SURSKIT"
                 },
                 {
                     "iv": 40,
                     "level": 38,
-                    "species": "DUSTOX",
-                    "heldItem": "????????"
+                    "species": "DUSTOX"
                 },
                 {
                     "iv": 40,
                     "level": 38,
-                    "species": "SURSKIT",
-                    "heldItem": "????????"
+                    "species": "SURSKIT"
                 },
                 {
                     "iv": 40,
@@ -6478,8 +6466,7 @@
                 {
                     "iv": 40,
                     "level": 38,
-                    "species": "BEAUTIFLY",
-                    "heldItem": "????????"
+                    "species": "BEAUTIFLY"
                 }
             ]
         }
@@ -7290,7 +7277,6 @@
                     "iv": 250,
                     "level": 46,
                     "species": "MIGHTYENA",
-                    "heldItem": "????????",
                     "moves": [
                         "ROAR",
                         "DOUBLE EDGE",
@@ -7302,7 +7288,6 @@
                     "iv": 250,
                     "level": 48,
                     "species": "SHIFTRY",
-                    "heldItem": "????????",
                     "moves": [
                         "TORMENT",
                         "DOUBLE TEAM",
@@ -7314,7 +7299,6 @@
                     "iv": 250,
                     "level": 46,
                     "species": "CACTURNE",
-                    "heldItem": "????????",
                     "moves": [
                         "LEECH SEED",
                         "FAINT ATTACK",
@@ -7326,7 +7310,6 @@
                     "iv": 250,
                     "level": 48,
                     "species": "CRAWDAUNT",
-                    "heldItem": "????????",
                     "moves": [
                         "SURF",
                         "SWORDS DANCE",
@@ -7370,7 +7353,6 @@
                     "iv": 250,
                     "level": 48,
                     "species": "DUSCLOPS",
-                    "heldItem": "????????",
                     "moves": [
                         "SHADOW PUNCH",
                         "CONFUSE RAY",
@@ -7382,7 +7364,6 @@
                     "iv": 250,
                     "level": 49,
                     "species": "BANETTE",
-                    "heldItem": "????????",
                     "moves": [
                         "SHADOW BALL",
                         "GRUDGE",
@@ -7394,7 +7375,6 @@
                     "iv": 250,
                     "level": 50,
                     "species": "SABLEYE",
-                    "heldItem": "????????",
                     "moves": [
                         "SHADOW BALL",
                         "DOUBLE TEAM",
@@ -7406,7 +7386,6 @@
                     "iv": 250,
                     "level": 49,
                     "species": "BANETTE",
-                    "heldItem": "????????",
                     "moves": [
                         "SHADOW BALL",
                         "PSYCHIC",
@@ -7450,7 +7429,6 @@
                     "iv": 250,
                     "level": 50,
                     "species": "SEALEO",
-                    "heldItem": "????????",
                     "moves": [
                         "ENCORE",
                         "BODY SLAM",
@@ -7462,7 +7440,6 @@
                     "iv": 250,
                     "level": 50,
                     "species": "GLALIE",
-                    "heldItem": "????????",
                     "moves": [
                         "LIGHT SCREEN",
                         "CRUNCH",
@@ -7474,7 +7451,6 @@
                     "iv": 250,
                     "level": 52,
                     "species": "SEALEO",
-                    "heldItem": "????????",
                     "moves": [
                         "ATTRACT",
                         "DOUBLE EDGE",
@@ -7486,7 +7462,6 @@
                     "iv": 250,
                     "level": 52,
                     "species": "GLALIE",
-                    "heldItem": "????????",
                     "moves": [
                         "SHADOW BALL",
                         "EXPLOSION",
@@ -7530,7 +7505,6 @@
                     "iv": 250,
                     "level": 52,
                     "species": "SHELGON",
-                    "heldItem": "????????",
                     "moves": [
                         "ROCK TOMB",
                         "DRAGON CLAW",
@@ -7542,7 +7516,6 @@
                     "iv": 250,
                     "level": 54,
                     "species": "ALTARIA",
-                    "heldItem": "????????",
                     "moves": [
                         "DOUBLE EDGE",
                         "DRAGON BREATH",
@@ -7554,7 +7527,6 @@
                     "iv": 250,
                     "level": 53,
                     "species": "KINGDRA",
-                    "heldItem": "????????",
                     "moves": [
                         "SMOKESCREEN",
                         "DRAGON DANCE",
@@ -7566,7 +7538,6 @@
                     "iv": 250,
                     "level": 53,
                     "species": "FLYGON",
-                    "heldItem": "????????",
                     "moves": [
                         "FLAMETHROWER",
                         "CRUNCH",
@@ -7602,6 +7573,7 @@
         ],
         "doubleBattle": 0,
         "aiFlags": 7,
+		"badgeBoosts": ["ATK"],
         "partySize": 3,
         "party": {
             "PARTY_TYPE": "ItemCustomMoves",
@@ -7610,7 +7582,6 @@
                     "iv": 100,
                     "level": 12,
                     "species": "GEODUDE",
-                    "heldItem": "????????",
                     "moves": [
                         "TACKLE",
                         "DEFENSE CURL",
@@ -7622,7 +7593,6 @@
                     "iv": 100,
                     "level": 12,
                     "species": "GEODUDE",
-                    "heldItem": "????????",
                     "moves": [
                         "TACKLE",
                         "DEFENSE CURL",
@@ -7666,7 +7636,6 @@
                     "iv": 100,
                     "level": 16,
                     "species": "MACHOP",
-                    "heldItem": "????????",
                     "moves": [
                         "KARATE CHOP",
                         "LOW KICK",
@@ -7678,7 +7647,6 @@
                     "iv": 100,
                     "level": 16,
                     "species": "MEDITITE",
-                    "heldItem": "????????",
                     "moves": [
                         "FOCUS PUNCH",
                         "LIGHT SCREEN",
@@ -7714,6 +7682,7 @@
         ],
         "doubleBattle": 0,
         "aiFlags": 7,
+		"badgeBoosts": ["SPE"],
         "partySize": 4,
         "party": {
             "PARTY_TYPE": "ItemCustomMoves",
@@ -7722,7 +7691,6 @@
                     "iv": 200,
                     "level": 20,
                     "species": "VOLTORB",
-                    "heldItem": "????????",
                     "moves": [
                         "ROLLOUT",
                         "SPARK",
@@ -7734,7 +7702,6 @@
                     "iv": 200,
                     "level": 20,
                     "species": "ELECTRIKE",
-                    "heldItem": "????????",
                     "moves": [
                         "SHOCK WAVE",
                         "LEER",
@@ -7746,7 +7713,6 @@
                     "iv": 220,
                     "level": 22,
                     "species": "MAGNETON",
-                    "heldItem": "????????",
                     "moves": [
                         "SUPERSONIC",
                         "SHOCK WAVE",
@@ -7790,7 +7756,6 @@
                     "iv": 200,
                     "level": 24,
                     "species": "NUMEL",
-                    "heldItem": "????????",
                     "moves": [
                         "OVERHEAT",
                         "TAKE DOWN",
@@ -7802,7 +7767,6 @@
                     "iv": 200,
                     "level": 24,
                     "species": "SLUGMA",
-                    "heldItem": "????????",
                     "moves": [
                         "OVERHEAT",
                         "SMOG",
@@ -7814,7 +7778,6 @@
                     "iv": 250,
                     "level": 26,
                     "species": "CAMERUPT",
-                    "heldItem": "????????",
                     "moves": [
                         "OVERHEAT",
                         "TACKLE",
@@ -7850,6 +7813,7 @@
         ],
         "doubleBattle": 0,
         "aiFlags": 7,
+		"badgeBoosts": ["DEF"],
         "partySize": 4,
         "party": {
             "PARTY_TYPE": "ItemCustomMoves",
@@ -7858,7 +7822,6 @@
                     "iv": 200,
                     "level": 27,
                     "species": "SPINDA",
-                    "heldItem": "????????",
                     "moves": [
                         "TEETER DANCE",
                         "PSYBEAM",
@@ -7870,7 +7833,6 @@
                     "iv": 200,
                     "level": 27,
                     "species": "VIGOROTH",
-                    "heldItem": "????????",
                     "moves": [
                         "SLASH",
                         "FACADE",
@@ -7882,7 +7844,6 @@
                     "iv": 200,
                     "level": 29,
                     "species": "LINOONE",
-                    "heldItem": "????????",
                     "moves": [
                         "SLASH",
                         "BELLY DRUM",
@@ -7926,7 +7887,6 @@
                     "iv": 210,
                     "level": 29,
                     "species": "SWABLU",
-                    "heldItem": "????????",
                     "moves": [
                         "PERISH SONG",
                         "MIRROR MOVE",
@@ -7938,7 +7898,6 @@
                     "iv": 210,
                     "level": 29,
                     "species": "TROPIUS",
-                    "heldItem": "????????",
                     "moves": [
                         "SUNNY DAY",
                         "AERIAL ACE",
@@ -7950,7 +7909,6 @@
                     "iv": 210,
                     "level": 30,
                     "species": "PELIPPER",
-                    "heldItem": "????????",
                     "moves": [
                         "WATER GUN",
                         "SUPERSONIC",
@@ -7962,7 +7920,6 @@
                     "iv": 220,
                     "level": 31,
                     "species": "SKARMORY",
-                    "heldItem": "????????",
                     "moves": [
                         "SAND ATTACK",
                         "FURY ATTACK",
@@ -8000,6 +7957,7 @@
         ],
         "doubleBattle": 1,
         "aiFlags": 7,
+		"badgeBoosts": ["SPA", "SPD"],
         "partySize": 4,
         "party": {
             "PARTY_TYPE": "ItemCustomMoves",
@@ -8008,7 +7966,6 @@
                     "iv": 250,
                     "level": 41,
                     "species": "CLAYDOL",
-                    "heldItem": "????????",
                     "moves": [
                         "EARTHQUAKE",
                         "ANCIENT POWER",
@@ -8020,7 +7977,6 @@
                     "iv": 250,
                     "level": 41,
                     "species": "XATU",
-                    "heldItem": "????????",
                     "moves": [
                         "PSYCHIC",
                         "SUNNY DAY",
@@ -8076,7 +8032,6 @@
                     "iv": 200,
                     "level": 41,
                     "species": "LUVDISC",
-                    "heldItem": "????????",
                     "moves": [
                         "WATER PULSE",
                         "ATTRACT",
@@ -8088,7 +8043,6 @@
                     "iv": 200,
                     "level": 41,
                     "species": "WHISCASH",
-                    "heldItem": "????????",
                     "moves": [
                         "RAIN DANCE",
                         "WATER PULSE",
@@ -8100,7 +8054,6 @@
                     "iv": 200,
                     "level": 43,
                     "species": "SEALEO",
-                    "heldItem": "????????",
                     "moves": [
                         "ENCORE",
                         "BODY SLAM",
@@ -8112,7 +8065,6 @@
                     "iv": 200,
                     "level": 43,
                     "species": "CRAWDAUNT",
-                    "heldItem": "????????",
                     "moves": [
                         "WATER PULSE",
                         "CRABHAMMER",
@@ -9971,7 +9923,6 @@
                     "iv": 255,
                     "level": 57,
                     "species": "WAILORD",
-                    "heldItem": "????????",
                     "moves": [
                         "RAIN DANCE",
                         "WATER SPOUT",
@@ -9983,7 +9934,6 @@
                     "iv": 255,
                     "level": 55,
                     "species": "TENTACRUEL",
-                    "heldItem": "????????",
                     "moves": [
                         "TOXIC",
                         "HYDRO PUMP",
@@ -9995,7 +9945,6 @@
                     "iv": 255,
                     "level": 56,
                     "species": "LUDICOLO",
-                    "heldItem": "????????",
                     "moves": [
                         "GIGA DRAIN",
                         "SURF",
@@ -10007,7 +9956,6 @@
                     "iv": 255,
                     "level": 56,
                     "species": "WHISCASH",
-                    "heldItem": "????????",
                     "moves": [
                         "EARTHQUAKE",
                         "SURF",
@@ -10019,7 +9967,6 @@
                     "iv": 255,
                     "level": 56,
                     "species": "GYARADOS",
-                    "heldItem": "????????",
                     "moves": [
                         "DRAGON DANCE",
                         "EARTHQUAKE",
@@ -11604,14 +11551,12 @@
                 {
                     "iv": 140,
                     "level": 49,
-                    "species": "ALTARIA",
-                    "heldItem": "????????"
+                    "species": "ALTARIA"
                 },
                 {
                     "iv": 140,
                     "level": 49,
-                    "species": "ALTARIA",
-                    "heldItem": "????????"
+                    "species": "ALTARIA"
                 },
                 {
                     "iv": 140,
@@ -12163,7 +12108,6 @@
                     "iv": 0,
                     "level": 43,
                     "species": "CLAYDOL",
-                    "heldItem": "????????",
                     "moves": [
                         "SKILL SWAP",
                         "EARTHQUAKE"
@@ -12173,7 +12117,6 @@
                     "iv": 0,
                     "level": 43,
                     "species": "LANTURN",
-                    "heldItem": "????????",
                     "moves": [
                         "THUNDERBOLT",
                         "EARTHQUAKE"
@@ -12471,7 +12414,6 @@
                     "iv": 40,
                     "level": 33,
                     "species": "KOFFING",
-                    "heldItem": "????????",
                     "moves": [
                         "POISON GAS",
                         "TACKLE",
@@ -12482,7 +12424,6 @@
                     "iv": 40,
                     "level": 33,
                     "species": "KOFFING",
-                    "heldItem": "????????",
                     "moves": [
                         "POISON GAS",
                         "TACKLE",
@@ -12494,7 +12435,6 @@
                     "iv": 40,
                     "level": 33,
                     "species": "KOFFING",
-                    "heldItem": "????????",
                     "moves": [
                         "POISON GAS",
                         "TACKLE",
@@ -14829,7 +14769,6 @@
                     "iv": 255,
                     "level": 34,
                     "species": "MANECTRIC",
-                    "heldItem": "????????",
                     "moves": [
                         "BITE",
                         "ROAR",
@@ -16961,7 +16900,6 @@
                     "iv": 100,
                     "level": 32,
                     "species": "MANECTRIC",
-                    "heldItem": "????????",
                     "moves": [
                         "THUNDER",
                         "THUNDER WAVE",
@@ -16972,7 +16910,6 @@
                     "iv": 100,
                     "level": 32,
                     "species": "LINOONE",
-                    "heldItem": "????????",
                     "moves": [
                         "SURF",
                         "THIEF"
@@ -20580,8 +20517,7 @@
                 {
                     "iv": 0,
                     "level": 8,
-                    "species": "POOCHYENA",
-                    "heldItem": "????????"
+                    "species": "POOCHYENA"
                 }
             ]
         }
@@ -20605,8 +20541,7 @@
                 {
                     "iv": 0,
                     "level": 8,
-                    "species": "LOTAD",
-                    "heldItem": "????????"
+                    "species": "LOTAD"
                 },
                 {
                     "iv": 0,
@@ -22554,7 +22489,6 @@
                     "iv": 255,
                     "level": 32,
                     "species": "GOLEM",
-                    "heldItem": "????????",
                     "moves": [
                         "PROTECT",
                         "ROLLOUT",
@@ -22578,7 +22512,6 @@
                     "iv": 255,
                     "level": 35,
                     "species": "ONIX",
-                    "heldItem": "????????",
                     "moves": [
                         "IRON TAIL",
                         "EXPLOSION",
@@ -22623,7 +22556,6 @@
                     "iv": 255,
                     "level": 37,
                     "species": "OMANYTE",
-                    "heldItem": "????????",
                     "moves": [
                         "PROTECT",
                         "ICE BEAM",
@@ -22635,7 +22567,6 @@
                     "iv": 255,
                     "level": 37,
                     "species": "GOLEM",
-                    "heldItem": "????????",
                     "moves": [
                         "PROTECT",
                         "ROLLOUT",
@@ -22659,7 +22590,6 @@
                     "iv": 255,
                     "level": 40,
                     "species": "ONIX",
-                    "heldItem": "????????",
                     "moves": [
                         "IRON TAIL",
                         "EXPLOSION",
@@ -22704,7 +22634,6 @@
                     "iv": 255,
                     "level": 42,
                     "species": "OMASTAR",
-                    "heldItem": "????????",
                     "moves": [
                         "PROTECT",
                         "ICE BEAM",
@@ -22716,7 +22645,6 @@
                     "iv": 255,
                     "level": 42,
                     "species": "GOLEM",
-                    "heldItem": "????????",
                     "moves": [
                         "PROTECT",
                         "ROLLOUT",
@@ -22740,7 +22668,6 @@
                     "iv": 255,
                     "level": 45,
                     "species": "ONIX",
-                    "heldItem": "????????",
                     "moves": [
                         "IRON TAIL",
                         "EXPLOSION",
@@ -22785,7 +22712,6 @@
                     "iv": 255,
                     "level": 47,
                     "species": "AERODACTYL",
-                    "heldItem": "????????",
                     "moves": [
                         "ROCK SLIDE",
                         "HYPER BEAM",
@@ -22797,7 +22723,6 @@
                     "iv": 255,
                     "level": 47,
                     "species": "GOLEM",
-                    "heldItem": "????????",
                     "moves": [
                         "FOCUS PUNCH",
                         "ROLLOUT",
@@ -22809,7 +22734,6 @@
                     "iv": 255,
                     "level": 47,
                     "species": "OMASTAR",
-                    "heldItem": "????????",
                     "moves": [
                         "PROTECT",
                         "ICE BEAM",
@@ -22833,7 +22757,6 @@
                     "iv": 255,
                     "level": 50,
                     "species": "STEELIX",
-                    "heldItem": "????????",
                     "moves": [
                         "IRON TAIL",
                         "EXPLOSION",
@@ -22890,7 +22813,6 @@
                     "iv": 255,
                     "level": 33,
                     "species": "MEDITITE",
-                    "heldItem": "????????",
                     "moves": [
                         "PSYCHIC",
                         "LIGHT SCREEN",
@@ -22902,7 +22824,6 @@
                     "iv": 255,
                     "level": 35,
                     "species": "HITMONTOP",
-                    "heldItem": "????????",
                     "moves": [
                         "PURSUIT",
                         "COUNTER",
@@ -22959,7 +22880,6 @@
                     "iv": 255,
                     "level": 38,
                     "species": "MEDICHAM",
-                    "heldItem": "????????",
                     "moves": [
                         "PSYCHIC",
                         "LIGHT SCREEN",
@@ -22971,7 +22891,6 @@
                     "iv": 255,
                     "level": 40,
                     "species": "HITMONTOP",
-                    "heldItem": "????????",
                     "moves": [
                         "PURSUIT",
                         "COUNTER",
@@ -23016,7 +22935,6 @@
                     "iv": 255,
                     "level": 40,
                     "species": "HITMONCHAN",
-                    "heldItem": "????????",
                     "moves": [
                         "SKY UPPERCUT",
                         "PROTECT",
@@ -23040,7 +22958,6 @@
                     "iv": 255,
                     "level": 43,
                     "species": "MEDICHAM",
-                    "heldItem": "????????",
                     "moves": [
                         "FOCUS PUNCH",
                         "LIGHT SCREEN",
@@ -23052,7 +22969,6 @@
                     "iv": 255,
                     "level": 45,
                     "species": "HITMONTOP",
-                    "heldItem": "????????",
                     "moves": [
                         "PURSUIT",
                         "COUNTER",
@@ -23097,7 +23013,6 @@
                     "iv": 255,
                     "level": 46,
                     "species": "HITMONLEE",
-                    "heldItem": "????????",
                     "moves": [
                         "MEGA KICK",
                         "FOCUS PUNCH",
@@ -23109,7 +23024,6 @@
                     "iv": 255,
                     "level": 46,
                     "species": "HITMONCHAN",
-                    "heldItem": "????????",
                     "moves": [
                         "SKY UPPERCUT",
                         "PROTECT",
@@ -23133,7 +23047,6 @@
                     "iv": 255,
                     "level": 48,
                     "species": "MEDICHAM",
-                    "heldItem": "????????",
                     "moves": [
                         "FOCUS PUNCH",
                         "LIGHT SCREEN",
@@ -23145,7 +23058,6 @@
                     "iv": 255,
                     "level": 50,
                     "species": "HITMONTOP",
-                    "heldItem": "????????",
                     "moves": [
                         "PURSUIT",
                         "COUNTER",
@@ -23190,7 +23102,6 @@
                     "iv": 255,
                     "level": 36,
                     "species": "MAREEP",
-                    "heldItem": "????????",
                     "moves": [
                         "THUNDER",
                         "PROTECT",
@@ -23202,7 +23113,6 @@
                     "iv": 255,
                     "level": 36,
                     "species": "ELECTRODE",
-                    "heldItem": "????????",
                     "moves": [
                         "ROLLOUT",
                         "THUNDER",
@@ -23259,7 +23169,6 @@
                     "iv": 255,
                     "level": 39,
                     "species": "PIKACHU",
-                    "heldItem": "????????",
                     "moves": [
                         "THUNDER",
                         "SLAM",
@@ -23271,7 +23180,6 @@
                     "iv": 255,
                     "level": 41,
                     "species": "FLAAFFY",
-                    "heldItem": "????????",
                     "moves": [
                         "THUNDER",
                         "PROTECT",
@@ -23283,7 +23191,6 @@
                     "iv": 255,
                     "level": 41,
                     "species": "ELECTRODE",
-                    "heldItem": "????????",
                     "moves": [
                         "ROLLOUT",
                         "THUNDER",
@@ -23340,7 +23247,6 @@
                     "iv": 255,
                     "level": 44,
                     "species": "RAICHU",
-                    "heldItem": "????????",
                     "moves": [
                         "THUNDER",
                         "SLAM",
@@ -23352,7 +23258,6 @@
                     "iv": 255,
                     "level": 46,
                     "species": "AMPHAROS",
-                    "heldItem": "????????",
                     "moves": [
                         "THUNDER",
                         "PROTECT",
@@ -23364,7 +23269,6 @@
                     "iv": 255,
                     "level": 46,
                     "species": "ELECTRODE",
-                    "heldItem": "????????",
                     "moves": [
                         "ROLLOUT",
                         "THUNDER",
@@ -23421,7 +23325,6 @@
                     "iv": 255,
                     "level": 50,
                     "species": "ELECTABUZZ",
-                    "heldItem": "????????",
                     "moves": [
                         "SWIFT",
                         "FOCUS PUNCH",
@@ -23433,7 +23336,6 @@
                     "iv": 255,
                     "level": 51,
                     "species": "RAICHU",
-                    "heldItem": "????????",
                     "moves": [
                         "THUNDER",
                         "SLAM",
@@ -23445,7 +23347,6 @@
                     "iv": 255,
                     "level": 51,
                     "species": "AMPHAROS",
-                    "heldItem": "????????",
                     "moves": [
                         "THUNDER",
                         "PROTECT",
@@ -23457,7 +23358,6 @@
                     "iv": 255,
                     "level": 53,
                     "species": "ELECTRODE",
-                    "heldItem": "????????",
                     "moves": [
                         "ROLLOUT",
                         "THUNDER",
@@ -23526,7 +23426,6 @@
                     "iv": 255,
                     "level": 36,
                     "species": "PONYTA",
-                    "heldItem": "????????",
                     "moves": [
                         "FLAMETHROWER",
                         "ATTRACT",
@@ -23583,7 +23482,6 @@
                     "iv": 255,
                     "level": 41,
                     "species": "GROWLITHE",
-                    "heldItem": "????????",
                     "moves": [
                         "HELPING HAND",
                         "FLAMETHROWER",
@@ -23607,7 +23505,6 @@
                     "iv": 255,
                     "level": 41,
                     "species": "PONYTA",
-                    "heldItem": "????????",
                     "moves": [
                         "FLAMETHROWER",
                         "ATTRACT",
@@ -23664,7 +23561,6 @@
                     "iv": 255,
                     "level": 46,
                     "species": "HOUNDOUR",
-                    "heldItem": "????????",
                     "moves": [
                         "ROAR",
                         "SOLAR BEAM",
@@ -23676,7 +23572,6 @@
                     "iv": 255,
                     "level": 46,
                     "species": "GROWLITHE",
-                    "heldItem": "????????",
                     "moves": [
                         "HELPING HAND",
                         "FLAMETHROWER",
@@ -23700,7 +23595,6 @@
                     "iv": 255,
                     "level": 46,
                     "species": "RAPIDASH",
-                    "heldItem": "????????",
                     "moves": [
                         "FLAMETHROWER",
                         "ATTRACT",
@@ -23757,7 +23651,6 @@
                     "iv": 255,
                     "level": 51,
                     "species": "ARCANINE",
-                    "heldItem": "????????",
                     "moves": [
                         "HELPING HAND",
                         "FLAMETHROWER",
@@ -23781,7 +23674,6 @@
                     "iv": 255,
                     "level": 51,
                     "species": "HOUNDOOM",
-                    "heldItem": "????????",
                     "moves": [
                         "ROAR",
                         "SOLAR BEAM",
@@ -23793,7 +23685,6 @@
                     "iv": 255,
                     "level": 51,
                     "species": "RAPIDASH",
-                    "heldItem": "????????",
                     "moves": [
                         "FLAMETHROWER",
                         "ATTRACT",
@@ -23850,7 +23741,6 @@
                     "iv": 255,
                     "level": 42,
                     "species": "CHANSEY",
-                    "heldItem": "????????",
                     "moves": [
                         "LIGHT SCREEN",
                         "SING",
@@ -23874,7 +23764,6 @@
                     "iv": 255,
                     "level": 43,
                     "species": "SPINDA",
-                    "heldItem": "????????",
                     "moves": [
                         "TEETER DANCE",
                         "SKILL SWAP",
@@ -23931,7 +23820,6 @@
                     "iv": 255,
                     "level": 47,
                     "species": "CHANSEY",
-                    "heldItem": "????????",
                     "moves": [
                         "LIGHT SCREEN",
                         "SING",
@@ -23943,7 +23831,6 @@
                     "iv": 255,
                     "level": 45,
                     "species": "KANGASKHAN",
-                    "heldItem": "????????",
                     "moves": [
                         "FAKE OUT",
                         "DIZZY PUNCH",
@@ -23955,7 +23842,6 @@
                     "iv": 255,
                     "level": 48,
                     "species": "SPINDA",
-                    "heldItem": "????????",
                     "moves": [
                         "TEETER DANCE",
                         "SKILL SWAP",
@@ -24012,7 +23898,6 @@
                     "iv": 255,
                     "level": 52,
                     "species": "BLISSEY",
-                    "heldItem": "????????",
                     "moves": [
                         "LIGHT SCREEN",
                         "SING",
@@ -24024,7 +23909,6 @@
                     "iv": 255,
                     "level": 50,
                     "species": "KANGASKHAN",
-                    "heldItem": "????????",
                     "moves": [
                         "FAKE OUT",
                         "DIZZY PUNCH",
@@ -24036,7 +23920,6 @@
                     "iv": 255,
                     "level": 53,
                     "species": "SPINDA",
-                    "heldItem": "????????",
                     "moves": [
                         "TEETER DANCE",
                         "SKILL SWAP",
@@ -24093,7 +23976,6 @@
                     "iv": 255,
                     "level": 57,
                     "species": "BLISSEY",
-                    "heldItem": "????????",
                     "moves": [
                         "PROTECT",
                         "SING",
@@ -24105,7 +23987,6 @@
                     "iv": 255,
                     "level": 55,
                     "species": "KANGASKHAN",
-                    "heldItem": "????????",
                     "moves": [
                         "FAKE OUT",
                         "DIZZY PUNCH",
@@ -24117,7 +23998,6 @@
                     "iv": 255,
                     "level": 57,
                     "species": "TAUROS",
-                    "heldItem": "????????",
                     "moves": [
                         "TAKE DOWN",
                         "PROTECT",
@@ -24129,7 +24009,6 @@
                     "iv": 255,
                     "level": 58,
                     "species": "SPINDA",
-                    "heldItem": "????????",
                     "moves": [
                         "TEETER DANCE",
                         "SKILL SWAP",
@@ -24186,7 +24065,6 @@
                     "iv": 255,
                     "level": 38,
                     "species": "TROPIUS",
-                    "heldItem": "????????",
                     "moves": [
                         "SUNNY DAY",
                         "AERIAL ACE",
@@ -24198,7 +24076,6 @@
                     "iv": 255,
                     "level": 41,
                     "species": "PELIPPER",
-                    "heldItem": "????????",
                     "moves": [
                         "SURF",
                         "SUPERSONIC",
@@ -24210,7 +24087,6 @@
                     "iv": 255,
                     "level": 43,
                     "species": "SKARMORY",
-                    "heldItem": "????????",
                     "moves": [
                         "WHIRLWIND",
                         "SPIKES",
@@ -24255,7 +24131,6 @@
                     "iv": 255,
                     "level": 43,
                     "species": "HOOTHOOT",
-                    "heldItem": "????????",
                     "moves": [
                         "HYPNOSIS",
                         "PSYCHIC",
@@ -24267,7 +24142,6 @@
                     "iv": 255,
                     "level": 43,
                     "species": "TROPIUS",
-                    "heldItem": "????????",
                     "moves": [
                         "SUNNY DAY",
                         "AERIAL ACE",
@@ -24291,7 +24165,6 @@
                     "iv": 255,
                     "level": 46,
                     "species": "PELIPPER",
-                    "heldItem": "????????",
                     "moves": [
                         "SURF",
                         "SUPERSONIC",
@@ -24303,7 +24176,6 @@
                     "iv": 255,
                     "level": 48,
                     "species": "SKARMORY",
-                    "heldItem": "????????",
                     "moves": [
                         "WHIRLWIND",
                         "SPIKES",
@@ -24348,7 +24220,6 @@
                     "iv": 255,
                     "level": 48,
                     "species": "NOCTOWL",
-                    "heldItem": "????????",
                     "moves": [
                         "HYPNOSIS",
                         "PSYCHIC",
@@ -24360,7 +24231,6 @@
                     "iv": 255,
                     "level": 49,
                     "species": "TROPIUS",
-                    "heldItem": "????????",
                     "moves": [
                         "SUNNY DAY",
                         "AERIAL ACE",
@@ -24384,7 +24254,6 @@
                     "iv": 255,
                     "level": 51,
                     "species": "PELIPPER",
-                    "heldItem": "????????",
                     "moves": [
                         "SURF",
                         "SUPERSONIC",
@@ -24396,7 +24265,6 @@
                     "iv": 255,
                     "level": 53,
                     "species": "SKARMORY",
-                    "heldItem": "????????",
                     "moves": [
                         "WHIRLWIND",
                         "SPIKES",
@@ -24441,7 +24309,6 @@
                     "iv": 255,
                     "level": 53,
                     "species": "NOCTOWL",
-                    "heldItem": "????????",
                     "moves": [
                         "HYPNOSIS",
                         "PSYCHIC",
@@ -24453,7 +24320,6 @@
                     "iv": 255,
                     "level": 54,
                     "species": "TROPIUS",
-                    "heldItem": "????????",
                     "moves": [
                         "SUNNY DAY",
                         "AERIAL ACE",
@@ -24465,7 +24331,6 @@
                     "iv": 255,
                     "level": 55,
                     "species": "PELIPPER",
-                    "heldItem": "????????",
                     "moves": [
                         "SURF",
                         "SUPERSONIC",
@@ -24489,7 +24354,6 @@
                     "iv": 255,
                     "level": 58,
                     "species": "SKARMORY",
-                    "heldItem": "????????",
                     "moves": [
                         "WHIRLWIND",
                         "SPIKES",
@@ -24534,7 +24398,6 @@
                     "iv": 255,
                     "level": 48,
                     "species": "SLOWPOKE",
-                    "heldItem": "????????",
                     "moves": [
                         "YAWN",
                         "PSYCHIC",
@@ -24546,7 +24409,6 @@
                     "iv": 255,
                     "level": 49,
                     "species": "CLAYDOL",
-                    "heldItem": "????????",
                     "moves": [
                         "EARTHQUAKE",
                         "ANCIENT POWER",
@@ -24615,7 +24477,6 @@
                     "iv": 255,
                     "level": 53,
                     "species": "DROWZEE",
-                    "heldItem": "????????",
                     "moves": [
                         "HYPNOSIS",
                         "DREAM EATER",
@@ -24627,7 +24488,6 @@
                     "iv": 255,
                     "level": 53,
                     "species": "SLOWPOKE",
-                    "heldItem": "????????",
                     "moves": [
                         "YAWN",
                         "PSYCHIC",
@@ -24639,7 +24499,6 @@
                     "iv": 255,
                     "level": 54,
                     "species": "CLAYDOL",
-                    "heldItem": "????????",
                     "moves": [
                         "EARTHQUAKE",
                         "EXPLOSION",
@@ -24708,7 +24567,6 @@
                     "iv": 255,
                     "level": 58,
                     "species": "HYPNO",
-                    "heldItem": "????????",
                     "moves": [
                         "HYPNOSIS",
                         "DREAM EATER",
@@ -24720,7 +24578,6 @@
                     "iv": 255,
                     "level": 59,
                     "species": "CLAYDOL",
-                    "heldItem": "????????",
                     "moves": [
                         "EARTHQUAKE",
                         "EXPLOSION",
@@ -24732,7 +24589,6 @@
                     "iv": 255,
                     "level": 58,
                     "species": "SLOWPOKE",
-                    "heldItem": "????????",
                     "moves": [
                         "YAWN",
                         "PSYCHIC",
@@ -24801,7 +24657,6 @@
                     "iv": 255,
                     "level": 63,
                     "species": "HYPNO",
-                    "heldItem": "????????",
                     "moves": [
                         "HYPNOSIS",
                         "DREAM EATER",
@@ -24813,7 +24668,6 @@
                     "iv": 255,
                     "level": 64,
                     "species": "CLAYDOL",
-                    "heldItem": "????????",
                     "moves": [
                         "EARTHQUAKE",
                         "EXPLOSION",
@@ -24825,7 +24679,6 @@
                     "iv": 255,
                     "level": 63,
                     "species": "SLOWKING",
-                    "heldItem": "????????",
                     "moves": [
                         "YAWN",
                         "PSYCHIC",
@@ -24894,7 +24747,6 @@
                     "iv": 255,
                     "level": 46,
                     "species": "POLIWAG",
-                    "heldItem": "????????",
                     "moves": [
                         "HYPNOSIS",
                         "RAIN DANCE",
@@ -24906,7 +24758,6 @@
                     "iv": 255,
                     "level": 46,
                     "species": "WHISCASH",
-                    "heldItem": "????????",
                     "moves": [
                         "RAIN DANCE",
                         "WATER PULSE",
@@ -24918,7 +24769,6 @@
                     "iv": 255,
                     "level": 48,
                     "species": "WALREIN",
-                    "heldItem": "????????",
                     "moves": [
                         "WATER PULSE",
                         "BODY SLAM",
@@ -24975,7 +24825,6 @@
                     "iv": 255,
                     "level": 50,
                     "species": "POLIWHIRL",
-                    "heldItem": "????????",
                     "moves": [
                         "HYPNOSIS",
                         "RAIN DANCE",
@@ -24987,7 +24836,6 @@
                     "iv": 255,
                     "level": 51,
                     "species": "WHISCASH",
-                    "heldItem": "????????",
                     "moves": [
                         "RAIN DANCE",
                         "WATER PULSE",
@@ -24999,7 +24847,6 @@
                     "iv": 255,
                     "level": 53,
                     "species": "WALREIN",
-                    "heldItem": "????????",
                     "moves": [
                         "WATER PULSE",
                         "BODY SLAM",
@@ -25056,7 +24903,6 @@
                     "iv": 255,
                     "level": 56,
                     "species": "LAPRAS",
-                    "heldItem": "????????",
                     "moves": [
                         "HYDRO PUMP",
                         "PERISH SONG",
@@ -25068,7 +24914,6 @@
                     "iv": 255,
                     "level": 58,
                     "species": "WHISCASH",
-                    "heldItem": "????????",
                     "moves": [
                         "RAIN DANCE",
                         "WATER PULSE",
@@ -25080,7 +24925,6 @@
                     "iv": 255,
                     "level": 56,
                     "species": "POLIWHIRL",
-                    "heldItem": "????????",
                     "moves": [
                         "HYPNOSIS",
                         "RAIN DANCE",
@@ -25092,7 +24936,6 @@
                     "iv": 255,
                     "level": 58,
                     "species": "WALREIN",
-                    "heldItem": "????????",
                     "moves": [
                         "WATER PULSE",
                         "BODY SLAM",
@@ -25149,7 +24992,6 @@
                     "iv": 255,
                     "level": 61,
                     "species": "LAPRAS",
-                    "heldItem": "????????",
                     "moves": [
                         "HYDRO PUMP",
                         "PERISH SONG",
@@ -25161,7 +25003,6 @@
                     "iv": 255,
                     "level": 63,
                     "species": "WHISCASH",
-                    "heldItem": "????????",
                     "moves": [
                         "RAIN DANCE",
                         "WATER PULSE",
@@ -25173,7 +25014,6 @@
                     "iv": 255,
                     "level": 61,
                     "species": "POLITOED",
-                    "heldItem": "????????",
                     "moves": [
                         "HYPNOSIS",
                         "RAIN DANCE",
@@ -25185,7 +25025,6 @@
                     "iv": 255,
                     "level": 63,
                     "species": "WALREIN",
-                    "heldItem": "????????",
                     "moves": [
                         "WATER PULSE",
                         "BODY SLAM",
@@ -25238,7 +25077,6 @@
                     "iv": 100,
                     "level": 17,
                     "species": "ILLUMISE",
-                    "heldItem": "????????",
                     "moves": [
                         "SHOCK WAVE",
                         "QUICK ATTACK",
@@ -25249,7 +25087,6 @@
                     "iv": 100,
                     "level": 17,
                     "species": "VOLBEAT",
-                    "heldItem": "????????",
                     "moves": [
                         "SHOCK WAVE",
                         "QUICK ATTACK",
@@ -25304,7 +25141,6 @@
                     "iv": 255,
                     "level": 77,
                     "species": "SKARMORY",
-                    "heldItem": "????????",
                     "moves": [
                         "TOXIC",
                         "AERIAL ACE",
@@ -25316,7 +25152,6 @@
                     "iv": 255,
                     "level": 75,
                     "species": "CLAYDOL",
-                    "heldItem": "????????",
                     "moves": [
                         "REFLECT",
                         "LIGHT SCREEN",
@@ -25328,7 +25163,6 @@
                     "iv": 255,
                     "level": 76,
                     "species": "AGGRON",
-                    "heldItem": "????????",
                     "moves": [
                         "THUNDER",
                         "EARTHQUAKE",
@@ -25340,7 +25174,6 @@
                     "iv": 255,
                     "level": 76,
                     "species": "CRADILY",
-                    "heldItem": "????????",
                     "moves": [
                         "GIGA DRAIN",
                         "ANCIENT POWER",
@@ -25352,7 +25185,6 @@
                     "iv": 255,
                     "level": 76,
                     "species": "ARMALDO",
-                    "heldItem": "????????",
                     "moves": [
                         "WATER PULSE",
                         "ANCIENT POWER",

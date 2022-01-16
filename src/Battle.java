@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.EnumMap;
+import java.util.List;
 
 //represents a battle, with planned statmods
 public class Battle extends GameAction {
@@ -53,15 +54,22 @@ public class Battle extends GameAction {
         doBattle(p);
 
         // check for special gym leader badges
-        if (Trainer.getTrainerByName("ROXANNE").equals(opponent)) {
-            p.setAtkBadge(true);
-        } else if (Trainer.getTrainerByName("WATTSON").equals(opponent)) {
-            p.setSpeBadge(true);
-        } else if (Trainer.getTrainerByName("NORMAN").equals(opponent)) {
-            p.setDefBadge(true);
-        } else if (Trainer.getTrainerByName("TATEANDLIZA").equals(opponent)) {
-            p.setSpaBadge(true);
-            p.setSpdBadge(true);
+        if (!(opponent instanceof Trainer))
+        	return; 
+        
+        List<Stat> badgeBoosts = ((Trainer) opponent).getBadgeBoosts();
+        if(badgeBoosts == null)
+        	return;
+        
+        for (Stat stat : ((Trainer) opponent).getBadgeBoosts()) {
+			switch(stat) {
+			case ATK: p.setAtkBadge(true); break;
+			case DEF: p.setDefBadge(true); break;
+			case SPA: p.setSpaBadge(true); break;
+			case SPD: p.setSpdBadge(true); break;
+			case SPE: p.setSpeBadge(true); break;
+			default: break;
+			}
         }
     }
 
@@ -136,7 +144,7 @@ public class Battle extends GameAction {
             ArrayList<Integer> yatks = options.getYatks();
             ArrayList<Integer> ydefs = options.getYdefs();
             ArrayList<Integer> yspas = options.getYspas();
-            ArrayList<Integer> yspds = options.getYdefs();
+            ArrayList<Integer> yspds = options.getYspds();
             ArrayList<Integer> yspes = options.getYspes();
             ArrayList<Integer> yaccs = options.getYaccs();
             ArrayList<Integer> yevas = options.getYevas();
@@ -310,30 +318,42 @@ public class Battle extends GameAction {
                     	if(meMaxSpeed < oppSpeed) {
                     		Main.appendln("(always slower)");
                             Main.appendln("");
+                    	} else if (meMinSpeed > oppSpeed) {
+                    		Main.appendln("(always faster)");
+                            Main.appendln("");
                     	}
                     	
                     	else if (meMinSpeed <= oppSpeed && meMaxSpeed >= oppSpeed) {
-                            int tieDV = IVs.RANGE, outspeedDV = IVs.RANGE;
+                    		int realSpeed = options.getMod1().modSpe(p);
+                    		if(realSpeed > oppSpeed)
+                    			Main.appendln("(currently faster)");
+                    		else if (realSpeed == oppSpeed)
+                    			Main.appendln("(currently speedtied)");
+                    		else
+                    			Main.appendln("(currently slower)");
+                    		
+                    		
+                            int tieIV = IVs.RANGE, outspeedIV = IVs.RANGE;
                             int oppSpd = options.getMod2().modSpe(opps);
-                            for (int sDV = IVs.MIN; sDV < IVs.RANGE; sDV++) {
-                                int mySpd = options.getMod1().modSpeWithIVandNature(p, sDV, p.getNature());
-                                if (mySpd == oppSpd && sDV < tieDV) {
-                                    tieDV = sDV;
+                            for (int sIV = IVs.MIN; sIV < IVs.RANGE; sIV++) {
+                                int mySpd = options.getMod1().modSpeWithIVandNature(p, sIV, p.getNature());
+                                if (mySpd == oppSpd && sIV < tieIV) {
+                                    tieIV = sIV;
                                 }
-                                if (mySpd > oppSpd && sDV < outspeedDV) {
-                                    outspeedDV = sDV;
+                                if (mySpd > oppSpd && sIV < outspeedIV) {
+                                    outspeedIV = sIV;
                                     break;
                                 }
                             }
-                            Main.append("(Speed DV required");
-                            if (tieDV != IVs.RANGE && outspeedDV != IVs.RANGE && (tieDV != outspeedDV)) {
-                                Main.append(" to outspeed: " + outspeedDV + ", to speedtie: " + tieDV);
-                            } else if (outspeedDV != IVs.RANGE) {
-                                Main.append(" to outspeed: " + outspeedDV);
+                            Main.append("(Speed IV required");
+                            if (tieIV != IVs.RANGE && outspeedIV != IVs.RANGE && (tieIV != outspeedIV)) {
+                                Main.append(" to outspeed: " + outspeedIV + ", to speedtie: " + tieIV);
+                            } else if (outspeedIV != IVs.RANGE) {
+                                Main.append(" to outspeed: " + outspeedIV);
                             } else {
-                                Main.append(" to speedtie: " + tieDV);
+                                Main.append(" to speedtie: " + tieIV);
                             }
-                            Main.appendln(")");
+                            Main.appendln(" with the same nature)");
                             Main.appendln("");
                         }
                     }

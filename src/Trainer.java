@@ -51,6 +51,17 @@ public class Trainer implements Battleable, Iterable<Pokemon> {
             	
             	int doubleBattle = ((Long) trainerDic.get("doubleBattle")).intValue();
             	int aiFlags = ((Long) trainerDic.get("aiFlags")).intValue();
+            	
+            	List<Stat> badgeBoosts = null;
+            	if (trainerDic.containsKey("badgeBoosts")) {
+            		badgeBoosts = new ArrayList<Stat>();
+            		JSONArray badgeBoostsArray = (JSONArray) trainerDic.get("badgeBoosts");
+            		for (Object badgeBoostObj : badgeBoostsArray) {
+            			Stat stat = Stat.valueOf((String) badgeBoostObj);
+            			badgeBoosts.add(stat);
+            		}
+            	}
+            	
             	//int partySize = ((Long) trainerDic.get("partySize")).intValue();
             	
             	JSONObject partyDic = (JSONObject) trainerDic.get("party");
@@ -70,6 +81,11 @@ public class Trainer implements Battleable, Iterable<Pokemon> {
             		int level = ((Long) pokemonDic.get("level")).intValue();
             		String speciesString = (String) pokemonDic.get("species");
             		Species species = Species.getSpeciesByName(speciesString);
+            		
+            		if(species == null)
+            			System.out.println("null");
+            		
+            		String hashName = species.getHashName();
             		
             		Item heldItem = null;
             		if (pokemonDic.containsKey("heldItem"))
@@ -96,8 +112,8 @@ public class Trainer implements Battleable, Iterable<Pokemon> {
                     for(int i = 0; i < trainerName.length(); i++)
                     	nameHash = (nameHash + getCharValue(trainerName.charAt(i))) & 0xFFFFFFFF;
                     
-            		for(int i = 0; i < speciesString.length(); i++)
-                    	nameHash = (nameHash + getCharValue(speciesString.charAt(i))) & 0xFFFFFFFF;
+            		for(int i = 0; i < hashName.length(); i++)
+                    	nameHash = (nameHash + getCharValue(hashName.charAt(i))) & 0xFFFFFFFF;
             		personalityValue = (personalityValue + ((nameHash << 8) & 0xFFFFFFFF)) & 0xFFFFFFFF;
             		
             		iv = iv * 31 / 255;
@@ -109,7 +125,7 @@ public class Trainer implements Battleable, Iterable<Pokemon> {
             		party.add(pokemon);
             	}
             	trainer = new Trainer(trainerAlias, partyFlags, trainerClass, baseMoney, encounterMusicGender, trainerPic, 
-            			trainerName, items, doubleBattle, aiFlags, partyType, party);
+            			trainerName, items, doubleBattle, aiFlags, badgeBoosts, partyType, party);
             	
             	trainersByName.put(new IgnoreCaseString(trainerAlias), trainer);
             }
@@ -152,7 +168,11 @@ public class Trainer implements Battleable, Iterable<Pokemon> {
 	}
 	
 	public static int getCharValue(char c) {
-		return charValues.get(String.valueOf(c));
+		Object intValue = charValues.get(String.valueOf(c));
+		if (intValue == null) {
+			System.out.println("RIP getCharValue");
+		}
+		return (int)intValue;
 	}
 	
 	private static void printTrainers() {
@@ -183,12 +203,13 @@ public class Trainer implements Battleable, Iterable<Pokemon> {
 	private List<Item> items;
 	private int doubleBattle;
 	private int aiFlags;
+	private List<Stat> badgeBoosts;
 	private String partyType;
 	private ArrayList<Pokemon> party;
     private int reward;
 
     public Trainer(String trainerAlias, int partyFlags, String trainerClass, int baseMoney, int encounterMusicGender, int trainerPic, 
-    		String trainerName, List<Item> items, int doubleBattle, int aiFlags, String partyType, ArrayList<Pokemon> party) {
+    		String trainerName, List<Item> items, int doubleBattle, int aiFlags, List<Stat> badgeBoosts, String partyType, ArrayList<Pokemon> party) {
     	this.trainerAlias = trainerAlias;
     	this.partyFlags = partyFlags;
     	this.trainerClass = trainerClass;
@@ -199,6 +220,7 @@ public class Trainer implements Battleable, Iterable<Pokemon> {
     	this.items = items;
     	this.doubleBattle = doubleBattle;
     	this.aiFlags = aiFlags;
+    	this.badgeBoosts = badgeBoosts;
     	this.partyType = partyType;
     	this.party = party;
     	
@@ -265,6 +287,10 @@ public class Trainer implements Battleable, Iterable<Pokemon> {
 	
 	public int getReward(Pokemon p) {
 		return reward * (p.getHeldItem() != null && p.getHeldItem().getHoldEffect() == ItemHoldEffect.DOUBLE_PRIZE ? 2 : 1); //TODO : hardcoded
+	}
+
+	public List<Stat> getBadgeBoosts() {
+		return badgeBoosts;
 	}
 
 	public void setParty(Collection<Pokemon> party) {

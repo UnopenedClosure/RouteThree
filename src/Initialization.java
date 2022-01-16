@@ -7,4 +7,9 @@ public class Initialization {
 		Trainer.initCharValues(game);
 		Trainer.initTrainers(game);
     }
+    
+    public static void main(String[] args) {
+    	for (Game game : Game.values())
+    		init(game);
+    }
 }

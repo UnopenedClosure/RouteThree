@@ -1,9 +1,11 @@
+import java.util.ArrayList;
 import java.util.Map;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
 /* TODO : Implement damage effects
  * @ = implemented
+ * ~ = partially implemented
  * - = to-do
  * 
  * @ PSYWAVE :
@@ -35,8 +37,15 @@ import java.util.TreeMap;
  *   > script : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1764
  *   > code : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L8324
  *   
- * - PRESENT : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1745
- * - PURSUIT : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L3121
+ * ~ PRESENT : 
+ *   > script : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1745
+ *   > code : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L8281
+ *   > TODO: healing
+ *   
+ * @ PURSUIT : 
+ *   > script : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L3121
+ *            : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L3161
+
  * - RETURN
  * - FRUSTRATION
  * - TWISTER : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1908
@@ -62,6 +71,11 @@ import java.util.TreeMap;
  * - Weathers
  * - SPIKES
  * 
+ * @ FUTURE_SIGHT :
+ *   > script : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L1974
+ *            : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L3559
+ *   > code : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/battle_script_commands.c#L8559
+ *   
  * TODO : Special types
  * - FORESIGHT
  * - WEATHER_BALL : https://github.com/pret/pokeruby/blob/0ea1e7620cc5fea1e651974442052ba9c52cdd13/data/battle_scripts_1.s#L2754
@@ -160,13 +174,15 @@ public class DamageCalculator {
 				
 			case FUTURE_SIGHT:
 				this.setCrit(false);
-				int dmg = damage(attackMove, attacker, defender, atkMod, defMod, MAX_ROLL, false, extra_multiplier, isBattleTower, isDoubleBattle);
+				int dmg = calculateBaseDamage(new Move(attackMove), attacker, defender, atkMod, defMod, false, extra_multiplier, isBattleTower, isDoubleBattle, null);
 				this.addNormalDamage(dmg);
 				break;
 				
 			case LEVEL_DAMAGE:
+			case DRAGON_RAGE:
+			case SONICBOOM:
 				this.setCrit(false);
-				dmg = damage(attackMove, attacker, defender, atkMod, defMod, MAX_ROLL, false, extra_multiplier, isBattleTower, isDoubleBattle);
+				dmg = calculateBaseDamage(attackMove, attacker, defender, atkMod, defMod, false, extra_multiplier, isBattleTower, isDoubleBattle, null);
 				this.addNormalDamage(dmg);
 				break;
 				
@@ -335,7 +351,8 @@ public class DamageCalculator {
 	        int realmaxDmg = highestDamage();
 			// TODO : proper handling of critical hits
             double critChance = 1 / 16.0; //TODO : hardcoded
-            if (attackMove.getEffect() == MoveEffect.HIGH_CRITICAL){
+            if (attackMove.getEffect() == MoveEffect.HIGH_CRITICAL
+            		|| attackMove.getEffect() == MoveEffect.POISON_TAIL){
                 critChance *= 4;
             }
 
@@ -647,7 +664,7 @@ public class DamageCalculator {
 	    	int lastHPtoPrint = Math.min(damages.lastKey(), maxHP);
 	    		    	
 	    	// All but last damage strictly lower than enemyHP displayed one by one
-			SortedMap<Integer, Long> headMap = damages.headMap(maxHP, false); // Map corresponding to [minDmg, lastHPtoPrint[
+			SortedMap<Integer, Long> headMap = damages.headMap(lastHPtoPrint, false); // Map corresponding to [minDmg, lastHPtoPrint[
 			for (Map.Entry<Integer, Long> headEntry : headMap.entrySet()) {
 				int dmg = headEntry.getKey();
 				long rollNb = headEntry.getValue();
@@ -656,7 +673,7 @@ public class DamageCalculator {
 			}
 			
 			// Last or all damage higher or equal than enemyHP displayed only once
-			SortedMap<Integer, Long> tailMap = damages.tailMap(maxHP); // Map corresponding to [lastHPtoPrint, maxDmg]
+			SortedMap<Integer, Long> tailMap = damages.tailMap(lastHPtoPrint); // Map corresponding to [lastHPtoPrint, maxDmg]
 			long totalMult = 0;
 			for (Map.Entry<Integer, Long> tailEntry : tailMap.entrySet()) {
 				long mult = tailEntry.getValue();
@@ -833,7 +850,89 @@ public class DamageCalculator {
         // [atk05_damagecalc] //
         // ****************** //
         
-        // ************************ //
+        int damage = calculateBaseDamage(modifiedAttackMove, attacker, defender,
+                              atkMod, defMod,
+                              isCrit, extra_multiplier, isBattleTower, isDoubleBattle, 
+                              param);
+        
+        /*
+        if(modifiedAttackMove.getEffect() == MoveEffect.FUTURE_SIGHT) // Future Sight stops here
+        	return damage;
+        */
+        
+        
+        // Critical hit gBattleMoveDamage * gCritMultiplier * gBattleStruct->dmgMultiplier;
+        if (isCrit)
+        	damage *= 2;
+        
+        // Damage multiplier (TODO: What is this exactly ? Seems to be sDMG_MULTIPLIER)
+        damage *= extra_multiplier;
+        
+        // Charged up
+        if (modifiedAttackMove.getType() == Type.ELECTRIC && atkMod.hasStatus2_3(Status.CHARGED_UP))
+        	damage *= 2;
+        
+        // Helping hand
+        // TODO
+        
+        
+    	// ********************** //
+        // [end atk05_damagecalc] //
+        // ###################### //
+        
+        
+        // **************** //
+        // [atk06_typecalc] //
+        // **************** //
+        
+        if(!modifiedAttackMove.getName().equalsIgnoreCase("STRUGGLE")) {
+        	// STAB
+        	if(attacker.getSpecies().getType1() == modifiedAttackMove.getType()
+        			|| attacker.getSpecies().getType2() == modifiedAttackMove.getType())
+        		damage = damage * 15 / 10;
+        	
+        	// Levitate
+        	if(defender.getAbility() == Ability.LEVITATE && modifiedAttackMove.getType() == Type.GROUND)
+        		return 0;
+        	
+        	// Type effectiveness
+        	// TODO: handle Foresight (check within Types because there's a TODO there too)
+        	damage = Type.modulateDamageByType(damage, modifiedAttackMove.getType(), defender.getSpecies().getType1());
+        	damage = Type.modulateDamageByType(damage, modifiedAttackMove.getType(), defender.getSpecies().getType2());
+        	
+        	// Wonder Guard
+        	if(defender.getAbility() == Ability.WONDER_GUARD 
+        			&& Type.isSuperEffective(modifiedAttackMove.getType(), 
+        					defender.getSpecies().getType1(), defender.getSpecies().getType2()))
+        		return 0;
+        }
+        
+        // ******************** //
+        // [End atk06_typecalc] //
+        // #################### //
+        
+        // ************************** //
+        // [atk07_adjustnormaldamage] //
+        // ************************** //
+        
+        // Damage roll
+        damage = damage * roll / MAX_ROLL;
+        
+        // Bunch of stuff skipped because not useful or linked to damage
+        
+        // ****************************** //
+        // [End atk07_adjustnormaldamage] //
+        // ****************************** //
+        
+        return damage;
+    }
+    
+    public static int calculateBaseDamage(
+    		Move modifiedAttackMove, Pokemon attacker, Pokemon defender,
+            StatModifier atkMod, StatModifier defMod,
+            boolean isCrit, int extra_multiplier, boolean isBattleTower, boolean isDoubleBattle, 
+            Object param) {
+    	// ************************ //
         // >> (CalculateBaseDamage) //
         // ************************ //
         
@@ -853,6 +952,7 @@ public class DamageCalculator {
         	return attacker.getLevel();
         } else if (modifiedAttackMove.getEffect() == MoveEffect.ROLLOUT || modifiedAttackMove.getEffect() == MoveEffect.FURY_CUTTER) {
     		modifiedAttackMove.setPower(modifiedAttackMove.getPower() * extra_multiplier);
+    		extra_multiplier = 1;
         }
         
         if (modifiedAttackMove.getPower() == 1) { // Special cases seem to have this in common
@@ -909,10 +1009,10 @@ public class DamageCalculator {
         if(!isBattleTower) { 
         	// TODO : game checks for 'gBattleTypeFlags & BATTLE_TYPE_TRAINER', so maybe no badge boosts against encounters ?
         	// See : https://github.com/pret/pokeruby/blob/a3228d4c86494ee25aff60fc037805ddc1d47d32/src/calculate_base_damage.c#L85
-	        attackerAtk = attacker.applyBadgeBoost(attackerAtk, Stat.ATK);
-	        attackerSpa = attacker.applyBadgeBoost(attackerSpa, Stat.SPA);
-	        defenderDef = defender.applyBadgeBoost(defenderDef, Stat.DEF);
-	        defenderSpd = defender.applyBadgeBoost(defenderSpd, Stat.SPD);
+	        attackerAtk = attacker.applyBadgeBoostIfHasBadge(attackerAtk, Stat.ATK);
+	        attackerSpa = attacker.applyBadgeBoostIfHasBadge(attackerSpa, Stat.SPA);
+	        defenderDef = defender.applyBadgeBoostIfHasBadge(defenderDef, Stat.DEF);
+	        defenderSpd = defender.applyBadgeBoostIfHasBadge(defenderSpd, Stat.SPD);
         }
         
         // Type boosting items
@@ -934,37 +1034,37 @@ public class DamageCalculator {
         
         // Attacker Soul Dew
         if (hasAttackerItem && attackerItem.getHoldEffect() == ItemHoldEffect.SOUL_DEW && !isBattleTower
-        		&& (attacker.getSpecies().getName().equalsIgnoreCase("LATIOS") || attacker.getSpecies().getName().equalsIgnoreCase("LATIAS"))) // TODO: hardcoded
+        		&& (attacker.getSpecies().getHashName().equalsIgnoreCase("LATIOS") || attacker.getSpecies().getHashName().equalsIgnoreCase("LATIAS"))) // TODO: hardcoded
         	attackerSpa = attackerSpa * 150 / 100; // TODO: hardcoded
         
         // Defender Soul Dew
         if (hasDefenderItem && defenderItem.getHoldEffect() == ItemHoldEffect.SOUL_DEW && !isBattleTower
-        		&& (defender.getSpecies().getName().equalsIgnoreCase("LATIOS") || defender.getSpecies().getName().equalsIgnoreCase("LATIAS"))) // TODO: hardcoded
+        		&& (defender.getSpecies().getHashName().equalsIgnoreCase("LATIOS") || defender.getSpecies().getHashName().equalsIgnoreCase("LATIAS"))) // TODO: hardcoded
         	defenderSpd = defenderSpd * 150 / 100; // TODO: hardcoded
         
         // Attacker Deep Sea Tooth
         if (hasAttackerItem && attackerItem.getHoldEffect() == ItemHoldEffect.DEEP_SEA_TOOTH
-        		&& attacker.getSpecies().getName().equalsIgnoreCase("CLAMPERL")) // TODO: hardcoded
+        		&& attacker.getSpecies().getHashName().equalsIgnoreCase("CLAMPERL")) // TODO: hardcoded
         	attackerSpa *= 2; // TODO: hardcoded
         
         // Defender Deep Sea Scale
         if (hasDefenderItem && defenderItem.getHoldEffect() == ItemHoldEffect.DEEP_SEA_SCALE
-        		&& defender.getSpecies().getName().equalsIgnoreCase("CLAMPERL")) // TODO: hardcoded
+        		&& defender.getSpecies().getHashName().equalsIgnoreCase("CLAMPERL")) // TODO: hardcoded
         	defenderSpd *= 2; // TODO: hardcoded
         
         // Attacker Light Ball
         if (hasAttackerItem && attackerItem.getHoldEffect() == ItemHoldEffect.LIGHT_BALL
-        		&& attacker.getSpecies().getName().equalsIgnoreCase("PIKACHU")) // TODO: hardcoded
+        		&& attacker.getSpecies().getHashName().equalsIgnoreCase("PIKACHU")) // TODO: hardcoded
         	attackerSpa *= 2; // TODO: hardcoded
         
         // Defender Metal Powder
         if (hasDefenderItem && defenderItem.getHoldEffect() == ItemHoldEffect.METAL_POWDER
-        		&& defender.getSpecies().getName().equalsIgnoreCase("DITTO")) // TODO: hardcoded
+        		&& defender.getSpecies().getHashName().equalsIgnoreCase("DITTO")) // TODO: hardcoded
         	defenderDef *= 2; // TODO: hardcoded
         
         // Attacker Thick Club
         if (hasAttackerItem && attackerItem.getHoldEffect() == ItemHoldEffect.THICK_CLUB
-        		&& (attacker.getSpecies().getName().equalsIgnoreCase("CUBONE") || attacker.getSpecies().getName().equalsIgnoreCase("MAROWAK"))) // TODO: hardcoded
+        		&& (attacker.getSpecies().getHashName().equalsIgnoreCase("CUBONE") || attacker.getSpecies().getHashName().equalsIgnoreCase("MAROWAK"))) // TODO: hardcoded
         	attackerAtk *= 2; // TODO: hardcoded
         
         // Defender Thick Fat
@@ -1128,80 +1228,12 @@ public class DamageCalculator {
         }
         
         damage += 2;
+        return damage;
         // CalculateBaseDamage routine returns damage + 2 here
         
         // **************************** //
         // >> (End CalculateBaseDamage) //
         // ***######################### //
-        
-        if(modifiedAttackMove.getEffect() == MoveEffect.FUTURE_SIGHT) // Future Sight stops here
-        	return damage;
-        
-        
-        // Critical hit gBattleMoveDamage * gCritMultiplier * gBattleStruct->dmgMultiplier;
-        if (isCrit)
-        	damage *= 2;
-        
-        // Damage multiplier (TODO: What is this ?)
-        // TODO
-        
-        // Charged up
-        if (modifiedAttackMove.getType() == Type.ELECTRIC && atkMod.hasStatus2_3(Status.CHARGED_UP))
-        	damage *= 2;
-        
-        // Helping hand
-        // TODO
-        
-        
-    	// ********************** //
-        // [end atk05_damagecalc] //
-        // ###################### //
-        
-        
-        // **************** //
-        // [atk06_typecalc] //
-        // **************** //
-        
-        if(!modifiedAttackMove.getName().equalsIgnoreCase("STRUGGLE")) {
-        	// STAB
-        	if(attacker.getSpecies().getType1() == modifiedAttackMove.getType()
-        			|| attacker.getSpecies().getType2() == modifiedAttackMove.getType())
-        		damage = damage * 15 / 10;
-        	
-        	// Levitate
-        	if(defender.getAbility() == Ability.LEVITATE && modifiedAttackMove.getType() == Type.GROUND)
-        		return 0;
-        	
-        	// Type effectiveness
-        	// TODO: handle Foresight (check within Types because there's a TODO there too)
-        	damage = Type.modulateDamageByType(damage, modifiedAttackMove.getType(), defender.getSpecies().getType1());
-        	damage = Type.modulateDamageByType(damage, modifiedAttackMove.getType(), defender.getSpecies().getType2());
-        	
-        	// Wonder Guard
-        	if(defender.getAbility() == Ability.WONDER_GUARD 
-        			&& Type.isSuperEffective(modifiedAttackMove.getType(), 
-        					defender.getSpecies().getType1(), defender.getSpecies().getType2()))
-        		return 0;
-        }
-        
-        // ******************** //
-        // [End atk06_typecalc] //
-        // #################### //
-        
-        // ************************** //
-        // [atk07_adjustnormaldamage] //
-        // ************************** //
-        
-        // Damage roll
-        damage = damage * roll / MAX_ROLL;
-        
-        // Bunch of stuff skipped because not useful or linked to damage
-        
-        // ****************************** //
-        // [End atk07_adjustnormaldamage] //
-        // ****************************** //
-        
-        return damage;
     }
 
     
@@ -1262,13 +1294,14 @@ public class DamageCalculator {
         sb.append(String.format("%s vs %s", p1.levelNameNatureAbility(), p2.levelNameNatureAbility()));
         // Don't show exp for tower pokes (minor thing since exp isn't added anyway)
         if(!options.isBattleTower()) {
-            sb.append("          >>> EXP GIVEN: " + p2.expGiven(options.getParticipants()));
+        	int expGiven = options.getParticipants() == 0 ? 0 : p2.expGiven(options.getParticipants());
+            sb.append("          >>> EXP GIVEN: " + expGiven);
         }
     }
     
     public static void appendPokemonSummary(StringBuilder sb, Pokemon p, StatModifier mod) {
-    	sb.append(String.format("%s (%s) ", p.pokeName(), p.trueStatsStr()));
-        if (mod.hasMods())
+    	sb.append(String.format("%s (%s) ", p.getDisplayName(), p.trueStatsStr()));
+        if (mod.hasMods() || p.hasBadgeBoost())
             sb.append(String.format("%s ", mod.summary(p)));
         if (p.getHeldItem() != null)
         	sb.append(String.format("<%s> ", p.getHeldItem().getDisplayName()));
@@ -1327,7 +1360,7 @@ public class DamageCalculator {
     		int minScale, maxScale;
         	power = m.getPower();
         	//System.out.println(power);
-        	if (power == 20) {
+        	if (power == 20) { //TODO: hardcoded
         		minScale = 33;
         		maxScale = 48;
         	} else if (power == 40) {
@@ -1363,6 +1396,22 @@ public class DamageCalculator {
     		sb.append(String.format("%s %d (HP:%d-%d)", m.getName(), power, minHP, maxHP)); // TODO : hardcoded
     		break;
     		
+    	case PRESENT:
+    		power = m.getPower();
+    		percent = -1;
+    		if(power == 40) //TODO: hardcoded
+    			percent = 102;
+    		else if (power == 80)
+    			percent = 178 - 102;
+    		else // 120
+    			percent = 204 - 178;
+    		sb.append(String.format("%s %d (%d%%)", m.getName(), power, 100 * percent / 256)); // TODO : hardcoded
+    	
+    	case PURSUIT:
+    		boolean isSwitchOut = (_extra_multiplier == 2);
+    		sb.append(String.format("%s %s", m.getName(), isSwitchOut ? "SWITCH" : "")); // TODO : hardcoded
+    		break;
+    		
     	default:
     		sb.append(m.getName());
     		break;
@@ -1381,8 +1430,22 @@ public class DamageCalculator {
 			String mudSportMalusStr = " -" + Status.MUDSPORT;
 			String waterSpoutMalusStr = " -" + Status.WATERSPOUT;
 			
+			if (mod1.hasMods() || p1.hasBadgeBoost()) {
+				if (m.isPhysical()) {
+					if (p1.hasAtkBadge())
+						sb.append("*");
+					if (mod1.getAtkStage() != 0)
+						sb.append(String.format(" @%+d", mod1.getAtkStage()));
+				} else if (m.isSpecial()) {
+					if (p1.hasSpaBadge())
+						sb.append("*");
+					if (mod1.getSpaStage() != 0)
+						sb.append(String.format(" @%+d", mod1.getSpaStage()));
+				}
+			}
 			
-	        if(m.getName().equalsIgnoreCase("SURF") && mod2.hasStatus2_3(Status.UNDERWATER)) // TODO : hardcoded
+			
+	        if (m.getName().equalsIgnoreCase("SURF") && mod2.hasStatus2_3(Status.UNDERWATER)) // TODO : hardcoded
 	        	sb.append(underwaterBonusStr);
 			
 			
@@ -1400,37 +1463,37 @@ public class DamageCalculator {
 	        
 	        // Attacker Soul Dew
 	        if (hasAttackerItem && m.isSpecial() && attackerItem.getHoldEffect() == ItemHoldEffect.SOUL_DEW && !isBattleTower
-	        		&& (p1.getSpecies().getName().equalsIgnoreCase("LATIOS") || p1.getSpecies().getName().equalsIgnoreCase("LATIAS"))) // TODO: hardcoded
+	        		&& (p1.getSpecies().getHashName().equalsIgnoreCase("LATIOS") || p1.getSpecies().getHashName().equalsIgnoreCase("LATIAS"))) // TODO: hardcoded
         		sb.append(itemBonusStr);
 	        
 	        // Defender Soul Dew
 	        if (hasDefenderItem && m.isSpecial() && defenderItem.getHoldEffect() == ItemHoldEffect.SOUL_DEW && !isBattleTower
-	        		&& (p2.getSpecies().getName().equalsIgnoreCase("LATIOS") || p2.getSpecies().getName().equalsIgnoreCase("LATIAS"))) // TODO: hardcoded
+	        		&& (p2.getSpecies().getHashName().equalsIgnoreCase("LATIOS") || p2.getSpecies().getHashName().equalsIgnoreCase("LATIAS"))) // TODO: hardcoded
         		sb.append(itemMalusStr);
 	        
 	        // Attacker Deep Sea Tooth
 	        if (hasAttackerItem && m.isSpecial() && attackerItem.getHoldEffect() == ItemHoldEffect.DEEP_SEA_TOOTH
-	        		&& p1.getSpecies().getName().equalsIgnoreCase("CLAMPERL")) // TODO: hardcoded
+	        		&& p1.getSpecies().getHashName().equalsIgnoreCase("CLAMPERL")) // TODO: hardcoded
         		sb.append(itemBonusStr);
 	        
 	        // Defender Deep Sea Scale
 	        if (hasDefenderItem && m.isSpecial() && defenderItem.getHoldEffect() == ItemHoldEffect.DEEP_SEA_SCALE
-	        		&& p2.getSpecies().getName().equalsIgnoreCase("CLAMPERL")) // TODO: hardcoded
+	        		&& p2.getSpecies().getHashName().equalsIgnoreCase("CLAMPERL")) // TODO: hardcoded
         		sb.append(itemMalusStr);
 	        
 	        // Attacker Light Ball
 	        if (hasAttackerItem && m.isSpecial() && attackerItem.getHoldEffect() == ItemHoldEffect.LIGHT_BALL
-	        		&& p1.getSpecies().getName().equalsIgnoreCase("PIKACHU")) // TODO: hardcoded
+	        		&& p1.getSpecies().getHashName().equalsIgnoreCase("PIKACHU")) // TODO: hardcoded
         		sb.append(itemBonusStr);
 	        
 	        // Defender Metal Powder
 	        if (hasDefenderItem && m.isPhysical() && defenderItem.getHoldEffect() == ItemHoldEffect.METAL_POWDER
-	        		&& p2.getSpecies().getName().equalsIgnoreCase("DITTO")) // TODO: hardcoded
+	        		&& p2.getSpecies().getHashName().equalsIgnoreCase("DITTO")) // TODO: hardcoded
         		sb.append(itemMalusStr);
 	        
 	        // Attacker Thick Club
 	        if (hasAttackerItem && m.isPhysical() && attackerItem.getHoldEffect() == ItemHoldEffect.THICK_CLUB
-	        		&& (p1.getSpecies().getName().equalsIgnoreCase("CUBONE") || p1.getSpecies().getName().equalsIgnoreCase("MAROWAK"))) // TODO: hardcoded
+	        		&& (p1.getSpecies().getHashName().equalsIgnoreCase("CUBONE") || p1.getSpecies().getHashName().equalsIgnoreCase("MAROWAK"))) // TODO: hardcoded
         		sb.append(itemBonusStr);
 	        
 	        // Defender Thick Fat
@@ -1602,7 +1665,9 @@ public class DamageCalculator {
     //TODO: fuzzy, hacky, idk ... but at least the logic stays within a single method
     private static void damagesSummaryCore(StringBuilder sb, Pokemon p1, Pokemon p2, StatModifier mod1, StatModifier mod2, 
     		boolean isBattleTower, boolean isDoubleBattle, boolean isExtraDamageHelp) {
-
+    	String endl = Constants.endl;
+    	
+    	// First, append attacker move calcs
         for (Move move : p1.getMoveset()) {
         	switch (move.getEffect()) {
         	case FURY_CUTTER:
@@ -1651,6 +1716,30 @@ public class DamageCalculator {
                 move.setPower(oldPower);
                 break;
                 
+        	case PRESENT:
+        		oldPower = move.getPower();
+            	for(int power : new Integer[]{40, 80, 120}) { //TODO: hardcoded
+            		move.setPower(power);
+            		Damages damages = new Damages(move, p1, p2, mod1, mod2, 1, isBattleTower, isDoubleBattle);
+                    if (isExtraDamageHelp)
+                    	damages.appendDetailledPercentDamages(sb);
+                    else
+                    	damages.appendAllMoveInfo(sb);
+            	}
+                move.setPower(oldPower);
+                //TODO : handle healing
+                break;
+                
+        	case PURSUIT:
+            	for(int _extra_multiplier : new Integer[]{1, 2}) { //TODO: hardcoded
+            		Damages damages = new Damages(move, p1, p2, mod1, mod2, _extra_multiplier, isBattleTower, isDoubleBattle);
+                    if (isExtraDamageHelp)
+                    	damages.appendDetailledPercentDamages(sb);
+                    else
+                    	damages.appendAllMoveInfo(sb);
+            	}
+                break;
+                
         	default:
         		Damages damages = new Damages(move, p1, p2, mod1, mod2, 1, isBattleTower, isDoubleBattle);
                 if (isExtraDamageHelp)
@@ -1661,7 +1750,152 @@ public class DamageCalculator {
             	
         	} // end switch
         } // end for
+        
+        // Then, append residuals
+        boolean canPoison = false;
+        boolean canToxic = false;
+        boolean canBurn = false;
+        boolean canTrap = false;
+        boolean canConfuse = false;
+        boolean canSeed = false;
+        boolean canNightmare = false;
+        boolean canCurse = false;
+        for (Move move : p2.getMoveset()) {
+        	switch(move.getEffect()) {
+        	case POISON:
+        	case POISON_HIT:
+        	case POISON_TAIL:
+        		canPoison = true;
+        		break;
+        		
+        	case TOXIC:
+        	case POISON_FANG:
+        		canToxic = true;
+        		break;
+        		
+        	case BURN_HIT:
+        	case WILL_O_WISP:
+        	case TRI_ATTACK:
+        		canBurn = true;
+        		break;
+        		
+        	case TRAP:
+        		canTrap = true;
+        		break;
+        		
+        	case CONFUSE:
+        	case CONFUSE_HIT:
+        		canConfuse = true;
+        		break;
+        		
+        	case LEECH_SEED:
+        		canSeed = true;
+        		break;
+        		
+        	case NIGHTMARE:
+        		canNightmare = true;
+        		break;
+        		
+        	case CURSE:
+        		canCurse = true;
+        		break;
+        		
+        	default: 
+        		break;
+        	}
+        	/* Missing : 
+			METRONOME, //TODO
+			SPIKES, //TODO
+			SANDSTORM, //TODO
+			HAIL, //TODO
+			
+			NATURE_POWER, //TODO
+			SECRET_POWER, //TODO
+			*/
+        }
+    	
+    	
+    	if(isExtraDamageHelp)
+    		return;
+    	
+    	// poison
+    	if (p1.getSpecies().getType1() != Type.POISON && p1.getSpecies().getType2() != Type.POISON 
+    			&& p1.getSpecies().getType1() != Type.STEEL && p1.getSpecies().getType2() != Type.STEEL) { //TODO : hardcoded
         	
+    		if (canPoison && (p1.getSpecies().getType1() != Type.POISON && p1.getSpecies().getType2() != Type.POISON 
+        			&& p1.getSpecies().getType1() != Type.STEEL && p1.getSpecies().getType2() != Type.STEEL)) { //TODO : hardcoded
+        		sb.append(String.format("(poisoned: %d)", p1.getHP() / 8)); //TODO : hardcoded
+        		sb.append(endl);
+        	}
+        	
+    		if (canToxic) {
+        		int minTxcDmg = Math.max(1, p1.getHP() / 16);
+        		ArrayList<Integer> dmgs = new ArrayList<>();
+        		for(int i = 1; i <= 15; i++)
+        			dmgs.add(i * minTxcDmg);
+        		sb.append(String.format("(badly poisoned: %s)", dmgs)); //TODO : hardcoded
+        		sb.append(endl);
+        	}
+    	}
+    	
+    	// burn
+    	if (p1.getSpecies().getType1() != Type.FIRE && p1.getSpecies().getType2() != Type.FIRE) {
+    		if (canBurn) {
+    			sb.append(String.format("(burned: %d)", p1.getHP() / 8)); //TODO : hardcoded
+        		sb.append(endl);
+    		}
+    	}
+    	
+    	// trap
+    	if (canTrap) {
+    		sb.append(String.format("(trapped: %d)", p1.getHP() / 16)); //TODO : hardcoded
+    		sb.append(endl);
+    	}
+    	
+    	// confuse
+    	if(canConfuse) { //TODO : hardcoded
+    		TreeMap<Integer, Long> map = new TreeMap<>();
+    		int maxDmg = calculateBaseDamage(new Move(Move.getMoveByName("POUND")), p1, p1, mod1, mod1, false, 1, isBattleTower, isDoubleBattle, null);
+        	for(int roll = MIN_ROLL; roll <= MAX_ROLL; roll++) {
+        		int dmg = maxDmg * roll / MAX_ROLL;
+    			if (!map.containsKey(dmg))
+    				map.put(dmg, (long) 1);
+    			else
+    				map.put(dmg, 1 + map.get(dmg));
+        	}
+			sb.append("(confused: "); //TODO : hardcoded
+			boolean isFirstEntry = true;
+			for(Map.Entry<Integer, Long> entry : map.entrySet()) {
+				if (!isFirstEntry)
+					sb.append(", ");
+				int dmg = entry.getKey();
+				int mult = entry.getValue().intValue();
+				sb.append(String.format("%dx%d", dmg, mult));
+				isFirstEntry = false;
+			}
+			sb.append(")"); //TODO : hardcoded
+    		sb.append(endl);
+    	}
+    	
+    	// leech seed
+    	if (p1.getSpecies().getType1() != Type.GRASS && p1.getSpecies().getType2() != Type.GRASS) {
+        	if  (canSeed) {
+        		sb.append(String.format("(seeded: %d)", p1.getHP() / 8)); //TODO : hardcoded
+        		sb.append(endl);
+        	}
+    	}
+    	
+    	// nightmare
+    	if (canNightmare) {
+    		sb.append(String.format("(nightmared: %d)", p1.getHP() / 4)); //TODO : hardcoded
+    		sb.append(endl);
+    	}
+    	
+    	// curse
+    	if (canCurse) {
+    		sb.append(String.format("(cursed: %d)", p1.getHP() / 4)); //TODO : hardcoded
+    		sb.append(endl);
+    	}
     }
  
 }

@@ -1,0 +1,2293 @@
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# EXP Needed: 18638/18638
+Stats WITHOUT badge boosts:
+       HP    ATK    DEF    SPA    SPD    SPE
+      228    236    148    228    134    135
+IV      2     31      7     19      5     19
+EV      0      0      0      0      0      0
+FLY, REST, EXTREME SPEED, OUTRAGE, 
+
+LVL: 70 EXP NEEDED: 18638/18638
+
+LEADER JUAN  | REWARD: 4600
+[HYPER POTION, HYPER POTION] {L41 LUVDISC [ADAMANT] #SWIFT_SWIM#, L46 KINGDRA [NAIVE] #SWIFT_SWIM#, L43 SEALEO [NAIVE] #THICK_FAT#, L41 WHISCASH [HASTY] #OBLIVIOUS#, L43 CRAWDAUNT [ADAMANT] #HYPER_CUTTER#}
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# vs L41 LUVDISC [ADAMANT] #SWIFT_SWIM#          >>> EXP GIVEN: 966
+RAYQUAZA (228/236/148/228/134/135) 
+FLY	237-279 246,88-290,63%	(crit: 474-558 493,75-581,25%)
+	Normal rolls: 96x16
+	Crit rolls: 96x16
+	(guaranteed 1-shot)
+
+REST
+EXTREME SPEED	180-212 187,50-220,83%	(crit: 360-424 375,00-441,67%)
+	Normal rolls: 96x16
+	Crit rolls: 96x16
+	(guaranteed 1-shot)
+
+OUTRAGE	255-300 265,63-312,50%	(crit: 510-600 531,25-625,00%)
+	Normal rolls: 96x16
+	Crit rolls: 96x16
+	(guaranteed 1-shot)
+
+
+LUVDISC (96/42/59/42/68/94) 
+WATER PULSE, ATTRACT, SWEET KISS, FLAIL, 
+
+(always faster)
+
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# vs L46 KINGDRA [NAIVE] #SWIFT_SWIM#          >>> EXP GIVEN: 2040
+RAYQUAZA (228/236/148/228/134/135) 
+FLY	132-156 95,65-113,04%	(crit: 265-312 192,03-226,09%)
+	Normal rolls: 132x1, 134x1, 135x1, 137x1, 138x12
+	Crit rolls: 138x16
+	(One shot prob.: 12/16 | 75,00%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 76,5625%)
+
+REST
+EXTREME SPEED	101-119 73,19-86,23%	(crit: 202-238 146,38-172,46%)
+	Normal rolls: 101x1, 102x1, 103x1, 104x1, 105x1, 107x1, 108x1, 109x1, 110x1, 111x1, 113x1, 114x1, 115x1, 116x1, 117x1, 119x1
+	Crit rolls: 138x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+OUTRAGE	367-432 265,94-313,04%	(crit: 734-864 531,88-626,09%)
+	Normal rolls: 138x16
+	Crit rolls: 138x16
+	(guaranteed 1-shot)
+
+
+KINGDRA (138/106/106/106/95/106) <CHESTO BERRY> 
+WATER PULSE, DOUBLE TEAM, ICE BEAM, REST, 
+
+(always faster)
+
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# vs L43 SEALEO [NAIVE] #THICK_FAT#          >>> EXP GIVEN: 1179
+RAYQUAZA (228/236/148/228/134/135) 
+FLY	187-220 133,57-157,14%	(crit: 374-441 267,14-315,00%)
+	Normal rolls: 140x16
+	Crit rolls: 140x16
+	(guaranteed 1-shot)
+
+REST
+EXTREME SPEED	141-167 100,71-119,29%	(crit: 283-334 202,14-238,57%)
+	Normal rolls: 140x16
+	Crit rolls: 140x16
+	(guaranteed 1-shot)
+
+OUTRAGE	258-304 184,29-217,14%	(crit: 517-609 369,29-435,00%)
+	Normal rolls: 140x16
+	Crit rolls: 140x16
+	(guaranteed 1-shot)
+
+
+SEALEO (140/66/75/79/67/59) 
+ENCORE, BODY SLAM, AURORA BEAM, WATER PULSE, 
+
+(always faster)
+
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# vs L41 WHISCASH [HASTY] #OBLIVIOUS#          >>> EXP GIVEN: 1387
+RAYQUAZA (228/236/148/228/134/135) 
+FLY	211-249 139,74-164,90%	(crit: 423-498 280,13-329,80%)
+	Normal rolls: 151x16
+	Crit rolls: 151x16
+	(guaranteed 1-shot)
+
+REST
+EXTREME SPEED	161-190 106,62-125,83%	(crit: 323-380 213,91-251,66%)
+	Normal rolls: 151x16
+	Crit rolls: 151x16
+	(guaranteed 1-shot)
+
+OUTRAGE	237-279 156,95-184,77%	(crit: 474-558 313,91-369,54%)
+	Normal rolls: 151x16
+	Crit rolls: 151x16
+	(guaranteed 1-shot)
+
+
+WHISCASH (151/78/66/77/73/70) 
+RAIN DANCE, WATER PULSE, AMNESIA, EARTHQUAKE, 
+
+(always faster)
+
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# vs L43 CRAWDAUNT [ADAMANT] #HYPER_CUTTER#          >>> EXP GIVEN: 1483
+RAYQUAZA (228/236/148/228/134/135) 
+FLY	158-187 135,04-159,83%	(crit: 318-375 271,79-320,51%)
+	Normal rolls: 117x16
+	Crit rolls: 117x16
+	(guaranteed 1-shot)
+
+REST
+EXTREME SPEED	121-143 103,42-122,22%	(crit: 243-286 207,69-244,44%)
+	Normal rolls: 117x16
+	Crit rolls: 117x16
+	(guaranteed 1-shot)
+
+OUTRAGE	278-328 237,61-280,34%	(crit: 558-657 476,92-561,54%)
+	Normal rolls: 117x16
+	Crit rolls: 117x16
+	(guaranteed 1-shot)
+
+
+CRAWDAUNT (117/129/88/82/62/62) 
+WATER PULSE, CRABHAMMER, TAUNT, LEER, 
+
+(always faster)
+
+LVL: 70 EXP NEEDED: 11583/18638
+
+{PKMN} TRAINER WALLY  | REWARD: 2700
+[FULL RESTORE, FULL RESTORE] {L44 ALTARIA [JOLLY] #NATURAL_CURE#, L43 DELCATTY [QUIRKY] #CUTE_CHARM#, L41 MAGNETON [IMPISH] #MAGNET_PULL#, L44 ROSELIA [ADAMANT] #NATURAL_CURE#, L45 GARDEVOIR [NAIVE] #SYNCHRONIZE#}
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# vs L44 ALTARIA [JOLLY] #NATURAL_CURE#          >>> EXP GIVEN: 1771
+RAYQUAZA (228/236/148/228/134/135) 
+FLY	153-180 120,47-141,73%	(crit: 306-360 240,94-283,46%)
+	Normal rolls: 127x16
+	Crit rolls: 127x16
+	(guaranteed 1-shot)
+
+OUTRAGE	331-390 260,63-307,09%	(crit: 663-780 522,05-614,17%)
+	Normal rolls: 127x16
+	Crit rolls: 127x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	130-154 102,36-121,26%	(crit: 262-309 206,30-243,31%)
+	Normal rolls: 127x16
+	Crit rolls: 127x16
+	(guaranteed 1-shot)
+
+WATERFALL	49-58 38,58-45,67%	(crit: 98-116 77,17-91,34%)
+	Normal rolls: 49x2, 50x1, 51x2, 52x2, 53x2, 54x1, 55x2, 56x2, 57x1, 58x1
+	Crit rolls: 98x1, 99x1, 100x1, 102x1, 103x1, 104x1, 105x1, 106x1, 107x1, 109x1, 110x1, 111x1, 112x1, 113x1, 114x1, 116x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+
+ALTARIA (127/74/92/66/105/91) 
+AERIAL ACE, SAFEGUARD, DRAGON BREATH, DRAGON DANCE, 
+
+(always faster)
+
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# vs L43 DELCATTY [QUIRKY] #CUTE_CHARM#          >>> EXP GIVEN: 1270
+RAYQUAZA (228/236/148/228/134/135) 
+FLY	204-241 170,00-200,83%	(crit: 410-483 341,67-402,50%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+OUTRAGE	289-340 240,83-283,33%	(crit: 578-681 481,67-567,50%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	176-208 146,67-173,33%	(crit: 354-417 295,00-347,50%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+WATERFALL	171-202 142,50-168,33%	(crit: 343-404 285,83-336,67%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+
+DELCATTY (120/68/68/60/60/72) 
+SING, ASSIST, CHARM, FAINT ATTACK, 
+
+(always faster)
+
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# vs L41 MAGNETON [IMPISH] #MAGNET_PULL#          >>> EXP GIVEN: 1414
+RAYQUAZA (228/236/148/228/134/135) 
+FLY	34-41 34,34-41,41%	(crit: 70-83 70,71-83,84%)
+	Normal rolls: 34x1, 35x2, 36x3, 37x2, 38x3, 39x2, 40x2, 41x1
+	Crit rolls: 70x1, 71x1, 72x1, 73x2, 74x1, 75x1, 76x1, 77x1, 78x2, 79x1, 80x1, 81x1, 82x1, 83x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+OUTRAGE	124-147 125,25-148,48%	(crit: 250-295 252,53-297,98%)
+	Normal rolls: 99x16
+	Crit rolls: 99x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	30-36 30,30-36,36%	(crit: 61-72 61,62-72,73%)
+	Normal rolls: 30x2, 31x2, 32x3, 33x3, 34x3, 35x2, 36x1
+	Crit rolls: 61x2, 62x1, 63x1, 64x2, 65x1, 66x2, 67x1, 68x1, 69x2, 70x1, 71x1, 72x1
+	(3 shot prob.: 49,2188%)
+	(1 non-crit + 1 crit death prob.: 53,5156%)
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 6,6620%)
+	(Overall 3-hit KO%: 58,1575%)
+
+WATERFALL	148-175 149,49-176,77%	(crit: 297-350 300,00-353,54%)
+	Normal rolls: 99x16
+	Crit rolls: 99x16
+	(guaranteed 1-shot)
+
+
+MAGNETON (99/61/99/99/69/69) 
+SUPERSONIC, THUNDERBOLT, TRI ATTACK, SCREECH, 
+
+(always faster)
+
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# vs L44 ROSELIA [ADAMANT] #NATURAL_CURE#          >>> EXP GIVEN: 1432
+RAYQUAZA (228/236/148/228/134/135) 
+FLY	537-632 511,43-601,90%	(crit: 1076-1266 1024,76-1205,71%)
+	Normal rolls: 105x16
+	Crit rolls: 105x16
+	(guaranteed 1-shot)
+
+OUTRAGE	209-246 199,05-234,29%	(crit: 418-492 398,10-468,57%)
+	Normal rolls: 105x16
+	Crit rolls: 105x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	460-542 438,10-516,19%	(crit: 923-1086 879,05-1034,29%)
+	Normal rolls: 105x16
+	Crit rolls: 105x16
+	(guaranteed 1-shot)
+
+WATERFALL	62-73 59,05-69,52%	(crit: 124-146 118,10-139,05%)
+	Normal rolls: 62x2, 63x1, 64x2, 65x1, 66x1, 67x2, 68x1, 69x1, 70x2, 71x1, 72x1, 73x1
+	Crit rolls: 105x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ROSELIA (105/71/52/90/83/70) 
+MAGICAL LEAF, LEECH SEED, GIGA DRAIN, TOXIC, 
+
+(always faster)
+
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# vs L45 GARDEVOIR [NAIVE] #SYNCHRONIZE#          >>> EXP GIVEN: 2005
+RAYQUAZA (228/236/148/228/134/135) 
+FLY	181-214 140,31-165,89%	(crit: 364-429 282,17-332,56%)
+	Normal rolls: 129x16
+	Crit rolls: 129x16
+	(guaranteed 1-shot)
+
+OUTRAGE	158-187 122,48-144,96%	(crit: 318-375 246,51-290,70%)
+	Normal rolls: 129x16
+	Crit rolls: 129x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	156-184 120,93-142,64%	(crit: 313-369 242,64-286,05%)
+	Normal rolls: 129x16
+	Crit rolls: 129x16
+	(guaranteed 1-shot)
+
+WATERFALL	95-112 73,64-86,82%	(crit: 190-224 147,29-173,64%)
+	Normal rolls: 95x1, 96x1, 97x1, 98x1, 99x1, 100x1, 101x1, 103x1, 104x1, 105x1, 106x1, 107x1, 108x1, 109x1, 110x1, 112x1
+	Crit rolls: 129x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+GARDEVOIR (129/77/77/131/109/99) 
+DOUBLE TEAM, CALM MIND, PSYCHIC, FUTURE SIGHT, 
+
+(always faster)
+
+LVL: 70 EXP NEEDED: 3691/18638
+
+COOLTRAINER HOPE  | REWARD: 2160
+[FULL RESTORE] {L45 ROSELIA [LAX] #NATURAL_CURE#}
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# vs L45 ROSELIA [LAX] #NATURAL_CURE#          >>> EXP GIVEN: 1465
+RAYQUAZA (228/236/148/228/134/135) 
+FLY	506-596 481,90-567,62%	(crit: 1014-1194 965,71-1137,14%)
+	Normal rolls: 105x16
+	Crit rolls: 105x16
+	(guaranteed 1-shot)
+
+OUTRAGE	237-279 225,71-265,71%	(crit: 474-558 451,43-531,43%)
+	Normal rolls: 105x16
+	Crit rolls: 105x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	435-512 414,29-487,62%	(crit: 872-1026 830,48-977,14%)
+	Normal rolls: 105x16
+	Crit rolls: 105x16
+	(guaranteed 1-shot)
+
+WATERFALL	70-83 66,67-79,05%	(crit: 141-166 134,29-158,10%)
+	Normal rolls: 70x1, 71x1, 72x1, 73x2, 74x1, 75x1, 76x1, 77x1, 78x2, 79x1, 80x1, 81x1, 82x1, 83x1
+	Crit rolls: 105x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+ROSELIA (105/64/55/100/73/68) 
+GIGA DRAIN, SWEET SCENT, INGRAIN, TOXIC, 
+
+(always faster)
+
+LVL: 70 EXP NEEDED: 2226/18638
+
+COOLTRAINER SHANNON  | REWARD: 2160
+[FULL RESTORE] {L45 CLAYDOL [HASTY] #LEVITATE#}
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# vs L45 CLAYDOL [HASTY] #LEVITATE#          >>> EXP GIVEN: 1822
+RAYQUAZA (228/236/148/228/134/135) 
+FLY	150-177 131,58-155,26%	(crit: 300-354 263,16-310,53%)
+	Normal rolls: 114x16
+	Crit rolls: 114x16
+	(guaranteed 1-shot)
+
+OUTRAGE	147-174 128,95-152,63%	(crit: 295-348 258,77-305,26%)
+	Normal rolls: 114x16
+	Crit rolls: 114x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	130-153 114,04-134,21%	(crit: 260-306 228,07-268,42%)
+	Normal rolls: 114x16
+	Crit rolls: 114x16
+	(guaranteed 1-shot)
+
+WATERFALL	175-206 153,51-180,70%	(crit: 350-412 307,02-361,40%)
+	Normal rolls: 114x16
+	Crit rolls: 114x16
+	(guaranteed 1-shot)
+
+
+CLAYDOL (114/73/93/73/118/84) 
+ANCIENT POWER, SANDSTORM, HYPER BEAM, COSMIC POWER, 
+
+(always faster)
+
+LVL: 70 EXP NEEDED: 404/18638
+
+COOLTRAINER JULIE  | REWARD: 2016
+[FULL RESTORE] {L42 SANDSLASH [BASHFUL] #SAND_VEIL#, L42 NINETALES [ADAMANT] #FLASH_FIRE#, L42 TROPIUS [CALM] #CHLOROPHYLL#}
+L70 RAYQUAZA [RELAXED] #AIR_LOCK# vs L42 SANDSLASH [BASHFUL] #SAND_VEIL#          >>> EXP GIVEN: 1467
+RAYQUAZA (228/236/148/228/134/135) 
+FLY	137-162 114,17-135,00%	(crit: 275-324 229,17-270,00%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+OUTRAGE	309-364 257,50-303,33%	(crit: 619-729 515,83-607,50%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	118-139 98,33-115,83%	(crit: 237-279 197,50-232,50%)
+	Normal rolls: 118x1, 119x1, 120x14
+	Crit rolls: 120x16
+	(One shot prob.: 14/16 | 87,50%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 88,2813%)
+
+WATERFALL	367-432 305,83-360,00%	(crit: 734-864 611,67-720,00%)
+	Normal rolls: 120x16
+	Crit rolls: 120x16
+	(guaranteed 1-shot)
+
+
+SANDSLASH (120/94/102/47/56/64) 
+POISON STING, SLASH, SWIFT, FURY SWIPES, 
+
+(always faster)
+
+L71 RAYQUAZA [RELAXED] #AIR_LOCK# EXP Needed: 18109/19172
+Stats WITHOUT badge boosts:
+       HP    ATK    DEF    SPA    SPD    SPE
+      232    240    150    232    137    137
+IV      2     31      7     19      5     19
+EV      5      3      2      8      5      2
+FLY, OUTRAGE, AERIAL ACE, WATERFALL, 
+
+L71 RAYQUAZA [RELAXED] #AIR_LOCK# vs L42 NINETALES [ADAMANT] #FLASH_FIRE#          >>> EXP GIVEN: 1602
+RAYQUAZA (232/240/150/232/137/137) 
+FLY	194-229 164,41-194,07%	(crit: 390-459 330,51-388,98%)
+	Normal rolls: 118x16
+	Crit rolls: 118x16
+	(guaranteed 1-shot)
+
+OUTRAGE	188-222 159,32-188,14%	(crit: 377-444 319,49-376,27%)
+	Normal rolls: 118x16
+	Crit rolls: 118x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	168-198 142,37-167,80%	(crit: 336-396 284,75-335,59%)
+	Normal rolls: 118x16
+	Crit rolls: 118x16
+	(guaranteed 1-shot)
+
+WATERFALL	224-264 189,83-223,73%	(crit: 448-528 379,66-447,46%)
+	Normal rolls: 118x16
+	Crit rolls: 118x16
+	(guaranteed 1-shot)
+
+
+NINETALES (118/80/73/70/94/94) 
+EMBER, QUICK ATTACK, CONFUSE RAY, SAFEGUARD, 
+
+(always faster)
+
+L71 RAYQUAZA [RELAXED] #AIR_LOCK# vs L42 TROPIUS [CALM] #CHLOROPHYLL#          >>> EXP GIVEN: 1521
+RAYQUAZA (232/240/150/232/137/137) 
+FLY	362-426 258,57-304,29%	(crit: 724-852 517,14-608,57%)
+	Normal rolls: 140x16
+	Crit rolls: 140x16
+	(guaranteed 1-shot)
+
+OUTRAGE	194-229 138,57-163,57%	(crit: 390-459 278,57-327,86%)
+	Normal rolls: 140x16
+	Crit rolls: 140x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	311-366 222,14-261,43%	(crit: 622-732 444,29-522,86%)
+	Normal rolls: 140x16
+	Crit rolls: 140x16
+	(guaranteed 1-shot)
+
+WATERFALL	57-68 40,71-48,57%	(crit: 115-136 82,14-97,14%)
+	Normal rolls: 57x1, 58x1, 59x2, 60x1, 61x2, 62x1, 63x2, 64x1, 65x2, 66x1, 67x1, 68x1
+	Crit rolls: 115x1, 116x1, 118x1, 119x1, 121x1, 122x1, 123x1, 125x1, 126x1, 127x1, 129x1, 130x1, 131x1, 133x1, 134x1, 136x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+
+TROPIUS (140/60/79/70/91/52) 
+WHIRLWIND, MAGICAL LEAF, BODY SLAM, SOLAR BEAM, 
+
+(always faster)
+
+LVL: 71 EXP NEEDED: 14986/19172
+
+COOLTRAINER EDGAR  | REWARD: 2064
+[FULL RESTORE] {L43 CACTURNE [NAIVE] #SAND_VEIL#, L43 PELIPPER [NAIVE] #KEEN_EYE#}
+L71 RAYQUAZA [RELAXED] #AIR_LOCK# vs L43 CACTURNE [NAIVE] #SAND_VEIL#          >>> EXP GIVEN: 1630
+RAYQUAZA (232/240/150/232/137/137) 
+FLY	465-548 394,07-464,41%	(crit: 933-1098 790,68-930,51%)
+	Normal rolls: 118x16
+	Crit rolls: 118x16
+	(guaranteed 1-shot)
+
+OUTRAGE	327-385 277,12-326,27%	(crit: 655-771 555,08-653,39%)
+	Normal rolls: 118x16
+	Crit rolls: 118x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	399-470 338,14-398,31%	(crit: 800-942 677,97-798,31%)
+	Normal rolls: 118x16
+	Crit rolls: 118x16
+	(guaranteed 1-shot)
+
+WATERFALL	96-114 81,36-96,61%	(crit: 193-228 163,56-193,22%)
+	Normal rolls: 96x1, 98x1, 99x1, 100x1, 101x1, 102x1, 103x1, 104x1, 106x1, 107x1, 108x1, 109x1, 110x1, 111x1, 112x1, 114x1
+	Crit rolls: 118x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+CACTURNE (118/109/61/109/54/62) 
+INGRAIN, FAINT ATTACK, SPIKES, NEEDLE ARM, 
+
+(always faster)
+
+L71 RAYQUAZA [RELAXED] #AIR_LOCK# vs L43 PELIPPER [NAIVE] #KEEN_EYE#          >>> EXP GIVEN: 1510
+RAYQUAZA (232/240/150/232/137/137) 
+FLY	148-175 135,78-160,55%	(crit: 298-351 273,39-322,02%)
+	Normal rolls: 109x16
+	Crit rolls: 109x16
+	(guaranteed 1-shot)
+
+OUTRAGE	280-330 256,88-302,75%	(crit: 561-660 514,68-605,50%)
+	Normal rolls: 109x16
+	Crit rolls: 109x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	128-151 117,43-138,53%	(crit: 257-303 235,78-277,98%)
+	Normal rolls: 109x16
+	Crit rolls: 109x16
+	(guaranteed 1-shot)
+
+WATERFALL	83-98 76,15-89,91%	(crit: 166-196 152,29-179,82%)
+	Normal rolls: 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1
+	Crit rolls: 109x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+PELIPPER (109/53/96/83/63/72) 
+MIST, PROTECT, STOCKPILE, SWALLOW, 
+
+(always faster)
+
+LVL: 71 EXP NEEDED: 11846/19172
+
+ELITE FOUR SIDNEY  | REWARD: 4900
+[FULL RESTORE, FULL RESTORE] {L46 MIGHTYENA [RASH] #INTIMIDATE#, L49 ABSOL [BOLD] #PRESSURE#, L48 SHIFTRY [JOLLY] #CHLOROPHYLL#, L48 CRAWDAUNT [NAUGHTY] #HYPER_CUTTER#, L46 CACTURNE [ADAMANT] #SAND_VEIL#}
+L71 RAYQUAZA [RELAXED] #AIR_LOCK# vs L46 MIGHTYENA [RASH] #INTIMIDATE#          >>> EXP GIVEN: 1261
+RAYQUAZA (232/240/150/232/137/137) 
+FLY	171-202 127,61-150,75%	(crit: 344-405 256,72-302,24%)
+	Normal rolls: 134x16
+	Crit rolls: 134x16
+	(guaranteed 1-shot)
+
+OUTRAGE	267-315 199,25-235,07%	(crit: 535-630 399,25-470,15%)
+	Normal rolls: 134x16
+	Crit rolls: 134x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	147-174 109,70-129,85%	(crit: 295-348 220,15-259,70%)
+	Normal rolls: 134x16
+	Crit rolls: 134x16
+	(guaranteed 1-shot)
+
+WATERFALL	158-187 117,91-139,55%	(crit: 317-374 236,57-279,10%)
+	Normal rolls: 134x16
+	Crit rolls: 134x16
+	(guaranteed 1-shot)
+
+
+MIGHTYENA (134/101/83/81/66/83) 
+ROAR, DOUBLE EDGE, SAND ATTACK, CRUNCH, 
+
+(always faster)
+
+L71 RAYQUAZA [RELAXED] #AIR_LOCK# vs L49 ABSOL [BOLD] #PRESSURE#          >>> EXP GIVEN: 1827
+RAYQUAZA (232/240/150/232/137/137) 
+FLY	168-198 122,63-144,53%	(crit: 336-396 245,26-289,05%)
+	Normal rolls: 137x16
+	Crit rolls: 137x16
+	(guaranteed 1-shot)
+
+OUTRAGE	226-267 164,96-194,89%	(crit: 453-534 330,66-389,78%)
+	Normal rolls: 137x16
+	Crit rolls: 137x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	143-169 104,38-123,36%	(crit: 288-339 210,22-247,45%)
+	Normal rolls: 137x16
+	Crit rolls: 137x16
+	(guaranteed 1-shot)
+
+WATERFALL	134-158 97,81-115,33%	(crit: 268-316 195,62-230,66%)
+	Normal rolls: 134x1, 135x1, 137x14
+	Crit rolls: 137x16
+	(One shot prob.: 14/16 | 87,50%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 88,2813%)
+
+
+ABSOL (137/132/85/93/78/93) <SITRUS BERRY> 
+AERIAL ACE, ROCK SLIDE, SWORDS DANCE, SLASH, 
+
+(always faster)
+
+L71 RAYQUAZA [RELAXED] #AIR_LOCK# vs L48 SHIFTRY [JOLLY] #CHLOROPHYLL#          >>> EXP GIVEN: 1861
+RAYQUAZA (232/240/150/232/137/137) 
+FLY	372-438 235,44-277,22%	(crit: 744-876 470,89-554,43%)
+	Normal rolls: 158x16
+	Crit rolls: 158x16
+	(guaranteed 1-shot)
+
+OUTRAGE	229-270 144,94-170,89%	(crit: 459-540 290,51-341,77%)
+	Normal rolls: 158x16
+	Crit rolls: 158x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	317-374 200,63-236,71%	(crit: 637-750 403,16-474,68%)
+	Normal rolls: 158x16
+	Crit rolls: 158x16
+	(guaranteed 1-shot)
+
+WATERFALL	68-80 43,04-50,63%	(crit: 136-160 86,08-101,27%)
+	Normal rolls: 68x2, 69x1, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1, 76x2, 77x1, 78x1, 79x1, 80x1
+	Crit rolls: 136x1, 137x1, 139x1, 140x1, 142x1, 144x1, 145x1, 147x1, 148x1, 150x1, 152x1, 153x1, 155x1, 156x1, 158x2
+	(Crit one shot prob.: 2/16 | 12,50%)
+	(2 shot prob.: 2,3438%)
+	(guaranteed 3-shot)
+	(Overall 1-hit KO%: 0,7813%)
+	(Overall 2-hit KO%: 14,1693%)
+
+
+SHIFTRY (158/115/77/94/77/105) 
+TORMENT, DOUBLE TEAM, SWAGGER, EXTRASENSORY, 
+
+(always faster)
+
+L71 RAYQUAZA [RELAXED] #AIR_LOCK# vs L48 CRAWDAUNT [NAUGHTY] #HYPER_CUTTER#          >>> EXP GIVEN: 1656
+RAYQUAZA (232/240/150/232/137/137) 
+FLY	141-166 106,82-125,76%	(crit: 283-333 214,39-252,27%)
+	Normal rolls: 132x16
+	Crit rolls: 132x16
+	(guaranteed 1-shot)
+
+OUTRAGE	276-325 209,09-246,21%	(crit: 553-651 418,94-493,18%)
+	Normal rolls: 132x16
+	Crit rolls: 132x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	122-144 92,42-109,09%	(crit: 244-288 184,85-218,18%)
+	Normal rolls: 122x1, 123x1, 125x1, 126x1, 128x1, 129x1, 131x1, 132x9
+	Crit rolls: 132x16
+	(One shot prob.: 9/16 | 56,25%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 58,9844%)
+
+WATERFALL	81-96 61,36-72,73%	(crit: 164-193 124,24-146,21%)
+	Normal rolls: 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1
+	Crit rolls: 132x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+CRAWDAUNT (132/147/101/105/64/72) 
+SURF, SWORDS DANCE, STRENGTH, FACADE, 
+
+(always faster)
+
+L71 RAYQUAZA [RELAXED] #AIR_LOCK# vs L46 CACTURNE [ADAMANT] #SAND_VEIL#          >>> EXP GIVEN: 1744
+RAYQUAZA (232/240/150/232/137/137) 
+FLY	384-452 286,57-337,31%	(crit: 770-906 574,63-676,12%)
+	Normal rolls: 134x16
+	Crit rolls: 134x16
+	(guaranteed 1-shot)
+
+OUTRAGE	239-282 178,36-210,45%	(crit: 479-564 357,46-420,90%)
+	Normal rolls: 134x16
+	Crit rolls: 134x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	331-390 247,01-291,04%	(crit: 663-780 494,78-582,09%)
+	Normal rolls: 134x16
+	Crit rolls: 134x16
+	(guaranteed 1-shot)
+
+WATERFALL	70-83 52,24-61,94%	(crit: 141-167 105,22-124,63%)
+	Normal rolls: 70x1, 71x1, 72x1, 73x2, 74x1, 75x1, 76x1, 77x1, 78x2, 79x1, 80x1, 81x1, 82x1, 83x1
+	Crit rolls: 134x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+CACTURNE (134/136/74/111/74/69) 
+LEECH SEED, FAINT ATTACK, NEEDLE ARM, COTTON SPORE, 
+
+(always faster)
+
+LVL: 71 EXP NEEDED: 3497/19172
+
+ELITE FOUR PHOEBE  | REWARD: 5100
+[FULL RESTORE, FULL RESTORE] {L48 DUSCLOPS [NAUGHTY] #PRESSURE#, L51 DUSCLOPS [CAREFUL] #PRESSURE#, L49 BANETTE [CALM] #INSOMNIA#, L50 SABLEYE [CAREFUL] #KEEN_EYE#, L49 BANETTE [NAIVE] #INSOMNIA#}
+L71 RAYQUAZA [RELAXED] #AIR_LOCK# vs L48 DUSCLOPS [NAUGHTY] #PRESSURE#          >>> EXP GIVEN: 1840
+RAYQUAZA (232/240/150/232/137/137) +[1/0/0/0/0|0/0] Final speed: 150  
+FLY	148-175 134,55-159,09%	(crit: 298-351 270,91-319,09%)
+	Normal rolls: 110x16
+	Crit rolls: 110x16
+	(guaranteed 1-shot)
+
+OUTRAGE	137-162 124,55-147,27%	(crit: 275-324 250,00-294,55%)
+	Normal rolls: 110x16
+	Crit rolls: 110x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	128-151 116,36-137,27%	(crit: 257-303 233,64-275,45%)
+	Normal rolls: 110x16
+	Crit rolls: 110x16
+	(guaranteed 1-shot)
+
+WATERFALL	81-96 73,64-87,27%	(crit: 163-192 148,18-174,55%)
+	Normal rolls: 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1
+	Crit rolls: 110x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+DUSCLOPS (110/94/144/77/129/43) 
+SHADOW PUNCH, CONFUSE RAY, CURSE, PROTECT, 
+
+(always faster)
+
+L71 RAYQUAZA [RELAXED] #AIR_LOCK# vs L51 DUSCLOPS [CAREFUL] #PRESSURE#          >>> EXP GIVEN: 1956
+RAYQUAZA (232/240/150/232/137/137) +[1/0/0/0/0|0/0] Final speed: 150  
+FLY	140-165 119,66-141,03%	(crit: 280-330 239,32-282,05%)
+	Normal rolls: 117x16
+	Crit rolls: 117x16
+	(guaranteed 1-shot)
+
+OUTRAGE	105-124 89,74-105,98%	(crit: 211-249 180,34-212,82%)
+	Normal rolls: 105x1, 106x1, 107x1, 109x1, 110x1, 111x1, 112x1, 114x1, 115x1, 116x1, 117x6
+	Crit rolls: 117x16
+	(One shot prob.: 6/16 | 37,50%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 41,4063%)
+
+AERIAL ACE	120-142 102,56-121,37%	(crit: 242-285 206,84-243,59%)
+	Normal rolls: 117x16
+	Crit rolls: 117x16
+	(guaranteed 1-shot)
+
+WATERFALL	62-74 52,99-63,25%	(crit: 125-148 106,84-126,50%)
+	Normal rolls: 62x1, 63x1, 64x1, 65x2, 66x1, 67x1, 68x2, 69x1, 70x1, 71x2, 72x1, 73x1, 74x1
+	Crit rolls: 117x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+DUSCLOPS (117/92/153/73/168/46) <SITRUS BERRY> 
+SHADOW BALL, ICE BEAM, ROCK SLIDE, EARTHQUAKE, 
+
+(always faster)
+
+L72 RAYQUAZA [RELAXED] #AIR_LOCK# EXP Needed: 19412/19711
+Stats WITHOUT badge boosts:
+       HP    ATK    DEF    SPA    SPD    SPE
+      235    245    154    236    139    139
+IV      2     31      7     19      5     19
+EV      7     14      6     10     10      3
+FLY, OUTRAGE, AERIAL ACE, WATERFALL, 
+
+L72 RAYQUAZA [RELAXED] #AIR_LOCK# vs L49 BANETTE [CALM] #INSOMNIA#          >>> EXP GIVEN: 1879
+RAYQUAZA (235/245/154/236/139/139) +[1/0/0/0/0|0/0] Final speed: 152  
+FLY	260-307 191,18-225,74%	(crit: 522-615 383,82-452,21%)
+	Normal rolls: 136x16
+	Crit rolls: 136x16
+	(guaranteed 1-shot)
+
+OUTRAGE	202-238 148,53-175,00%	(crit: 405-477 297,79-350,74%)
+	Normal rolls: 136x16
+	Crit rolls: 136x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	224-264 164,71-194,12%	(crit: 448-528 329,41-388,24%)
+	Normal rolls: 136x16
+	Crit rolls: 136x16
+	(guaranteed 1-shot)
+
+WATERFALL	119-141 87,50-103,68%	(crit: 239-282 175,74-207,35%)
+	Normal rolls: 119x1, 121x1, 122x1, 124x1, 125x1, 126x1, 128x1, 129x1, 131x1, 132x1, 133x1, 135x1, 136x4
+	Crit rolls: 136x16
+	(One shot prob.: 4/16 | 25,00%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 29,6875%)
+
+
+BANETTE (136/118/83/101/89/83) 
+SHADOW BALL, GRUDGE, WILL O WISP, FAINT ATTACK, 
+
+(always faster)
+
+L72 RAYQUAZA [RELAXED] #AIR_LOCK# vs L50 SABLEYE [CAREFUL] #KEEN_EYE#          >>> EXP GIVEN: 1050
+RAYQUAZA (235/245/154/236/139/139) +[1/0/0/0/0|0/0] Final speed: 152  
+FLY	229-270 183,20-216,00%	(crit: 459-540 367,20-432,00%)
+	Normal rolls: 125x16
+	Crit rolls: 125x16
+	(guaranteed 1-shot)
+
+OUTRAGE	193-228 154,40-182,40%	(crit: 387-456 309,60-364,80%)
+	Normal rolls: 125x16
+	Crit rolls: 125x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	196-231 156,80-184,80%	(crit: 392-462 313,60-369,60%)
+	Normal rolls: 125x16
+	Crit rolls: 125x16
+	(guaranteed 1-shot)
+
+WATERFALL	114-135 91,20-108,00%	(crit: 229-270 183,20-216,00%)
+	Normal rolls: 114x1, 116x1, 117x1, 118x1, 120x1, 121x1, 122x1, 124x1, 125x8
+	Crit rolls: 125x16
+	(One shot prob.: 8/16 | 50,00%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 53,1250%)
+
+
+SABLEYE (125/95/95/76/93/70) 
+SHADOW BALL, DOUBLE TEAM, NIGHT SHADE, FAINT ATTACK, 
+
+(always faster)
+
+L72 RAYQUAZA [RELAXED] #AIR_LOCK# vs L49 BANETTE [NAIVE] #INSOMNIA#          >>> EXP GIVEN: 1879
+RAYQUAZA (235/245/154/236/139/139) +[1/0/0/0/0|0/0] Final speed: 152  
+FLY	260-307 191,18-225,74%	(crit: 522-615 383,82-452,21%)
+	Normal rolls: 136x16
+	Crit rolls: 136x16
+	(guaranteed 1-shot)
+
+OUTRAGE	249-294 183,09-216,18%	(crit: 499-588 366,91-432,35%)
+	Normal rolls: 136x16
+	Crit rolls: 136x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	224-264 164,71-194,12%	(crit: 448-528 329,41-388,24%)
+	Normal rolls: 136x16
+	Crit rolls: 136x16
+	(guaranteed 1-shot)
+
+WATERFALL	147-174 108,09-127,94%	(crit: 295-348 216,91-255,88%)
+	Normal rolls: 136x16
+	Crit rolls: 136x16
+	(guaranteed 1-shot)
+
+
+BANETTE (136/132/83/101/72/91) 
+SHADOW BALL, PSYCHIC, THUNDERBOLT, FACADE, 
+
+(always faster)
+
+LVL: 72 EXP NEEDED: 14604/19711
+
+ELITE FOUR GLACIA  | REWARD: 5300
+[FULL RESTORE, FULL RESTORE] {L50 SEALEO [BRAVE] #THICK_FAT#, L50 GLALIE [BASHFUL] #INNER_FOCUS#, L52 SEALEO [HARDY] #THICK_FAT#, L52 GLALIE [MILD] #INNER_FOCUS#, L53 WALREIN [NAIVE] #THICK_FAT#}
+L72 RAYQUAZA [RELAXED] #AIR_LOCK# vs L50 SEALEO [BRAVE] #THICK_FAT#          >>> EXP GIVEN: 1371
+RAYQUAZA (235/245/154/236/139/139) +[1/0/0/0/0|0/0] Final speed: 152  
+FLY	242-285 146,67-172,73%	(crit: 484-570 293,33-345,45%)
+	Normal rolls: 165x16
+	Crit rolls: 165x16
+	(guaranteed 1-shot)
+
+OUTRAGE	199-235 120,61-142,42%	(crit: 400-471 242,42-285,45%)
+	Normal rolls: 165x16
+	Crit rolls: 165x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	207-244 125,45-147,88%	(crit: 415-489 251,52-296,36%)
+	Normal rolls: 165x16
+	Crit rolls: 165x16
+	(guaranteed 1-shot)
+
+WATERFALL	59-70 35,76-42,42%	(crit: 119-140 72,12-84,85%)
+	Normal rolls: 59x1, 60x2, 61x1, 62x1, 63x2, 64x1, 65x2, 66x1, 67x2, 68x1, 69x1, 70x1
+	Crit rolls: 119x1, 120x1, 121x1, 123x1, 124x1, 126x1, 127x1, 128x1, 130x1, 131x1, 133x1, 134x1, 135x1, 137x1, 138x1, 140x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+
+FLY
+          NON-CRITS
+            165: 100,00%     
+
+          CRITS
+            165: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            165: 100,00%     
+
+          CRITS
+            165: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            165: 100,00%     
+
+          CRITS
+            165: 100,00%     
+
+WATERFALL
+          NON-CRITS
+             59:   6,25%      60:  12,50%      61:   6,25%      62:   6,25%      63:  12,50%      64:   6,25%      65:  12,50%      66:   6,25%     
+             67:  12,50%      68:   6,25%      69:   6,25%      70:   6,25%     
+
+          CRITS
+            119:   6,25%     120:   6,25%     121:   6,25%     123:   6,25%     124:   6,25%     126:   6,25%     127:   6,25%     128:   6,25%     
+            130:   6,25%     131:   6,25%     133:   6,25%     134:   6,25%     135:   6,25%     137:   6,25%     138:   6,25%     140:   6,25%     
+
+
+SEALEO (165/88/90/95/90/58) 
+ENCORE
+BODY SLAM	17-21 7,23-8,94%	(crit: 35-42 14,89-17,87%)
+	Normal rolls: 17x1, 18x5, 19x5, 20x4, 21x1
+	Crit rolls: 35x1, 36x3, 37x2, 38x2, 39x3, 40x2, 41x2, 42x1
+	(guaranteed 14-shot)
+
+HAIL
+ICE BALL 1	51-60 21,70-25,53%	(crit: 102-120 43,40-51,06%)
+	Normal rolls: 51x2, 52x2, 53x1, 54x2, 55x2, 56x1, 57x2, 58x2, 59x1, 60x1
+	Crit rolls: 102x1, 103x1, 104x1, 105x1, 106x1, 108x1, 109x1, 110x1, 111x1, 112x1, 114x1, 115x1, 116x1, 117x1, 118x1, 120x1
+	(4 shot prob.: 0,4272%)
+	(2 crits death prob.: 4,6875%)
+	(2 non-crits + 1 crit death prob.: 1,6602%)
+	(guaranteed 5-shot)
+	(Overall 3-hit KO%: 1,3966%)
+	(Overall 4-hit KO%: 23,0824%)
+
+ICE BALL 2	91-108 38,72-45,96%	(crit: 183-216 77,87-91,91%)
+	Normal rolls: 91x1, 92x1, 93x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1, 101x1, 102x1, 103x1, 104x1, 105x1, 106x1, 108x1
+	Crit rolls: 183x1, 185x1, 187x1, 190x1, 192x1, 194x1, 196x1, 198x1, 200x1, 203x1, 205x1, 207x1, 209x1, 211x1, 213x1, 216x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+ICE BALL 3	132-156 56,17-66,38%	(crit: 265-312 112,77-132,77%)
+	Normal rolls: 132x1, 134x1, 135x1, 137x1, 138x1, 140x1, 141x1, 143x1, 145x1, 146x1, 148x1, 149x1, 151x1, 152x1, 154x1, 156x1
+	Crit rolls: 235x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+ICE BALL 4	176-208 74,89-88,51%	(crit: 357-420 151,91-178,72%)
+	Normal rolls: 176x1, 178x1, 180x1, 183x1, 185x1, 187x1, 189x1, 191x1, 193x1, 195x1, 197x1, 199x1, 201x1, 203x1, 205x1, 208x1
+	Crit rolls: 235x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+ICE BALL 5	217-256 92,34-108,94%	(crit: 438-516 186,38-219,57%)
+	Normal rolls: 217x1, 220x1, 222x1, 225x1, 227x1, 230x1, 232x1, 235x9
+	Crit rolls: 235x16
+	(One shot prob.: 9/16 | 56,25%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 58,9844%)
+
+ICE BALL 6	258-304 109,79-129,36%	(crit: 520-612 221,28-260,43%)
+	Normal rolls: 235x16
+	Crit rolls: 235x16
+	(guaranteed 1-shot)
+
+
+
+(always faster)
+
+L72 RAYQUAZA [RELAXED] #AIR_LOCK# vs L50 GLALIE [BASHFUL] #INNER_FOCUS#          >>> EXP GIVEN: 2002
+RAYQUAZA (235/245/154/236/139/139) +[1/0/0/0/0|0/0] Final speed: 152  
+FLY	217-256 140,00-165,16%	(crit: 436-513 281,29-330,97%)
+	Normal rolls: 155x16
+	Crit rolls: 155x16
+	(guaranteed 1-shot)
+
+OUTRAGE	179-211 115,48-136,13%	(crit: 359-423 231,61-272,90%)
+	Normal rolls: 155x16
+	Crit rolls: 155x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	187-220 120,65-141,94%	(crit: 374-441 241,29-284,52%)
+	Normal rolls: 155x16
+	Crit rolls: 155x16
+	(guaranteed 1-shot)
+
+WATERFALL	107-126 69,03-81,29%	(crit: 214-252 138,06-162,58%)
+	Normal rolls: 107x1, 108x1, 109x1, 110x1, 112x1, 113x1, 114x1, 115x1, 117x1, 118x1, 119x1, 120x1, 122x1, 123x1, 124x1, 126x1
+	Crit rolls: 155x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+FLY
+          NON-CRITS
+            155: 100,00%     
+
+          CRITS
+            155: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            155: 100,00%     
+
+          CRITS
+            155: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            155: 100,00%     
+
+          CRITS
+            155: 100,00%     
+
+WATERFALL
+          NON-CRITS
+            107:   6,25%     108:   6,25%     109:   6,25%     110:   6,25%     112:   6,25%     113:   6,25%     114:   6,25%     115:   6,25%     
+            117:   6,25%     118:   6,25%     119:   6,25%     120:   6,25%     122:   6,25%     123:   6,25%     124:   6,25%     126:   6,25%     
+
+          CRITS
+            155: 100,00%     
+
+
+GLALIE (155/100/100/100/100/100) 
+LIGHT SCREEN
+CRUNCH	21-25 8,94-10,64%	(crit: 42-50 17,87-21,28%)
+	Normal rolls: 21x3, 22x4, 23x4, 24x4, 25x1
+	Crit rolls: 42x1, 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x1
+	(5 crits death prob.: 20,0397%)
+	(guaranteed 12-shot)
+	(Overall 7-hit KO%: 0,1286%)
+	(Overall 8-hit KO%: 1,7448%)
+
+ICY WIND	85-100 36,17-42,55%	(crit: 173-204 73,62-86,81%)
+	Normal rolls: 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1
+	Crit rolls: 173x1, 175x1, 177x1, 179x1, 181x1, 183x1, 185x1, 187x1, 189x1, 191x1, 193x1, 195x1, 197x1, 199x1, 201x1, 204x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+ICE BEAM	146-172 62,13-73,19%	(crit: 295-348 125,53-148,09%)
+	Normal rolls: 146x1, 147x1, 149x1, 151x1, 153x1, 154x1, 156x1, 158x1, 159x1, 161x1, 163x1, 165x1, 166x1, 168x1, 170x1, 172x1
+	Crit rolls: 235x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+
+(always faster)
+
+L72 RAYQUAZA [RELAXED] #AIR_LOCK# vs L52 SEALEO [HARDY] #THICK_FAT#          >>> EXP GIVEN: 1425
+RAYQUAZA (235/245/154/236/139/139) +[1/0/0/0/0|0/0] Final speed: 152  
+FLY	234-276 136,84-161,40%	(crit: 469-552 274,27-322,81%)
+	Normal rolls: 171x16
+	Crit rolls: 171x16
+	(guaranteed 1-shot)
+
+OUTRAGE	193-228 112,87-133,33%	(crit: 387-456 226,32-266,67%)
+	Normal rolls: 171x16
+	Crit rolls: 171x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	201-237 117,54-138,60%	(crit: 402-474 235,09-277,19%)
+	Normal rolls: 171x16
+	Crit rolls: 171x16
+	(guaranteed 1-shot)
+
+WATERFALL	56-67 32,75-39,18%	(crit: 114-135 66,67-78,95%)
+	Normal rolls: 56x1, 57x1, 58x2, 59x1, 60x2, 61x1, 62x2, 63x1, 64x2, 65x1, 66x1, 67x1
+	Crit rolls: 114x1, 116x1, 117x1, 118x1, 120x1, 121x1, 122x1, 124x1, 125x1, 126x1, 128x1, 129x1, 130x1, 132x1, 133x1, 135x1
+	(3 shot prob.: 99,6826%)
+	(1 non-crit + 1 crit death prob.: 99,6094%)
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 12,0636%)
+	(Overall 3-hit KO%: 99,7385%)
+
+
+FLY
+          NON-CRITS
+            171: 100,00%     
+
+          CRITS
+            171: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            171: 100,00%     
+
+          CRITS
+            171: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            171: 100,00%     
+
+          CRITS
+            171: 100,00%     
+
+WATERFALL
+          NON-CRITS
+             56:   6,25%      57:   6,25%      58:  12,50%      59:   6,25%      60:  12,50%      61:   6,25%      62:  12,50%      63:   6,25%     
+             64:  12,50%      65:   6,25%      66:   6,25%      67:   6,25%     
+
+          CRITS
+            114:   6,25%     116:   6,25%     117:   6,25%     118:   6,25%     120:   6,25%     121:   6,25%     122:   6,25%     124:   6,25%     
+            125:   6,25%     126:   6,25%     128:   6,25%     129:   6,25%     130:   6,25%     132:   6,25%     133:   6,25%     135:   6,25%     
+
+
+SEALEO (171/83/93/98/93/67) 
+ATTRACT
+DOUBLE EDGE	22-27 9,36-11,49%	(crit: 45-54 19,15-22,98%)
+	Normal rolls: 22x1, 23x3, 24x4, 25x4, 26x3, 27x1
+	Crit rolls: 45x1, 46x2, 47x1, 48x2, 49x2, 50x2, 51x2, 52x2, 53x1, 54x1
+	(5 crits death prob.: 98,7428%)
+	(1 non-crit + 4 crits death prob.: 0,8548%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,7081%)
+	(Overall 8-hit KO%: 8,4545%)
+
+HAIL
+BLIZZARD	183-216 77,87-91,91%	(crit: 367-432 156,17-183,83%)
+	Normal rolls: 183x1, 185x1, 187x1, 190x1, 192x1, 194x1, 196x1, 198x1, 200x1, 203x1, 205x1, 207x1, 209x1, 211x1, 213x1, 216x1
+	Crit rolls: 235x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+
+(always faster)
+
+L72 RAYQUAZA [RELAXED] #AIR_LOCK# vs L52 GLALIE [MILD] #INNER_FOCUS#          >>> EXP GIVEN: 2083
+RAYQUAZA (235/245/154/236/139/139) +[1/0/0/0/0|0/0] Final speed: 152  
+FLY	235-277 146,88-173,13%	(crit: 471-555 294,38-346,88%)
+	Normal rolls: 160x16
+	Crit rolls: 160x16
+	(guaranteed 1-shot)
+
+OUTRAGE	174-205 108,75-128,13%	(crit: 349-411 218,13-256,88%)
+	Normal rolls: 160x16
+	Crit rolls: 160x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	202-238 126,25-148,75%	(crit: 405-477 253,13-298,13%)
+	Normal rolls: 160x16
+	Crit rolls: 160x16
+	(guaranteed 1-shot)
+
+WATERFALL	103-122 64,38-76,25%	(crit: 207-244 129,38-152,50%)
+	Normal rolls: 103x1, 104x1, 106x1, 107x1, 108x1, 109x1, 111x1, 112x1, 113x1, 114x1, 115x1, 117x1, 118x1, 119x1, 120x1, 122x1
+	Crit rolls: 160x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+FLY
+          NON-CRITS
+            160: 100,00%     
+
+          CRITS
+            160: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            160: 100,00%     
+
+          CRITS
+            160: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            160: 100,00%     
+
+          CRITS
+            160: 100,00%     
+
+WATERFALL
+          NON-CRITS
+            103:   6,25%     104:   6,25%     106:   6,25%     107:   6,25%     108:   6,25%     109:   6,25%     111:   6,25%     112:   6,25%     
+            113:   6,25%     114:   6,25%     115:   6,25%     117:   6,25%     118:   6,25%     119:   6,25%     120:   6,25%     122:   6,25%     
+
+          CRITS
+            160: 100,00%     
+
+
+GLALIE (160/103/92/113/103/103) 
+SHADOW BALL	19-23 8,09-9,79%	(crit: 39-46 16,60-19,57%)
+	Normal rolls: 19x2, 20x5, 21x4, 22x4, 23x1
+	Crit rolls: 39x2, 40x3, 41x2, 42x2, 43x2, 44x2, 45x2, 46x1
+	(guaranteed 13-shot)
+	(Overall 8-hit KO%: 0,2744%)
+
+EXPLOSION	115-136 48,94-57,87%	(crit: 231-272 98,30-115,74%)
+	Normal rolls: 115x1, 116x1, 118x1, 119x1, 121x1, 122x1, 123x1, 125x1, 126x1, 127x1, 129x1, 130x1, 131x1, 133x1, 134x1, 136x1
+	Crit rolls: 231x1, 233x1, 235x14
+	(Crit one shot prob.: 14/16 | 87,50%)
+	(2 shot prob.: 96,0938%)
+	(guaranteed 3-shot)
+	(Overall 1-hit KO%: 5,4688%)
+	(Overall 2-hit KO%: 96,5668%)
+
+HAIL
+ICE BEAM	166-196 70,64-83,40%	(crit: 336-396 142,98-168,51%)
+	Normal rolls: 166x1, 168x1, 170x1, 172x1, 174x1, 176x1, 178x1, 180x1, 182x1, 184x1, 186x1, 188x1, 190x1, 192x1, 194x1, 196x1
+	Crit rolls: 235x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+
+(always faster)
+
+L72 RAYQUAZA [RELAXED] #AIR_LOCK# vs L53 WALREIN [NAIVE] #THICK_FAT#          >>> EXP GIVEN: 2179
+RAYQUAZA (235/245/154/236/139/139) +[1/0/0/0/0|0/0] Final speed: 152  
+FLY	187-220 95,41-112,24%	(crit: 374-441 190,82-225,00%)
+	Normal rolls: 187x1, 189x1, 191x1, 193x1, 195x1, 196x11
+	Crit rolls: 196x16
+	(One shot prob.: 11/16 | 68,75%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 70,7031%)
+
+OUTRAGE	173-204 88,27-104,08%	(crit: 346-408 176,53-208,16%)
+	Normal rolls: 173x1, 175x1, 177x1, 179x1, 181x1, 183x1, 185x1, 187x1, 189x1, 191x1, 193x1, 195x1, 196x4
+	Crit rolls: 196x16
+	(One shot prob.: 4/16 | 25,00%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 29,6875%)
+
+AERIAL ACE	161-190 82,14-96,94%	(crit: 323-381 164,80-194,39%)
+	Normal rolls: 161x1, 163x1, 165x1, 167x1, 169x1, 171x1, 172x1, 174x1, 176x1, 178x1, 180x1, 182x1, 184x1, 186x1, 188x1, 190x1
+	Crit rolls: 196x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+WATERFALL	51-60 26,02-30,61%	(crit: 102-121 52,04-61,73%)
+	Normal rolls: 51x2, 52x2, 53x1, 54x2, 55x2, 56x1, 57x2, 58x2, 59x1, 60x1
+	Crit rolls: 102x1, 104x1, 105x1, 106x1, 107x1, 108x1, 110x1, 111x1, 112x1, 113x1, 114x1, 116x1, 117x1, 118x1, 119x1, 121x1
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,6025%)
+
+
+FLY
+          NON-CRITS
+            187:   6,25%     189:   6,25%     191:   6,25%     193:   6,25%     195:   6,25%     
+
+            196:  68,75%     
+
+          CRITS
+            196: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            173:   6,25%     175:   6,25%     177:   6,25%     179:   6,25%     181:   6,25%     183:   6,25%     185:   6,25%     187:   6,25%     
+            189:   6,25%     191:   6,25%     193:   6,25%     195:   6,25%     
+
+            196:  25,00%     
+
+          CRITS
+            196: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            161:   6,25%     163:   6,25%     165:   6,25%     167:   6,25%     169:   6,25%     171:   6,25%     172:   6,25%     174:   6,25%     
+            176:   6,25%     178:   6,25%     180:   6,25%     182:   6,25%     184:   6,25%     186:   6,25%     188:   6,25%     190:   6,25%     
+
+          CRITS
+            196: 100,00%     
+
+WATERFALL
+          NON-CRITS
+             51:  12,50%      52:  12,50%      53:   6,25%      54:  12,50%      55:  12,50%      56:   6,25%      57:  12,50%      58:  12,50%     
+             59:   6,25%      60:   6,25%     
+
+          CRITS
+            102:   6,25%     104:   6,25%     105:   6,25%     106:   6,25%     107:   6,25%     108:   6,25%     110:   6,25%     111:   6,25%     
+            112:   6,25%     113:   6,25%     114:   6,25%     116:   6,25%     117:   6,25%     118:   6,25%     119:   6,25%     121:   6,25%     
+
+
+WALREIN (196/106/116/122/104/99) <SITRUS BERRY> 
+SURF	22-27 9,36-11,49%	(crit: 46-55 19,57-23,40%)
+	Normal rolls: 22x1, 23x3, 24x4, 25x4, 26x3, 27x1
+	Crit rolls: 46x1, 47x2, 48x2, 49x1, 50x2, 51x2, 52x2, 53x2, 54x1, 55x1
+	(5 crits death prob.: 99,9393%)
+	(1 non-crit + 4 crits death prob.: 5,8645%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,7465%)
+	(Overall 8-hit KO%: 8,5237%)
+
+BODY SLAM	22-26 9,36-11,06%	(crit: 44-52 18,72-22,13%)
+	Normal rolls: 22x4, 23x4, 24x4, 25x3, 26x1
+	Crit rolls: 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x2, 51x1, 52x1
+	(5 crits death prob.: 72,4716%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,4986%)
+	(Overall 8-hit KO%: 6,0022%)
+
+ICE BEAM	187-220 79,57-93,62%	(crit: 377-444 160,43-188,94%)
+	Normal rolls: 187x1, 189x1, 191x1, 193x1, 195x1, 198x1, 200x1, 202x1, 204x1, 206x1, 209x1, 211x1, 213x1, 215x1, 217x1, 220x1
+	Crit rolls: 235x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+SHEER COLD
+
+
+(always faster)
+
+LVL: 72 EXP NEEDED: 5544/19711
+
+ELITE FOUR DRAKE  | REWARD: 5500
+[FULL RESTORE, FULL RESTORE] {L52 SHELGON [QUIET] #ROCK_HEAD#, L54 ALTARIA [MODEST] #NATURAL_CURE#, L53 FLYGON [LAX] #LEVITATE#, L55 SALAMENCE [BOLD] #INTIMIDATE#, L53 KINGDRA [HARDY] #SWIFT_SWIM#}
+L72 RAYQUAZA [RELAXED] #AIR_LOCK# vs L52 SHELGON [QUIET] #ROCK_HEAD#          >>> EXP GIVEN: 1603
+RAYQUAZA (235/245/154/236/139/139) +[1/0/0/0/0|0/0] Final speed: 152  
+FLY	175-207 120,69-142,76%	(crit: 351-414 242,07-285,52%)
+	Normal rolls: 145x16
+	Crit rolls: 145x16
+	(guaranteed 1-shot)
+
+OUTRAGE	499-588 344,14-405,52%	(crit: 999-1176 688,97-811,03%)
+	Normal rolls: 145x16
+	Crit rolls: 145x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	151-178 104,14-122,76%	(crit: 303-357 208,97-246,21%)
+	Normal rolls: 145x16
+	Crit rolls: 145x16
+	(guaranteed 1-shot)
+
+WATERFALL	73-87 50,34-60,00%	(crit: 147-174 101,38-120,00%)
+	Normal rolls: 73x1, 74x1, 75x1, 76x1, 77x1, 78x1, 79x1, 80x2, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1
+	Crit rolls: 145x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+FLY
+          NON-CRITS
+            145: 100,00%     
+
+          CRITS
+            145: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            145: 100,00%     
+
+          CRITS
+            145: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            145: 100,00%     
+
+          CRITS
+            145: 100,00%     
+
+WATERFALL
+          NON-CRITS
+             73:   6,25%      74:   6,25%      75:   6,25%      76:   6,25%      77:   6,25%      78:   6,25%      79:   6,25%      80:  12,50%     
+             81:   6,25%      82:   6,25%      83:   6,25%      84:   6,25%      85:   6,25%      86:   6,25%      87:   6,25%     
+
+          CRITS
+            145: 100,00%     
+
+
+SHELGON (145/119/124/91/72/64) 
+ROCK TOMB	28-34 11,91-14,47%	(crit: 57-68 24,26-28,94%)
+	Normal rolls: 28x1, 29x3, 30x3, 31x3, 32x3, 33x2, 34x1
+	Crit rolls: 57x1, 58x1, 59x2, 60x1, 61x2, 62x1, 63x2, 64x1, 65x2, 66x1, 67x1, 68x1
+	(4 crits death prob.: 99,3195%)
+	(1 non-crit + 3 crits death prob.: 0,0885%)
+	(2 non-crits + 3 crits death prob.: 99,4420%)
+	(3 non-crits + 2 crits death prob.: 0,0156%)
+	(guaranteed 9-shot)
+	(Overall 5-hit KO%: 0,2211%)
+	(Overall 6-hit KO%: 4,9298%)
+	(Overall 7-hit KO%: 36,2487%)
+	(Overall 8-hit KO%: 99,8461%)
+
+DRAGON CLAW	57-68 24,26-28,94%	(crit: 117-138 49,79-58,72%)
+	Normal rolls: 57x1, 58x1, 59x2, 60x1, 61x2, 62x1, 63x2, 64x1, 65x2, 66x1, 67x1, 68x1
+	Crit rolls: 117x1, 118x1, 120x1, 121x1, 122x1, 124x1, 125x1, 126x1, 128x1, 129x1, 131x1, 132x1, 133x1, 135x1, 136x1, 138x1
+	(4 shot prob.: 99,3195%)
+	(2 crits death prob.: 99,6094%)
+	(2 non-crits + 1 crit death prob.: 99,4385%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,3891%)
+	(Overall 3-hit KO%: 17,5100%)
+	(Overall 4-hit KO%: 99,4743%)
+
+PROTECT
+DOUBLE EDGE	33-39 14,04-16,60%	(crit: 66-78 28,09-33,19%)
+	Normal rolls: 33x3, 34x2, 35x3, 36x2, 37x3, 38x2, 39x1
+	Crit rolls: 66x1, 67x2, 68x1, 69x1, 70x2, 71x1, 72x1, 73x1, 74x2, 75x1, 76x1, 77x1, 78x1
+	(1 non-crit + 3 crits death prob.: 99,6918%)
+	(3 non-crits + 2 crits death prob.: 99,8276%)
+	(guaranteed 8-shot)
+	(Overall 5-hit KO%: 3,4349%)
+	(Overall 6-hit KO%: 32,0805%)
+	(Overall 7-hit KO%: 99,9663%)
+
+
+
+(always faster)
+
+L72 RAYQUAZA [RELAXED] #AIR_LOCK# vs L54 ALTARIA [MODEST] #NATURAL_CURE#          >>> EXP GIVEN: 2175
+RAYQUAZA (235/245/154/236/139/139) +[1/0/0/0/0|0/0] Final speed: 152  
+FLY	184-217 114,29-134,78%	(crit: 369-435 229,19-270,19%)
+	Normal rolls: 161x16
+	Crit rolls: 161x16
+	(guaranteed 1-shot)
+
+OUTRAGE	270-318 167,70-197,52%	(crit: 540-636 335,40-395,03%)
+	Normal rolls: 161x16
+	Crit rolls: 161x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	158-186 98,14-115,53%	(crit: 316-372 196,27-231,06%)
+	Normal rolls: 158x1, 159x1, 161x14
+	Crit rolls: 161x16
+	(One shot prob.: 14/16 | 87,50%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 88,2813%)
+
+WATERFALL	39-47 24,22-29,19%	(crit: 79-94 49,07-58,39%)
+	Normal rolls: 39x1, 40x2, 41x2, 42x2, 43x2, 44x2, 45x2, 46x2, 47x1
+	Crit rolls: 79x1, 80x1, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1
+	(4 shot prob.: 99,5102%)
+	(2 crits death prob.: 97,6563%)
+	(2 non-crits + 1 crit death prob.: 98,9258%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,3815%)
+	(Overall 3-hit KO%: 17,4255%)
+	(Overall 4-hit KO%: 99,6216%)
+
+
+FLY
+          NON-CRITS
+            161: 100,00%     
+
+          CRITS
+            161: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            161: 100,00%     
+
+          CRITS
+            161: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            158:   6,25%     159:   6,25%     
+
+            161:  87,50%     
+
+          CRITS
+            161: 100,00%     
+
+WATERFALL
+          NON-CRITS
+             39:   6,25%      40:  12,50%      41:  12,50%      42:  12,50%      43:  12,50%      44:  12,50%      45:  12,50%      46:  12,50%     
+             47:   6,25%     
+
+          CRITS
+             79:   6,25%      80:   6,25%      81:   6,25%      82:   6,25%      83:   6,25%      84:   6,25%      85:   6,25%      86:   6,25%     
+             87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%      93:   6,25%      94:   6,25%     
+
+
+ALTARIA (161/86/118/105/134/107) 
+DOUBLE EDGE	25-30 10,64-12,77%	(crit: 51-60 21,70-25,53%)
+	Normal rolls: 25x2, 26x3, 27x4, 28x3, 29x3, 30x1
+	Crit rolls: 51x2, 52x2, 53x1, 54x2, 55x2, 56x1, 57x2, 58x2, 59x1, 60x1
+	(4 crits death prob.: 0,4272%)
+	(1 non-crit + 4 crits death prob.: 99,2455%)
+	(2 non-crits + 3 crits death prob.: 0,1458%)
+	(guaranteed 10-shot)
+	(Overall 6-hit KO%: 0,4222%)
+	(Overall 7-hit KO%: 6,6175%)
+	(Overall 8-hit KO%: 40,1903%)
+
+DRAGON BREATH	52-62 22,13-26,38%	(crit: 107-126 45,53-53,62%)
+	Normal rolls: 52x1, 53x2, 54x1, 55x2, 56x1, 57x2, 58x2, 59x1, 60x2, 61x1, 62x1
+	Crit rolls: 107x1, 108x1, 109x1, 110x1, 112x1, 113x1, 114x1, 115x1, 117x1, 118x1, 119x1, 120x1, 122x1, 123x1, 124x1, 126x1
+	(4 shot prob.: 12,2787%)
+	(2 crits death prob.: 38,6719%)
+	(2 non-crits + 1 crit death prob.: 27,4414%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,1511%)
+	(Overall 3-hit KO%: 5,6453%)
+	(Overall 4-hit KO%: 32,2374%)
+
+DRAGON DANCE
+AERIAL ACE	20-24 8,51-10,21%	(crit: 40-48 17,02-20,43%)
+	Normal rolls: 20x3, 21x4, 22x4, 23x4, 24x1
+	Crit rolls: 40x1, 41x2, 42x2, 43x2, 44x2, 45x2, 46x2, 47x2, 48x1
+	(5 crits death prob.: 0,1605%)
+	(guaranteed 12-shot)
+	(Overall 8-hit KO%: 0,9764%)
+
+
+
+(always faster)
+
+L72 RAYQUAZA [RELAXED] #AIR_LOCK# vs L53 FLYGON [LAX] #LEVITATE#          >>> EXP GIVEN: 2236
+RAYQUAZA (235/245/154/236/139/139) +[1/0/0/0/0|0/0] Final speed: 152  
+FLY	189-223 115,95-136,81%	(crit: 379-447 232,52-274,23%)
+	Normal rolls: 163x16
+	Crit rolls: 163x16
+	(guaranteed 1-shot)
+
+OUTRAGE	382-450 234,36-276,07%	(crit: 765-900 469,33-552,15%)
+	Normal rolls: 163x16
+	Crit rolls: 163x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	163-192 100,00-117,79%	(crit: 326-384 200,00-235,58%)
+	Normal rolls: 163x16
+	Crit rolls: 163x16
+	(guaranteed 1-shot)
+
+WATERFALL	113-134 69,33-82,21%	(crit: 227-268 139,26-164,42%)
+	Normal rolls: 113x1, 115x1, 116x1, 117x1, 119x1, 120x1, 121x1, 123x1, 124x1, 125x1, 127x1, 128x1, 129x1, 131x1, 132x1, 134x1
+	Crit rolls: 163x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+FLY
+          NON-CRITS
+            163: 100,00%     
+
+          CRITS
+            163: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            163: 100,00%     
+
+          CRITS
+            163: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            163: 100,00%     
+
+          CRITS
+            163: 100,00%     
+
+WATERFALL
+          NON-CRITS
+            113:   6,25%     115:   6,25%     116:   6,25%     117:   6,25%     119:   6,25%     120:   6,25%     121:   6,25%     123:   6,25%     
+            124:   6,25%     125:   6,25%     127:   6,25%     128:   6,25%     129:   6,25%     131:   6,25%     132:   6,25%     134:   6,25%     
+
+          CRITS
+            163: 100,00%     
+
+
+FLYGON (163/126/115/105/94/126) 
+FLAMETHROWER	13-16 5,53-6,81%	(crit: 27-32 11,49-13,62%)
+	Normal rolls: 13x3, 14x6, 15x6, 16x1
+	Crit rolls: 27x3, 28x3, 29x3, 30x3, 31x3, 32x1
+	(guaranteed 19-shot)
+
+CRUNCH	22-27 9,36-11,49%	(crit: 45-54 19,15-22,98%)
+	Normal rolls: 22x1, 23x3, 24x4, 25x4, 26x3, 27x1
+	Crit rolls: 45x1, 46x2, 47x1, 48x2, 49x2, 50x2, 51x2, 52x2, 53x1, 54x1
+	(5 crits death prob.: 98,7428%)
+	(1 non-crit + 4 crits death prob.: 0,8548%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,7081%)
+	(Overall 8-hit KO%: 8,4545%)
+
+DRAGON BREATH	52-62 22,13-26,38%	(crit: 107-126 45,53-53,62%)
+	Normal rolls: 52x1, 53x2, 54x1, 55x2, 56x1, 57x2, 58x2, 59x1, 60x2, 61x1, 62x1
+	Crit rolls: 107x1, 108x1, 109x1, 110x1, 112x1, 113x1, 114x1, 115x1, 117x1, 118x1, 119x1, 120x1, 122x1, 123x1, 124x1, 126x1
+	(4 shot prob.: 12,2787%)
+	(2 crits death prob.: 38,6719%)
+	(2 non-crits + 1 crit death prob.: 27,4414%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,1511%)
+	(Overall 3-hit KO%: 5,6453%)
+	(Overall 4-hit KO%: 32,2374%)
+
+EARTHQUAKE
+
+
+(always faster)
+
+L73 RAYQUAZA [RELAXED] #AIR_LOCK# EXP Needed: 19789/20259
+Stats WITHOUT badge boosts:
+       HP    ATK    DEF    SPA    SPD    SPE
+      240    250    156    239    142    142
+IV      2     31      7     19      5     19
+EV     18     20      9     10     12      5
+FLY, OUTRAGE, AERIAL ACE, WATERFALL, 
+
+L73 RAYQUAZA [RELAXED] #AIR_LOCK# vs L55 SALAMENCE [BOLD] #INTIMIDATE#          >>> EXP GIVEN: 2568
+RAYQUAZA (240/250/156/239/142/142) +[1/0/0/0/0|0/0] Final speed: 156  
+FLY	189-223 101,61-119,89%	(crit: 379-447 203,76-240,32%)
+	Normal rolls: 186x16
+	Crit rolls: 186x16
+	(guaranteed 1-shot)
+
+OUTRAGE	341-402 183,33-216,13%	(crit: 683-804 367,20-432,26%)
+	Normal rolls: 186x16
+	Crit rolls: 186x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	163-192 87,63-103,23%	(crit: 326-384 175,27-206,45%)
+	Normal rolls: 163x1, 165x1, 167x1, 168x1, 170x1, 172x1, 174x1, 176x1, 178x1, 180x1, 182x1, 184x1, 186x4
+	Crit rolls: 186x16
+	(One shot prob.: 4/16 | 25,00%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 29,6875%)
+
+WATERFALL	51-60 27,42-32,26%	(crit: 102-120 54,84-64,52%)
+	Normal rolls: 51x2, 52x2, 53x1, 54x2, 55x2, 56x1, 57x2, 58x2, 59x1, 60x1
+	Crit rolls: 102x1, 103x1, 104x1, 105x1, 106x1, 108x1, 109x1, 110x1, 111x1, 112x1, 114x1, 115x1, 116x1, 117x1, 118x1, 120x1
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 0,3906%)
+	(Overall 3-hit KO%: 17,6025%)
+
+
+FLY
+          NON-CRITS
+            186: 100,00%     
+
+          CRITS
+            186: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            186: 100,00%     
+
+          CRITS
+            186: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            163:   6,25%     165:   6,25%     167:   6,25%     168:   6,25%     170:   6,25%     172:   6,25%     174:   6,25%     176:   6,25%     
+            178:   6,25%     180:   6,25%     182:   6,25%     184:   6,25%     
+
+            186:  25,00%     
+
+          CRITS
+            186: 100,00%     
+
+WATERFALL
+          NON-CRITS
+             51:  12,50%      52:  12,50%      53:   6,25%      54:  12,50%      55:  12,50%      56:   6,25%      57:  12,50%      58:  12,50%     
+             59:   6,25%      60:   6,25%     
+
+          CRITS
+            102:   6,25%     103:   6,25%     104:   6,25%     105:   6,25%     106:   6,25%     108:   6,25%     109:   6,25%     110:   6,25%     
+            111:   6,25%     112:   6,25%     114:   6,25%     115:   6,25%     116:   6,25%     117:   6,25%     118:   6,25%     120:   6,25%     
+
+
+SALAMENCE (186/153/121/143/110/132) <SITRUS BERRY> 
+FLAMETHROWER	17-21 7,08-8,75%	(crit: 36-43 15,00-17,92%)
+	Normal rolls: 17x1, 18x5, 19x5, 20x4, 21x1
+	Crit rolls: 36x2, 37x2, 38x2, 39x3, 40x2, 41x2, 42x2, 43x1
+	(guaranteed 15-shot)
+
+DRAGON CLAW	93-110 38,75-45,83%	(crit: 188-222 78,33-92,50%)
+	Normal rolls: 93x1, 94x1, 95x1, 96x1, 97x1, 99x1, 100x1, 101x1, 102x1, 103x1, 104x1, 105x1, 106x1, 107x1, 108x1, 110x1
+	Crit rolls: 188x1, 190x1, 193x1, 195x1, 197x1, 199x1, 202x1, 204x1, 206x1, 208x1, 210x1, 213x1, 215x1, 217x1, 219x1, 222x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+ROCK SLIDE	57-68 23,75-28,33%	(crit: 115-136 47,92-56,67%)
+	Normal rolls: 57x1, 58x1, 59x2, 60x1, 61x2, 62x1, 63x2, 64x1, 65x2, 66x1, 67x1, 68x1
+	Crit rolls: 115x1, 116x1, 118x1, 119x1, 121x1, 122x1, 123x1, 125x1, 126x1, 127x1, 129x1, 130x1, 131x1, 133x1, 134x1, 136x1
+	(4 shot prob.: 94,0887%)
+	(2 crits death prob.: 88,2813%)
+	(2 non-crits + 1 crit death prob.: 90,6250%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,3448%)
+	(Overall 3-hit KO%: 16,0576%)
+	(Overall 4-hit KO%: 95,4337%)
+
+CRUNCH	31-37 12,92-15,42%	(crit: 62-74 25,83-30,83%)
+	Normal rolls: 31x2, 32x3, 33x2, 34x3, 35x3, 36x2, 37x1
+	Crit rolls: 62x1, 63x1, 64x1, 65x2, 66x1, 67x1, 68x2, 69x1, 70x1, 71x2, 72x1, 73x1, 74x1
+	(1 non-crit + 3 crits death prob.: 39,6179%)
+	(3 non-crits + 2 crits death prob.: 35,6297%)
+	(guaranteed 8-shot)
+	(Overall 5-hit KO%: 1,3686%)
+	(Overall 6-hit KO%: 13,3586%)
+	(Overall 7-hit KO%: 52,1611%)
+
+
+
+(always faster)
+
+L73 RAYQUAZA [RELAXED] #AIR_LOCK# vs L53 KINGDRA [HARDY] #SWIFT_SWIM#          >>> EXP GIVEN: 2350
+RAYQUAZA (240/250/156/239/142/142) +[1/0/0/0/0|0/0] Final speed: 156  
+FLY	189-223 119,62-141,14%	(crit: 379-447 239,87-282,91%)
+	Normal rolls: 158x16
+	Crit rolls: 158x16
+	(guaranteed 1-shot)
+
+OUTRAGE	311-366 196,84-231,65%	(crit: 622-732 393,67-463,29%)
+	Normal rolls: 158x16
+	Crit rolls: 158x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	163-192 103,16-121,52%	(crit: 326-384 206,33-243,04%)
+	Normal rolls: 158x16
+	Crit rolls: 158x16
+	(guaranteed 1-shot)
+
+WATERFALL	22-27 13,92-17,09%	(crit: 45-54 28,48-34,18%)
+	Normal rolls: 22x1, 23x3, 24x4, 25x4, 26x3, 27x1
+	Crit rolls: 45x1, 46x2, 47x1, 48x2, 49x2, 50x2, 51x2, 52x2, 53x1, 54x1
+	(3 crits death prob.: 1,6602%)
+	(1 non-crit + 3 crits death prob.: 99,9985%)
+	(2 non-crits + 2 crits death prob.: 0,6134%)
+	(3 non-crits + 2 crits death prob.: 99,9987%)
+	(4 non-crits + 1 crit death prob.: 0,1584%)
+	(guaranteed 8-shot)
+	(Overall 4-hit KO%: 0,1057%)
+	(Overall 5-hit KO%: 3,4787%)
+	(Overall 6-hit KO%: 32,1269%)
+
+
+FLY
+          NON-CRITS
+            158: 100,00%     
+
+          CRITS
+            158: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            158: 100,00%     
+
+          CRITS
+            158: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            158: 100,00%     
+
+          CRITS
+            158: 100,00%     
+
+WATERFALL
+          NON-CRITS
+             22:   6,25%      23:  18,75%      24:  25,00%      25:  25,00%      26:  18,75%      27:   6,25%     
+
+          CRITS
+             45:   6,25%      46:  12,50%      47:   6,25%      48:  12,50%      49:  12,50%      50:  12,50%      51:  12,50%      52:  12,50%     
+             53:   6,25%      54:   6,25%     
+
+
+KINGDRA (158/121/121/121/121/111) 
+SMOKESCREEN
+DRAGON DANCE
+SURF	22-26 9,17-10,83%	(crit: 44-52 18,33-21,67%)
+	Normal rolls: 22x4, 23x4, 24x4, 25x3, 26x1
+	Crit rolls: 44x2, 45x2, 46x2, 47x2, 48x2, 49x2, 50x2, 51x1, 52x1
+	(5 crits death prob.: 37,5870%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,2431%)
+	(Overall 8-hit KO%: 2,9778%)
+
+BODY SLAM	24-29 10,00-12,08%	(crit: 49-58 20,42-24,17%)
+	Normal rolls: 24x2, 25x3, 26x4, 27x3, 28x3, 29x1
+	Crit rolls: 49x2, 50x1, 51x2, 52x2, 53x2, 54x1, 55x2, 56x2, 57x1, 58x1
+	(1 non-crit + 4 crits death prob.: 46,8000%)
+	(guaranteed 10-shot)
+	(Overall 6-hit KO%: 0,1921%)
+	(Overall 7-hit KO%: 2,9606%)
+	(Overall 8-hit KO%: 18,9366%)
+
+
+
+(always faster)
+
+LVL: 73 EXP NEEDED: 14871/20259
+
+CHAMPION WALLACE  | REWARD: 11600
+[FULL RESTORE, FULL RESTORE, FULL RESTORE, FULL RESTORE] {L57 WAILORD [RASH] #WATER_VEIL#, L55 TENTACRUEL [SASSY] #CLEAR_BODY#, L58 MILOTIC [GENTLE] #MARVEL_SCALE#, L56 GYARADOS [RASH] #INTIMIDATE#, L56 LUDICOLO [HARDY] #SWIFT_SWIM#, L56 WHISCASH [SASSY] #OBLIVIOUS#}
+L73 RAYQUAZA [RELAXED] #AIR_LOCK# vs L57 WAILORD [RASH] #WATER_VEIL#          >>> EXP GIVEN: 2515
+RAYQUAZA (240/250/156/239/142/142) +[1/0/0/0/0|0/0] Final speed: 156  
+FLY	313-369 112,59-132,73%	(crit: 627-738 225,54-265,47%)
+	Normal rolls: 278x16
+	Crit rolls: 278x16
+	(guaranteed 1-shot)
+
+OUTRAGE	288-339 103,60-121,94%	(crit: 576-678 207,19-243,88%)
+	Normal rolls: 278x16
+	Crit rolls: 278x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	268-316 96,40-113,67%	(crit: 538-633 193,53-227,70%)
+	Normal rolls: 268x1, 271x1, 274x1, 278x13
+	Crit rolls: 278x16
+	(One shot prob.: 13/16 | 81,25%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 82,4219%)
+
+WATERFALL	85-100 30,58-35,97%	(crit: 170-201 61,15-72,30%)
+	Normal rolls: 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1, 98x1, 99x1, 100x1
+	Crit rolls: 170x1, 172x1, 174x1, 176x1, 178x1, 180x1, 182x1, 184x1, 186x1, 188x1, 190x1, 192x1, 194x1, 196x1, 198x1, 201x1
+	(3 shot prob.: 50,0000%)
+	(1 non-crit + 1 crit death prob.: 50,0000%)
+	(guaranteed 4-shot)
+	(Overall 2-hit KO%: 6,2500%)
+	(Overall 3-hit KO%: 58,8013%)
+
+
+FLY
+          NON-CRITS
+            278: 100,00%     
+
+          CRITS
+            278: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            278: 100,00%     
+
+          CRITS
+            278: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            268:   6,25%     271:   6,25%     274:   6,25%     
+
+            278:  81,25%     
+
+          CRITS
+            278: 100,00%     
+
+WATERFALL
+          NON-CRITS
+             85:   6,25%      86:   6,25%      87:   6,25%      88:   6,25%      89:   6,25%      90:   6,25%      91:   6,25%      92:   6,25%     
+             93:   6,25%      94:   6,25%      95:   6,25%      96:   6,25%      97:   6,25%      98:   6,25%      99:   6,25%     100:   6,25%     
+
+          CRITS
+            170:   6,25%     172:   6,25%     174:   6,25%     176:   6,25%     178:   6,25%     180:   6,25%     182:   6,25%     184:   6,25%     
+            186:   6,25%     188:   6,25%     190:   6,25%     192:   6,25%     194:   6,25%     196:   6,25%     198:   6,25%     201:   6,25%     
+
+
+WAILORD (278/125/73/137/65/91) 
+RAIN DANCE
+WATER SPOUT	40-48 16,67-20,00%	(crit: 82-97 34,17-40,42%)
+	Normal rolls: 40x1, 41x2, 42x2, 43x2, 44x2, 45x2, 46x2, 47x2, 48x1
+	Crit rolls: 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1, 95x1, 96x1, 97x1
+	(5 shot prob.: 0,0001%)
+	(1 non-crit + 2 crits death prob.: 0,3418%)
+	(3 non-crits + 1 crit death prob.: 0,0122%)
+	(guaranteed 6-shot)
+	(Overall 4-hit KO%: 2,1555%)
+	(Overall 5-hit KO%: 27,5804%)
+
+DOUBLE EDGE	37-44 15,42-18,33%	(crit: 74-88 30,83-36,67%)
+	Normal rolls: 37x2, 38x2, 39x2, 40x3, 41x2, 42x2, 43x2, 44x1
+	Crit rolls: 74x1, 75x1, 76x1, 77x1, 78x1, 79x1, 80x2, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1
+	(3 crits death prob.: 66,7480%)
+	(2 non-crits + 2 crits death prob.: 65,9119%)
+	(4 non-crits + 1 crit death prob.: 64,9828%)
+	(guaranteed 7-shot)
+	(Overall 4-hit KO%: 1,4508%)
+	(Overall 5-hit KO%: 19,1272%)
+	(Overall 6-hit KO%: 75,9937%)
+
+BLIZZARD	176-208 73,33-86,67%	(crit: 353-416 147,08-173,33%)
+	Normal rolls: 176x1, 178x1, 180x1, 183x1, 185x1, 187x1, 189x1, 191x1, 193x1, 195x1, 197x1, 199x1, 201x1, 203x1, 205x1, 208x1
+	Crit rolls: 240x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+
+
+(always faster)
+
+L73 RAYQUAZA [RELAXED] #AIR_LOCK# vs L55 TENTACRUEL [SASSY] #CLEAR_BODY#          >>> EXP GIVEN: 2415
+RAYQUAZA (240/250/156/239/142/142) +[1/0/0/0/0|0/0] Final speed: 156  
+FLY	247-291 145,29-171,18%	(crit: 494-582 290,59-342,35%)
+	Normal rolls: 170x16
+	Crit rolls: 170x16
+	(guaranteed 1-shot)
+
+OUTRAGE	112-132 65,88-77,65%	(crit: 224-264 131,76-155,29%)
+	Normal rolls: 112x1, 113x1, 114x1, 116x1, 117x1, 118x1, 120x1, 121x1, 122x1, 124x1, 125x1, 126x1, 128x1, 129x1, 130x1, 132x1
+	Crit rolls: 170x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+AERIAL ACE	211-249 124,12-146,47%	(crit: 423-498 248,82-292,94%)
+	Normal rolls: 170x16
+	Crit rolls: 170x16
+	(guaranteed 1-shot)
+
+WATERFALL	33-39 19,41-22,94%	(crit: 66-78 38,82-45,88%)
+	Normal rolls: 33x3, 34x2, 35x3, 36x2, 37x3, 38x2, 39x1
+	Crit rolls: 66x1, 67x2, 68x1, 69x1, 70x2, 71x1, 72x1, 73x1, 74x2, 75x1, 76x1, 77x1, 78x1
+	(5 shot prob.: 98,3403%)
+	(1 non-crit + 2 crits death prob.: 96,1426%)
+	(3 non-crits + 1 crit death prob.: 97,3953%)
+	(guaranteed 6-shot)
+	(Overall 3-hit KO%: 1,0807%)
+	(Overall 4-hit KO%: 22,2158%)
+	(Overall 5-hit KO%: 98,7981%)
+
+
+FLY
+          NON-CRITS
+            170: 100,00%     
+
+          CRITS
+            170: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            112:   6,25%     113:   6,25%     114:   6,25%     116:   6,25%     117:   6,25%     118:   6,25%     120:   6,25%     121:   6,25%     
+            122:   6,25%     124:   6,25%     125:   6,25%     126:   6,25%     128:   6,25%     129:   6,25%     130:   6,25%     132:   6,25%     
+
+          CRITS
+            170: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            170: 100,00%     
+
+          CRITS
+            170: 100,00%     
+
+WATERFALL
+          NON-CRITS
+             33:  18,75%      34:  12,50%      35:  18,75%      36:  12,50%      37:  18,75%      38:  12,50%      39:   6,25%     
+
+          CRITS
+             66:   6,25%      67:  12,50%      68:   6,25%      69:   6,25%      70:  12,50%      71:   6,25%      72:   6,25%      73:   6,25%     
+             74:  12,50%      75:   6,25%      76:   6,25%      77:   6,25%      78:   6,25%     
+
+
+TENTACRUEL (170/99/93/110/169/118) 
+TOXIC
+HYDRO PUMP	26-31 10,83-12,92%	(crit: 53-63 22,08-26,25%)
+	Normal rolls: 26x3, 27x3, 28x3, 29x3, 30x3, 31x1
+	Crit rolls: 53x1, 54x2, 55x1, 56x2, 57x2, 58x1, 59x2, 60x1, 61x2, 62x1, 63x1
+	(4 crits death prob.: 8,5709%)
+	(1 non-crit + 4 crits death prob.: 99,9971%)
+	(2 non-crits + 3 crits death prob.: 4,2451%)
+	(guaranteed 10-shot)
+	(Overall 6-hit KO%: 0,4924%)
+	(Overall 7-hit KO%: 6,7484%)
+	(Overall 8-hit KO%: 40,3452%)
+
+SLUDGE BOMB	34-40 14,17-16,67%	(crit: 68-81 28,33-33,75%)
+	Normal rolls: 34x3, 35x2, 36x3, 37x2, 38x3, 39x2, 40x1
+	Crit rolls: 68x1, 69x1, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1, 76x2, 77x1, 78x1, 79x1, 80x1, 81x1
+	(3 crits death prob.: 0,4883%)
+	(1 non-crit + 3 crits death prob.: 99,9786%)
+	(2 non-crits + 2 crits death prob.: 0,0427%)
+	(3 non-crits + 2 crits death prob.: 99,9871%)
+	(4 non-crits + 1 crit death prob.: 0,0010%)
+	(guaranteed 8-shot)
+	(Overall 5-hit KO%: 3,4403%)
+	(Overall 6-hit KO%: 32,1045%)
+	(Overall 7-hit KO%: 99,9971%)
+
+ICE BEAM	115-136 47,92-56,67%	(crit: 231-272 96,25-113,33%)
+	Normal rolls: 115x1, 116x1, 118x1, 119x1, 121x1, 122x1, 123x1, 125x1, 126x1, 127x1, 129x1, 130x1, 131x1, 133x1, 134x1, 136x1
+	Crit rolls: 231x1, 233x1, 236x1, 239x1, 240x12
+	(Crit one shot prob.: 12/16 | 75,00%)
+	(2 shot prob.: 88,2813%)
+	(guaranteed 3-shot)
+	(Overall 1-hit KO%: 4,6875%)
+	(Overall 2-hit KO%: 89,7003%)
+
+
+
+(always faster)
+
+L73 RAYQUAZA [RELAXED] #AIR_LOCK# vs L58 MILOTIC [GENTLE] #MARVEL_SCALE#          >>> EXP GIVEN: 2646
+RAYQUAZA (240/250/156/239/142/142) +[1/0/0/0/0|0/0] Final speed: 156  
+FLY	225-265 114,80-135,20%	(crit: 451-531 230,10-270,92%)
+	Normal rolls: 196x16
+	Crit rolls: 196x16
+	(guaranteed 1-shot)
+
+OUTRAGE	102-121 52,04-61,73%	(crit: 206-243 105,10-123,98%)
+	Normal rolls: 102x1, 104x1, 105x1, 106x1, 107x1, 108x1, 110x1, 111x1, 112x1, 113x1, 114x1, 116x1, 117x1, 118x1, 119x1, 121x1
+	Crit rolls: 196x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+AERIAL ACE	193-228 98,47-116,33%	(crit: 387-456 197,45-232,65%)
+	Normal rolls: 193x1, 196x15
+	Crit rolls: 196x16
+	(One shot prob.: 15/16 | 93,75%)
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 94,1406%)
+
+WATERFALL	30-36 15,31-18,37%	(crit: 62-73 31,63-37,24%)
+	Normal rolls: 30x2, 31x2, 32x3, 33x3, 34x3, 35x2, 36x1
+	Crit rolls: 62x2, 63x1, 64x2, 65x1, 66x1, 67x2, 68x1, 69x1, 70x2, 71x1, 72x1, 73x1
+	(3 crits death prob.: 82,2754%)
+	(2 non-crits + 2 crits death prob.: 77,1118%)
+	(4 non-crits + 1 crit death prob.: 70,6011%)
+	(guaranteed 7-shot)
+	(Overall 4-hit KO%: 1,6815%)
+	(Overall 5-hit KO%: 20,4835%)
+	(Overall 6-hit KO%: 74,5004%)
+
+
+FLY
+          NON-CRITS
+            196: 100,00%     
+
+          CRITS
+            196: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            102:   6,25%     104:   6,25%     105:   6,25%     106:   6,25%     107:   6,25%     108:   6,25%     110:   6,25%     111:   6,25%     
+            112:   6,25%     113:   6,25%     114:   6,25%     116:   6,25%     117:   6,25%     118:   6,25%     119:   6,25%     121:   6,25%     
+
+          CRITS
+            196: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            193:   6,25%     
+
+            196:  93,75%     
+
+          CRITS
+            196: 100,00%     
+
+WATERFALL
+          NON-CRITS
+             30:  12,50%      31:  12,50%      32:  18,75%      33:  18,75%      34:  18,75%      35:  12,50%      36:   6,25%     
+
+          CRITS
+             62:  12,50%      63:   6,25%      64:  12,50%      65:   6,25%      66:   6,25%      67:  12,50%      68:   6,25%      69:   6,25%     
+             70:  12,50%      71:   6,25%      72:   6,25%      73:   6,25%     
+
+
+MILOTIC (196/92/102/138/183/116) <SITRUS BERRY> 
+RECOVER
+SURF	28-33 11,67-13,75%	(crit: 56-66 23,33-27,50%)
+	Normal rolls: 28x3, 29x3, 30x3, 31x3, 32x3, 33x1
+	Crit rolls: 56x2, 57x1, 58x2, 59x1, 60x2, 61x1, 62x2, 63x1, 64x2, 65x1, 66x1
+	(4 crits death prob.: 69,3695%)
+	(2 non-crits + 3 crits death prob.: 68,6586%)
+	(guaranteed 9-shot)
+	(Overall 5-hit KO%: 0,1546%)
+	(Overall 6-hit KO%: 3,5029%)
+	(Overall 7-hit KO%: 26,6784%)
+	(Overall 8-hit KO%: 80,4214%)
+
+ICE BEAM	149-176 62,08-73,33%	(crit: 299-352 124,58-146,67%)
+	Normal rolls: 149x1, 151x1, 153x1, 154x1, 156x1, 158x1, 160x1, 161x1, 163x1, 165x1, 167x1, 168x1, 170x1, 172x1, 174x1, 176x1
+	Crit rolls: 240x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+TOXIC
+
+
+(always faster)
+
+L73 RAYQUAZA [RELAXED] #AIR_LOCK# vs L56 GYARADOS [RASH] #INTIMIDATE#          >>> EXP GIVEN: 2568
+RAYQUAZA (240/250/156/239/142/142) +[0/0/1/0/0|0/0] Final speed: 156  
+FLY	140-165 74,07-87,30%	(crit: 280-330 148,15-174,60%)
+	Normal rolls: 140x1, 141x1, 143x1, 145x1, 146x1, 148x1, 150x1, 151x1, 153x1, 155x1, 156x1, 158x1, 160x1, 161x1, 163x1, 165x1
+	Crit rolls: 189x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+OUTRAGE	234-276 123,81-146,03%	(crit: 469-552 248,15-292,06%)
+	Normal rolls: 189x16
+	Crit rolls: 189x16
+	(guaranteed 1-shot)
+
+AERIAL ACE	120-142 63,49-75,13%	(crit: 242-285 128,04-150,79%)
+	Normal rolls: 120x1, 122x1, 123x1, 124x1, 126x1, 127x1, 129x1, 130x1, 132x1, 133x1, 134x1, 136x1, 137x1, 139x1, 140x1, 142x1
+	Crit rolls: 189x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+WATERFALL	69-82 36,51-43,39%	(crit: 139-164 73,54-86,77%)
+	Normal rolls: 69x1, 70x1, 71x1, 72x2, 73x1, 74x1, 75x1, 76x1, 77x2, 78x1, 79x1, 80x1, 81x1, 82x1
+	Crit rolls: 139x1, 141x1, 142x1, 144x1, 145x1, 147x1, 149x1, 150x1, 152x1, 154x1, 155x1, 157x1, 159x1, 160x1, 162x1, 164x1
+	(guaranteed 3-shot)
+	(Overall 2-hit KO%: 12,1094%)
+
+
+FLY
+          NON-CRITS
+            140:   6,25%     141:   6,25%     143:   6,25%     145:   6,25%     146:   6,25%     148:   6,25%     150:   6,25%     151:   6,25%     
+            153:   6,25%     155:   6,25%     156:   6,25%     158:   6,25%     160:   6,25%     161:   6,25%     163:   6,25%     165:   6,25%     
+
+          CRITS
+            189: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            189: 100,00%     
+
+          CRITS
+            189: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            120:   6,25%     122:   6,25%     123:   6,25%     124:   6,25%     126:   6,25%     127:   6,25%     129:   6,25%     130:   6,25%     
+            132:   6,25%     133:   6,25%     134:   6,25%     136:   6,25%     137:   6,25%     139:   6,25%     140:   6,25%     142:   6,25%     
+
+          CRITS
+            189: 100,00%     
+
+WATERFALL
+          NON-CRITS
+             69:   6,25%      70:   6,25%      71:   6,25%      72:  12,50%      73:   6,25%      74:   6,25%      75:   6,25%      76:   6,25%     
+             77:  12,50%      78:   6,25%      79:   6,25%      80:   6,25%      81:   6,25%      82:   6,25%     
+
+          CRITS
+            139:   6,25%     141:   6,25%     142:   6,25%     144:   6,25%     145:   6,25%     147:   6,25%     149:   6,25%     150:   6,25%     
+            152:   6,25%     154:   6,25%     155:   6,25%     157:   6,25%     159:   6,25%     160:   6,25%     162:   6,25%     164:   6,25%     
+
+
+GYARADOS (189/162/110/97/120/113) 
+DRAGON DANCE
+EARTHQUAKE
+HYPER BEAM	59-70 24,58-29,17%	(crit: 119-140 49,58-58,33%)
+	Normal rolls: 59x1, 60x2, 61x1, 62x1, 63x2, 64x1, 65x2, 66x1, 67x2, 68x1, 69x1, 70x1
+	Crit rolls: 119x1, 120x1, 121x1, 123x1, 124x1, 126x1, 127x1, 128x1, 130x1, 131x1, 133x1, 134x1, 135x1, 137x1, 138x1, 140x1
+	(4 shot prob.: 99,8520%)
+	(2 crits death prob.: 98,8281%)
+	(2 non-crits + 1 crit death prob.: 99,5850%)
+	(guaranteed 5-shot)
+	(Overall 2-hit KO%: 0,3860%)
+	(Overall 3-hit KO%: 17,5341%)
+	(Overall 4-hit KO%: 99,8857%)
+
+SURF	18-22 7,50-9,17%	(crit: 38-45 15,83-18,75%)
+	Normal rolls: 18x2, 19x4, 20x5, 21x4, 22x1
+	Crit rolls: 38x2, 39x2, 40x3, 41x2, 42x2, 43x2, 44x2, 45x1
+	(guaranteed 14-shot)
+
+
+
+(always faster)
+
+L73 RAYQUAZA [RELAXED] #AIR_LOCK# vs L56 LUDICOLO [HARDY] #SWIFT_SWIM#          >>> EXP GIVEN: 2172
+RAYQUAZA (240/250/156/239/142/142) 
+FLY	307-362 178,49-210,47%	(crit: 617-726 358,72-422,09%)
+	Normal rolls: 172x16
+	Crit rolls: 172x16
+	(guaranteed 1-shot)
+
+OUTRAGE	141-166 81,98-96,51%	(crit: 283-333 164,53-193,60%)
+	Normal rolls: 141x1, 142x1, 144x1, 146x1, 147x1, 149x1, 151x1, 152x1, 154x1, 156x1, 157x1, 159x1, 161x1, 162x1, 164x1, 166x1
+	Crit rolls: 172x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+AERIAL ACE	265-312 154,07-181,40%	(crit: 530-624 308,14-362,79%)
+	Normal rolls: 172x16
+	Crit rolls: 172x16
+	(guaranteed 1-shot)
+
+WATERFALL	20-24 11,63-13,95%	(crit: 41-49 23,84-28,49%)
+	Normal rolls: 20x3, 21x4, 22x4, 23x4, 24x1
+	Crit rolls: 41x1, 42x2, 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x1
+	(4 crits death prob.: 96,5805%)
+	(2 non-crits + 3 crits death prob.: 94,3324%)
+	(guaranteed 9-shot)
+	(Overall 5-hit KO%: 0,2097%)
+	(Overall 6-hit KO%: 4,5311%)
+	(Overall 7-hit KO%: 31,9516%)
+	(Overall 8-hit KO%: 86,0802%)
+
+
+FLY
+          NON-CRITS
+            172: 100,00%     
+
+          CRITS
+            172: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            141:   6,25%     142:   6,25%     144:   6,25%     146:   6,25%     147:   6,25%     149:   6,25%     151:   6,25%     152:   6,25%     
+            154:   6,25%     156:   6,25%     157:   6,25%     159:   6,25%     161:   6,25%     162:   6,25%     164:   6,25%     166:   6,25%     
+
+          CRITS
+            172: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            172: 100,00%     
+
+          CRITS
+            172: 100,00%     
+
+WATERFALL
+          NON-CRITS
+             20:  18,75%      21:  25,00%      22:  25,00%      23:  25,00%      24:   6,25%     
+
+          CRITS
+             41:   6,25%      42:  12,50%      43:  12,50%      44:  12,50%      45:  12,50%      46:  12,50%      47:  12,50%      48:  12,50%     
+             49:   6,25%     
+
+
+LUDICOLO (172/100/100/123/134/100) 
+GIGA DRAIN	7-9 2,92-3,75%	(crit: 15-18 6,25-7,50%)
+	Normal rolls: 7x4, 8x11, 9x1
+	Crit rolls: 15x4, 16x6, 17x5, 18x1
+	(guaranteed 35-shot)
+
+SURF	22-27 9,17-11,25%	(crit: 46-55 19,17-22,92%)
+	Normal rolls: 22x1, 23x3, 24x4, 25x4, 26x3, 27x1
+	Crit rolls: 46x1, 47x2, 48x2, 49x1, 50x2, 51x2, 52x2, 53x2, 54x1, 55x1
+	(5 crits death prob.: 98,4276%)
+	(1 non-crit + 4 crits death prob.: 0,4482%)
+	(guaranteed 11-shot)
+	(Overall 7-hit KO%: 0,6847%)
+	(Overall 8-hit KO%: 8,1561%)
+
+LEECH SEED
+DOUBLE TEAM
+
+
+(always faster)
+
+L73 RAYQUAZA [RELAXED] #AIR_LOCK# vs L56 WHISCASH [SASSY] #OBLIVIOUS#          >>> EXP GIVEN: 1896
+RAYQUAZA (240/250/156/239/142/142) 
+FLY	147-174 71,36-84,47%	(crit: 295-348 143,20-168,93%)
+	Normal rolls: 147x1, 149x1, 151x1, 153x1, 154x1, 156x1, 158x1, 160x1, 161x1, 163x1, 165x1, 167x1, 168x1, 170x1, 172x1, 174x1
+	Crit rolls: 206x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+OUTRAGE	169-199 82,04-96,60%	(crit: 339-399 164,56-193,69%)
+	Normal rolls: 169x1, 171x1, 173x1, 175x1, 177x1, 179x1, 181x1, 183x1, 185x1, 187x1, 189x1, 191x1, 193x1, 195x1, 197x1, 199x1
+	Crit rolls: 206x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+AERIAL ACE	127-150 61,65-72,82%	(crit: 255-300 123,79-145,63%)
+	Normal rolls: 127x1, 129x1, 130x1, 132x1, 133x1, 135x1, 136x1, 138x1, 139x1, 141x1, 142x1, 144x1, 145x1, 147x1, 148x1, 150x1
+	Crit rolls: 206x16
+	(guaranteed 2-shot)
+	(Overall 1-hit KO%: 6,2500%)
+
+WATERFALL	100-118 48,54-57,28%	(crit: 202-238 98,06-115,53%)
+	Normal rolls: 100x1, 101x1, 102x1, 103x1, 105x1, 106x1, 107x1, 108x1, 109x1, 110x1, 112x1, 113x1, 114x1, 115x1, 116x1, 118x1
+	Crit rolls: 202x1, 204x1, 206x14
+	(Crit one shot prob.: 14/16 | 87,50%)
+	(2 shot prob.: 93,3594%)
+	(guaranteed 3-shot)
+	(Overall 1-hit KO%: 5,4688%)
+	(Overall 2-hit KO%: 94,1635%)
+
+
+FLY
+          NON-CRITS
+            147:   6,25%     149:   6,25%     151:   6,25%     153:   6,25%     154:   6,25%     156:   6,25%     158:   6,25%     160:   6,25%     
+            161:   6,25%     163:   6,25%     165:   6,25%     167:   6,25%     168:   6,25%     170:   6,25%     172:   6,25%     174:   6,25%     
+
+          CRITS
+            206: 100,00%     
+
+OUTRAGE
+          NON-CRITS
+            169:   6,25%     171:   6,25%     173:   6,25%     175:   6,25%     177:   6,25%     179:   6,25%     181:   6,25%     183:   6,25%     
+            185:   6,25%     187:   6,25%     189:   6,25%     191:   6,25%     193:   6,25%     195:   6,25%     197:   6,25%     199:   6,25%     
+
+          CRITS
+            206: 100,00%     
+
+AERIAL ACE
+          NON-CRITS
+            127:   6,25%     129:   6,25%     130:   6,25%     132:   6,25%     133:   6,25%     135:   6,25%     136:   6,25%     138:   6,25%     
+            139:   6,25%     141:   6,25%     142:   6,25%     144:   6,25%     145:   6,25%     147:   6,25%     148:   6,25%     150:   6,25%     
+
+          CRITS
+            206: 100,00%     
+
+WATERFALL
+          NON-CRITS
+            100:   6,25%     101:   6,25%     102:   6,25%     103:   6,25%     105:   6,25%     106:   6,25%     107:   6,25%     108:   6,25%     
+            109:   6,25%     110:   6,25%     112:   6,25%     113:   6,25%     114:   6,25%     115:   6,25%     116:   6,25%     118:   6,25%     
+
+          CRITS
+            202:   6,25%     204:   6,25%     
+
+            206:  87,50%     
+
+
+WHISCASH (206/109/104/107/111/80) 
+EARTHQUAKE
+SURF	20-24 8,33-10,00%	(crit: 41-49 17,08-20,42%)
+	Normal rolls: 20x3, 21x4, 22x4, 23x4, 24x1
+	Crit rolls: 41x1, 42x2, 43x2, 44x2, 45x2, 46x2, 47x2, 48x2, 49x1
+	(5 crits death prob.: 0,1605%)
+	(guaranteed 12-shot)
+	(Overall 8-hit KO%: 0,8833%)
+
+AMNESIA
+HYPER BEAM	39-47 16,25-19,58%	(crit: 79-94 32,92-39,17%)
+	Normal rolls: 39x1, 40x2, 41x2, 42x2, 43x2, 44x2, 45x2, 46x2, 47x1
+	Crit rolls: 79x1, 80x1, 81x1, 82x1, 83x1, 84x1, 85x1, 86x1, 87x1, 88x1, 89x1, 90x1, 91x1, 92x1, 93x1, 94x1
+	(3 crits death prob.: 99,7559%)
+	(2 non-crits + 2 crits death prob.: 99,8932%)
+	(4 non-crits + 1 crit death prob.: 99,9522%)
+	(guaranteed 7-shot)
+	(Overall 4-hit KO%: 2,1508%)
+	(Overall 5-hit KO%: 27,5688%)
+	(Overall 6-hit KO%: 99,9852%)
+
+
+
+(always faster)
+
+LVL: 73 EXP NEEDED: 659/20259
+X ATKS: 3
+X item cost: 1500

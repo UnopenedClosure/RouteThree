@@ -63,6 +63,8 @@ public enum Type {
             return 15;
         case DARK:
             return 16;
+        case MYSTERY:
+        	return 7; //TODO
         default: // NONE
             return -1;
         }

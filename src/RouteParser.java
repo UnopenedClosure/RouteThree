@@ -67,6 +67,7 @@ public class RouteParser {
                 Main.appendln("ERROR ON LINE " + lineNum + ": wrong wild pokemon (requires at least level, species and nature).");
                 throw new Exception();
             }
+            int startFlag = 3; // TODO : hardcoded
             int lvl = -1;
             try {
             	lvl = Integer.parseInt(firstToken.substring(1));
@@ -101,6 +102,7 @@ public class RouteParser {
                 Integer spd = Integer.parseInt(tokens[7]);
                 Integer spe = Integer.parseInt(tokens[8]);
                 ivs = new IVs(hp, atk, def, spa, spd, spe);
+                startFlag = 9; // TODO : hardcoded
             }
             catch(Exception exc)
             {
@@ -108,7 +110,7 @@ public class RouteParser {
             }
             Pokemon b = new Pokemon(species, lvl, nature, ivs, true);
             
-            String[] flagTokens = (String[]) Arrays.copyOfRange(tokens, 2, n);
+            String[] flagTokens = (String[]) Arrays.copyOfRange(tokens, startFlag, n);
             return addFlagsToBattleable(b, flagTokens);
         }
         // evolve
@@ -411,6 +413,14 @@ public class RouteParser {
                     nf = NextFlag.ANY_FLAG;
                     continue;
                 }
+                
+                //set this battle to double
+                else if (s.equalsIgnoreCase("-double") 
+                		|| s.equalsIgnoreCase("-doubleBattle")) {
+                	options.setDoubleBattle(true);
+                	nf = NextFlag.ANY_FLAG;
+                }
+                
                 // xitems (sm1)
                 else if (s.equalsIgnoreCase("-x")
                         || s.equalsIgnoreCase("-xitems")) {
@@ -561,11 +571,15 @@ public class RouteParser {
                 }
                 
                 else if (s.equalsIgnoreCase("-xtorrent") || s.equalsIgnoreCase("-xblaze") || s.equalsIgnoreCase("-xovergrow") 
-                		|| s.equalsIgnoreCase("-xswarm"))
+                		|| s.equalsIgnoreCase("-xswarm")) {
                 	options.getMod1().setOneThirdHPOrLess(true);
+            		continue;
+                }
                 else if (s.equalsIgnoreCase("-ytorrent") || s.equalsIgnoreCase("-yblaze") || s.equalsIgnoreCase("-yovergrow") 
-                		|| s.equalsIgnoreCase("-yswarm"))
+                		|| s.equalsIgnoreCase("-yswarm")) {
                 	options.getMod2().setOneThirdHPOrLess(true);
+                	continue;
+                }
                 
                 // print stat ranges if level
                 else if (s.equalsIgnoreCase("-lvranges")) {
@@ -579,6 +593,12 @@ public class RouteParser {
                 }
                 
             }
+            
+            if (nf == NextFlag.ANY_FLAG) {
+            	Main.appendln(String.format("ERROR ON LINE %d: unknown battle modifier '%s'", lineNum, s));
+                throw new Exception();
+            }
+            
             // -x flag
             else if (nf == NextFlag.XITEMS) {
                 String[] nums = s.split("/");
