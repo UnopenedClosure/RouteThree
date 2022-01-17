@@ -419,7 +419,16 @@ public class RouteParser {
                 		|| s.equalsIgnoreCase("-doubleBattle")) {
                 	options.setDoubleBattle(true);
                 	nf = NextFlag.ANY_FLAG;
+                	continue;
                 }
+              //set this battle to single
+                else if (s.equalsIgnoreCase("-nodouble") 
+                		|| s.equalsIgnoreCase("-nodoubleBattle")) {
+                	options.setDoubleBattle(true);
+                	nf = NextFlag.ANY_FLAG;
+                	continue;
+                }
+                
                 
                 // xitems (sm1)
                 else if (s.equalsIgnoreCase("-x")

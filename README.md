@@ -45,6 +45,10 @@ It is derived from Dabomstew & entrpntr's RouteTwo, itself derived from HRoll's 
 ○ Usual update.
 
 
+**`[2022/01/17]` - v0.3.1**  
+○ Added `-noDoubleBattle`/`-nodouble` command to force single battles.  
+○ Fixed a bug involving the `-double` battle modifier.  
+
 **`[2022/01/16]` - v0.3**  
 ○ Added FireRed/LeafGreen support, and Fire Red Squirtle High Exp route file.  
 ○ Added Emerald abraful route file.  
@@ -352,7 +356,9 @@ Here is the exhautive list of implemented modifiers :
 
 ###### 5.4.3.7. Double battle
   `"-doubleBattle"` : Forces the battle to be a double battle. Useful for move damage calculation only.  
-  alias: `"-double"`
+  alias: `"-double"`  
+  `"-noDoubleBattle"` : Forces the battle to be a single battle. Useful for move damage calculation only.  
+  alias: `"-nodouble"`
 
 ###### 5.4.3.8. Output
   `"-lvstats"` : Outputs player Pokemon stats when a level up occurs during a battle.  
