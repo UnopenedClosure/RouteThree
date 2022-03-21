@@ -1,0 +1,207 @@
+// ***** Graveler Route ***** //
+
+
+stats
+ranges
+
+stonebadge
+
+/////////////
+// MT MOON //
+/////////////
+
+lm ROCKTOMB
+//BUG_CATCHER_KENT -v 1 -lvstats
+
+// Rock throw is learned mid-fight with Robby
+lm ROCKTHROW
+BUG_CATCHER_ROBBY -v 1 -lvstats
+um MUDSPORT
+
+//TEAM_ROCKET_GRUNT_3 -v 1 -lvstats
+YOUNGSTER_JOSH -v 1 -lvstats
+//TEAM_ROCKET_GRUNT_4 -v 1 -lvstats
+TEAM_ROCKET_GRUNT -v 1 -lvstats
+SUPER_NERD_MIGUEL -v 1 -lvstats
+
+//////////////
+// CERULEAN //
+//////////////
+
+//Magnitude is learned mid-fight with Bridge Rival
+lm MAGNITUDE
+RIVAL_CERULEAN_CHARMANDER -order 1/4/2/3 -v 1 -lvstats
+um DEFENSECURL
+
+BUG_CATCHER_CALE -v 1 -lvstats
+LASS_ALI -v 1 -lvstats -sxps 1/2/0
+YOUNGSTER_TIMMY -v 1 -lvstats
+LASS_RELI -v 1 -lvstats
+CAMPER_ETHAN -v 1 -lvstats
+TEAM_ROCKET_GRUNT_6 -v 1 -lvstats
+HIKER_WAYNE -v 1 -lvstats
+PICNICKER_KELSEY -v 1 -lvstats
+HIKER_NOB -v 1 -lvstats
+CAMPER_FLINT -v 1 -lvstats
+LASS_HALEY -v 1 -lvstats
+TEAM_ROCKET_GRUNT_5 -v 1 -lvstats
+
+///////////////
+// VERMILION //
+///////////////
+
+BUG_CATCHER_KEIGO -v 1 -lvstats
+PICNICKER_NANCY -v 1 -lvstats
+PICNICKER_ISABELLE -v 1 -lvstats
+CAMPER_JEFF -v 1 -lvstats
+
+/////////////
+// SS ANNE //
+/////////////
+
+GENTLEMAN_THOMAS -v 1 -lvstats //ROOM 6
+evolve GRAVELER
+GENTLEMAN_ARTHUR -v 1 -lvstats //ROOM 4
+YOUNGSTER_TYLER -v 1 -lvstats //ROOM 2
+LASS_ANN -v 1 -lvstats //ROOM 2
+RIVAL_SS_ANNE_CHARMANDER -order 1/4/3/2 -v 1 -lvstats
+
+lm BRICKBREAK
+lm SECRETPOWER
+um ROCKTOMB
+um TACKLE
+
+//////////////////
+// CERULEAN GYM //
+//////////////////
+PICNICKER_DIANA -v 1 -lvstats
+LEADER_MISTY -v 1 -lvstats -sxps 2/2
+
+/////////////////
+// ROCK TUNNEL //
+/////////////////
+PICNICKER_ALICIA -v 1 -lvstats
+BUG_CATCHER_CONNER -v 1 -lvstats 
+
+POKEMANIAC_ASHTON -v 1 -lvstats
+POKEMANIAC_WINSTON -v 1 -lvstats
+PICNICKER_MARTHA -v 1 -lvstats
+HIKER_ALLEN -v 1 -lvstats
+HIKER_OLIVER -v 1 -lvstats
+PICNICKER_SOFIA -v 1 -lvstats
+
+lm ROCKSLIDE
+um ROCKTHROW
+
+HIKER_DUDLEY -v 1 -lvstats
+PICNICKER_DANA -v 1 -lvstats
+GAMER_RICH -v 1 -lvstats
+
+/////////////
+// CELADON //
+/////////////
+TEAM_ROCKET_GRUNT_7 -v 1 -lvstats
+TEAM_ROCKET_GRUNT_18 -v 1 -lvstats
+TEAM_ROCKET_GRUNT_16 -order 1/3/2 -v 1 -lvstats//not sure what order this will be
+TEAM_ROCKET_GRUNT_17 -v 1 -lvstats
+BOSS_GIOVANNI -v 1 -lvstats
+
+///////////////////
+// VERMILION GYM //
+///////////////////
+SAILOR_DWAYNE -v 1
+ENGINEER_BAILY -v 1
+GENTLEMAN_TUCKER -v 1
+LEADER_LT_SURGE -v 1
+dynamobadge
+
+//////////////
+// LAVENDER //
+//////////////
+RIVAL_POKENON_TOWER_CHARMANDER -v 1//not sure what order this will be
+CHANNELER_TAMMY -v 1 -lvstats
+CHANNELER_JENNIFER -v 1 -lvstats
+CHANNELER_EMILIA -v 1 -lvstats
+L30 MAROWAK SERIOUS -v 1 -lvstats // all 31 IVs by default
+TEAM_ROCKET_GRUNT_19 -v 1 -lvstats
+TEAM_ROCKET_GRUNT_20 -v 1 -lvstats
+TEAM_ROCKET_GRUNT_21 -v 1 -lvstats//not sure what order this will be
+
+/////////////
+// FUCHSIA //
+/////////////
+JUGGLER_KIRK -v 1 -lvstats
+LEADER_KOGA -v 1 -lvstats
+balancebadge
+
+/////////////
+// SAFFRON //
+/////////////
+PROTEIN
+PROTEIN //this may be behind trainers
+//TEAM_ROCKET_GRUNT_24 -v 1 -lvstats//2F, 5 pokes, go down from staircase area
+//SCIENTIST_BEAU -v 1 -lvstats//roaming scientist on 5F
+//TEAM_ROCKET_GRUNT_28 -v 1 -lvstats//spinner near the Card Key
+//SCIENTIST_ED -v 1 -lvstats//9F, in the room with the spinner pass pad
+//TEAM_ROCKET_GRUNT_38 -v 1 -lvstats//9F, blocks the healing room
+//TEAM_ROCKET_GRUNT_37 -v 1 -lvstats//9F
+RIVAL_SILPH_CHARMANDER -v 1 -lvstats//not sure what order this will be
+TEAM_ROCKET_GRUNT_41 -v 1 -lvstats//not sure what order this will be
+BOSS_GIOVANNI_2 -lvstats//not sure what order this will be
+LEADER_SABRINA -v 1 -lvstats//not sure what order this will be
+
+//////////////
+// CINNABAR //
+//////////////
+//BURGLAR_ARNIE -v 1 -lvstats
+//BURGLAR_SIMON -v 1 -lvstats
+SCIENTIST_BRAYDON -v 1 -lvstats//need to fight to get to the Mansion candy
+//SCIENTIST_TED -v 1 -lvstats//has a Weezing, but also an Electrode
+//BURGLAR_LEWIS -v 1 -lvstats
+//SCIENTIST_IVAN -v 1 -lvstats
+
+//////////////////
+// CINNABAR GYM //
+//////////////////
+BURGLAR_QUINN -v 1 -lvstats
+SUPER_NERD_ERIK -v 1 -lvstats
+SUPER_NERD_AVERY -v 1 -lvstats
+BURGLAR_RAMON -v 1 -lvstats
+SUPER_NERD_DEREK -v 1 -lvstats
+BURGLAR_DUSTY -v 1 -lvstats
+SUPER_NERD_ZAC -v 1 -lvstats
+lm EARTHQUAKE
+LEADER_BLAINE -v 1 -lvstats//not sure what order this will be
+um MAGNITUDE
+mindbadge
+
+/////////////
+// CELADON //
+/////////////
+BEAUTY_TAMIA -v 1 -lvstats
+BEAUTY_LORI -v 1 -lvstats
+LEADER_ERIKA -v 1 -lvstats
+
+//////////////
+// VIRIDIAN //
+//////////////
+BLACK_BELT_TAKASHI -v 1 -lvstats
+COOLTRAINER_WARREN -v 1 -lvstats
+LEADER_GIOVANNI -v 1 -lvstats
+RIVAL_ROUTE22_LATE_CHARMANDER -v 1 -lvstats
+
+rarecandy
+rarecandy
+rarecandy
+rarecandy
+rarecandy
+rarecandy
+rarecandy
+rarecandy
+rarecandy
+
+stats -b
+//ELITE_FOUR_LORELEI -v 1 -lvstats
+
+// end of route //
+// ************ //

@@ -8,6 +8,7 @@ import org.ini4j.InvalidFileFormatException;
 import org.ini4j.Wini;
 
 public class Main {
+	//TODO allow for default battle configs (e.g. if we want every fight to be -v 1 -lvstats, we don't have to write it every time
     private static StringBuilder output = new StringBuilder();
     
     public static void append(String s) {
@@ -101,6 +102,7 @@ public class Main {
             bw.close();
         }
         
+        //TODO allow routeFile and outputFile to be parsed from configFile.getName() if they are not defined
         List<GameAction> actions = RouteParser.parseFile(configIni.get("files","routeFile"));
         if (actions == null) { // Stop execution and output message at the first encountered error
         	FileWriter fw = new FileWriter(outputFilename);

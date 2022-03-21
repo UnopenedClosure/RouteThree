@@ -24,8 +24,9 @@ public class RouteParser {
             while (in.ready()) {
                 lineNum++;
                 String wholeLine = in.readLine();
-                String[] lines = wholeLine.split("//"); // remove comments
-                String line = lines[0];
+                String line = wholeLine.indexOf("//") == -1 ? wholeLine : wholeLine.substring(0, wholeLine.indexOf("//"));
+                //String[] lines = wholeLine.split("//"); // remove comments //TODO use substring and indexOf instead of split
+                //String line = lines[0];
                 GameAction a = null;
                 try {
                     a = parseLine(line);
